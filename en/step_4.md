@@ -19,8 +19,8 @@ Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scrat
 
 --- task ---
 
-Step content... 
-Can use:
+Step content
+Can use
 **Test:**
 **Choose:**
 **Tip:**
