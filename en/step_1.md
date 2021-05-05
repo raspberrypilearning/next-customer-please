@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, <mark> short project description </mark>
+You will make a project where the player is a customer. The customer will be able to buy or trade to get something. 
 
 <mark>Boxout (wherever wanted/needed) </mark>
 
@@ -8,12 +8,10 @@ In this project, <mark> short project description </mark>
 <span style="color: #0faeb0">**Term**</span> description of term or interesting phrase.
 </p>
 
-<mark>Objectives in language that learners will understand</mark>
-
 You will:
-+ 
-+ 
-+
++ Create a business simulation with in-game rewards.
++ Think of an original design idea to create your project.
++ Plan your time to get a simple version working quickly
 
 <mark>Image of many different examples in a strip</mark>
 
@@ -26,11 +24,11 @@ You will:
 
 ### Try it 
 
-Description of what to do or think about when looking at the example.
+Choose what to spend your money on at the vending machine. Click on the vending machine to start.
 
 </div>
 <div>
-**Gobo watching**: [See inside](https://scratch.mit.edu/projects/495141114/editor){:target="_blank"}
+**Vending machine**: [See inside](https://scratch.mit.edu/projects/495141114/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495141114/?autostart=false" frameborder="0"></iframe>
 </div>
@@ -41,25 +39,25 @@ Description of what to do or think about when looking at the example.
 
 ### Get inspiration 
 
-You are going to make some design decisions to ...
+You are going to make some design decisions to choose what your business will offer and whether customers will need currency to pay. 
 
 --- task ---
 
-Explore these example projects to get more ideas:
+Explore these example business projects to get more ideas:
 
-**Don't eat donut**: [See inside](https://scratch.mit.edu/projects/495865093/editor){:target="_blank"}
+**Ice cream shop**: [See inside](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865093/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525972748/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Under the sea**: [See inside](https://scratch.mit.edu/projects/495866460/editor){:target="_blank"}
+**Trader NPC**: [See inside](https://scratch.mit.edu/projects/525972002/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495866460/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525972002/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Sporg**: [See inside](https://scratch.mit.edu/projects/495865892/editor){:target="_blank"}
+**Tech repair shop**: [See inside](https://scratch.mit.edu/projects/525969299/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865892/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525969299/?autostart=false" frameborder="0"></iframe>
 </div>
 --- /task ---
 --- /no-print ---
@@ -68,7 +66,7 @@ Explore these example projects to get more ideas:
 
 ### Get inspiration 
 
-You are going to make some design decisions to create your character. See inside example projects in [Scratch 1: Googly eye character - Examples](https://scratch.mit.edu/studios/29029028/){:target="_blank"} Scratch studio.
+You are going to make some design decisions to create your character. See inside example projects in [Scratch 2: Next customer please! - Examples](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
 
 <mark>one image file per example</mark>
 
