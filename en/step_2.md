@@ -30,7 +30,13 @@ Can use
 **Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
 
 --- collapse ---
-Each debug in a collapse or ingredient
+
+---
+title: 
+---
+
+
+
 --- /collapse ---
 
 --- /task ---
