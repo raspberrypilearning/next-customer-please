@@ -7,7 +7,10 @@ copyedit: false
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
-  - title: Step title
+  - title: Your business idea
+  - title: Buying things
+  - title: Currency
+  - title: Share
   - title: Reflection
     knowledge_quiz:
       path: quiz1
