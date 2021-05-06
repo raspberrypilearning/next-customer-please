@@ -11,7 +11,7 @@ You will make a project where the player is a customer. The customer will be abl
 You will:
 + Create a business simulation with in-game rewards.
 + Think of an original design idea to create your project.
-+ Plan your time to get a simple version working quickly
++ Plan your time to get a simple version working quickly.
 
 <mark>Image of many different examples in a strip</mark>
 
@@ -28,11 +28,10 @@ Choose what to spend your money on at the vending machine. Click on the vending 
 
 </div>
 <div>
-**Vending machine**: [See inside](https://scratch.mit.edu/projects/495141114/editor){:target="_blank"}
+**Vending machine**: [See inside](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495141114/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/526051796/?autostart=false" frameborder="0"></iframe>
 </div>
-
 </div>
 
 --- /task ---
@@ -43,7 +42,7 @@ You are going to make some design decisions to choose what your business will of
 
 --- task ---
 
-Explore these example business projects to get more ideas:
+Explore these example business projects to get more ideas. Click on the seller sprites to buy items:
 
 **Ice cream shop**: [See inside](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
