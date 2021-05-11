@@ -1,179 +1,92 @@
-## Buying things
+## Items for sale
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will let your customer(s) make purchases. You don't need to worry about money or other currency yet. Everything is free, yay! You'll get the chance to fix this in the next step if you want your business to make money.
+In this step, you will let your customer choose items. Each item will have a price that will be added to a `total`{:class="block3variables"} variable.
+
 </div>
 <div>
 Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
 </div>
 </div>
 
+You will need to keep track of how much your customer is spending.
+
 --- task ---
+Add a new variable called `total`{:class="block3variables"} for all sprites.
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Click on your **Seller** sprite add a script `set`{:class="block3variables"} the `total`{:class="block3variables"} to `0` when the project starts.
 
-[[[working-offline]]]
+[[[scratch3-create-set-variable]]]
 
 --- /task ---
 
-How will a new customer use your business? 
-
-In the Tech Repair Cafe you can click on the **Technician** or on the desk to `broadcast`{:class="block3events"} a `next customer`{:class="block3events"} message. When the laptop receives the `next customer`{:class="block3events"} message it switches to a new `size`{:class="block3looks"} and `color`{:class="block3looks"} and `shows`{:class="block3looks"} to turn into the laptop for the next customer and the **Technician** greets the customer and `asks`{:class="block3sensing"} what the problem is.
-
-In the Vending machine, you click on one of the numbers on the machine to select an item and this `broadcasts`{:class="block3events"} a message to say that a purchase has been started.
+What **items** will your customer(s) be buying? 
++ Some kind of food or drink,
++ Sports equipment, toys or gadgets,
++ Magic wands, potions or spell books, 
++ Clothing or other fashion items, or
++ Your idea.
 
 --- task ---
+
+Add a sprite for the first item you're going to sell in your shop.
+
+If you like, you can add a price to the costume using the text tool in the Paint editor.
+
+--- /task ---
+
+--- task ---
+
+Add a script to `change`{:class="block3variables"} the `total`{:class="block3variables"} by the price of your item when the customer clicks on the sprite.
+
+It's also a good idea to play a sound to give the customer some feedback that they had added an item.
 
 --- collapse ---
 
 ---
-title: Click on a sprite to start serving a customer
+title: Click to add an item
 ---
-
-Add a script to the sprite or sprites that can be clicked on to start a sale:
 
 ```blocks3
 when this sprite clicked
-broadcast (next customer v)
+start sound (Coin v)
+change [total v] by [10]
 ```
 
 --- /collapse ---
 
+[[[generic-scratch3-sound-from-library]]]
+
+--- task ---
+**Test:** Click on your item and check that the value of the `total`{:class="block3variables"} variable increases by the price of the item and you hear the sound effect. Click more times to see the total go up.
+
+Click the green flag to start your project and make sure the the `total`{:class="block3variables"} starts at `0`.
 --- /task ---
-
-A new customer has arrived, how will your business serve them?
-
-You might need to greet them and/or ask a question to get their order.
 
 --- task ---
 
-**Choose:** What happens when a new customer has arrived at your business?
+Add more items to your shop. 
 
-Add a script to the sprite or sprites that need to do something to serve a customer. When you have all the information about the sale you can `broadcast`{:class="block3events"} a message to let other sprites know that a sale has been made.
+You can either:
++ Duplicate the first item and then add a new costume in the Paint editor,
++ Add a sprite and then drag the `when flag clicked`{:class="block3events"} script from the first item to your new item.
 
---- collapse ---
-
----
-title: Greet the customer
----
-
-```blocks3
-when I receive [next customer v]
-say (join [Welcome to ] (name)) for [2] seconds
-```
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Ask a question, check and use the answer
----
-
-Check that a number is allowed:
-
-```blocks3
-ask [1, 2, or 3 scoops] and wait
-if <(answer) < [4]> then
-set [scoops v] to (answer)
-say [Here you go] for [2] seconds
-broadcast (sale v)
-else
-say [That's to many!] for [2] seconds
-end
-```
-
-Turn numbers into words:
-
-```blocks3
-ask [How can I help?] and wait 
-set [problem v] to [unknown]
-if <(answer) = [1]> then
-set [problem v] to [screen]
-end
-if <(answer) = [2]> then
-set [problem v] to [keyboard]
-end
-if <(answer) = [3]> then
-set [problem v] to [battery]
-end
-if <(problem) = [unknown]> then
-say [Sorry, I can't fix everything!] for [2] seconds
-else
-say (join [I can fix the ] (problem)) for [2] seconds
-broadcast (problem v) and wait
-end
-```
-
-Do something different for different answers:
-
-```blocks3
-if <(answer) = [wand] ?> then 
-say [Here you go] for [2] seconds
-broadcast (wand v)
-end
-if <(answer) = [wand] ?> then 
-say [Here you go] for [2] seconds
-broadcast (wand v)
-end
-```
-
---- /collapse ---
+Add a price label to the costume if you are using them.
 
 --- /task ---
 
-What happens when a sale takes place?
-
 --- task ---
+Click on your new sprite in the Sprite list then click on the 'Code' tab.
 
-Add a script to sprites that need to do something when they recieve a message about a sale:
-
---- collapse ---
-
----
-title: Move a sprite
----
-
-```blocks3
-when I receive [wand v]
-go to x: [171] y: [28]
-start sound (Magic Spell v)
-```
-
-You might also need to get the sprite back to its starting position:
-
-```blocks3
-when flag clicked
-go to x: [-73] y: [9]
-```
-
---- /collapse ---
-
-
---- collapse ---
-
----
-title: Customize and show a sprite
----
-
-
-
---- /collapse ---
-
-
-
+Change the amount the `total`{:class="block3variables"} changes by to the price of your new item.
 
 --- /task ---
 
-
 --- task ---
+**Test:** Click the green flag to start your project and click on items to add them. Check that the total increases by the correct amount each time you click on an item. 
 
-Step content
-Can use
-**Test:**
-**Choose:**
-**Tip:**
+If you have added price labels, make sure they match the amount that gets added to the `total`{:class="block3variables"} or your customers will be confused!
 
 --- /task ---
 
@@ -184,10 +97,22 @@ Can use
 --- collapse ---
 
 ---
-title: 
+title: The total doesn't go to 0 when I click the green flag
 ---
 
+Check that you have set the start value of the `total`{:class="block3variables"} variable in an `when flag clicked`{:class="block3events"} script on your **Seller** sprite.
 
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: The total doesn't increase by the correct amount when I click on an item
+---
+
+Check that each item has a `when this sprite clicked`{:class="block3events"} script that changes the `total`{:class="block3variables"} by the correct amount for that item - you might have changed the price for the wrong sprite.
+
+Check that you have used the `change`{:class="block3variables"} block and not the `set`{:class="block3variables"} block to change the `total`{:class="block3variables"}. You need to use `change`{:class="block3variables"} to add the price to the total, you don't want to set the total to the price of the item that was just added.
 
 --- /collapse ---
 

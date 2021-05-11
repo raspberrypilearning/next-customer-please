@@ -1,118 +1,150 @@
-## Currency
+## Paying
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you'll decide whether your customer needs money or some other form of currency to buy items. Currency could be money, gems, coins, gold, stars, or anything else that makes sense for your project. 
-
-Can you think of games you play with currency?
+In this step, you'll add code to the **Seller** sprite to ask if the customer is ready to pay for the items, take payment, then get ready for the next customer.
 </div>
 <div>
 Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
 </div>
 </div>
 
-**Choose:** Will your customer start with `0` currency or have some already. 
+When they have finished choosing items the customer will click on the **Seller** sprite to pay.
 
 --- task ---
 
-Create a `variable`{:class="block3variables"} named after your currency.
+ Tell the customer how much their items will cost.
 
-`When flag clicked`{:class="block3events"} set your currency `variable`{:class="block3variables"} to zero or another starting amount. 
-
-```blocks3
-when flag clicked
-set [gold v] to [200]
-```
+ ```blocks3
+ when this sprite clicked
+ say {join [That will be ](total)} for (2) seconds 
+ ```
 
 --- /task ---
 
-**Choose:** Will your customer have a set amount to spend or will they be able to earn more currency during the project?
+--- task ---
+
+Add a payment sound to your **Seller** sprite so the customer knows that payment is taking place. 
+
+![The add a sound icon](images/add-sound.png)
+
+[[[scratch3-add-sound]]]
+
+Add the `play sound until done`{:class="block3sound"} block to your script.
+
+ ```blocks3
+ when this sprite clicked
+ say {join [That will be ](total)} for (2) seconds
+ + play sound [coin v] until done  
+ ```
+
+--- /task ---
 
 --- task ---
 
-To earn currency by collecting it, add a currency sprite to your project.
+Finish the sale. Set `total`{:class="block3variables"} back to `0` after payment, `say`{:class="block3looks"} goodbye and `broadcast`{:class="block3control"} `next customer`.
+
+ ```blocks3
+ when this sprite clicked
+ say {join [That will be ](total)} for (2) seconds
+ play sound [coin v] until done  
+ + set [total v] to (0)
+ + say {join [Thanks for shopping at ](name)} for (2) seconds
+ + broadcast [next customer v]
+ ```
+
+--- /task ---
+
+--- task ---
+
+You might want to give the customer the option to cancel their shopping.
 
 --- collapse ---
 
 ---
-title: Find and collect currency
+title: Set up pay and cancel options 
 ---
 
-Add a `when flag clicked`{:class="block3events"} script to your currency sprite to `go to front layer`{:class="block3looks"} and `show`{:class="block3looks"}. 
+`Ask`{:class="block3sensing"} `Would you like to pay or cancel?`. Add an `If`{:class="block3control"} block for `answer`{:class="block3sensing"} `=`{:class="block3operators"} `pay` and inside it put your existing payment blocks.
 
 ```blocks3
-when flag clicked
-go to [front v] layer
-show
+ when this sprite clicked
+ say {join [That will be ](total)} for (2) seconds
+ + ask [Would you like to pay or cancel?] and wait
+ + if {(answer) = [pay]} then
+ play sound [coin v] until done  
+ set [total v] to (0)
+ say {join [Thanks for shopping at ](name)} for (2) seconds
+ broadcast [next customer v]
+ end
 ```
 
-Create a second script, add a `when this sprite clicked`{:class="block3events"} block and `change`{:class="block3variables"} your currency by `1`. 
-
-To move your currency to a new place, add a `hide`{:class="block3looks"} block then `go to random postion`{:class="block3motion"} and `show`{:class="block3looks"}. Add a `go to front layer`{:class="block3looks"} block so the currency is always visible.
+Add a second `If`{:class="block3control"} block for `answer`{:class="block3sensing"} `=`{:class="block3operators"} `cancel` and inside it add code to cancel the order.
 
 ```blocks3
-when this sprite clicked
-change [stars v] by [1] 
-start sound (collect v) // you could add a sound
-hide
-go to (random position v)
-show
-go to [front v] layer 
+ when this sprite clicked
+ say {join [That will be ](total)} for (2) seconds
+ ask [Would you like to pay or cancel?] and wait
+ if {(answer) = [pay]} then
+ play sound [coin v] until done  
+ set [total v] to (0)
+ say {join [Thanks for shopping at ](name)} for (2) seconds
+ broadcast [next customer v]
+ end
+ + if {(answer) = [cancel]} then
+ set [total v] to (0)
+ say [Ok. No problem] for (2) seconds
+ broadcast [next customer v]
+ end
 ```
 
 --- /collapse ---
 
 --- /task ---
 
-Sellers put prices on their items to earn currency. They only sell their items to customers that have enough currency to buy the item. 
-
 --- task ---
 
-If you only have one item sprite, or your items all cost the same amount, add code to your seller sprite so that they only sell to the customer when they have enough currency.
+To make sure your customer has items in their basket before paying, you can insert an `if...else` block.
 
 --- collapse ---
 
 ---
-title: Check customer has enough currency
+title: Check total amount
 ---
 
+`If`{:class="block3control"} `total`{:class="block3variables"} `>`{:class="block3operators"} `0` then insert your existing script.
+
+`Else`{:class="block3control"} `say`{:class="block3looks"} a helpful message.
+
 ```blocks3
-block // comment
+ when this sprite clicked
++ if <(total) > [0]>then
+ say {join [That will be ](total)} for (2) seconds
+ ask [Would you like to pay or cancel?] and wait
+ if {(answer) = [pay]} then
+ play sound [coin v] until done  
+ set [total v] to (0)
+ say {join [Thanks for shopping at ](name)} for (2) seconds
+ broadcast [next customer v]
+ if {(answer) = [cancel]} then
+ set [total v] to (0)
+ say [Ok. No problem] for (2) seconds
+ broadcast [next customer v]
+ end
+ end
+ else 
+ say [Choose some items] for (2) seconds
+ end
 ```
 
 --- /collapse ---
 
-If you have more than one item sprite and they cost different amounts you will need to create a `variable`{:class="block3variables"} named `cost` to store the cost of the item the customer is currently buying.
-
 --- /task ---
 
-
-Reduce the amount when buying.
-Check and add a message if the customer doesnt have enough. 
-
-
-Or, you might add one sprite and change it for each customer like the Laptop or the ice-cream. Or may-be a go-cart that you get a short ride on, or a car to be washed.
-
---- task ---
-
-
-
---- /task ---
-
---- task ---
-
---- /task ---
-
---- task ---
-
---- /task ---
 
 --- task ---
 
 **Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
-
-
-// currency not reseting to right level or not starting at zero
 
 --- collapse ---
 

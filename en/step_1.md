@@ -1,8 +1,10 @@
 ## Introduction
 
-You will make a project where the player is a customer. The customer will be able to buy or trade to get something. 
+You will make a first-person view project where the player is a customer. The customer will be able to buy items from your shop.
 
-<mark>Boxout (wherever wanted/needed) </mark>
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">**First-person view**</span> means that you don't see your character on the screen, instead you see what they see.
+</p>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Term**</span> description of term or interesting phrase.
@@ -24,13 +26,15 @@ You will:
 
 ### Try it 
 
-Choose what to spend your money on at the vending machine. Click on the vending machine to start.
+Click on Space Fruit to buy them and watch the total go up. When you're ready, clik on Kiran to checkout. 
+
+What happens if you try to checkout before you have chosen any fruit? How do you think the project knows that you haven't added any fruit yet?
 
 </div>
 <div>
-**Vending machine**: [See inside](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
+**Fresh Space Fruit**: [See inside](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/526051796/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528696418/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 
@@ -42,23 +46,26 @@ You are going to make some design decisions to choose what your business will of
 
 --- task ---
 
-Explore these example business projects to get more ideas. Click on the seller sprites to buy items:
+Explore these example business projects to get more ideas. Which projects allow you to buy multiple items at once? Which allow you to buy items one at a time?
+
+Click on the seller sprites to buy items:
+
+**Cool Shirts**: [See inside](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528697069/?autostart=false" frameborder="0"></iframe>
+</div>
 
 **Ice cream shop**: [See inside](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525972748/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Trader NPC**: [See inside](https://scratch.mit.edu/projects/525972002/editor){:target="_blank"}
+**Vending machine**: [See inside](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525972002/?autostart=false" frameborder="0"></iframe>
-</div>
-
-**Tech repair shop**: [See inside](https://scratch.mit.edu/projects/525969299/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525969299/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/526051796/?autostart=false" frameborder="0"></iframe>
 </div>
 --- /task ---
+
 --- /no-print ---
 
 --- print-only ---

@@ -1,4 +1,4 @@
-title: design-project-template
+otitle: design-project-template
 hero_image: images/banner.png
 description: design-project-template description
 version: 4
@@ -8,8 +8,9 @@ last_tested: "2021-03-26"
 steps:
   - title: Introduction
   - title: Your business idea
-  - title: Buying things
-  - title: Currency
+  - title: Items for sale
+  - title: Paying
+  - title: Additional features
   - title: Share
   - title: Reflection
     knowledge_quiz:
