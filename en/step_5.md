@@ -79,14 +79,12 @@ Then you'll need to add code to each **Item** you have for sale to make them gli
 
 ```blocks3
 when this sprite clicked
-if <(shop) = [true]> then
 +go to [front v] layer
 +glide [1] secs to (Bag v) // use the name of your Container sprite
 +hide
 change [total v] by [12]
 +go to x: [-180] y: [68] // start position
 +show
-end
 ```
 
 If you don't want the container there all the time you can add scripts to make it show and hide at the right time:
@@ -107,10 +105,9 @@ hide
 
 --- /collapse ---
 
+The ice cream van shows the ice cream as the customer chooses their options.
 
 --- collapse ---
-
-The ice cream van shows the ice cream as the customer chooses their options.
 
 ---
 title: Customize and show a sprite
@@ -147,7 +144,7 @@ Have you noticed that your customer can add items after they have started to che
 
 --- task ---
 
-If you want to fix this you can add a `shop`{:class="block3variables"} variable and use it to control when items can be added.
+If you want to stop the customer adding items when they are at the checkout can add a `shop`{:class="block3variables"} variable and use it to control when items can be added.
 
 --- collapse ---
 
@@ -163,7 +160,7 @@ Select your **Seller** sprite. Update the `when flag clicked`{:class="block3even
 +set [shop v] to [true]
 ```
 
-Now add a blocks to change the `shop`{:class="block3variables"} to `false` at the beginning of your **Seller**'s `when this sprite clicked`{:class="block3events"} script:
+Now add a block to change the `shop`{:class="block3variables"} to `false` at the beginning of your **Seller**'s `when this sprite clicked`{:class="block3events"} script:
 
 ```blocks3 
 +set [shop v] to [false]
@@ -187,7 +184,7 @@ end
 
 You will need to do this for every item you sell in your shop.
 
-**Test:** Try shopping and check that you can still add items and checkout, but you can't add items once you have started checking out. 
+**Test:** Click the green flag then try shopping and check that you can still add items and checkout, but you can't add items once you have started checking out. 
 
 **Debug:** Check your code really carefully. You can look at the [Space fruit](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"} project if you need to see a working example.
 
@@ -195,5 +192,5 @@ You will need to do this for every item you sell in your shop.
 
 --- /task ---
 
---- /save ---
+--- save ---
 
