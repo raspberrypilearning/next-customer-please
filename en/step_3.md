@@ -3,10 +3,9 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 In this step, you will let your customer choose items. Each item will have a price that will be added to a `total`{:class="block3variables"} variable.
-
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+Image, gif or video showing what they will achieve by the end of the step. ![](images/step3-image.png){:width="300px"}
 </div>
 </div>
 

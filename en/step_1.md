@@ -6,10 +6,6 @@ You will make a first-person view project where the player is a customer. The cu
 <span style="color: #0faeb0">**First-person view**</span> means that you don't see your character on the screen, instead you see what they see.
 </p>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Term**</span> description of term or interesting phrase.
-</p>
-
 You will:
 + Create a business simulation with in-game rewards.
 + Think of an original design idea to create your project.
