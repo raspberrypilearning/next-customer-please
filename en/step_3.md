@@ -5,7 +5,7 @@
 In this step, you will let your customer choose items. Each item will have a price that will be added to a `total`{:class="block3variables"} variable.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/step3-image.png){:width="300px"}
+![](images/step3-image.png){:width="300px"}
 </div>
 </div>
 
@@ -14,7 +14,7 @@ You will need to keep track of how much your customer is spending.
 --- task ---
 Add a new variable called `total`{:class="block3variables"} for all sprites.
 
-Click on your **Seller** sprite add a script `set`{:class="block3variables"} the `total`{:class="block3variables"} to `0` when the project starts.
+Click on your **Seller** sprite add a script to `set`{:class="block3variables"} the `total`{:class="block3variables"} to `0` when the project starts.
 
 [[[scratch3-create-set-variable]]]
 
@@ -39,8 +39,6 @@ If you like, you can add a price to the costume using the text tool in the Paint
 
 Add a script to `change`{:class="block3variables"} the `total`{:class="block3variables"} by the price of your item when the customer clicks on the sprite.
 
-It's also a good idea to play a sound to give the customer some feedback that they had added an item.
-
 --- collapse ---
 
 ---
@@ -54,6 +52,8 @@ change [total v] by [10]
 ```
 
 --- /collapse ---
+
+It's also a good idea to play a sound to give the customer some feedback that they had added an item.
 
 ![The add a sound icon](images/add-sound.png)
 

@@ -5,7 +5,7 @@
 In this step, you'll add code to the **Seller** sprite to ask if the customer is ready to pay for the items, take payment, then get ready for the next customer.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/step4-image.png){:width="300px"}
+![](images/step4-image.png){:width="300px"}
 </div>
 </div>
 
@@ -42,7 +42,7 @@ say (join [That will be ] (total)) for (2) seconds
 
 --- task ---
 
-Finish the sale. Set `total`{:class="block3variables"} back to `0` after payment, `say`{:class="block3looks"} goodbye and `broadcast`{:class="block3control"} `next customer`.
+Finish the sale. Set `total`{:class="block3variables"} back to `0` after payment, `say`{:class="block3looks"} goodbye and `broadcast`{:class="block3control"} `next customer`{:class="block3control"}.
 
 ```blocks3
 when this sprite clicked
@@ -104,7 +104,7 @@ end
 
 --- task ---
 
-To make sure your customer has items in their basket before paying, you can insert an `if...else` block.
+To make sure your customer has items in their basket before paying, you can insert an `if...else`{:class="block3control"} block.
 
 --- collapse ---
 
@@ -174,7 +174,7 @@ Make sure your `say`{:class="block3looks"} block has the `total`{:class="block3v
 --- collapse ---
 
 ---
-title: The words in the say blocks don't have a space between them.
+title: The words in the say blocks merge together.
 ---
 
 When you use a `join`{:class="block3operators"} block to join two pieces together you need to add a space at the end of your first piece of text or at the beginning of your second piece of text. 
@@ -208,7 +208,7 @@ If it is still not working, look carefully over the example code in the instruct
 --- collapse ---
 
 ---
-title: The customer has selected items but the seller isn't responding correctly
+title: The seller isn't responding correctly
 ---
 
 Make sure the `operator`{:class="block3operators"} in the `if`{:class="block3control"} condition is the greater than symbol `>`{:class="block3operators"}.

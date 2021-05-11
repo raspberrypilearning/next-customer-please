@@ -6,7 +6,7 @@ There are lots of features you could add to improve your customers' shopping exp
 
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![](images/image.png){:width="300px"}
 </div>
 </div>
 
