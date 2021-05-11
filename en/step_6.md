@@ -2,7 +2,7 @@
 
 If you are in a club, why not share your project with friends?
 
-If you are logged in on Scratch you can create a studio and add your **Next customer please!** project. You can also add your friend's **Next customer please!** projects to create a mall of different shops and buisnesses.
+If you are logged in on Scratch you can create a studio and add your **Next customer please!** project. You can also add your friend's **Next customer please!** projects to create a mall of different shops and businesses.
 
 --- collapse ---
 
