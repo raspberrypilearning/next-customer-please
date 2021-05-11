@@ -11,7 +11,7 @@ You will:
 + Think of an original design idea to create your project.
 + Plan your time to get a simple version working quickly.
 
-<mark>Image of many different examples in a strip</mark>
+![](images/example-strip.png)
 
 --- no-print ---
 
@@ -70,7 +70,10 @@ Click on the seller sprites to buy items:
 
 You are going to make some design decisions to create your character. See inside example projects in [Scratch 2: Next customer please! - Examples](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
 
-<mark>one image file per example</mark>
+![](images/fruit.png)
+![](images/tshirt.png)
+![](images/icecream.png)
+![](images/vending.png)
 
 --- /print-only ---
 
