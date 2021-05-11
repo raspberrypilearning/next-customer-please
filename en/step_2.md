@@ -18,6 +18,7 @@ Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and lo
 What backdrop and extra scenery sprites will you need?
 + A backdrop from the Scratch library, or a plain coloured backdrop?
 + A desk, counter, or window to sell from?
++ A shelf or bookcase to put items on - you could Paint this on the backdrop
 
 --- task ---
 
@@ -49,7 +50,7 @@ Add a sprite to represent the seller.
 
 --- /task ---
 
-What will your business be called? 
+What is the name of your business? 
 
 --- task ---
 
@@ -136,7 +137,7 @@ say [Next customer please] for (2) seconds
 title: Variable shows `0`
 ---
 
-You should use the `set [name v] to ()`{:class="block3variables"} block to set the variable to your name. If you have already added a script check that you have typed your business name into the value. 
+You should use the `set [name v] to ()`{:class="block3variables"} block to set the variable to your name. If you have already added a script check that you have typed your business name into the value and clicked the green flag. 
 
 ```blocks3
 when flag clicked
