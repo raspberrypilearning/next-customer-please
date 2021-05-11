@@ -14,32 +14,71 @@ Have fun!
 legend: Question 1 of 3
 ---
 
+In your project you created a `total`{:class="block3variables"} variable to store the total amount of all the items for each customer.
+
+The first customer adds items totalling `50` and pays.
+The second customer adds items totalling `40` but the `total`{:class="block3variables"} is now showing as `90` for the second customer.
+
+Which block would you need to add to your payment script to make the total go back to `0` when each customer pays?
+
+```blocks3
+when this sprite clicked
+ask [Would you like to pay or cancel?] and wait
+if {(answer) = [pay]} then
+say (join [That will be ] (total)) for (2) seconds
+play sound [coin v] until done 
+say (join [Thanks for shopping at ] (name)) for (2) seconds
+broadcast [next customer v]
+end
+```
 
 --- choices ---
 
-- ( )
+- ( ) 
+```blocks3
+change [total v] by [0]
+```
 
-  --- feedback ---
+ --- feedback ---
 
-  --- /feedback ---
+Not quite, `total`{:class="block3variables"} should be `0` after a customer pays but it is not the `change`{:class="block3variables"} block you need.
 
-- ( )
+ --- /feedback ---
 
-  --- feedback ---
+- ( ) 
+```blocks3
+set [total v] to [40]
+```
 
-  --- /feedback ---
+ --- feedback --- 
 
-- (x) 
+ Not quite, this would work for the second customer but the `total`{:class="block3variables"} would be wrong for other customers.
 
-  --- feedback ---
+ --- /feedback ---
 
-  --- /feedback ---
+- (x)
+
+```blocks3
+set [total v] to [0]
+```
+
+ --- feedback ---
+
+Yes, that's correct. You need to `set`{:class="block3variables"} the `total`{:class="block3variables"} to `0` after each customer pays.
+
+ --- /feedback ---
 
 - ( ) 
 
-  --- feedback ---
+```blocks3
+change [total v] by [-50]
+```
 
-  --- /feedback ---
+ --- feedback ---
+
+That would work for this example, but what if the first customer spent a different amount? Your solution needs to work when the previous customer spends different amounts. 
+
+ --- /feedback ---
 
 --- /choices ---
 

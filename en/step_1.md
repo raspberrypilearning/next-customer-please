@@ -1,14 +1,14 @@
 ## Introduction
 
-You will make a first-person view project where the player is a customer. The customer will be able to buy items from your shop.
+You will make a shop simulation project, the customer will be able to buy items from your shop. The project will be in first-person view where the player is a customer. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**First-person view**</span> means that you don't see your character on the screen, instead you see what they see.
 </p>
 
 You will:
-+ Create a business simulation with in-game rewards.
-+ Think of an original design idea to create your project.
++ Create a shop simulation with items to buy and a checkout,
++ Try shops made by others and share your shop so others can try it,
 + Plan your time to get a simple version working quickly.
 
 ![](images/example-strip.png)
@@ -22,7 +22,7 @@ You will:
 
 ### Try it 
 
-Click on Space Fruit to buy them and watch the total go up. When you're ready, clik on Kiran to checkout. 
+Click on Space Fruit to buy them and watch the total go up. When you're ready, click on Kiran to checkout. 
 
 What happens if you try to checkout before you have chosen any fruit? How do you think the project knows that you haven't added any fruit yet?
 
