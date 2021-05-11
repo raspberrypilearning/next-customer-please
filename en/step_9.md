@@ -1,10 +1,10 @@
 ## What next?
 
-If you are following the [PathwayName](https://projects.raspberrypi.org/en/raspberrypi/pathway-name) pathway, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [Help me grow](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make virtual pet, character or plant that you interact with to help them grow.
 
 --- print-only ---
 
-![ProjectName project](images/projectname-project.png)
+![Help me grow project](images/help-me-grow-project.png)
 
 --- /print-only ---
 
