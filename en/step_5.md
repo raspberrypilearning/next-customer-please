@@ -10,8 +10,51 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 </div>
 </div>
 
+
+You can 'See Inside' the example projects if you want to see how they work. If you are logged in to a Scratch account then you can use the **Backpack** to copy scripts or sprites to your project and then change them to work with your project.
+
+Example projects:
+**Fresh Space Fruit**: [See inside](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
+**Cool Shirts**: [See inside](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
+**Ice cream shop**: [See inside](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
+**Vending machine**: [See inside](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
+
+[[[scratch-backpack]]]
+
 --- task ---
+
+Do you think your checkout person (or machine!) should ask more questions? 
+
+You can add `ask`{:class="block3sensing"} blocks to your **Seller**'s `when this sprite clicked`{:class="block3events"} script and `say`{:class="block3looks"} different things depending on the customer's response.
+
+You could ask whether the service was good, or if they're having a nice day. Or something specific to your shop, like "What are you going to cook?".
+
+--- collapse ---
+
+---
+title: Ask and respond to questions
+---
+
+```blocks3
+ask [Did you find everything you wanted today?] and wait
+if <(answer) = [yes]> then
+say [That's fantastic!] for [2] seconds
+else
+say [Maybe I should add more items to my shop] for [2] seconds
+end
+```
+
+**Debug:** Check that you have spelled the options correctly in your code and in your answer. It's okay if you use capital letters, so "Yes" and "YES" will match "yes". 
+
+Add multiple questions to create a chatbot or non-player character that you can talk to.
+
+--- /collapse ---
+
+--- /task ---
+
 Do you want something else to happen when you add an item? 
+
+--- task ---
 
 The Cool Shirts project has the shirts gliding into a bag.
 
@@ -21,7 +64,7 @@ The Cool Shirts project has the shirts gliding into a bag.
 title: Make items glide into a container
 ---
 
-Add a container sprite. You could use an existing sprite like the 'Gift' or 'Take out' or paint your own with simple shapes.
+Add a **Container** sprite. You could use an existing sprite like the 'Gift' or 'Take out' or paint your own with simple shapes.
 
 Add a script to make the **Container** always appear at the front:
 
@@ -38,7 +81,7 @@ Then you'll need to add code to each **Item** you have for sale to make them gli
 when this sprite clicked
 if <(shop) = [true]> then
 +go to [front v] layer
-+glide [1] secs to (Bag v)
++glide [1] secs to (Bag v) // use the name of your Container sprite
 +hide
 change [total v] by [12]
 +go to x: [-180] y: [68] // start position
@@ -64,11 +107,45 @@ hide
 
 --- /collapse ---
 
+
+--- collapse ---
+
+The ice cream van shows the ice cream as the customer chooses their options.
+
+---
+title: Customize and show a sprite
+---
+
+Each item needs to `broadcast`{:class="block3events"} in its `when this sprite clicked`{:class="block3events"} script:
+
+```blocks3
++broadcast (1 scoop v)
+```
+
+Then the sprite you want to show or change needs to respond to that message:
+
+```blocks3
+when I receive [1 scoop v]
+play sound (Chomp v) until done
+switch costume to (1 scoop v)
+```
+
+You may also want to change or hide the sprite for a new customer:
+
+```blocks3
+when I receive [next customer v]
+switch costume to (cone v)
+```
+
+If you have multiple items then you will need to add more messages and scripts to to receive them.
+
+--- /collapse ---
+
 --- /task ---
 
---- task ---
-
 Have you noticed that your customer can add items after they have started to check out?
+
+--- task ---
 
 If you want to fix this you can add a `shop`{:class="block3variables"} variable and use it to control when items can be added.
 
@@ -116,146 +193,7 @@ You will need to do this for every item you sell in your shop.
 
 --- /collapse ---
 
-
---- collapse ---
-
----
-title: Customize and show a sprite
----
-
-
-
---- /collapse ---
-
-
-
-
 --- /task ---
 
---- task ---
+--- /save ---
 
-**Choose:** What happens when a new customer has arrived at your business?
-
-Add a script to the sprite or sprites that need to do something to serve a customer. When you have all the information about the sale you can `broadcast`{:class="block3events"} a message to let other sprites know that a sale has been made.
-
---- collapse ---
-
----
-title: Greet the customer
----
-
-```blocks3
-when I receive [next customer v]
-say (join [Welcome to ] (name)) for [2] seconds
-```
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Ask a question, check and use the answer
----
-
-Check that a number is allowed:
-
-```blocks3
-ask [1, 2, or 3 scoops] and wait
-if <(answer) < [4]> then
-set [scoops v] to (answer)
-say [Here you go] for [2] seconds
-broadcast (sale v)
-else
-say [That's to many!] for [2] seconds
-end
-```
-
-Turn numbers into words:
-
-```blocks3
-ask [How can I help?] and wait 
-set [problem v] to [unknown]
-if <(answer) = [1]> then
-set [problem v] to [screen]
-end
-if <(answer) = [2]> then
-set [problem v] to [keyboard]
-end
-if <(answer) = [3]> then
-set [problem v] to [battery]
-end
-if <(problem) = [unknown]> then
-say [Sorry, I can't fix everything!] for [2] seconds
-else
-say (join [I can fix the ] (problem)) for [2] seconds
-broadcast (problem v) and wait
-end
-```
-
-Do something different for different answers:
-
-```blocks3
-if <(answer) = [wand] ?> then 
-say [Here you go] for [2] seconds
-broadcast (wand v)
-end
-if <(answer) = [wand] ?> then 
-say [Here you go] for [2] seconds
-broadcast (wand v)
-end
-```
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
-Create a `variable`{:class="block3variables"} named after your currency.
-
-`When flag clicked`{:class="block3events"} set your currency `variable`{:class="block3variables"} to zero or another starting amount. 
-
-```blocks3
-when flag clicked
-set [gold v] to [200]
-```
-
---- /task ---
-
-**Choose:** Will your customer have a set amount to spend or will they be able to earn more currency during the project?
-
---- task ---
-
-To earn currency by collecting it, add a currency sprite to your project.
-
---- collapse ---
-
----
-title: Find and collect currency
----
-
-Add a `when flag clicked`{:class="block3events"} script to your currency sprite to `go to front layer`{:class="block3looks"} and `show`{:class="block3looks"}. 
-
-```blocks3
-when flag clicked
-go to [front v] layer
-show
-```
-
-Create a second script, add a `when this sprite clicked`{:class="block3events"} block and `change`{:class="block3variables"} your currency by `1`. 
-
-To move your currency to a new place, add a `hide`{:class="block3looks"} block then `go to random postion`{:class="block3motion"} and `show`{:class="block3looks"}. Add a `go to front layer`{:class="block3looks"} block so the currency is always visible.
-
-```blocks3
-when this sprite clicked
-change [stars v] by [1] 
-start sound (collect v) // you could add a sound
-hide
-go to (random position v)
-show
-go to [front v] layer 
-```
-
---- /collapse ---
-
---- /task ---

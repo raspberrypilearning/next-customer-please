@@ -146,13 +146,84 @@ title: Check total amount
 
 **Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
 
+
+
+
+
 --- collapse ---
 
 ---
-title: 
+title: The seller doesn't do anything when I click on them
 ---
 
+You have quite a lot of sprites in your project. Make sure the `when this sprite clicked`{:class="block3events"} script is on your **Seller** sprite. 
 
+**Tip:** If you have added it to the wrong sprite you can drag the code to the **Seller** sprite then delete it from the other sprite.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: The seller says 'total' not the total amount
+---
+
+Make sure your `say`{:class="block3looks"} block has the `total`{:class="block3variables"} variable not the word `total`
+
+```blocks3
+ when this sprite clicked
+ say {join [That will be ](total)} for (2) seconds 
+ ```
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: The words in the say blocks don't have a space between them.
+---
+
+When you use a `join`{:class="block3operators"} block to join two pieces together you need to add a space at the end of your first piece of text or at the beginning of your second piece of text. 
+
+Both of these have a space at the end of the first part of the join:
+
+say {join [That will be ](total)} for (2) seconds
+
+say {join [Thanks for shopping at ](name)} for (2) seconds
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: The total doesn't reset after a sale
+---
+
+Check that you have used:
+
+set [total v] to (0)
+
+not: 
+
+change [total v] by (0)
+
+If it is still not working, look carefully over the example code in the instructions to make sure the block is in the correct place. 
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: The customer has selected items but the seller isn't responding correctly
+---
+
+Make sure the `operator`{:class="block3operators"} in the `if`{:class="block3control"} condition is the greater than symbol `>`{:class="block3operators"}.
+
+```blocks3
+if <(total) > [0]>then
+```
+
+If it is still not working, look carefully over the example code in the instructions to make sure the block is in the correct place. 
 
 --- /collapse ---
 

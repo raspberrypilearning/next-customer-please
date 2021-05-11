@@ -56,7 +56,9 @@ change [total v] by [10]
 
 --- /collapse ---
 
-[[[generic-scratch3-sound-from-library]]]
+![The add a sound icon](images/add-sound.png)
+
+[[[scratch3-add-sound]]]
 
 --- task ---
 **Test:** Click on your item and check that the value of the `total`{:class="block3variables"} variable increases by the price of the item and you hear the sound effect. Click more times to see the total go up.
