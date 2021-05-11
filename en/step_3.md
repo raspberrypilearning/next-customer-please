@@ -31,7 +31,7 @@ What **items** will your customer(s) be buying?
 
 Add a sprite for the first item you're going to sell in your shop.
 
-If you like, you can add a price to the costume using the text tool in the Paint editor.
+If you like, you can add a price to the costume using the text tool in the Paint editor. Or add a price to the backdrop and position the item next to it.
 
 --- /task ---
 
@@ -75,12 +75,12 @@ You can either:
 + Duplicate the first item and then add a new costume in the Paint editor,
 + Add a sprite and then drag the `when flag clicked`{:class="block3events"} script from the first item to your new item.
 
-Add a price label to the costume if you are using them.
+Add a price label to the costume or backdrop if you are using them.
 
 --- /task ---
 
 --- task ---
-Click on your new sprite in the Sprite list then click on the 'Code' tab.
+Click on your new **Item** sprite in the Sprite list then click on the 'Code' tab.
 
 Change the amount the `total`{:class="block3variables"} changes by to the price of your new item.
 
@@ -100,7 +100,7 @@ If you have added price labels, make sure they match the amount that gets added 
 --- collapse ---
 
 ---
-title: The total doesn't go to 0 when I click the green flag
+title: The total doesn't go to `0` when I click the green flag
 ---
 
 Check that you have set the start value of the `total`{:class="block3variables"} variable in an `when flag clicked`{:class="block3events"} script on your **Seller** sprite.
