@@ -60,6 +60,8 @@ change [total v] by [10]
 
 [[[scratch3-add-sound]]]
 
+--- /task ---
+
 --- task ---
 **Test:** Click on your item and check that the value of the `total`{:class="block3variables"} variable increases by the price of the item and you hear the sound effect. Click more times to see the total go up.
 
