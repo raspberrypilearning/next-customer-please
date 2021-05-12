@@ -35,7 +35,7 @@ Add the `play sound until done`{:class="block3sound"} block to your script.
 ```blocks3
 when this sprite clicked
 say (join [That will be ] (total)) for (2) seconds
-+ play sound [coin v] until done 
++ play sound [machine v] until done 
 ```
 
 --- /task ---
@@ -47,10 +47,10 @@ Finish the sale. Set `total`{:class="block3variables"} back to `0` after payment
 ```blocks3
 when this sprite clicked
 say (join [That will be ] (total)) for (2) seconds
-play sound [coin v] until done 
+play sound [machine v] until done 
 + set [total v] to (0)
 + say (join [Thanks for shopping at ] (name)) for (2) seconds
-+ broadcast [next customer v]
+broadcast (next customer v)
 ```
 
 --- /task ---
@@ -72,10 +72,10 @@ when this sprite clicked
 say (join [That will be ] (total)) for (2) seconds
 + ask [Would you like to pay or cancel?] and wait
 + if {(answer) = [pay]} then
-play sound [coin v] until done 
+play sound [machine v] until done 
 set [total v] to (0)
 say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast [next customer v]
++broadcast [next customer v]
 end
 ```
 
@@ -86,7 +86,7 @@ when this sprite clicked
 say (join [That will be ] (total)) for (2) seconds
 ask [Would you like to pay or cancel?] and wait
 if {(answer) = [pay]} then
-play sound [coin v] until done 
+play sound [machine v] until done 
 set [total v] to (0)
 say (join [Thanks for shopping at ] (name)) for (2) seconds
 broadcast [next customer v]
@@ -122,7 +122,7 @@ when this sprite clicked
 say (join [That will be ] (total)) for (2) seconds
 ask [Would you like to pay or cancel?] and wait
 if {(answer) = [pay]} then
-play sound [coin v] until done 
+play sound [machine v] until done 
 set [total v] to (0)
 say (join [Thanks for shopping at ] (name)) for (2) seconds
 broadcast [next customer v]
@@ -132,6 +132,8 @@ set [total v] to (0)
 say [Ok. No problem] for (2) seconds
 broadcast [next customer v]
 end
+else
+say [Click on the items you'd like] for (2) seconds
 end
 ```
 

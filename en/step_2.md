@@ -111,7 +111,7 @@ Click on your **Seller** sprite and add a `broadcast`{:class="block3control"} bl
 ```blocks3
 when flag clicked
 set [name v] to [my shop] // your business name
-+ broadcast [next customer v]
++ broadcast (next customer v)
 ```
 
 --- /task ---
@@ -122,7 +122,7 @@ Create a new script for your **Seller** sprite to `say`{:class="block3looks"} `N
 
 ```blocks3
 when I receive [next customer v] 
-say [Next customer please] for (2) seconds
+say [Next customer please!] for (2) seconds
 ```
 
 --- /task ---
