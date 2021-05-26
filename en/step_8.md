@@ -10,6 +10,6 @@ Here are some ideas you could try:
 
 Each example project in the [Introduction](.) has a ‘See Inside’ link for you to open the project in Scratch and look at the code to get ideas and see how they work.
 
-Take a look at our ['Intergalactic shopping mall'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio to see projects created by community members.
+Take a look at our ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio to see projects created by community members.
 
 --- save ---
