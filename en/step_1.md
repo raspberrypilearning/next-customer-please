@@ -1,15 +1,15 @@
 ## Introduction
 
-You will make a shop simulation project, the customer will be able to buy items from your shop. The project will be in first-person view where the player is a customer. 
+Make a shop simulation project where the customer can buy items from your shop. The project will be in first-person view where the player is a customer. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**First-person view**</span> means that you don't see your character on the screen, instead you see what they see.
 </p>
 
 You will:
-+ Create a shop simulation with items to buy and a checkout,
-+ Try shops made by others and share your shop so others can try it,
++ Create a shop simulation with items to buy and a checkout.
 + Plan your time to get a simple version working quickly.
++ Try shops made by others and share your shop so others can try it.
 
 ![](images/example-strip.png)
 
@@ -24,7 +24,8 @@ You will:
 
 Click on Space Fruit to buy them and watch the total go up. When you're ready, click on Kiran to checkout. 
 
-What happens if you try to checkout before you have chosen any fruit? How do you think the project knows that you haven't added any fruit yet?
++ What happens if you try to checkout before you have chosen any fruit? 
++ How do you think the project knows that you haven't added any fruit yet?
 
 </div>
 <div>
@@ -42,7 +43,7 @@ You are going to make some design decisions to choose what your business will of
 
 --- task ---
 
-Explore these example business projects to get more ideas. Which projects allow you to buy multiple items at once? Which allow you to buy items one at a time?
+Explore these example shops to get more ideas. Which projects allow you to buy multiple items at once? Which allow you to buy items one at a time?
 
 Click on the seller sprites to buy items:
 
