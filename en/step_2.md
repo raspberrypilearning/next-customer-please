@@ -39,7 +39,7 @@ What will the **seller** sprite look like?
 + A machine such as a vending machine, jukebox, or cash register?
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**NPC**</span> is a non-player character that you can interact with in a game or interactive story. Some people's jobs involved developing NPCs so that they have interesting personalities and behaviours. Can you think of games you have played that have NPCs? Next time you play, think about how it was someone's job to make that character.
+An <span style="color: #0faeb0">**NPC**</span> is a non-player character that you can interact with in a game or interactive story. Can you think of games you have played that have NPCs? Next time you play, think about how it was someone's job to make that character.
 </p>
 
 --- task ---

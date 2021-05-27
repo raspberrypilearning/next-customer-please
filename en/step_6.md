@@ -7,7 +7,9 @@ If you are logged in on Scratch you can create a studio and add your **Next cust
 --- collapse ---
 
 ---
+
 title: Build a shopping mall 
+
 ---
 
 Save your project then click on your username then select `My Stuff`.

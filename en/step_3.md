@@ -42,7 +42,9 @@ Add a script to `change`{:class="block3variables"} the `total`{:class="block3var
 --- collapse ---
 
 ---
+
 title: Click to add an item
+
 ---
 
 ```blocks3
