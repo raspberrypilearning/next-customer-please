@@ -16,4 +16,6 @@ If you are following the [More Scratch](https://projects.raspberrypi.org/en/rasp
 
 **Instructions:** Press 'space' or tap the Stage to jump.
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+--- /no-print ---
+
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
