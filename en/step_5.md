@@ -63,6 +63,7 @@ The Cool Shirts project has the shirts gliding into a bag.
 --- collapse ---
 
 ---
+
 title: Make items glide into a container
 
 ---
@@ -97,9 +98,6 @@ when I receive [next customer v]
 hide // previous customer takes the bag
 wait [1] seconds
 show
-
-when I receive [cancel v]
-hide
 ```
 
 **Test:** Try your project and make sure items glide to the container and hide.
@@ -113,7 +111,8 @@ The ice cream van shows the ice cream as the customer chooses their options.
 --- collapse ---
 
 ---
-title: Customize and show a sprite
+
+title: Customise and show a sprite
 
 ---
 
