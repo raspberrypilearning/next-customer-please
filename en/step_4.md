@@ -153,7 +153,9 @@ end
 --- collapse ---
 
 ---
+
 title: The seller doesn't do anything when I click on them
+
 ---
 
 You have quite a lot of sprites in your project. Make sure the `when this sprite clicked`{:class="block3events"} script is on your **Seller** sprite. 

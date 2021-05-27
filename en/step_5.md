@@ -64,6 +64,7 @@ The Cool Shirts project has the shirts gliding into a bag.
 
 ---
 title: Make items glide into a container
+
 ---
 
 Add a **Container** sprite. You could use an existing sprite like the 'Gift' or 'Take out' or paint your own with simple shapes.
@@ -113,6 +114,7 @@ The ice cream van shows the ice cream as the customer chooses their options.
 
 ---
 title: Customize and show a sprite
+
 ---
 
 Each item needs to `broadcast`{:class="block3events"} in its `when this sprite clicked`{:class="block3events"} script:
@@ -152,6 +154,7 @@ If you want to stop the customer adding items when they are at the checkout can 
 
 ---
 title: Only allow buying when the customer isn't at the checkout 
+
 ---
 
 Add a `variable`{:class="block3variables"} called `shop` for all sprites. You will set this to `true` when the customer is in the shop and `false` when they are at the checkout.

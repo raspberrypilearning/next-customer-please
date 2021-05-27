@@ -102,7 +102,9 @@ If you have added price labels, make sure they match the amount that gets added 
 --- collapse ---
 
 ---
+
 title: The total doesn't go to `0` when I click the green flag
+
 ---
 
 Check that you have set the start value of the `total`{:class="block3variables"} variable in an `when flag clicked`{:class="block3events"} script on your **Seller** sprite.
@@ -112,7 +114,9 @@ Check that you have set the start value of the `total`{:class="block3variables"}
 --- collapse ---
 
 ---
+
 title: The total doesn't increase by the correct amount when I click on an item
+
 ---
 
 Check that each item has a `when this sprite clicked`{:class="block3events"} script that changes the `total`{:class="block3variables"} by the correct amount for that item - you might have changed the price for the wrong sprite.
