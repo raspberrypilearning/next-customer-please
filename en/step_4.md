@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you'll add code to the **Seller** sprite to ask if the customer is ready to pay for the items, take payment, then get ready for the next customer.
+The **Seller** sprite needs to ask if the customer is ready to pay for the items, take payment, then get ready for the next customer.
 </div>
 <div>
 ![](images/step4-image.png){:width="300px"}
@@ -50,7 +50,7 @@ say (join [That will be ] (total)) for (2) seconds
 play sound [machine v] until done 
 + set [total v] to (0)
 + say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast (next customer v)
++ broadcast (next customer v)
 ```
 
 --- /task ---
@@ -77,7 +77,7 @@ say (join [That will be ] (total)) for (2) seconds
 play sound [machine v] until done 
 set [total v] to (0)
 say (join [Thanks for shopping at ] (name)) for (2) seconds
-+broadcast [next customer v]
+broadcast [next customer v]
 end
 ```
 
@@ -193,9 +193,11 @@ When you use a `join`{:class="block3operators"} block to join two pieces togethe
 
 Both of these have a space at the end of the first part of the join:
 
+```blocks3
 say {join [That will be ](total)} for (2) seconds
 
 say {join [Thanks for shopping at ](name)} for (2) seconds
+```
 
 --- /collapse ---
 
@@ -209,11 +211,15 @@ title: The total doesn't reset after a sale
 
 Check that you have used:
 
+```blocks3
 set [total v] to (0)
+```
 
-not: 
+**not**: 
 
+```blocks3
 change [total v] by (0)
+```
 
 If it is still not working, look carefully over the example code in the instructions to make sure the block is in the correct place. 
 
@@ -223,14 +229,14 @@ If it is still not working, look carefully over the example code in the instruct
 
 ---
 
-title: The seller isn't responding correctly
+title: The seller isn't responding
 
 ---
 
 Make sure the `operator`{:class="block3operators"} in the `if`{:class="block3control"} condition is the greater than symbol `>`{:class="block3operators"}.
 
 ```blocks3
-if <(total) > [0]>then
+if <(total) > [0]> then
 ```
 
 If it is still not working, look carefully over the example code in the instructions to make sure the block is in the correct place. 

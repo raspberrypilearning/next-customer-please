@@ -8,7 +8,7 @@ If you are logged in on Scratch you can create a studio and add your **Next cust
 
 ---
 
-title: Build a shopping mall 
+title: Build a shopping market
 
 ---
 
@@ -48,6 +48,6 @@ If you have a Scratch account, and have shared your `Next customer please!` proj
 
 Inspire the Raspberry Pi Foundation community with your project!
 
-To submit your project to our ['Intergalactic shopping mall'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+To submit your project to our ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---

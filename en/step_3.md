@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will let your customer choose items. Each item will have a price that will be added to a `total`{:class="block3variables"} variable.
+Your shop needs items for sale. Each item will have a price that will be added to a `total`{:class="block3variables"} variable.
 </div>
 <div>
 ![](images/step3-image.png){:width="300px"}
@@ -29,9 +29,11 @@ What **items** will your customer(s) be buying?
 
 --- task ---
 
-Add a sprite for the first item you're going to sell in your shop.
+Add a sprite for the first **item** you're going to sell in your shop.
 
 If you like, you can add a price to the costume using the text tool in the Paint editor. Or add a price to the backdrop and position the item next to it.
+
+![Examples of items with amounts written next to them.](images/item-amounts.png)
 
 --- /task ---
 
@@ -55,7 +57,7 @@ change [total v] by [10]
 
 --- /collapse ---
 
-It's also a good idea to play a sound to give the customer some feedback that they had added an item.
+It's also a good idea to `play a sound`{:class="block3sound"} to give the customer some feedback that they had added an item.
 
 ![The add a sound icon](images/add-sound.png)
 
@@ -82,7 +84,7 @@ Add a price label to the costume or backdrop if you are using them.
 --- /task ---
 
 --- task ---
-Click on your new **Item** sprite in the Sprite list then click on the 'Code' tab.
+Click on your new **Item** sprite in the Sprite list then click on the **Code** tab.
 
 Change the amount the `total`{:class="block3variables"} changes by to the price of your new item.
 
