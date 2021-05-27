@@ -50,7 +50,7 @@ say (join [That will be ] (total)) for (2) seconds
 play sound [machine v] until done 
 + set [total v] to (0)
 + say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast (next customer v)
++ broadcast (next customer v)
 ```
 
 --- /task ---

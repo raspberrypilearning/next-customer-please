@@ -6,7 +6,7 @@ There are lots of features you could add to improve your customers' shopping exp
 
 </div>
 <div>
-![](images/image.png){:width="300px"}
+![](images/customer-count.png){:width="300px"}
 </div>
 </div>
 
