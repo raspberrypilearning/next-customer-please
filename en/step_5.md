@@ -32,7 +32,9 @@ You could ask whether the service was good, or if they're having a nice day. Or 
 --- collapse ---
 
 ---
+
 title: Ask and respond to questions
+
 ---
 
 ```blocks3

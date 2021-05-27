@@ -22,7 +22,7 @@ You will:
 
 ### Try it 
 
-Click on Space Fruit to buy them and watch the total go up. When you're ready, click on Kiran to checkout. 
+Click on Space Fruit to buy them and watch the total go up. When you're ready, click on Kiran to check out. 
 
 + What happens if you try to checkout before you have chosen any fruit? 
 + How do you think the project knows that you haven't added any fruit yet?
@@ -39,7 +39,7 @@ Click on Space Fruit to buy them and watch the total go up. When you're ready, c
 
 ### Get inspiration 
 
-You are going to make some design decisions to choose what your business will offer and whether customers will need currency to pay. 
+You are going to make some design decisions to choose what items your business will offer and how the customer will check out. 
 
 --- task ---
 

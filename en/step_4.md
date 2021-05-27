@@ -62,7 +62,9 @@ You might want to give the customer the option to cancel their shopping.
 --- collapse ---
 
 ---
+
 title: Set up pay and cancel options 
+
 ---
 
 `Ask`{:class="block3sensing"} `Would you like to pay or cancel?`. Add an `If`{:class="block3control"} block for `answer`{:class="block3sensing"} `=`{:class="block3operators"} `pay` and inside it put your existing payment blocks.
@@ -109,7 +111,9 @@ To make sure your customer has items in their basket before paying, you can inse
 --- collapse ---
 
 ---
+
 title: Check total amount
+
 ---
 
 `If`{:class="block3control"} `total`{:class="block3variables"} `>`{:class="block3operators"} `0` then insert your existing script.
@@ -161,7 +165,9 @@ You have quite a lot of sprites in your project. Make sure the `when this sprite
 --- collapse ---
 
 ---
+
 title: The seller says 'total' not the total amount
+
 ---
 
 Make sure your `say`{:class="block3looks"} block has the `total`{:class="block3variables"} variable not the word `total`
@@ -176,7 +182,9 @@ Make sure your `say`{:class="block3looks"} block has the `total`{:class="block3v
 --- collapse ---
 
 ---
+
 title: The words in the say blocks merge together.
+
 ---
 
 When you use a `join`{:class="block3operators"} block to join two pieces together you need to add a space at the end of your first piece of text or at the beginning of your second piece of text. 
@@ -192,7 +200,9 @@ say {join [Thanks for shopping at ](name)} for (2) seconds
 --- collapse ---
 
 ---
+
 title: The total doesn't reset after a sale
+
 ---
 
 Check that you have used:
@@ -210,7 +220,9 @@ If it is still not working, look carefully over the example code in the instruct
 --- collapse ---
 
 ---
+
 title: The seller isn't responding correctly
+
 ---
 
 Make sure the `operator`{:class="block3operators"} in the `if`{:class="block3control"} condition is the greater than symbol `>`{:class="block3operators"}.
