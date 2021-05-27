@@ -33,7 +33,7 @@ Jay's project is not working. What should they do?
 
   --- /feedback ---
 
-- ( ) Get annoyed with the computer
+- ( ) Get annoyed with the computer.
 
   --- feedback ---
 

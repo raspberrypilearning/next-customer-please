@@ -145,6 +145,10 @@ end
 
 --- /task ---
 
+--- task ---
+**Test:** Test your project and make sure the customer can check out with the correct sound effects and that the `total`{:class="block3variables"} gets set back to `0` after a customer pays or cancels.
+--- /task ---
+
 
 --- task ---
 
