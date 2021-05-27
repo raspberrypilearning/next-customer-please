@@ -71,10 +71,10 @@ Click on the seller sprites to buy items:
 
 You are going to make some design decisions to create your character. See inside example projects in [Scratch 2: Next customer please! - Examples](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
 
-![](images/fruit.png)
-![](images/tshirt.png)
-![](images/icecream.png)
-![](images/vending.png)
+![Example project](images/fruit.png)
+![Example project](images/tshirt.png)
+![Example project](images/icecream.png)
+![Example project](images/vending.png)
 
 --- /print-only ---
 
