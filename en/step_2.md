@@ -57,8 +57,11 @@ What is the name of your business?
 Create a `variable`{:class="block3variables"} called `name`:
 
 --- collapse ---
+
 ---
+
 title: Create a variable
+
 ---
 
 From the `Variables`{:class="block3variables"} blocks menu click the **Make a Variable** button.
@@ -83,7 +86,9 @@ Use your variable on the Stage as a sign:
 --- collapse ---
 
 ---
+
 title: Change the appearance and postition of variables
+
 ---
 
 Right-click on the `variable`{:class="block3variables"} on the Stage and choose large readout:
@@ -134,7 +139,9 @@ say [Next customer please!] for (2) seconds
 --- collapse ---
 
 ---
+
 title: Variable shows `0`
+
 ---
 
 You should use the `set [name v] to ()`{:class="block3variables"} block to set the variable to your name. If you have already added a script check that you have typed your business name into the value and clicked the green flag. 

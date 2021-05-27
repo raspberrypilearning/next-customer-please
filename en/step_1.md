@@ -61,6 +61,7 @@ Click on the seller sprites to buy items:
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/526051796/?autostart=false" frameborder="0"></iframe>
 </div>
+
 --- /task ---
 
 --- /no-print ---
