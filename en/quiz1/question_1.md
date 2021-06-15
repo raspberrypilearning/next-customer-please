@@ -1,6 +1,10 @@
 ## Reflection
 
-Well done, you have learned a lot! Now it's time to reflect - reflecting is an important part of learning because it helps make new connections in your brain.
+Well done, you used your skills to design and build a shop app! 
+
+You used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Looks`{:class="block3looks"} and `Sound`{:class="block3sound"}, blocks!
+
+Now it's time to reflect - reflecting is an important part of learning because it helps make new connections in your brain.
 
 Answer the three questions below to reflect on what you've learned.
 
