@@ -2,7 +2,10 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The **Seller** sprite needs to ask if the customer is ready to pay for the items, take payment, then get ready for the next customer.
+The **Seller** sprite needs to:
+- ask if the customer is ready to pay for the items, 
+- take payment, then
+- get ready for the next customer.
 </div>
 <div>
 ![](images/step4-image.png){:width="300px"}
@@ -146,13 +149,17 @@ end
 --- /task ---
 
 --- task ---
-**Test:** Test your project and make sure the customer can check out with the correct sound effects and that the `total`{:class="block3variables"} gets set back to `0` after a customer pays or cancels.
+**Test:** Test your project and make sure:
+- the customer can check out with the correct sound effects, and
+- the `total`{:class="block3variables"} gets set back to `0` after a customer pays or cancels.
 --- /task ---
 
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Debug:** You might find some bugs in your project that you need to fix. 
+
+Here are some common bugs:
 
 --- collapse ---
 
@@ -176,7 +183,7 @@ title: The seller says 'total' not the total amount
 
 ---
 
-Make sure your `say`{:class="block3looks"} block has the `total`{:class="block3variables"} variable not the word `total`
+Make sure your `say`{:class="block3looks"} block has the `total`{:class="block3variables"} variable block not the word `total`
 
 ```blocks3
  when this sprite clicked
@@ -193,9 +200,9 @@ title: The words in the say blocks merge together.
 
 ---
 
-When you use a `join`{:class="block3operators"} block to join two pieces together you need to add a space at the end of your first piece of text or at the beginning of your second piece of text. 
+When you `join`{:class="block3operators"} two pieces together you need to add a space at the end of your first piece of text or at the beginning of your second piece of text. 
 
-Both of these have a space at the end of the first part of the join:
+These have a space at the end of the first part of the join:
 
 ```blocks3
 say {join [That will be ](total)} for (2) seconds
@@ -225,8 +232,6 @@ set [total v] to (0)
 change [total v] by (0)
 ```
 
-If it is still not working, look carefully over the example code in the instructions to make sure the block is in the correct place. 
-
 --- /collapse ---
 
 --- collapse ---
@@ -243,9 +248,9 @@ Make sure the `operator`{:class="block3operators"} in the `if`{:class="block3con
 if <(total) > [0]> then
 ```
 
-If it is still not working, look carefully over the example code in the instructions to make sure the block is in the correct place. 
-
 --- /collapse ---
+
+**Tip:** Compare your code with the code examples. Are there any differences that shouldn't be there?
 
 --- /task ---
 

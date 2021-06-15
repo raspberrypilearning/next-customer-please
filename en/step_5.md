@@ -11,13 +11,15 @@ There are lots of features you could add to improve your customers' shopping exp
 </div>
 
 
-You can 'See Inside' the example projects if you want to see how they work. If you are logged in to a Scratch account then you can use the **Backpack** to copy scripts or sprites to your project and then change them to work with your project.
+You can 'See Inside' the example projects to look at how they work. 
 
 Example projects:
 **Fresh Space Fruit**: [See inside](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
 **Cool Shirts**: [See inside](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
 **Ice cream shop**: [See inside](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
 **Vending machine**: [See inside](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
+
+**Tip:** If you are logged in to a Scratch account then you can use the **Backpack** to copy scripts or sprites to your project.
 
 [[[scratch-backpack]]]
 
