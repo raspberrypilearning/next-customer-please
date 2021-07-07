@@ -2,7 +2,7 @@ title: Next customer please
 hero_image: images/banner.png
 description: A shop simulation project where the customer can buy items. 
 version: 4
-listed: true
+listed: false
 copyedit: false
 last_tested: "2021-03-26"
 steps:
