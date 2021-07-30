@@ -7,9 +7,9 @@ Make a shop app where the customer can buy items from your shop. The project wil
 </p>
 
 You will:
-+ Create a shop app with items to buy and a checkout.
-+ Plan your time to get a simple version working quickly.
-+ Try shops made by others and share your shop so others can try it.
++ Create a shop app with items to buy and a checkout
++ Plan your time to get a simple version working quickly
++ Try shops made by others and share your shop so others can try it
 
 ![](images/example-strip.png)
 
@@ -45,7 +45,7 @@ You are going to make some design decisions to choose what items your business w
 
 Explore these example shops to get more ideas. Which projects allow you to buy multiple items at once? Which allow you to buy items one at a time?
 
-Click on the seller sprites to buy items:
+Click on the **seller** sprites to buy items:
 
 **Cool Shirts**: [See inside](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
