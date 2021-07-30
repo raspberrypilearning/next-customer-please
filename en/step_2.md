@@ -18,7 +18,7 @@ Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and lo
 What backdrop and extra scenery sprites will you need?
 + A backdrop from the Scratch library, or a plain coloured backdrop?
 + A desk, counter, or window to sell from?
-+ A shelf or bookcase to put items on - you could Paint this on the backdrop
++ A shelf or bookcase to put items on — you could Paint this on the backdrop
 
 --- task ---
 
@@ -74,20 +74,20 @@ Call your new variable `name`:
 
 --- /collapse ---
 
-Click on your **Seller** sprite and add code to set the variable to the name of your business:
+Click on your **seller** sprite and add code to set the variable to the name of your business:
 
 ```blocks3
 when flag clicked
 set [name v] to () //type the name of your business
 ```
 
-Use your variable on the Stage as a sign:
+Create a sign on the Stage with your variable:
 
 --- collapse ---
 
 ---
 
-title: Change the appearance and postition of variables
+title: Change the appearance and position of variables
 
 ---
 
@@ -111,7 +111,7 @@ Get ready to welcome your first customer.
 
 --- task ---
 
-Click on your **Seller** sprite and add a `broadcast`{:class="block3control"} block. Creat a new message called `next customer`.
+Click on your **seller** sprite and add a `broadcast`{:class="block3control"} block. Creat a new message called `next customer`.
 
 ```blocks3
 when flag clicked
@@ -123,7 +123,7 @@ set [name v] to [my shop] // your business name
 
 --- task ---
 
-Create a new script for your **Seller** sprite to `say`{:class="block3looks"} `Next customer please` when they receive the `broadcast`{:class="block3control"} `next customer`{:class="block3control"}.
+Create a new script for your **seller** sprite to `say`{:class="block3looks"} `Next customer please` when they receive the `broadcast`{:class="block3control"} `next customer`{:class="block3control"}.
 
 ```blocks3
 when I receive [next customer v] 
@@ -144,7 +144,7 @@ title: Variable shows `0`
 
 ---
 
-You should use the `set [name v] to ()`{:class="block3variables"} block to set the variable to your name. If you have already added a script check that you have typed your business name into the value and clicked the green flag. 
+You should use the `set [name v] to ()`{:class="block3variables"} block to set the variable to your name. If you have already added a script, check that you have typed your business name into the value and clicked the green flag. 
 
 ```blocks3
 when flag clicked
