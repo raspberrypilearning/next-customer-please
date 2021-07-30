@@ -17,7 +17,7 @@ Jay's project is not working. What should they do?
 
   --- /feedback ---
 
-- ( ) Give up.
+- ( ) Give up
 
   --- feedback ---
 
@@ -25,7 +25,7 @@ Jay's project is not working. What should they do?
 
   --- /feedback ---
 
-- (x) Read the code carefully and try to debug it. 
+- (x) Read the code carefully and try to debug it.
 
   --- feedback ---
 
@@ -33,7 +33,7 @@ Jay's project is not working. What should they do?
 
   --- /feedback ---
 
-- ( ) Get annoyed with the computer.
+- ( ) Get annoyed with the computer
 
   --- feedback ---
 
