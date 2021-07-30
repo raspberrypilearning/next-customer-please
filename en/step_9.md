@@ -14,7 +14,7 @@ If you are following the [More Scratch](https://projects.raspberrypi.org/en/rasp
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Instructions:** Press 'space' or tap the Stage to jump.
+**Instructions:** Press <kbd>space</kbd> or tap the Stage to jump.
 
 --- /no-print ---
 
