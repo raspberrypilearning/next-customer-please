@@ -2,17 +2,17 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The **Seller** sprite needs to:
-- ask if the customer is ready to pay for the items, 
-- take payment, then
-- get ready for the next customer.
+The **seller** sprite needs to:
+- ask if the customer is ready to pay for the items
+- take payment
+- get ready for the next customer
 </div>
 <div>
 ![](images/step4-image.png){:width="300px"}
 </div>
 </div>
 
-When they have finished choosing items the customer will click on the **Seller** sprite to pay.
+When they have finished choosing items, the customer will click on the **seller** sprite to pay.
 
 --- task ---
 
@@ -27,7 +27,7 @@ say (join [That will be ] (total)) for (2) seconds
 
 --- task ---
 
-Add a payment sound to your **Seller** sprite so the customer knows that payment is taking place. 
+Add a payment sound to your **seller** sprite so the customer knows that payment is taking place. 
 
 ![The add a sound icon](images/add-sound.png)
 
@@ -150,8 +150,8 @@ end
 
 --- task ---
 **Test:** Test your project and make sure:
-- the customer can check out with the correct sound effects, and
-- the `total`{:class="block3variables"} gets set back to `0` after a customer pays or cancels.
+- The customer can check out with the correct sound effects
+- The `total`{:class="block3variables"} gets set back to `0` after a customer pays or cancels.
 --- /task ---
 
 
@@ -169,9 +169,9 @@ title: The seller doesn't do anything when I click on them
 
 ---
 
-You have quite a lot of sprites in your project. Make sure the `when this sprite clicked`{:class="block3events"} script is on your **Seller** sprite. 
+You have quite a lot of sprites in your project. Make sure the `when this sprite clicked`{:class="block3events"} script is on your **seller** sprite. 
 
-**Tip:** If you have added it to the wrong sprite you can drag the code to the **Seller** sprite then delete it from the other sprite.
+**Tip:** If you have added it to the wrong sprite, you can drag the code to the **seller** sprite, then delete it from the other sprite.
 
 --- /collapse ---
 
@@ -183,7 +183,7 @@ title: The seller says 'total' not the total amount
 
 ---
 
-Make sure your `say`{:class="block3looks"} block has the `total`{:class="block3variables"} variable block not the word `total`
+Make sure your `say`{:class="block3looks"} block has the `total`{:class="block3variables"} variable block, not the word `total`.
 
 ```blocks3
  when this sprite clicked
@@ -196,11 +196,11 @@ Make sure your `say`{:class="block3looks"} block has the `total`{:class="block3v
 
 ---
 
-title: The words in the say blocks merge together.
+title: The words in the say blocks merge together
 
 ---
 
-When you `join`{:class="block3operators"} two pieces together you need to add a space at the end of your first piece of text or at the beginning of your second piece of text. 
+When you `join`{:class="block3operators"} two pieces together, you need to add a space at the end of your first piece of text or at the beginning of your second piece of text. 
 
 These have a space at the end of the first part of the join:
 
