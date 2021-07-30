@@ -17,7 +17,7 @@ Jay's project is not working. What should they do?
 
   --- /feedback ---
 
-- ( ) Give up
+- ( ) Give up.
 
   --- feedback ---
 
@@ -29,7 +29,7 @@ Jay's project is not working. What should they do?
 
   --- feedback ---
 
-  Yes. Fixing bugs is part of coding. The more you practice the more experience you get and the easier it becomes to find and fix bugs. 
+  Yes. Fixing bugs is part of coding. The more you practise the more experience you get, and the easier it becomes to find and fix bugs. 
 
   --- /feedback ---
 
@@ -37,9 +37,9 @@ Jay's project is not working. What should they do?
 
   --- feedback ---
 
-A computer only does what we tell them to do so getting annoyed with it isn't logical. 
+A computer only does what we tell it to do, so getting annoyed with it isn't logical. 
 
-Being annoyed won't help to solve the problem as it will make it harder to think clearly.
+Being annoyed won't help to solve the problem, as it will make it harder to think clearly.
 
   --- /feedback ---
 
