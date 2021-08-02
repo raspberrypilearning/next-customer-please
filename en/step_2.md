@@ -13,6 +13,8 @@ What is your business idea? It could be something realistic, something from a bo
 
 Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and look at the range of sprites and backdrops that you can use. Spend some time thinking about your business idea.
 
+[[[working-offline]]]
+
 --- /task ---
 
 What backdrop and extra scenery sprites will you need?
