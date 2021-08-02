@@ -14,18 +14,18 @@ You will need to keep track of how much your customer is spending.
 --- task ---
 Add a new variable called `total`{:class="block3variables"} for all sprites.
 
-Click on your **Seller** sprite add a script to `set`{:class="block3variables"} the `total`{:class="block3variables"} to `0` when the project starts.
+Click on your **seller** sprite and add a script to `set`{:class="block3variables"} the `total`{:class="block3variables"} to `0` when the project starts.
 
 [[[scratch3-create-set-variable]]]
 
 --- /task ---
 
 What **items** will your customer(s) be buying? 
-+ Some kind of food or drink,
-+ Sports equipment, toys or gadgets,
-+ Magic wands, potions or spell books, 
-+ Clothing or other fashion items, or
-+ Your idea.
++ Some kind of food or drink
++ Sports equipment, toys, or gadgets
++ Magic wands, potions, or spell books
++ Clothing or other fashion items
++ Your idea
 
 --- task ---
 
@@ -57,7 +57,7 @@ change [total v] by [10]
 
 --- /collapse ---
 
-It's also a good idea to `play a sound`{:class="block3sound"} to give the customer some feedback that they had added an item.
+It's also a good idea to `play a sound`{:class="block3sound"} to give the customer feedback that they have added an item.
 
 ![The add a sound icon](images/add-sound.png)
 
@@ -66,9 +66,9 @@ It's also a good idea to `play a sound`{:class="block3sound"} to give the custom
 --- /task ---
 
 --- task ---
-**Test:** Click on your item and check that the value of the `total`{:class="block3variables"} variable increases by the price of the item and you hear the sound effect. Click more times to see the total go up.
+**Test:** Click on your item and check that the value of the `total`{:class="block3variables"} variable increases by the price of the item, and you hear the sound effect. Click more times to see the total go up.
 
-Click the green flag to start your project and make sure the the `total`{:class="block3variables"} starts at `0`.
+Click the green flag to start your project and make sure that the `total`{:class="block3variables"} starts at `0`.
 --- /task ---
 
 --- task ---
@@ -76,8 +76,8 @@ Click the green flag to start your project and make sure the the `total`{:class=
 Add more items to your shop. 
 
 You can either:
-+ Duplicate the first item and then add a new costume in the Paint editor,
-+ Add a sprite and then drag the `when flag clicked`{:class="block3events"} script from the first item to your new item.
++ Duplicate the first item and then add a new costume in the Paint editor
++ Add a sprite and then drag the `when flag clicked`{:class="block3events"} script from the first item to your new item
 
 Add a price label to the costume or backdrop if you are using them.
 
@@ -93,7 +93,7 @@ Change the amount the `total`{:class="block3variables"} changes by to the price 
 --- task ---
 **Test:** Click the green flag to start your project and click on items to add them. Check that the total increases by the correct amount each time you click on an item. 
 
-If you have added price labels, make sure they match the amount that gets added to the `total`{:class="block3variables"} or your customers will be confused!
+If you have added price labels, make sure they match the amount that gets added to the `total`{:class="block3variables"}, or your customers will be confused!
 
 --- /task ---
 
@@ -105,11 +105,11 @@ If you have added price labels, make sure they match the amount that gets added 
 
 ---
 
-title: The total doesn't go to `0` when I click the green flag
+title: The total doesn't go to 0 when I click the green flag
 
 ---
 
-Check that you have set the start value of the `total`{:class="block3variables"} variable in an `when flag clicked`{:class="block3events"} script on your **Seller** sprite.
+Check that you have set the start value of the `total`{:class="block3variables"} variable in the `when flag clicked`{:class="block3events"} script on your **seller** sprite.
 
 --- /collapse ---
 
@@ -121,7 +121,7 @@ title: The total doesn't increase by the correct amount when I click on an item
 
 ---
 
-Check that each item has a `when this sprite clicked`{:class="block3events"} script that changes the `total`{:class="block3variables"} by the correct amount for that item - you might have changed the price for the wrong sprite.
+Check that each item has a `when this sprite clicked`{:class="block3events"} script that changes the `total`{:class="block3variables"} by the correct amount for that item — you might have changed the price for the wrong sprite.
 
 Check that you have used the `change`{:class="block3variables"} block and not the `set`{:class="block3variables"} block to change the `total`{:class="block3variables"}. You need to use `change`{:class="block3variables"} to add the price to the total, you don't want to set the total to the price of the item that was just added.
 

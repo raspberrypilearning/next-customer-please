@@ -5,7 +5,7 @@
 legend: Question 2 of 3
 ---
 
-In a shop, the **Seller** has this code in the checkout script:
+In a shop, the **seller** has this code in the checkout script:
 
 ```blocks3
 ask [How are you today?] and wait
@@ -16,7 +16,7 @@ say [Sorry to hear that.] for [2] seconds
 end
 ```
 
-When the code runs, the user types the answer 'great'. What will the **Seller** sprite say?
+When the code runs, the user types the answer 'great'. What will the **seller** sprite say?
 
 ![An 'ask' box with the word 'great' typed in.](images/quiz2.png)
 
@@ -32,29 +32,29 @@ When the code runs, the user types the answer 'great'. What will the **Seller** 
 
   --- /feedback ---
 
-- ( ) The **Seller** will say `That's fantastic!`
+- ( ) The **seller** will say `That's fantastic!`
 
   --- feedback ---
   
-No, only the exact answer `good` will make the **Seller** say `That's fantastic!`. Look at the code again to see what message the **Seller** say for all answers that are not `good`.
+No, only the exact answer `good` will make the **seller** say `That's fantastic!`. Look at the code again to see what message the **seller** will say for all answers that are not `good`.
 
 **Tip:** 'Good' or 'GOOD' would match 'good'.
 
   --- /feedback ---
 
-- ( ) The **Seller** won't say anything
+- ( ) The **seller** won't say anything.
 
   --- feedback ---
   
-No, the **Seller** will always say something. Look carefully at the code to see what the message will be.
+No, the **seller** will always say something. Look carefully at the code to see what the message will be.
 
   --- /feedback ---
 
-- ( ) The **Seller** will say `great`
+- ( ) The **seller** will say `great`.
 
   --- feedback ---
 
-No, the **Customer** typed the answer 'great' but the **Seller** does not say the answer. Look carefully at the code to see what the message will be.
+No, the **customer** typed the answer 'great' but the **seller** does not say the answer. Look carefully at the code to see what the message will be.
 
   --- /feedback ---
 

@@ -2,9 +2,9 @@
 
 Well done, you used your skills to design and build a shop app! 
 
-You used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Looks`{:class="block3looks"} and `Sound`{:class="block3sound"}, blocks!
+You used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Looks`{:class="block3looks"} and `Sound`{:class="block3sound"} blocks!
 
-Now it's time to reflect - reflecting is an important part of learning because it helps make new connections in your brain.
+Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
 
 Answer the three questions below to reflect on what you've learned.
 
@@ -20,8 +20,8 @@ legend: Question 1 of 3
 
 A shop project uses a `total`{:class="block3variables"} variable to store the total for each customer.
 
-+ A customer adds items totalling `50` and pays.
-+ A new customer adds items totalling `40` but the `total`{:class="block3variables"} is now showing as `90` for the second customer.
++ A customer adds items that total `50` and pays
++ A new customer adds items that total `40` but the `total`{:class="block3variables"} is now showing as `90` for the second customer
 
 Which block would you need to add to the payment script to make the total go back to `0` when each customer pays?
 
@@ -45,7 +45,7 @@ change [total v] by [0]
 
  --- feedback ---
 
-Not quite, `total`{:class="block3variables"} should be `0` after a customer pays but it is not the `change`{:class="block3variables"} block you need.
+Not quite, `total`{:class="block3variables"} should be `0` after a customer pays, but it is not the `change`{:class="block3variables"} block you need.
 
  --- /feedback ---
 
