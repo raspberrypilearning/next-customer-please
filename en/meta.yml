@@ -9,14 +9,17 @@ steps:
   - title: Introduction
   - title: Your business idea
   - title: Items for sale
+    completion: engaged
   - title: Purchases
   - title: Additional features
-  - title: Share
+    completion: internal
   - title: Reflection
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion: external
   - title: Upgrade your project
+  - title: Share
   - title: What next?
