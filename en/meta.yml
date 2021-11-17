@@ -2,21 +2,24 @@ title: Next customer please
 hero_image: images/banner.png
 description: A shop simulation project where the customer can buy items. 
 version: 4
-listed: false
+listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
   - title: Your business idea
   - title: Items for sale
+    completion: engaged
   - title: Purchases
   - title: Additional features
-  - title: Share
+    completion: internal
   - title: Reflection
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion: external
   - title: Upgrade your project
+  - title: Share
   - title: What next?
