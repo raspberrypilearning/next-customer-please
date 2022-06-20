@@ -1,22 +1,22 @@
-## Purchases
+## Αγορές
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The **seller** sprite needs to:
-- ask if the customer is ready to pay for the items
-- take payment
-- get ready for the next customer
+Το αντικείμενο **πωλητής** πρέπει:
+- να ρωτήσει αν ο πελάτης είναι έτοιμος να πληρώσει για τα προϊόντα
+- να λάβει την πληρωμή
+- να ετοιμαστεί για τον επόμενο πελάτη
 </div>
 <div>
 ![](images/step4-image.png){:width="300px"}
 </div>
 </div>
 
-When they have finished choosing items, the customer will click on the **seller** sprite to pay.
+Όταν ολοκληρώσει την επιλογή των προϊόντων, ο πελάτης θα κάνει κλικ στο αντικείμενο του **πωλητή** για να πληρώσει.
 
 --- task ---
 
- Tell the customer how much their items will cost.
+ Πες στον πελάτη πόσο θα κοστίσουν τα προϊόντα του.
 
 ```blocks3
 when this sprite clicked
@@ -27,13 +27,13 @@ say (join [That will be ] (total)) for (2) seconds
 
 --- task ---
 
-Add a payment sound to your **seller** sprite so the customer knows that payment is taking place.
+Πρόσθεσε έναν ήχο πληρωμής στο αντικείμενο του **πωλητή** σου, ώστε ο πελάτης να γνωρίζει ότι η πληρωμή πραγματοποιείται.
 
-![The add a sound icon](images/add-sound.png)
+![Το εικονίδιο προσθήκης ήχου](images/add-sound.png)
 
 [[[scratch3-add-sound]]]
 
-Add the `play sound until done`{:class="block3sound"} block to your script.
+Πρόσθεσε το μπλοκ `παίξε τον ήχο μέχρι τέλους`{:class="block3sound"} στο script σου.
 
 ```blocks3
 when this sprite clicked
@@ -45,7 +45,7 @@ say (join [That will be ] (total)) for (2) seconds
 
 --- task ---
 
-Finish the sale. Set `total`{:class="block3variables"} back to `0` after payment, `say`{:class="block3looks"} goodbye and `broadcast`{:class="block3control"} `next customer`{:class="block3control"}.
+Ολοκλήρωσε την πώληση. Όρισε το `σύνολο`{:class="block3variables"} πάλι σε `0` μετά την πληρωμή, `πες`{:class="block3looks"} αντίο και `μετάδωσε`{:class="block3control"} `επόμενος πελάτης`{: class="block3control"}.
 
 ```blocks3
 when this sprite clicked
@@ -60,14 +60,14 @@ play sound [machine v] until done
 
 --- task ---
 
-You might want to give the customer the option to cancel their shopping.
+Ίσως θέλεις να δώσεις στον πελάτη την επιλογή να ακυρώσει τις αγορές του.
 
 --- collapse ---
 ---
-title: Set up pay and cancel options
+title: Ρύθμιση επιλογών πληρωμής και ακύρωσης
 ---
 
-`Ask`{:class="block3sensing"} `Would you like to pay or cancel?`. Add an `If`{:class="block3control"} block for `answer`{:class="block3sensing"} `=`{:class="block3operators"} `pay` and inside it put your existing payment blocks.
+`Ρώτησε`{:class="block3sensing"} `Θέλετε να πληρώσετε ή να ακυρώσετε;`. Πρόσθεσε ένα μπλοκ `Εάν`{:class="block3control"} για την `απάντηση`{:class="block3sensing"} `=`{:class="block3operators"} `πληρωμή` και βάλε μέσα σε αυτό τα υπάρχοντα μπλοκ πληρωμών.
 
 ```blocks3
 when this sprite clicked
@@ -81,7 +81,7 @@ broadcast [next customer v]
 end
 ```
 
-Add a second `If`{:class="block3control"} block for `answer`{:class="block3sensing"} `=`{:class="block3operators"} `cancel` and inside it add code to cancel the order.
+Πρόσθεσε ένα δεύτερο μπλοκ `Εάν`{:class="block3control"} για την `απάντηση`{:class="block3sensing"} `=`{:class="block3operators"} `ακύρωση` και πρόσθεσε μέσα σε αυτό τον κώδικα για να ακυρώσεις την παραγγελία.
 
 ```blocks3
 when this sprite clicked
@@ -106,16 +106,16 @@ end
 
 --- task ---
 
-To make sure your customer has items in their basket before paying, you can insert an `if...else`{:class="block3control"} block.
+Για να βεβαιωθείς ότι ο πελάτης σου έχει προϊόντα στο καλάθι του προτού πληρώσει, μπορείς να εισαγάγεις ένα μπλοκ `εάν...αλλιώς`{:class="block3control"}.
 
 --- collapse ---
 ---
-title: Check total amount
+title: Έλεγξε το συνολικό ποσό
 ---
 
-`If`{:class="block3control"} `total`{:class="block3variables"} `>`{:class="block3operators"} `0` then insert your existing script.
+`Εάν`{:class="block3control"} `σύνολο`{:class="block3variables"} `>`{:class="block3operators"} `0` τότε τοποθέτησε το υπάρχον script σου.
 
-`Else`{:class="block3control"} `say`{:class="block3looks"} a helpful message.
+`Αλλιώς`{:class="block3control"} `πες`{:class="block3looks"} ένα χρήσιμο μήνυμα.
 
 ```blocks3
 when this sprite clicked
@@ -144,36 +144,36 @@ end
 
 --- task ---
 
-**Test:** Test your project and make sure:
-- The customer can check out with the correct sound effects
-- The `total`{:class="block3variables"} gets set back to `0` after a customer pays or cancels.
+**Δοκιμή:** Δοκίμασε το έργο σου και βεβαιώσου:
+- Ο πελάτης μπορεί να πληρώσει με τα σωστά ηχητικά εφέ
+- Το `σύνολο`{:class="block3variables"} επανέρχεται σε `0` αφού ένας πελάτης πληρώσει ή ακυρώσει.
 
 --- /task ---
 
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix.
+**Εντοπισμός σφαλμάτων:** Ενδέχεται να βρεις κάποια σφάλματα στο έργο σου που πρέπει να διορθώσεις.
 
-Here are some common bugs:
+Εδώ είναι μερικά συνηθισμένα σφάλματα:
 
 --- collapse ---
 ---
-title: The seller doesn't do anything when I click on them
+title: Ο πωλητής δεν κάνει τίποτα όταν κάνω κλικ πάνω του
 ---
 
-You have quite a lot of sprites in your project. Make sure the `when this sprite clicked`{:class="block3events"} script is on your **seller** sprite.
+Έχεις πολλά αντικείμενα στο έργο σου. Βεβαιώσου ότι το script `όταν γίνει κλικ σε αυτό το αντικείμενο`{: class = "block3events"} βρίσκεται στο αντικείμενό σου **πωλητής**.
 
-**Tip:** If you have added it to the wrong sprite, you can drag the code to the **seller** sprite, then delete it from the other sprite.
+**Συμβουλή:** Εάν το έχεις προσθέσει σε λάθος αντικείμενο, μπορείς να σύρεις τον κώδικα στο αντικείμενο **πωλητής** και μετά να το διαγράψεις από το άλλο αντικείμενο.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The seller says 'total' not the total amount
+title: Ο πωλητής λέει "σύνολο" όχι το συνολικό ποσό
 ---
 
-Make sure your `say`{:class="block3looks"} block has the `total`{:class="block3variables"} variable block, not the word `total`.
+Βεβαιώσου ότι το μπλοκ `πες`{:class="block3looks"} έχει το μπλοκ μεταβλητής `σύνολο`{:class="block3variables"} και όχι τη λέξη `σύνολο`.
 
 ```blocks3
  when this sprite clicked
@@ -184,12 +184,12 @@ Make sure your `say`{:class="block3looks"} block has the `total`{:class="block3v
 
 --- collapse ---
 ---
-title: The words in the say blocks merge together
+title: Οι λέξεις στα μπλοκ "πες" συγχωνεύονται μεταξύ τους
 ---
 
-When you `join`{:class="block3operators"} two pieces together, you need to add a space at the end of your first piece of text or at the beginning of your second piece of text.
+Όταν `ενώνεις`{:class="block3operators"} δύο κείμενα μαζί, πρέπει να προσθέτεις ένα κενό στο τέλος του πρώτου σου κειμένου ή στην αρχή του δεύτερου κειμένου.
 
-These have a space at the end of the first part of the join:
+Αυτά έχουν ένα κενό στο τέλος του πρώτου μέρους της ένωσης:
 
 ```blocks3
 say {join [That will be ](total)} for (2) seconds
@@ -201,16 +201,16 @@ say {join [Thanks for shopping at ](name)} for (2) seconds
 
 --- collapse ---
 ---
-title: The total doesn't reset after a sale
+title: Το σύνολο δεν επανέρχεται στην αρχική τιμή μετά την πώληση
 ---
 
-Check that you have used:
+Έλεγξε ότι έχεις χρησιμοποιήσει:
 
 ```blocks3
 set [total v] to (0)
 ```
 
-**not**:
+**όχι**:
 
 ```blocks3
 change [total v] by (0)
@@ -220,10 +220,10 @@ change [total v] by (0)
 
 --- collapse ---
 ---
-title: The seller isn't responding
+title: Ο πωλητής δεν ανταποκρίνεται
 ---
 
-Make sure the `operator`{:class="block3operators"} in the `if`{:class="block3control"} condition is the greater than symbol `>`{:class="block3operators"}.
+Βεβαιώσου ότι ο `τελεστής`{:class="block3operators"} στη συνθήκη `εάν`{:class="block3control"} είναι το σύμβολο μεγαλύτερο από `>`{:class="block3operators"}.
 
 ```blocks3
 if <(total) > [0]> then
@@ -231,7 +231,7 @@ if <(total) > [0]> then
 
 --- /collapse ---
 
-**Tip:** Compare your code with the code examples. Are there any differences that shouldn't be there?
+**Συμβουλή:** Σύγκρινε τον κώδικά σου με τα παραδείγματα κώδικα. Υπάρχουν διαφορές που δεν θα έπρεπε να υπάρχουν;
 
 --- /task ---
 
