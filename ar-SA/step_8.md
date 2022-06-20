@@ -1,55 +1,55 @@
-## Share
+## شارك
 
-If you are in a club, why not share your project with friends?
+إذا كنت في نادٍ ، فلماذا لا تشارك مشروعك مع الأصدقاء؟
 
-If you are logged in on Scratch, you can create a studio and add your **Next customer please** project. You can also add your friends' **Next customer please** projects to create a mall of different shops and businesses.
+إذا قمت بتسجيل الدخول إلى Scratch ، يمكنك إنشاء استوديو وإضافة **عميلك التالي برجاء مشروع**. يمكنك أيضًا إضافة **عميل تالي لأصدقائك ، برجاء إنشاء مشروع** لإنشاء مركز تجاري يضم متاجر وشركات مختلفة.
 
 --- collapse ---
 
 ---
 
-title: Build a shopping market
+العنوان: بناء سوق تسوق
 
 ---
 
-Save your project, then click on your username and select **My Stuff**.
+أحفظ مشروعك ثم أنقر على اسم المستخدم وحدد
 
-![the pop up menu under your account name in the top right.](images/my-stuff-menu.png)
+![القائمة المنبثقة أسفل اسم حسابك في أعلى اليمين.](images/my-stuff-menu.png)
 
-From your **My Stuff** page, click on the **+ New Studio** button.
+من صفحة **My Stuff** الخاصة بك ، انقر فوق الزر **+ New Studio**.
 
-![The grey 'New Studio' button on the 'My Stuff' page.](images/create-studio.png)
+![الزر الرمادي "استوديو جديد" في صفحة "أشيائي".](images/create-studio.png)
 
-Give your new studio a name and description.
+امنح الاستوديو الجديد اسمًا ووصفًا.
 
-![The name box at the top of the studio and the description box on the left of the studio.](images/naming-studio.png)
+![مربع الاسم أعلى الاستوديو ومربع الوصف على يسار الاستوديو.](images/naming-studio.png)
 
-Click on the **Add projects** button. You can add yor own project by selecting it from the list at the bottom of the page.
+انقر فوق الزر **إضافة مشاريع **. يمكنك إضافة مشروعك الخاص عن طريق تحديده من القائمة الموجودة أسفل الصفحة.
 
-![The 'Add Projects' pop up at the bottom of the page with a gallery of project thumbnails. ](images/add-your-projects.png)
+![تنبثق "إضافة مشاريع" في أسفل الصفحة مع معرض للصور المصغرة للمشروع. ](images/add-your-projects.png)
 
-You can also add projects your friends have created. Ask them to share their project and give you the link. Type or paste the link into the url box, then click the **Add by url** button.
+يمكنك أيضًا إضافة مشاريع أنشأها أصدقاؤك. اطلب منهم مشاركة مشروعهم وإعطائك الرابط. اكتب الرابط أو الصقه في مربع عنوان url ، ثم انقر فوق الزر **Add by url**.
 
-![The url box underneath the 'Add projects' button and the 'Add by url' button.](images/path.png)
+![مربع عنوان url الموجود أسفل الزر "إضافة مشاريع" والزر "إضافة بواسطة عنوان url".](images/path.png)
 
 --- /collapse ---
 
-Share your project and send a link to people you know. The whole Scratch community will also be able to find your project and try it out.
+شارك مشروعك وأرسل رابط إلى الأشخاص الذين تعرفهم. سيتمكن مجتمع Scratch بأكمله أيضًا من العثور على مشروعك وتجربته.
 
 [[[share-scratch]]]
 
-Why not invite your friends to create a project? Let them know how you had fun.
+لماذا لا تدعو أصدقائك لإنشاء مشروع؟ دعهم يعرفون كيف استمتعت
 
-If you have a Scratch account, and have shared your **Next customer please** project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Ignore any comments that are unhelpful or irrelevant.
+إذا كان لديك حساب Scratch ، وشاركت مشروعك ** **، ترقب التعليقات التي قد يدلي بها الآخرون حول إبداعك. التعليقات هي طريقة رائعة للتفكير في عملك. تجاهل أي تعليقات غير مفيدة سلبية أو غير ذات صلة.
 
 [[[comments-feedback-scratch]]]
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+ألهم مجتمع Raspberry Pi Foundation بمشروعك!
 
-To submit your project to our ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+لإرسال مشروعك إلى ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){: target = "_ blank"} استوديو Scratch ، يُرجى إكمال [هذا النموذج](https://form.raspberrypi.org/f/community-project-submissions){: target = "_ blank"}.
 
-![Example shop projects in the 'Intergalactic shopping market' Scratch studio.](images/studio-example.png)
+![مثال لمشاريع متجر في استوديو سكراتش "سوق التسوق بين المجرات".](images/studio-example.png)
 
 --- /task ---
