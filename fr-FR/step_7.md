@@ -1,22 +1,22 @@
-## Upgrade your project
+## Améliorer ton projet
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time you can upgrade your project.
+Si tu as le temps, tu peux perfectionner ton projet.
 </div>
 <div>
 ![](images/upgrade-image.png){:width="300px"}
 </div>
 </div>
 
-Here are some ideas you could try:
-- Add more items to sell
-- Add more graphic and sound effects
-- Paint your own scenery and other costumes
-- Make another business and allow players to visit them both
+Voici quelques idées que tu peux essayer :
+- Ajoute plus d'articles à vendre
+- Ajoute plus d'effets graphiques et sonores
+- Peins tes propres décors et autres costumes
+- Crée un autre commerce et autorise les joueurs à les visiter tous les deux
 
-Each example project in the [Introduction](.) has a ‘See Inside’ link for you to open the project in Scratch, and look at the code to get ideas and see how they work.
+Chaque exemple de projet dans l'[introduction](.) a un lien « Voir à l'intérieur » pour que tu puisses ouvrir le projet dans Scratch et regarder le code pour avoir des idées et voir comment ils fonctionnent.
 
-Take a look at our ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio to see projects created by community members.
+Jette un œil à notre studio Scratch [« Intergalactic shopping market »](https://scratch.mit.edu/studios/29662180){:target="_blank"} pour voir les projets créés par les membres de la communauté.
 
 --- save ---
