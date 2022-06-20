@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Ερώτηση 2 από 3
 ---
 
-In a shop, the **seller** has this code in the checkout script:
+Σε ένα κατάστημα, ο **πωλητής** έχει αυτόν τον κώδικα στο script ολοκλήρωσης της αγοράς:
 
 ```blocks3
 ask [How are you today?] and wait
@@ -16,45 +16,45 @@ say [Sorry to hear that.] for [2] seconds
 end
 ```
 
-When the code runs, the user types the answer 'great'. What will the **seller** sprite say?
+Όταν εκτελείται ο κώδικας, ο χρήστης πληκτρολογεί την απάντηση «υπέροχο». Τι θα πει το αντικείμενο του **πωλητή**;
 
-![An 'ask' box with the word 'great' typed in.](images/quiz2.png)
+![Ένα πλαίσιο «ρώτησε» με πληκτρολογημένη τη λέξη «υπέροχο».](images/quiz2.png)
 
 --- choices ---
 
-- (x) The **Seller** will say `Sorry to hear that.`
+- (x) Ο **Πωλητής** θα πει `Λυπάμαι που το ακούω αυτό.`
 
   --- feedback ---
 
-  Yes. Humans know that 'great' means the same as 'good', but the '=' checks whether the letters are the same.
+  Ναι. Οι άνθρωποι γνωρίζουν ότι το «υπέροχο» σημαίνει το ίδιο με το «καλό», αλλά το «=» ελέγχει αν τα γράμματα είναι τα ίδια.
 
-  The **condition** `answer`{:class="block3sensing"} = `good` is 'false' so the `say`{:class="block3looks"} block in the `else`{:class="block3control"} part will run.
+  Η **συνθήκη** `απάντηση`{:class="block3sensing"} = `καλό` είναι "ψευδής", οπότε τα μπλοκ `πες`{:class="block3looks"} στο τμήμα `αλλιώς`{:class="block3control"} θα τρέξει.
 
   --- /feedback ---
 
-- ( ) The **seller** will say `That's fantastic!`
+- (x) Ο **Πωλητής** θα πει `Αυτό είναι φανταστικό!`
 
   --- feedback ---
 
-No, only the exact answer `good` will make the **seller** say `That's fantastic!`. Look at the code again to see what message the **seller** will say for all answers that are not `good`.
+Όχι, μόνο η ακριβής απάντηση `καλό` θα κάνει τον **πωλητή** να πει `Αυτό είναι φανταστικό!`. Κοίταξε ξανά τον κώδικα για να δεις τι μήνυμα θα πει ο **πωλητής** για όλες τις απαντήσεις που δεν είναι `καλό`.
 
-**Tip:** 'Good' or 'GOOD' would match 'good'.
+**Συμβουλή:** Και το «Καλό» και το «ΚΑΛΟ» θα ταιριάζει με το «καλό».
 
   --- /feedback ---
 
-- ( ) The **seller** won't say anything.
+- ( ) Ο **πωλητής** δεν θα πει τίποτα.
 
   --- feedback ---
 
-No, the **seller** will always say something. Look carefully at the code to see what the message will be.
+Όχι, ο **πωλητής** θα λέει πάντα κάτι. Κοίταξε προσεκτικά τον κώδικα για να δεις ποιο θα είναι το μήνυμα.
 
   --- /feedback ---
 
-- ( ) The **seller** will say `great`.
+- (x) Ο **πωλητής** θα πει `υπέροχο`.
 
   --- feedback ---
 
-No, the **customer** typed the answer 'great' but the **seller** does not say the answer. Look carefully at the code to see what the message will be.
+Όχι, ο **πελάτης** πληκτρολόγησε την απάντηση «υπέροχο», αλλά ο **πωλητής** δεν λέει την απάντηση. Κοίταξε προσεκτικά τον κώδικα για να δεις ποιο θα είναι το μήνυμα.
 
   --- /feedback ---
 
