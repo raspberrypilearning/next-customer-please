@@ -1,49 +1,49 @@
-name
+όνομα
 
-my shop
+το κατάστημά μου
 
-next customer
+επόμενος πελάτης
 
-Next customer please!
+Επόμενος πελάτης παρακαλώ!
 
-total
+σύνολο
 
-That will be
+Αυτό θα είναι
 
-Thanks for shopping at
+Ευχαριστώ για τις αγορές σου στο
 
-Would you like to pay or cancel?
+Θέλεις να πληρώσεις ή να ακυρώσεις;
 
-pay
+πληρωμή
 
-cancel
+ακύρωση
 
-Ok. No problem
+Εντάξει. Κανένα πρόβλημα
 
-Click on the items you'd like
+Κάνε κλικ στα προϊόντα που θέλεις
 
-Did you find everything you wanted today?
+Βρήκες όλα όσα ήθελες σήμερα;
 
-yes
+ναι
 
-That's fantastic!
+Αυτό είναι φανταστικό!
 
-Maybe I should add more items to my shop
+Ίσως θα έπρεπε να προσθέσω περισσότερα προϊ'όντα στο κατάστημά μου
 
-Bag
+Τσάντα
 
-1 scoop
+1 μεζούρα
 
-cone
+κώνος
 
-shop
+κατάστημα
 
 true
 
-false
+ψευδές
 
-How are you today?
+Πώς είσαι σήμερα;
 
-good
+καλά
 
-Sorry to hear that.
+Λυπάμαι που το ακούω αυτό.
