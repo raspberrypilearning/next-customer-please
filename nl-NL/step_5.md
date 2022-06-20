@@ -1,8 +1,8 @@
-## Additional features
+## Extra functies
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-There are lots of features you could add to improve your customers' shopping experience. You don't need to add everything. Just add improvements that you think are important.
+Er zijn veel functies die je kunt toevoegen om de winkelervaring van je klanten te verbeteren. Je hoeft niet alles toe te voegen. Voeg gewoon verbeteringen toe die je belangrijk vindt.
 
 </div>
 <div>
@@ -10,30 +10,30 @@ There are lots of features you could add to improve your customers' shopping exp
 </div>
 </div>
 
-You can 'See inside' the example projects to look at how they work.
+Je kunt 'binnen zien' in de voorbeeldprojecten om te kijken hoe ze werken.
 
-Example projects: **Fresh Space Fruit**: [See inside](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
-**Cool Shirts**: [See inside](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
-**Ice cream shop**: [See inside](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
-**Vending machine**: [See inside](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
+Voorbeeldprojecten: **Vers Ruimte Fruit**: [Zie binnenkant](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
+**Coole Shirts**: [Zie binnenkant](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
+**IJssalon**: [Zie binnenkant](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
+**Verkoopautomaat**: [Binnenkijken](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
 
-**Tip:** If you are logged in to a Scratch account, then you can use the **Backpack** to copy scripts or sprites to your project.
+**Tip:** als je bent aangemeld bij een Scratch-account, dan kun je de **Backpack** gebruiken om scripts of sprites naar je project te kopiëren.
 
 [[[scratch-backpack]]]
 
 --- task ---
 
-Do you think your checkout person (or machine) should ask more questions?
+Denk je dat je verkoper (of machine) meer vragen zou moeten stellen?
 
-You can add `ask`{:class="block3sensing"} blocks to your **seller**'s `when this sprite clicked`{:class="block3events"} script and `say`{:class="block3looks"} different things depending on the customer's response.
+Je kunt `vraag`{:class="block3sensing"} blokken toevoegen aan je **verkoper**'s `wanneer op deze sprite wordt geklikt`{:class="block3events"}-script en `zeg`{:class="block3looks"} verschillende dingen, afhankelijk van de reactie van de klant.
 
-You could ask whether the service was good, or if they're having a nice day. Or something specific to your shop, like "What are you going to cook?"
+Je zou kunnen vragen of de service goed was, of dat ze een leuke dag hebben. Of iets specifieks voor je winkel, zoals "wat ga je koken?"
 
 --- collapse ---
 
 ---
 
-title: Ask and respond to questions
+title: Stel en beantwoord vragen
 
 ---
 
@@ -46,31 +46,31 @@ say [Maybe I should add more items to my shop] for [2] seconds
 end
 ```
 
-**Debug:** Check that you have spelled the options correctly in your code and in your answer. It's OK if you use capital letters, so "Yes" and "YES" will match "yes".
+**Debug:**: Controleer dat je de opties in je code en antwoord goed gespeld hebt. Het is OK als je hoofdletters gebruikt, dus "Ja" en "JA" komen overeen met "ja".
 
-Add multiple questions to create a chatbot or non-player character that you can talk to.
+Voeg meerdere vragen toe om een chatbot of een "niet-speler karakter" te maken waarmee je kunt praten.
 
 --- /collapse ---
 
 --- /task ---
 
-Do you want something else to happen when you add an item?
+Wil je dat er iets anders gebeurt wanneer je een product toevoegt?
 
 --- task ---
 
-The Cool Shirts project has shirts that glide into a bag.
+Het Coole Shirts project heeft shirts die in een tas glijden.
 
 --- collapse ---
 
 ---
 
-title: Make items glide into a container
+title: Laat voorwerpen in een verpakking glijden
 
 ---
 
-Add a **Container** sprite. You could use an existing sprite like the **Gift** or **Take out** sprite, or paint your own with simple shapes.
+Voeg een **Verpakking** sprite toe. Je kunt een bestaande sprite gebruiken zoals de **Gift** of **Takeout** sprite, of je eigen sprite tekenen met eenvoudige vormen.
 
-Add a script to make the **Container** always appear at the front:
+Voeg een script toe om de **Verpakking** altijd vooraan te laten verschijnen:
 
 ```blocks3
 when flag clicked
@@ -79,7 +79,7 @@ go to [front v] layer
 end
 ```
 
-Then you'll need to add code to each **Item** you have for sale to make them glide to the container when they are clicked:
+Vervolgens moet je code toevoegen aan elk **product** dat je aanbiedt om ze naar de verpakking te laten glijden wanneer ze worden aangeklikt:
 
 ```blocks3
 when this sprite clicked
@@ -91,7 +91,7 @@ change [total v] by [12]
 +show
 ```
 
-If you don't want the container there all the time, you can add scripts to make it show and hide at the right time:
+Als je de verpakking niet altijd wilt laten zien, kun je scripts toevoegen om hem op het juiste moment te laten zien en verbergen:
 
 ```blocks3
 when I receive [next customer v]
@@ -100,29 +100,29 @@ wait [1] seconds
 show
 ```
 
-**Test:** Try your project and make sure items glide to the container and hide.
+**Test:** Probeer je project en zorg ervoor dat producten naar de verpakking glijden en verdwijnen.
 
-**Debug:** Check your scripts carefully and make sure you have updated all of your **Item** sprites. You can look at [Cool Shirts](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"} if you need to see a working example.
+**Debug:** Controleer zorgvuldig je scripts en zorg ervoor dat je al je **Product** sprites hebt bijgewerkt. Je kunt [Coole shirts](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"} bekijken als je een werkend voorbeeld wilt zien.
 
 --- /collapse ---
 
-The Ice cream project shows the ice cream as the customer chooses their options.
+Het IJssalon project toont het ijs terwijl de klant zijn smaken kiest.
 
 --- collapse ---
 
 ---
 
-title: Customise and show a sprite
+title: Pas een sprite aan en laat deze zien
 
 ---
 
-Each item needs to `broadcast`{:class="block3events"} in its `when this sprite clicked`{:class="block3events"} script:
+Elk product moet een `zend signaal`{:class="block3events"} blok in zijn `wanneer op deze sprite wordt geklikt`{:class="block3events"} script hebben:
 
 ```blocks3
 +broadcast (1 scoop v)
 ```
 
-Then the sprite you want to show or change needs to respond to that message:
+Dan moet de sprite die je wilt laten zien of veranderen op dat bericht reageren:
 
 ```blocks3
 when I receive [1 scoop v]
@@ -130,53 +130,53 @@ play sound (Chomp v) until done
 switch costume to (1 scoop v)
 ```
 
-You may also want to change or hide the sprite for a new customer:
+Je kunt ook de sprite voor een nieuwe klant wijzigen of verbergen:
 
 ```blocks3
 when I receive [next customer v]
 switch costume to (cone v)
 ```
 
-If you have multiple items, then you will need to add more messages and scripts to to receive them.
+Als je meerdere producten hebt, moet je meer berichten en scripts toevoegen om ze te ontvangen.
 
 --- /collapse ---
 
 --- /task ---
 
-Have you noticed that your customer can add items after they have started to check out?
+Heb je gemerkt dat je klant producten kan toevoegen nadat ze zijn begonnen met afrekenen?
 
 --- task ---
 
-If you want to stop the customer adding items when they are at the checkout, you can add a `shop`{:class="block3variables"} variable and use it to control when items can be added.
+Als je wilt stoppen met het toevoegen van producten aan de klant wanneer deze aan het afrekenen is, kun je een `winkelen`{:class="block3variables"} variabele toevoegen en deze gebruiken om te bepalen wanneer producten kunnen worden toegevoegd.
 
 --- collapse ---
 
 ---
-title: Only allow purchases when the customer isn't at the checkout
+title: Alleen aankopen toestaan wanneer de klant niet aan het afrekenen is
 
 ---
 
-Add a `variable`{:class="block3variables"} called `shop` for all sprites. You will set this to `true` when the customer is in the shop and `false` when they are at the checkout.
+Voeg voor alle sprites een `variabele`{:class="block3variables"} met de naam `winkelen` toe. Je zet dit op `waar` wanneer de klant in de winkel is en `niet waar` wanneer hij of zij aan het afrekenen is.
 
-Select your **seller** sprite. Update the `when flag clicked`{:class="block3events"} script to allow shopping when your project starts:
+Selecteer je **verkoper** sprite. Werk het `wanneer op de groene vlag wordt geklikt`{:class="block3events"} script bij om winkelen toe te staan wanneer je project begint:
 
 ```blocks3
 +set [shop v] to [true]
 ```
 
-Now add a block to change the `shop`{:class="block3variables"} to `false` at the beginning of your **seller**'s `when this sprite clicked`{:class="block3events"} script:
+Voeg nu een blok toe om de `winkelen`{:class="block3variables"} variabele te veranderen in `niet waar` aan het begin van het **verkoper**'s `wanneer op deze sprite wordt geklikt`{:class="block3events"} script:
 
 ```blocks3 
 +set [shop v] to [false]
 ```
 
-And a block to set the `shop`{:class="block3variables"} variable back to `true` at the end of the same script:
+En een blok om de `winkelen`{:class="block3variables"} variabele terug te zetten naar `waar` aan het einde van hetzelfde script:
 
 ```blocks3 
 +set [shop v] to [true]
 ```
 
-Now you need to update the items you sell to check the `shop`{:class="block3variables"} variable:
+Nu moet je de producten die je verkoopt bijwerken om de `winkelen`{:class="block3variables"} variabele te controleren:
 
 ```blocks3
 when this sprite clicked
@@ -186,11 +186,11 @@ change [total v] by [10]
 end
 ```
 
-You will need to do this for every item you sell in your shop.
+Je moet dit doen voor elk product dat je in je winkel verkoopt.
 
-**Test:** Click the green flag then try shopping. Check that you can still add items and checkout, but you can't add items once you have started checking out.
+**Test:** Klik op de groene vlag en probeer te winkelen. Controleer of je nog steeds producten kunt toevoegen en afrekenen, maar dat je geen producten kunt toevoegen nadat je bent begonnen met afrekenen.
 
-**Debug:** Check your code really carefully. You can look at the [Space Fruit](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"} project if you need to see a working example.
+**Debug:** Controleer je code heel zorgvuldig. Je kunt het [Ruimte fruit](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"} project bekijken als je een werkend voorbeeld wilt zien.
 
 --- /collapse ---
 
