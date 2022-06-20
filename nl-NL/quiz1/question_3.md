@@ -2,44 +2,44 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Vraag 3 van 3
 ---
 
-Jay's project is not working. What should they do?
+Jay's project werkt niet. Wat moet ze doen?
 
 --- choices ---
 
-- ( ) Panic!
+- ( ) paniek!
 
   --- feedback ---
 
-  That's not going to help. You need to think clearly to fix coding problems.
+  Dat gaat niet helpen. Je moet goed nadenken om codeerproblemen op te lossen.
 
   --- /feedback ---
 
-- ( ) Give up
+- ( ) Opgeven
 
   --- feedback ---
 
-  There are lots of things Jay could try. Great coders often get things wrong the first time and learn a lot from their mistakes.
+  Er zijn veel dingen die Jay zou kunnen proberen. Zelfs ervaren coders doen het ook niet altijd de eerste keer goed en leren veel van hun fouten.
 
   --- /feedback ---
 
-- (x) Read the code carefully and try to debug it.
+- (X) Lees de code zorgvuldig en probeer deze te debuggen.
 
   --- feedback ---
 
-  Yes. Fixing bugs is part of coding. The more you practise the more experience you get, and the easier it becomes to find and fix bugs.
+  Ja. Het repareren van bugs is een onderdeel van coderen. Hoe meer je oefent, hoe meer ervaring je krijgt, en hoe gemakkelijker het wordt om bugs te vinden en te repareren.
 
   --- /feedback ---
 
-- ( ) Get annoyed with the computer
+- ( ) Word boos op de computer
 
   --- feedback ---
 
-A computer only does what we tell it to do, so getting annoyed with it isn't logical.
+Een computer doet alleen wat we hem vertellen te doen, dus het is niet logisch om er boos op te worden.
 
-Being annoyed won't help to solve the problem, as it will make it harder to think clearly.
+Geïrriteerd raken helpt niet om het probleem op te lossen, omdat het het moeilijker zal maken om duidelijk te denken.
 
   --- /feedback ---
 
