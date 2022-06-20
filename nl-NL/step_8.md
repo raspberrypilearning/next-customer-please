@@ -1,55 +1,55 @@
-## Share
+## Deel
 
-If you are in a club, why not share your project with friends?
+Als je lid bent van een club, waarom zou je je project dan niet delen met vrienden?
 
-If you are logged in on Scratch, you can create a studio and add your **Next customer please** project. You can also add your friends' **Next customer please** projects to create a mall of different shops and businesses.
+Als je bent aangemeld bij Scratch, kun je een studio maken en je **Volgende klant** project toevoegen. Je kunt ook **Volgende klant**-projecten van je vrienden toevoegen om een winkelcentrum met verschillende winkels en bedrijven te maken.
 
 --- collapse ---
 
 ---
 
-title: Build a shopping market
+title: Bouw een winkelcentrum
 
 ---
 
-Save your project, then click on your username and select **My Stuff**.
+Sla je project op, klik dan op je gebruikersnaam en selecteer **Mijn projecten**.
 
-![the pop up menu under your account name in the top right.](images/my-stuff-menu.png)
+![het pop-upmenu onder je accountnaam in de rechterbovenhoek.](images/my-stuff-menu.png)
 
-From your **My Stuff** page, click on the **+ New Studio** button.
+Klik op de pagina **Mijn projecten** op de knop **+ Nieuwe Studio**.
 
-![The grey 'New Studio' button on the 'My Stuff' page.](images/create-studio.png)
+![De grijze knop 'Nieuwe Studio' op de pagina 'Mijn projecten'.](images/create-studio.png)
 
-Give your new studio a name and description.
+Geef je nieuwe studio een naam en beschrijving.
 
-![The name box at the top of the studio and the description box on the left of the studio.](images/naming-studio.png)
+![Het naamvak bovenaan de studio en het beschrijvingsvak links van de studio.](images/naming-studio.png)
 
-Click on the **Add projects** button. You can add yor own project by selecting it from the list at the bottom of the page.
+Klik op de knop **Projecten toevoegen**. Je kunt een eigen project toevoegen door het te selecteren in de lijst onder aan de pagina.
 
-![The 'Add Projects' pop up at the bottom of the page with a gallery of project thumbnails. ](images/add-your-projects.png)
+![Het pop-upvenster 'Projecten toevoegen' onder aan de pagina met een galerij met projectminiaturen. ](images/add-your-projects.png)
 
-You can also add projects your friends have created. Ask them to share their project and give you the link. Type or paste the link into the url box, then click the **Add by url** button.
+Je kunt ook projecten toevoegen die je vrienden hebben gemaakt. Vraag ze om hun project te delen en jou de link te geven. Typ of plak de link in het url-vak en klik vervolgens op de knop **Toevoegen op url**.
 
-![The url box underneath the 'Add projects' button and the 'Add by url' button.](images/path.png)
+![Het url-vak onder de knop 'Toevoegen projecten' en de knop 'Toevoegen op url'.](images/path.png)
 
 --- /collapse ---
 
-Share your project and send a link to people you know. The whole Scratch community will also be able to find your project and try it out.
+Deel je project en stuur een link naar mensen die je kent. De hele Scratch-community kan zo je project vinden en uitproberen.
 
 [[[share-scratch]]]
 
-Why not invite your friends to create a project? Let them know how you had fun.
+Waarom nodig je je vrienden niet uit om een project te maken? Laat ze weten hoeveel plezier je hebt gehad.
 
-If you have a Scratch account, and have shared your **Next customer please** project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Ignore any comments that are unhelpful or irrelevant.
+Als je een Scratch-account hebt en je **Volgende klant wilt** project hebt gedeeld, houd dan opmerkingen die anderen kunnen maken over je creatie in de gaten. Terugkoppeling is een geweldige manier om te reflecteren op je werk. Negeer alle opmerkingen die nutteloos of irrelevant zijn.
 
 [[[comments-feedback-scratch]]]
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Inspireer de Raspberry Pi Foundation-gemeenschap met jouw project!
 
-To submit your project to our ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Om je ['Intergalaktisch winkelcentrum'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio project in te dienen vul [dit formulier](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} in.
 
-![Example shop projects in the 'Intergalactic shopping market' Scratch studio.](images/studio-example.png)
+![Voorbeeld shop projecten in de 'Intergalactic shopping market' Scratch studio.](images/studio-example.png)
 
 --- /task ---
