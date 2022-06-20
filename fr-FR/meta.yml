@@ -1,35 +1,38 @@
 ---
-title: Next customer please
+title: Client suivant, s'il vous plaît
 hero_image: images/banner.png
-description: A shop simulation project where the customer can buy items.
+description: Un projet de simulation de boutique où le client peut acheter des articles.
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
   - 
     title: Introduction
   - 
-    title: Your business idea
+    title: Ton idée commerciale
   - 
-    title: Items for sale
-    completion: engaged
+    title: Articles en vente
+    completion:
+      - engaged
   - 
-    title: Purchases
+    title: Achats
   - 
-    title: Additional features
-    completion: internal
+    title: Fonctionnalités supplémentaires
+    completion:
+      - internal
   - 
-    title: Reflection
-    completion: external
+    title: Réflexion
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Upgrade your project
+    title: Améliorer ton projet
   - 
-    title: Share
+    title: Partager
   - 
-    title: What next?
+    title: Et ensuite ?
