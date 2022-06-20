@@ -1,8 +1,8 @@
-## Additional features
+## Επιπρόσθετα χαρακτηριστικά
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-There are lots of features you could add to improve your customers' shopping experience. You don't need to add everything. Just add improvements that you think are important.
+Υπάρχουν πολλές δυνατότητες που θα μπορούσες να προσθέσεις για να βελτιώσεις την εμπειρία αγορών των πελατών σου. Δεν χρειάζεται να προσθέσεις τα πάντα. Απλώς πρόσθεσε βελτιώσεις που πιστεύεις ότι είναι σημαντικές.
 
 </div>
 <div>
@@ -10,30 +10,30 @@ There are lots of features you could add to improve your customers' shopping exp
 </div>
 </div>
 
-You can 'See inside' the example projects to look at how they work.
+Μπορείς να πατήσεις το «Δες μέσα» στα παραδείγματα έργων για να δεις πώς λειτουργούν.
 
-Example projects: **Fresh Space Fruit**: [See inside](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
-**Cool Shirts**: [See inside](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
-**Ice cream shop**: [See inside](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
-**Vending machine**: [See inside](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
+Παραδείγματα έργων: **Φρέσκα Διαστημικά Φρούτα**: [Δες μέσα](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
+**Καταπληκτικά μπλουζάκια**: [Δες μέσα](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
+**Κατάστημα Παγωτού**: [Δες μέσα](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
+**Αυτόματος πωλητής**: [Δες μέσα](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
 
-**Tip:** If you are logged in to a Scratch account, then you can use the **Backpack** to copy scripts or sprites to your project.
+**Συμβουλή:** Εάν είσαι συνδεδεμένος/η σε λογαριασμό Scratch, τότε μπορείς να χρησιμοποιήσεις το **Σακίδιο** για να αντιγράψεις scripts ή αντικείμενα στο έργο σου.
 
 [[[scratch-backpack]]]
 
 --- task ---
 
-Do you think your checkout person (or machine) should ask more questions?
+Πιστεύεις ότι το άτομο (ή το μηχάνημα) που έχεις στο ταμείο θα πρέπει να κάνει περισσότερες ερωτήσεις;
 
-You can add `ask`{:class="block3sensing"} blocks to your **seller**'s `when this sprite clicked`{:class="block3events"} script and `say`{:class="block3looks"} different things depending on the customer's response.
+Μπορείς να προσθέσεις μπλοκ `ρώτησε`{:class="block3sensing"} στο script `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"} του **πωλητή** και να `λέει`{:class="block3looks"} διαφορετικά πράγματα ανάλογα με την ανταπόκριση του πελάτη.
 
-You could ask whether the service was good, or if they're having a nice day. Or something specific to your shop, like "What are you going to cook?"
+Θα μπορούσες να ρωτήσεις αν η εξυπηρέτηση ήταν καλή ή αν είχαν μια καλή ημέρα. Ή κάτι συγκεκριμένο για το μαγαζί σου, όπως "Τι θα μαγειρέψετε;"
 
 --- collapse ---
 
 ---
 
-title: Ask and respond to questions
+title: Ρώτησε και απάντησε σε ερωτήσεις
 
 ---
 
@@ -46,31 +46,31 @@ say [Maybe I should add more items to my shop] for [2] seconds
 end
 ```
 
-**Debug:** Check that you have spelled the options correctly in your code and in your answer. It's OK if you use capital letters, so "Yes" and "YES" will match "yes".
+**Εντοπισμός σφαλμάτων:** Έλεγξε ότι έχεις γράψει σωστά τις επιλογές στον κώδικά σου και στην απάντησή σου. Δεν πειράζει αν χρησιμοποίησες κεφαλαία γράμματα, οπότε το "Ναι" και το "ΝΑΙ" θα ταιριάζουν με το "ναι".
 
-Add multiple questions to create a chatbot or non-player character that you can talk to.
+Πρόσθεσε πολλές ερωτήσεις για να δημιουργήσεις έναν χαρακτήρα chatbot ή NPC με τον οποίο μπορείς να μιλήσεις.
 
 --- /collapse ---
 
 --- /task ---
 
-Do you want something else to happen when you add an item?
+Θέλεις να συμβεί κάτι άλλο όταν προσθέτεις ένα αντικείμενο;
 
 --- task ---
 
-The Cool Shirts project has shirts that glide into a bag.
+Το έργο Καταπληκτικά Μπλουζάκια έχει μπλουζάκια που γλιστρούν σε μια τσάντα.
 
 --- collapse ---
 
 ---
 
-title: Make items glide into a container
+title: Κάνε τα προϊόντα να γλιστρούν μέσα σε ένα δοχείο
 
 ---
 
-Add a **Container** sprite. You could use an existing sprite like the **Gift** or **Take out** sprite, or paint your own with simple shapes.
+Πρόσθεσε ένα αντικείμενο για το **Δοχείο**. Θα μπορούσες να χρησιμοποιήσεις ένα υπάρχον αντικείμενο όπως το **Gift** ή το **Take out** ή να ζωγραφίσεις το δικό σου με απλά σχήματα.
 
-Add a script to make the **Container** always appear at the front:
+Πρόσθεσε ένα script για να κάνεις το **Δοχείο** να εμφανίζεται πάντα στο προσκήνιο:
 
 ```blocks3
 when flag clicked
@@ -79,7 +79,7 @@ go to [front v] layer
 end
 ```
 
-Then you'll need to add code to each **Item** you have for sale to make them glide to the container when they are clicked:
+Στη συνέχεια, θα χρειαστεί να προσθέσεις κώδικα σε κάθε **Προϊόν** που διαθέτεις προς πώληση για να τα κάνεις να γλιστρήσουν στο δοχείο όταν κάνεις κλικ σε αυτά:
 
 ```blocks3
 when this sprite clicked
@@ -91,7 +91,7 @@ change [total v] by [12]
 +show
 ```
 
-If you don't want the container there all the time, you can add scripts to make it show and hide at the right time:
+Εάν δεν θέλεις το δοχείο να εμφανίζεται συνέχεια, μπορείς να προσθέσεις scripts για να εμφανίζεται και να εξαφανίζεται την κατάλληλη στιγμή:
 
 ```blocks3
 when I receive [next customer v]
@@ -100,29 +100,29 @@ wait [1] seconds
 show
 ```
 
-**Test:** Try your project and make sure items glide to the container and hide.
+**Δοκιμή:** Δοκίμασε το έργο σου και βεβαιώσου ότι τα προϊόντα γλιστρούν στο δοχείο και εξαφανίζονται.
 
-**Debug:** Check your scripts carefully and make sure you have updated all of your **Item** sprites. You can look at [Cool Shirts](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"} if you need to see a working example.
+**Εντοπισμός σφαλμάτων:** Έλεγξε προσεκτικά τα σενάρια και βεβαιώσου ότι έχεις ενημερώσει και όλα τα Αντικείμενα για τα**Προϊόντα** σου. Μπορείς να δεις το έργο [Καταπληκτικά Μπλουζάκια](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"} εάν θέλεις να δεις ένα λειτουργικό παράδειγμα.
 
 --- /collapse ---
 
-The Ice cream project shows the ice cream as the customer chooses their options.
+Το έργο Παγωτό δείχνει το παγωτό καθώς ο πελάτης κάνει τις επιλογές του.
 
 --- collapse ---
 
 ---
 
-title: Customise and show a sprite
+title: Προσάρμοσε κι εμφάνισε ένα αντικείμενο
 
 ---
 
-Each item needs to `broadcast`{:class="block3events"} in its `when this sprite clicked`{:class="block3events"} script:
+Κάθε αντικείμενο χρειάζεται να `μεταδίδει`{:class="block3events"} στα script του `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"}:
 
 ```blocks3
 +broadcast (1 scoop v)
 ```
 
-Then the sprite you want to show or change needs to respond to that message:
+Στη συνέχεια, το αντικείμενο που θέλεις να εμφανίσεις ή να αλλάξεις πρέπει να ανταποκριθεί σε αυτό το μήνυμα:
 
 ```blocks3
 when I receive [1 scoop v]
@@ -130,53 +130,53 @@ play sound (Chomp v) until done
 switch costume to (1 scoop v)
 ```
 
-You may also want to change or hide the sprite for a new customer:
+Μπορεί επίσης να θέλεις να αλλάξεις ή να εξαφανίσεις το αντικείμενο για έναν νέο πελάτη:
 
 ```blocks3
 when I receive [next customer v]
 switch costume to (cone v)
 ```
 
-If you have multiple items, then you will need to add more messages and scripts to to receive them.
+Εάν έχεις πολλά προϊόντα, τότε θα χρειαστεί να προσθέσεις περισσότερα μηνύματα και scripts.
 
 --- /collapse ---
 
 --- /task ---
 
-Have you noticed that your customer can add items after they have started to check out?
+Έχεις παρατηρήσει ότι ο πελάτης σου μπορεί να προσθέσει προϊόντα αφού έχει αρχίσει τη διαδικασία πληρωμής;
 
 --- task ---
 
-If you want to stop the customer adding items when they are at the checkout, you can add a `shop`{:class="block3variables"} variable and use it to control when items can be added.
+Εάν θέλεις να σταματήσεις τον πελάτη να προσθέτει προϊόντα όταν είναι στο ταμείο, μπορείς να προσθέσεις μια μεταβλητή `αγορά`{:class="block3variables"} και να τη χρησιμοποιήσεις για να ελέγξεις πότε μπορούν να προστεθούν προϊόντα.
 
 --- collapse ---
 
 ---
-title: Only allow purchases when the customer isn't at the checkout
+title: Επιτρέπονται οι αγορές μόνο όταν ο πελάτης δεν είναι στο ταμείο
 
 ---
 
-Add a `variable`{:class="block3variables"} called `shop` for all sprites. You will set this to `true` when the customer is in the shop and `false` when they are at the checkout.
+Πρόσθεσε μία `μεταβλητή`{:class="block3variables"} που ονομάζεται `αγορά`. Θα την ορίσεις σε `αληθές` όταν ο πελάτης είναι στο κατάστημα και `ψευδές` όταν είναι στο ταμείο.
 
-Select your **seller** sprite. Update the `when flag clicked`{:class="block3events"} script to allow shopping when your project starts:
+Επίλεξε το αντικείμενο **πωλητή**. Ενημέρωσε το script `όταν γίνει κλικ στη σημαία`{:class="block3events"} για να επιτρέψεις τις αγορές κατά την έναρξη του έργου σου:
 
 ```blocks3
 +set [shop v] to [true]
 ```
 
-Now add a block to change the `shop`{:class="block3variables"} to `false` at the beginning of your **seller**'s `when this sprite clicked`{:class="block3events"} script:
+Τώρα πρόσθεσε ένα μπλοκ για να αλλάξεις την `αγορά`{:class="block3variables"} σε `ψευδές` στην αρχή του script `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"} του **πωλητή**:
 
 ```blocks3 
 +set [shop v] to [false]
 ```
 
-And a block to set the `shop`{:class="block3variables"} variable back to `true` at the end of the same script:
+Και ένα μπλοκ για να επαναφέρεις τη μεταβλητή `αγορά`{:class="block3variables"} σε `αληθές` στο τέλος του ίδιου σεναρίου:
 
 ```blocks3 
 +set [shop v] to [true]
 ```
 
-Now you need to update the items you sell to check the `shop`{:class="block3variables"} variable:
+Τώρα πρέπει να ενημερώσεις τα προϊόντα που πουλάς για να ελέγχουν τη μεταβλητή `αγορά`{:class="block3variables"}:
 
 ```blocks3
 when this sprite clicked
@@ -186,11 +186,11 @@ change [total v] by [10]
 end
 ```
 
-You will need to do this for every item you sell in your shop.
+Θα χρειαστεί να το κάνεις αυτό για κάθε προϊόν που πουλάς στο κατάστημά σου.
 
-**Test:** Click the green flag then try shopping. Check that you can still add items and checkout, but you can't add items once you have started checking out.
+**Δοκιμή:** Κάνε κλικ στην πράσινη σημαία και δοκίμασε να αγοράσεις. Βεβαιώσου ότι μπορείς ακόμα να προσθέσεις αντικείμενα και να κάνεις ολοκλήρωση αγοράς, αλλά δεν μπορείς να προσθέσεις αντικείμενα αφού ξεκινήσεις την ολοκλήρωση της αγοράς.
 
-**Debug:** Check your code really carefully. You can look at the [Space Fruit](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"} project if you need to see a working example.
+**Εντοπισμός σφαλμάτων:** Έλεγξε τον κώδικά σου πολύ προσεκτικά. Μπορείς να δεις το έργο [Διαστημικά Φρούτα](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"} εάν θέλεις να δεις ένα λειτουργικό παράδειγμα.
 
 --- /collapse ---
 
