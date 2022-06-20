@@ -1,55 +1,55 @@
-## Share
+## Κοινοποίηση
 
-If you are in a club, why not share your project with friends?
+Εάν είσαι σε μια λέσχη, γιατί να μην μοιραστείς το έργο σου με φίλους;
 
-If you are logged in on Scratch, you can create a studio and add your **Next customer please** project. You can also add your friends' **Next customer please** projects to create a mall of different shops and businesses.
+Εάν είσαι συνδεδεμένος/η στο Scratch, μπορείς να δημιουργήσεις μία συλλογή και να προσθέσεις το έργο **Επόμενος πελάτης παρακαλώ**. Μπορείς επίσης να προσθέσεις τα έργα των φίλων σου **επόμενος πελάτης παρακαλώ** για να δημιουργήσετε ένα εμπορικό κέντρο με διαφορετικά καταστήματα και επιχειρήσεις.
 
 --- collapse ---
 
 ---
 
-title: Build a shopping market
+title: Δημιούργησε ένα εμπορικό κέντρο
 
 ---
 
-Save your project, then click on your username and select **My Stuff**.
+Αποθήκευσε το έργο σου και, στη συνέχεια, κάνε κλικ στο όνομα χρήστη και επίλεξε **Τα πράγματά μου**.
 
-![the pop up menu under your account name in the top right.](images/my-stuff-menu.png)
+![το αναδυόμενο μενού κάτω από το όνομα του λογαριασμού σου επάνω δεξιά.](images/my-stuff-menu.png)
 
-From your **My Stuff** page, click on the **+ New Studio** button.
+Από τη σελίδα **Τα πράγματά μου**, κάνε κλικ στο κουμπί **+ Νέα Συλλογή**.
 
-![The grey 'New Studio' button on the 'My Stuff' page.](images/create-studio.png)
+![Το γκρι κουμπί "Νέα Συλλογή" στη σελίδα "Τα πράγματά μου".](images/create-studio.png)
 
-Give your new studio a name and description.
+Δώσε στη νέα σου συλλογή ένα όνομα και μια περιγραφή.
 
-![The name box at the top of the studio and the description box on the left of the studio.](images/naming-studio.png)
+![Το πλαίσιο ονόματος στο επάνω μέρος της συλλογής και το πλαίσιο περιγραφής στα αριστερά της συλλογής.](images/naming-studio.png)
 
-Click on the **Add projects** button. You can add yor own project by selecting it from the list at the bottom of the page.
+Κάνε κλικ στο κουμπί **Προσθήκη έργων**. Μπορείς να προσθέσεις το δικό σου έργο επιλέγοντάς το από τη λίστα στο κάτω μέρος της σελίδας.
 
-![The 'Add Projects' pop up at the bottom of the page with a gallery of project thumbnails. ](images/add-your-projects.png)
+![Η «Προσθήκη έργων» εμφανίζεται στο κάτω μέρος της σελίδας με μια συλλογή με μικρογραφίες έργων. ](images/add-your-projects.png)
 
-You can also add projects your friends have created. Ask them to share their project and give you the link. Type or paste the link into the url box, then click the **Add by url** button.
+Μπορείς επίσης να προσθέσεις έργα που έχουν δημιουργήσει οι φίλοι σου. Ζήτησέ τους να μοιραστούν το έργο τους και να σου δώσουν τον σύνδεσμο. Πληκτρολόγησε ή επικόλλησε το σύνδεσμο στο πλαίσιο url και, στη συνέχεια, κάνε κλικ στο κουμπί **Add by url**.
 
-![The url box underneath the 'Add projects' button and the 'Add by url' button.](images/path.png)
+![Το πλαίσιο url κάτω από το κουμπί "Προσθήκη έργων" και το κουμπί "Add by url".](images/path.png)
 
 --- /collapse ---
 
-Share your project and send a link to people you know. The whole Scratch community will also be able to find your project and try it out.
+Μοιράσου το έργο σου και στείλε έναν σύνδεσμο σε άτομα που γνωρίζεις. Ολόκληρη η κοινότητα του Scratch θα μπορεί επίσης να βρει το έργο σου και να το δοκιμάσει.
 
 [[[share-scratch]]]
 
-Why not invite your friends to create a project? Let them know how you had fun.
+Γιατί να μην καλέσεις τους φίλους σου να δημιουργήσουν ένα έργο; Πες τους πως ήταν διασκεδαστικό.
 
-If you have a Scratch account, and have shared your **Next customer please** project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Ignore any comments that are unhelpful or irrelevant.
+Εάν έχεις λογαριασμό Scratch και έχεις μοιραστεί το έργο σου **Επόμενος πελάτης παρακαλώ**, πρόσεξε τα σχόλια που μπορεί να κάνουν άλλοι σχετικά με τη δημιουργία σου. Η ανατροφοδότηση είναι ένας πολύ καλός τρόπος για να αναστοχαστείς πάνω στη δουλειά σου. Αγνόησε οποιαδήποτε σχόλια δεν σε βοηθούν ή είναι άσχετα.
 
 [[[comments-feedback-scratch]]]
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Δώσε έμπνευση στην κοινότητα του Ιδρύματος Raspberry Pi με το έργο σου!
 
-To submit your project to our ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Για να υποβάλεις το έργο σου στη δική μας συλλογή ['Διαγαλαξιακή αγορά'](https://scratch.mit.edu/studios/29662180){:target="_ blank"} για να το δουν κι άλλα άτομα, συμπλήρωσε [αυτήν τη φόρμα](https://form.raspberrypi.org/f/community-project-submissions){:target="_ blank"}.
 
-![Example shop projects in the 'Intergalactic shopping market' Scratch studio.](images/studio-example.png)
+![Παραδείγματα έργων καταστημάτων στη συλλογή Scratch «Διαγαλαξιακή αγορά».](images/studio-example.png)
 
 --- /task ---
