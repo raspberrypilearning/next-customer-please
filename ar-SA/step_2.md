@@ -1,8 +1,8 @@
-## Your business idea
+## فكرة عملك
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What is your business idea? It could be something realistic, something from a book or movie you like, or something completely silly.
+ما هي فكرة عملك؟ يمكن أن يكون شيئًا واقعيًا ، أو شيئًا من كتاب أو فيلم تحبه ، أو شيئًا سخيفًا تمامًا.
 </div>
 <div>
 ![](images/step2-image.png){:width="300px"}
@@ -11,16 +11,16 @@ What is your business idea? It could be something realistic, something from a bo
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and look at the range of sprites and backdrops that you can use. Spend some time thinking about your business idea.
+Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and look at the range of sprites and backdrops that you can use. اقض بعض الوقت في التفكير في فكرة عملك.
 
 [[[working-offline]]]
 
 --- /task ---
 
 What backdrop and extra scenery sprites will you need?
-+ A backdrop from the Scratch library, or a plain coloured backdrop?
-+ A desk, counter, or window to sell from?
-+ A shelf or bookcase to put items on — you could Paint this on the backdrop
++ خلفية من مكتبة Scratch ، أو خلفية ملونة عادية؟
++ مكتب أو عداد أو نافذة للبيع منها؟
++ رف أو خزانة كتب لوضع الأشياء عليها - يمكنك رسم هذا على الخلفية
 
 --- task ---
 
@@ -32,7 +32,7 @@ Click **Choose a Sprite** and add or paint extra scenery sprites.
 
 ![](images/choose-sprite-icon.png)
 
-You can always add more scenery later if you find that you need it.
+يمكنك دائمًا إضافة المزيد من المشاهد لاحقًا إذا وجدت أنك بحاجة إليها.
 
 --- /task ---
 
