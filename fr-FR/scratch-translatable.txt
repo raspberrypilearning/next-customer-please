@@ -1,49 +1,49 @@
-name
+nom
 
-my shop
+ma boutique
 
-next customer
+client suivant
 
-Next customer please!
+Client suivant, s'il vous plaît !
 
 total
 
-That will be
+Cela fera
 
-Thanks for shopping at
+Merci d'avoir acheté chez
 
-Would you like to pay or cancel?
+Voulez-vous payer ou annuler ?
 
-pay
+payer
 
-cancel
+annuler
 
-Ok. No problem
+D'accord. Pas de problème
 
-Click on the items you'd like
+Cliquez sur les articles que vous souhaitez
 
-Did you find everything you wanted today?
+Avez-vous trouvé tout ce que vous vouliez aujourd'hui ?
 
-yes
+oui
 
-That's fantastic!
+C'est fantastique !
 
-Maybe I should add more items to my shop
+Peut-être que je devrais ajouter plus d'articles à ma boutique
 
-Bag
+Sac
 
-1 scoop
+1 boule
 
-cone
+cône
 
-shop
+boutique
 
 true
 
-false
+faux
 
-How are you today?
+Comment allez-vous aujourd'hui ?
 
-good
+bien
 
-Sorry to hear that.
+Je suis désolé.
