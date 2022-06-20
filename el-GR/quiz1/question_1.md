@@ -1,29 +1,29 @@
-## Reflection
+## Και τώρα;
 
-Well done, you used your skills to design and build a shop app!
+Μπράβο, χρησιμοποίησες τις δεξιότητές σου για να σχεδιάσεις και να δημιουργήσεις μια εφαρμογή καταστήματος!
 
-You used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Looks`{:class="block3looks"} and `Sound`{:class="block3sound"} blocks!
+Έχεις χρησιμοποιήσει τα μπλοκ `Συμβάντα`{:class="block3events"}, `Έλεγχος`{:class="block3control"}, `Αισθητήρες`{:class="block3sensing"}, `Τελεστές`{:class="block3operators"}, `Μεταβλητές`{:class="block3motion"}, `Όψεις`{:class="block3looks"} και `Ήχος`{:class="block3sound"}!
 
-Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
+Τώρα, ήρθε η ώρα να εξετάσεις τις νέες γνώσεις- ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
 
-Answer the three questions below to reflect on what you've learned.
+Απάντησε στις τρεις ερωτήσεις παρακάτω για να διαπιστώσεις τι έμαθες.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Μετά από κάθε ερώτηση, πάτησε Υποβολή. Θα οδηγηθείς στη σωστή απάντηση. Μπορείς να επαναλάβεις αυτήν τη δραστηριότητα όσες φορές θέλεις.
 
-Have fun!
+Καλή διασκέδαση!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Ερώτηση 1 από 3
 ---
 
-A shop project uses a `total`{:class="block3variables"} variable to store the total for each customer.
+Ένα έργο καταστήματος χρησιμοποιεί μια μεταβλητή `σύνολο`{:class="block3variables"} για την αποθήκευση του συνόλου για κάθε πελάτη.
 
-+ A customer adds items that total `50` and pays
-+ A new customer adds items that total `40` but the `total`{:class="block3variables"} is now showing as `90` for the second customer
++ Ένας πελάτης προσθέτει αντικείμενα που συνολικά κοστίζουν `50` και πληρώνει
++ Ένας νέος πελάτης προσθέτει αντικείμενα που συνολικά κοστίζουν `40`, αλλά το `σύνολο`{:class="block3variables"} εμφανίζεται τώρα ως `90` για τον δεύτερο πελάτη
 
-Which block would you need to add to the payment script to make the total go back to `0` when each customer pays?
+Ποιο μπλοκ θα πρέπει να προσθέσεις στο script πληρωμής για να επιστρέψει το σύνολο στο `0` όταν πληρώνει κάθε πελάτης;
 
 ```blocks3
 when this sprite clicked
@@ -45,7 +45,7 @@ change [total v] by [0]
 
  --- feedback ---
 
-Not quite, `total`{:class="block3variables"} should be `0` after a customer pays, but it is not the `change`{:class="block3variables"} block you need.
+Όχι ακριβώς, το `σύνολο`{:class="block3variables"} θα πρέπει να είναι `0` μετά την πληρωμή ενός πελάτη, αλλά δεν είναι το μπλοκ `άλλαξε`{:class="block3variables"} που χρειάζεσαι.
 
  --- /feedback ---
 
@@ -56,7 +56,7 @@ set [total v] to [40]
 
  --- feedback ---
 
- Not quite, this would work for the second customer but the `total`{:class="block3variables"} would be wrong for other customers.
+ Όχι ακριβώς, αυτό θα λειτουργούσε για τον δεύτερο πελάτη, αλλά το `σύνολο`{:class="block3variables"} θα ήταν λάθος για άλλους πελάτες.
 
  --- /feedback ---
 
@@ -68,7 +68,7 @@ set [total v] to [0]
 
  --- feedback ---
 
-Yes, that's correct. You need to `set`{:class="block3variables"} the `total`{:class="block3variables"} to `0` after each customer pays.
+Ναι, αυτό είναι σωστό. Πρέπει να ορίσεις ``{:class="block3variables"} το `σύνολο`{:class="block3variables"} σε `0` μετά την πληρωμή κάθε πελάτη.
 
  --- /feedback ---
 
@@ -80,7 +80,7 @@ change [total v] by [-50]
 
  --- feedback ---
 
-That would work for this example, but what if the first customer spent a different amount? Your solution needs to work when the previous customer spends different amounts.
+Αυτό θα λειτουργούσε σε αυτό το παράδειγμα, αλλά τι θα γινόταν αν ο πρώτος πελάτης ξόδευε διαφορετικό ποσό; Η λύση σου πρέπει να λειτουργεί όταν ο προηγούμενος πελάτης ξοδεύει διαφορετικά ποσά.
 
  --- /feedback ---
 
