@@ -1,4 +1,4 @@
-## Wat nu?
+## Reflectie
 
 Goed gedaan, je hebt je vaardigheden gebruikt om een winkel-app te ontwerpen en te bouwen!
 
