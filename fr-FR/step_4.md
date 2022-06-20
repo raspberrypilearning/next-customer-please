@@ -1,22 +1,22 @@
-## Purchases
+## Achats
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The **seller** sprite needs to:
-- ask if the customer is ready to pay for the items
-- take payment
-- get ready for the next customer
+Le sprite **vendeur** doit :
+- demander si le client est prêt à payer les articles
+- accepter le paiement
+- se préparer pour le client suivant
 </div>
 <div>
 ![](images/step4-image.png){:width="300px"}
 </div>
 </div>
 
-When they have finished choosing items, the customer will click on the **seller** sprite to pay.
+Lorsqu'il aura fini de choisir les articles, le client cliquera sur le sprite **vendeur** pour payer.
 
 --- task ---
 
- Tell the customer how much their items will cost.
+ Dis au client combien coûteront ses articles.
 
 ```blocks3
 when this sprite clicked
@@ -27,13 +27,13 @@ say (join [That will be ] (total)) for (2) seconds
 
 --- task ---
 
-Add a payment sound to your **seller** sprite so the customer knows that payment is taking place.
+Ajoute un son de paiement à ton sprite **vendeur** pour que le client sache que le paiement est en cours.
 
-![The add a sound icon](images/add-sound.png)
+![L'icône ajouter un son](images/add-sound.png)
 
 [[[scratch3-add-sound]]]
 
-Add the `play sound until done`{:class="block3sound"} block to your script.
+Ajoute le bloc `jouer le son jusqu'au bout`{:class="block3sound"} à ton script.
 
 ```blocks3
 when this sprite clicked
@@ -45,7 +45,7 @@ say (join [That will be ] (total)) for (2) seconds
 
 --- task ---
 
-Finish the sale. Set `total`{:class="block3variables"} back to `0` after payment, `say`{:class="block3looks"} goodbye and `broadcast`{:class="block3control"} `next customer`{:class="block3control"}.
+Termine la vente. Mets `total`{:class="block3variables"} à `0` après le paiement, `dire`{:class="block3looks"} au revoir et `envoyer à tous`{:class="block3control"} `client suivant`{:class="block3control"}.
 
 ```blocks3
 when this sprite clicked
@@ -60,14 +60,14 @@ play sound [machine v] until done
 
 --- task ---
 
-You might want to give the customer the option to cancel their shopping.
+Tu veux peut-être donner au client la possibilité d'annuler ses achats.
 
 --- collapse ---
 ---
-title: Set up pay and cancel options
+title: Configurer les options de paiement et d'annulation
 ---
 
-`Ask`{:class="block3sensing"} `Would you like to pay or cancel?`. Add an `If`{:class="block3control"} block for `answer`{:class="block3sensing"} `=`{:class="block3operators"} `pay` and inside it put your existing payment blocks.
+`Demander`{:class="block3sensing"} `Voulez-vous payer ou annuler ?`. Ajoute un bloc `si`{:class="block3control"} pour `réponse`{:class="block3sensing"} `=`{:class="block3operators"} `payer` et mets-y tes blocs de paiement existants.
 
 ```blocks3
 when this sprite clicked
@@ -81,7 +81,7 @@ broadcast [next customer v]
 end
 ```
 
-Add a second `If`{:class="block3control"} block for `answer`{:class="block3sensing"} `=`{:class="block3operators"} `cancel` and inside it add code to cancel the order.
+Ajoute un deuxième bloc `si`{:class="block3control"} pour `réponse`{:class="block3sensing"} `=`{:class="block3operators"} `annuler` et ajoute à l'intérieur le code pour annuler la commande.
 
 ```blocks3
 when this sprite clicked
@@ -106,16 +106,16 @@ end
 
 --- task ---
 
-To make sure your customer has items in their basket before paying, you can insert an `if...else`{:class="block3control"} block.
+Pour t'assurer que ton client a des articles dans son panier avant de payer, tu peux insérer un bloc `si...sinon`{:class="block3control"}.
 
 --- collapse ---
 ---
-title: Check total amount
+title: Vérifier le montant total
 ---
 
-`If`{:class="block3control"} `total`{:class="block3variables"} `>`{:class="block3operators"} `0` then insert your existing script.
+`si`{:class="block3control"} `total`{:class="block3variables"} `>`{:class="block3operators"} `0` puis insère ton script existant.
 
-`Else`{:class="block3control"} `say`{:class="block3looks"} a helpful message.
+`sinon`{:class="block3control"} `dire`{:class="block3looks"} un message utile.
 
 ```blocks3
 when this sprite clicked
@@ -144,36 +144,36 @@ end
 
 --- task ---
 
-**Test:** Test your project and make sure:
-- The customer can check out with the correct sound effects
-- The `total`{:class="block3variables"} gets set back to `0` after a customer pays or cancels.
+**Test :** teste ton projet et assure-toi que :
+- Le client peut acheter avec les effets sonores corrects
+- Le `total`{:class="block3variables"} est remis à `0` après qu'un client a payé ou annulé.
 
 --- /task ---
 
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix.
+**Débogage :** Il est possible que tu trouves des bogues dans ton projet que tu dois corriger.
 
-Here are some common bugs:
+Voici quelques bogues assez courants :
 
 --- collapse ---
 ---
-title: The seller doesn't do anything when I click on them
+title: Le vendeur ne fait rien lorsque je clique dessus
 ---
 
-You have quite a lot of sprites in your project. Make sure the `when this sprite clicked`{:class="block3events"} script is on your **seller** sprite.
+Tu as pas mal de sprites dans ton projet. Assure-toi que le script `quand ce sprite est cliqué`{:class="block3events"} est sur ton sprite **vendeur**.
 
-**Tip:** If you have added it to the wrong sprite, you can drag the code to the **seller** sprite, then delete it from the other sprite.
+**Astuce :** Si tu l'as ajouté au mauvais sprite, tu peux faire glisser le code vers le sprite **vendeur**, puis le supprimer de l'autre sprite.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The seller says 'total' not the total amount
+title: Le vendeur dit "total" et non le montant total
 ---
 
-Make sure your `say`{:class="block3looks"} block has the `total`{:class="block3variables"} variable block, not the word `total`.
+Assure-toi que ton bloc `dire`{:class="block3looks"} contient le bloc variable `total`{:class="block3variables"}, et non le mot `total`.
 
 ```blocks3
  when this sprite clicked
@@ -184,12 +184,12 @@ Make sure your `say`{:class="block3looks"} block has the `total`{:class="block3v
 
 --- collapse ---
 ---
-title: The words in the say blocks merge together
+title: Les mots des blocs de mots fusionnent
 ---
 
-When you `join`{:class="block3operators"} two pieces together, you need to add a space at the end of your first piece of text or at the beginning of your second piece of text.
+Lorsque tu `joins`{:class="block3operators"} deux morceaux ensemble, tu dois ajouter un espace à la fin de ton premier morceau de texte ou au début du deuxième.
 
-These have a space at the end of the first part of the join:
+Ceux-ci ont un espace à la fin de la première partie de la jointure :
 
 ```blocks3
 say {join [That will be ](total)} for (2) seconds
@@ -201,16 +201,16 @@ say {join [Thanks for shopping at ](name)} for (2) seconds
 
 --- collapse ---
 ---
-title: The total doesn't reset after a sale
+title: Le total ne se réinitialise pas après une vente
 ---
 
-Check that you have used:
+Vérifie que tu as utilisé :
 
 ```blocks3
 set [total v] to (0)
 ```
 
-**not**:
+**et pas** :
 
 ```blocks3
 change [total v] by (0)
@@ -220,10 +220,10 @@ change [total v] by (0)
 
 --- collapse ---
 ---
-title: The seller isn't responding
+title: Le vendeur ne répond pas
 ---
 
-Make sure the `operator`{:class="block3operators"} in the `if`{:class="block3control"} condition is the greater than symbol `>`{:class="block3operators"}.
+Assure-toi que l'`opérateur`{:class="block3operators"} dans la condition `si`{:class="block3control"} est supérieur au symbole `>`{:class="block3operators"}.
 
 ```blocks3
 if <(total) > [0]> then
@@ -231,7 +231,7 @@ if <(total) > [0]> then
 
 --- /collapse ---
 
-**Tip:** Compare your code with the code examples. Are there any differences that shouldn't be there?
+**Astuce :** Compare ton code avec les exemples de code. Y a-t-il des différences qui ne devraient pas exister ?
 
 --- /task ---
 
