@@ -1,0 +1,9 @@
+tape le nom de ton commerce
+
+le nom de ton commerce
+
+utiliser le nom du sprite du conteneur
+
+position de départ
+
+le client précédent prend le sac

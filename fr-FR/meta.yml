@@ -1,0 +1,29 @@
+---
+title: Client suivant, s'il vous plaît
+hero_image: images/banner.png
+description: Un projet de simulation de boutique où le client peut acheter des articles.
+version: 4
+listed: true
+copyedit: false
+last_tested: '2021-03-26'
+steps:
+  - title: Introduction
+  - title: Ton idée commerciale
+  - title: Articles en vente
+    completion:
+      - engaged
+  - title: Achats
+  - title: Fonctionnalités supplémentaires
+    completion:
+      - internal
+  - title: Réflexion
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Améliorer ton projet
+  - title: Partager
+  - title: Et ensuite ?
