@@ -1,9 +1,9 @@
-type the name of your business
+πληκτρολόγησε το όνομα της επιχείρησής σου
 
-your business name
+το όνομα της επιχείρησής σου
 
-use the name of your Container sprite
+χρησιμοποίησε το όνομα του αντικειμένου σου για το Δοχείο
 
-start position
+αρχική θέση
 
-previous customer takes the bag
+ο προηγούμενος πελάτης παίρνει την τσάντα
