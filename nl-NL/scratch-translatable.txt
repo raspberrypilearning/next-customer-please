@@ -1,49 +1,49 @@
-name
+naam
 
-my shop
+mijn winkel
 
-next customer
+volgende klant
 
-Next customer please!
+Volgende klant alsjeblieft!
 
-total
+totaal
 
-That will be
+Dat is dan
 
-Thanks for shopping at
+Bedankt voor het winkelen bij
 
-Would you like to pay or cancel?
+Wil je betalen of annuleren?
 
-pay
+betalen
 
-cancel
+annuleer
 
-Ok. No problem
+Ok. Geen probleem
 
-Click on the items you'd like
+Klik op de producten die je wilt
 
-Did you find everything you wanted today?
+Heb je alles gevonden wat je vandaag nodig hebt?
 
-yes
+ja
 
-That's fantastic!
+Dat is fantastisch!
 
-Maybe I should add more items to my shop
+Misschien moet ik meer producten aan mijn winkel toevoegen
 
-Bag
+Tas
 
-1 scoop
+1 lepel
 
-cone
+ijshoorntje
 
-shop
+winkel
 
 true
 
-false
+vals
 
-How are you today?
+Hoe gaat het vandaag?
 
-good
+goed
 
-Sorry to hear that.
+Het spijt me om dat te horen.
