@@ -1,35 +1,38 @@
 ---
-title: Next customer please
+title: الزبون التالي
 hero_image: images/banner.png
-description: A shop simulation project where the customer can buy items.
+description: مشروع محاكاة متجر حيث يستطيع العميل شراء السلع.
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
   - 
-    title: Introduction
+    title: المقدمة
   - 
-    title: Your business idea
+    title: فكرة عملك
   - 
-    title: Items for sale
-    completion: engaged
+    title: عينات للبيع
+    completion:
+      - engaged
   - 
-    title: Purchases
+    title: عمليات الشراء
   - 
-    title: Additional features
-    completion: internal
+    title: ميزات أضافية
+    completion:
+      - internal
   - 
-    title: Reflection
-    completion: external
+    title: تفكير
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Upgrade your project
+    title: ترقية أو تطوير مشروعك
   - 
-    title: Share
+    title: مشاركة
   - 
-    title: What next?
+    title: ما التالي؟
