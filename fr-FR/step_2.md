@@ -1,8 +1,8 @@
-## Your business idea
+## Ton idée commerciale
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What is your business idea? It could be something realistic, something from a book or movie you like, or something completely silly.
+Quelle est ton idée commerciale ? Il peut s'agir de quelque chose de réaliste, de quelque chose tiré d'un livre ou d'un film que tu aimes, ou de quelque chose de complètement loufoque.
 </div>
 <div>
 ![](images/step2-image.png){:width="300px"}
@@ -11,93 +11,93 @@ What is your business idea? It could be something realistic, something from a bo
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and look at the range of sprites and backdrops that you can use. Spend some time thinking about your business idea.
+Ouvre un [nouveau projet Scratch](http://rpf.io/scratch-new){:target="_blank"} et examine la collection de sprites et d'arrière-plans que tu peux utiliser. Passe du temps à réfléchir à ton idée commerciale.
 
 [[[working-offline]]]
 
 --- /task ---
 
-What backdrop and extra scenery sprites will you need?
-+ A backdrop from the Scratch library, or a plain coloured backdrop?
-+ A desk, counter, or window to sell from?
-+ A shelf or bookcase to put items on — you could Paint this on the backdrop
+De quel arrière-plan et de quels sprites de décors supplémentaires auras-tu besoin ?
++ Un arrière-plan de la bibliothèque Scratch, ou un arrière-plan de couleur unie ?
++ Un bureau, un comptoir ou une vitrine pour vendre ?
++ Une étagère ou une bibliothèque pour mettre des articles, tu peux peindre ceci sur l'arrière-plan
 
 --- task ---
 
-Click **Choose a Backdrop** or paint your own backdrop.
+Clique sur **Choisir un arrière-plan** ou peins ton arrière-plan.
 
 ![](images/choose-backdrop-icon.png)
 
-Click **Choose a Sprite** and add or paint extra scenery sprites.
+Clique sur **Choisir un sprite** et ajoute ou peins des sprites de décor supplémentaires.
 
 ![](images/choose-sprite-icon.png)
 
-You can always add more scenery later if you find that you need it.
+Tu peux toujours ajouter plus de décors plus tard si tu en as besoin.
 
 --- /task ---
 
-What will the **seller** sprite look like?
-+ A person or non-player character such as a shopkeeper, farmer, or librarian?
-+ A machine such as a vending machine, jukebox, or cash register?
+À quoi ressemblera le sprite **vendeur** ?
++ Une personne ou un personnage non-joueur tel qu'un commerçant, un fermier ou un bibliothécaire ?
++ Une machine telle qu'un distributeur automatique, un juke-box ou une caisse enregistreuse ?
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**NPC**</span> is a non-player character that you can interact with in a game or interactive story. Can you think of games you have played that have NPCs? Next time you play, think about how it was someone's job to make that character.
+Un <span style="color: #0faeb0">**PNJ**</span> est un personnage non-joueur avec lequel tu peux interagir dans un jeu ou une histoire interactive. Peux-tu penser à des jeux auxquels tu as joué qui ont des PNJ ? La prochaine fois que tu joueras, pense qu'il y avait quelqu'un qui a travaillé pour créer ce personnage.
 </p>
 
 --- task ---
 
-Add a sprite to represent the seller.
+Ajoute un sprite pour représenter le vendeur.
 
 ![](images/choose-sprite-icon.png)
 
 --- /task ---
 
-What is the name of your business?
+Quel est le nom de ton commerce ?
 
 --- task ---
 
-Create a `variable`{:class="block3variables"} called `name`:
+Crée une `variable`{:class="block3variables"} appelée `nom` :
 
 --- collapse ---
 
 ---
 
-title: Create a variable
+title: Créer une variable
 
 ---
 
-From the `Variables`{:class="block3variables"} blocks menu click the **Make a Variable** button.
+Dans le menu des blocs `Variables`{:class="block3variables"}, clique sur le bouton **Créer une variable**.
 
-Call your new variable `name`:
+Appelle ta nouvelle variable `nom` :
 
-![The New Variable pop up window with text input 'name'.](images/new-variable.png)
+![La fenêtre contextuelle Nouvelle variable avec la saisie de texte "nom".](images/new-variable.png)
 
-**Notice:** The new `name` variable appears on the Stage and can now be used in the `Variable`{:class="block3variables"} blocks.
+**Remarque :** la nouvelle variable `nom` apparaît sur la scène et peut désormais être utilisée dans les blocs `Variable`{:class="block3variables"}.
 
 --- /collapse ---
 
-Click on your **seller** sprite and add code to set the variable to the name of your business:
+Clique sur ton sprite **vendeur** et ajoute du code pour définir la variable sur le nom de ton commerce :
 
 ```blocks3
 when flag clicked
 set [name v] to () //type the name of your business
 ```
 
-Create a sign on the Stage with your variable:
+Crée une enseigne sur la scène avec ta variable :
 
 --- collapse ---
 
 ---
 
-title: Change the appearance and position of variables
+title: Modifier l'apparence et la position des variables
 
 ---
 
-Right-click on the `variable`{:class="block3variables"} on the Stage and choose large readout:
+Fais un clic droit sur la `variable`{:class="block3variables"} sur la scène et choisis grande lecture :
 
-![Pop up menu showing format options with 'large readout' selected.](images/large-readout.png)
+![Menu contextuel affichant les options de format avec la "grande lecture" sélectionnée.](images/large-readout.png)
 
-Drag your `variable`{:class="block3variables"} to position it on the Stage as part of the shop scenery.
+Fais glisser ta `variable`{:class="block3variables"} pour la positionner en haut à droite de la scène.
 
 --- /collapse ---
 
@@ -105,15 +105,15 @@ Drag your `variable`{:class="block3variables"} to position it on the Stage as pa
 
 --- task ---
 
-**Test:** Make sure you can see your business name as the value of the variable on the Stage.
+**Test :** Assure-toi que tu peux voir le nom de ton commerce comme valeur de la variable sur la scène.
 
 --- /task ---
 
-Get ready to welcome your first customer.
+Prépare-toi à accueillir ton premier client.
 
 --- task ---
 
-Click on your **seller** sprite and add a `broadcast`{:class="block3control"} block. Creat a new message called `next customer`.
+Clique sur ton sprite **vendeur** et ajoute un bloc `envoyer à tous`{:class="block3control"}. Crée un nouveau message appelé `client suivant`.
 
 ```blocks3
 when flag clicked
@@ -125,7 +125,7 @@ set [name v] to [my shop] // your business name
 
 --- task ---
 
-Create a new script for your **seller** sprite to `say`{:class="block3looks"} `Next customer please` when they receive the `broadcast`{:class="block3control"} `next customer`{:class="block3control"}.
+Crée un nouveau script pour ton sprite **vendeur** pour `dire`{:class="block3looks"} `Client suivant, s'il vous plaît` lorsqu'il reçoit `envoyer à tous`{:class="block3control"} `client suivant`{:class= "block3control"}.
 
 ```blocks3
 when I receive [next customer v] 
@@ -136,17 +136,17 @@ say [Next customer please!] for (2) seconds
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here is a common bug.
+**Débogage :** Il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici un bogue courant.
 
 --- collapse ---
 
 ---
 
-title: Variable shows `0`
+title: La variable affiche `0`
 
 ---
 
-You should use the `set [name v] to ()`{:class="block3variables"} block to set the variable to your name. If you have already added a script, check that you have typed your business name into the value and clicked the green flag.
+Tu dois utiliser le bloc `mettre [nom v] à ()`{:class="block3variables"} pour définir la variable à ton nom. Si tu as déjà ajouté un script, vérifie que tu as saisi le nom de ton commerce dans la valeur et cliqué sur le drapeau vert.
 
 ```blocks3
 when flag clicked
