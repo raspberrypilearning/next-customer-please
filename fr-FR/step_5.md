@@ -1,8 +1,8 @@
-## Additional features
+## Fonctionnalités supplémentaires
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-There are lots of features you could add to improve your customers' shopping experience. You don't need to add everything. Just add improvements that you think are important.
+Tu peux ajouter de nombreuses fonctionnalités pour améliorer l'expérience d'achat de tes clients. Tu n'as pas besoin de tout ajouter. Ajoute simplement les améliorations que tu juges importantes.
 
 </div>
 <div>
@@ -10,30 +10,30 @@ There are lots of features you could add to improve your customers' shopping exp
 </div>
 </div>
 
-You can 'See inside' the example projects to look at how they work.
+Tu peux « Voir à l'intérieur » des exemples de projets pour voir comment ils fonctionnent.
 
-Example projects: **Fresh Space Fruit**: [See inside](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
-**Cool Shirts**: [See inside](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
-**Ice cream shop**: [See inside](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
-**Vending machine**: [See inside](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
+Exemples de projets : **Fruits frais de l'espace** : [Voir à l'intérieur](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
+**T-shirts cool** : [Voir à l'intérieur](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
+**Glacier** : [Voir à l'intérieur](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
+**Distributeur automatique** : [Voir à l'intérieur](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
 
-**Tip:** If you are logged in to a Scratch account, then you can use the **Backpack** to copy scripts or sprites to your project.
+**Astuce :** Si tu es connecté à un compte Scratch, tu peux utiliser le **Sac à dos** pour copier des scripts ou des sprites dans ton projet.
 
 [[[scratch-backpack]]]
 
 --- task ---
 
-Do you think your checkout person (or machine) should ask more questions?
+Pense-tu que ton caissier (ou machine) devrait poser plus de questions ?
 
-You can add `ask`{:class="block3sensing"} blocks to your **seller**'s `when this sprite clicked`{:class="block3events"} script and `say`{:class="block3looks"} different things depending on the customer's response.
+Tu peux ajouter les blocs `demander`{:class="block3sensing"} au script de ton **vendeur** `quand ce sprite est cliqué`{:class="block3events"} et `dire`{:class="block3looks"} différentes choses en fonction de la réponse du client.
 
-You could ask whether the service was good, or if they're having a nice day. Or something specific to your shop, like "What are you going to cook?"
+Tu peux demander si le service était bon, ou s'ils passent une bonne journée. Ou quelque chose de spécifique à ta boutique, comme « Qu'allez-vous cuisiner ? »
 
 --- collapse ---
 
 ---
 
-title: Ask and respond to questions
+title: Poser des questions et y répondre
 
 ---
 
@@ -46,31 +46,31 @@ say [Maybe I should add more items to my shop] for [2] seconds
 end
 ```
 
-**Debug:** Check that you have spelled the options correctly in your code and in your answer. It's OK if you use capital letters, so "Yes" and "YES" will match "yes".
+**Debogage :** Vérifie que tu as correctement orthographié les options dans ton code et dans ta réponse. Ce n'est pas grave si tu utilises des majuscules, donc « Oui » et « OUI » correspondront à « oui ».
 
-Add multiple questions to create a chatbot or non-player character that you can talk to.
+Ajoute plusieurs questions pour créer un chatbot ou un personnage non joueur avec qui tu peux parler.
 
 --- /collapse ---
 
 --- /task ---
 
-Do you want something else to happen when you add an item?
+Veux-tu que quelque chose d'autre se produise lorsque tu ajoutes un article ?
 
 --- task ---
 
-The Cool Shirts project has shirts that glide into a bag.
+Le projet T-shirts cool propose des t-shirts qui se glissent dans un sac.
 
 --- collapse ---
 
 ---
 
-title: Make items glide into a container
+title: Fais glisser les articles dans un conteneur
 
 ---
 
-Add a **Container** sprite. You could use an existing sprite like the **Gift** or **Take out** sprite, or paint your own with simple shapes.
+Ajoute un sprite **Conteneur**. Tu peux utiliser un sprite existant comme le sprite **Cadeau** ou **À emporter**, ou peindre le tien avec des formes simples.
 
-Add a script to make the **Container** always appear at the front:
+Ajoute un script pour que le **Conteneur** apparaisse toujours à l'avant plan :
 
 ```blocks3
 when flag clicked
@@ -79,7 +79,7 @@ go to [front v] layer
 end
 ```
 
-Then you'll need to add code to each **Item** you have for sale to make them glide to the container when they are clicked:
+Ensuite, tu devras ajouter un code à chaque **article** en vente pour les faire glisser vers le conteneur lorsqu'ils sont cliqués :
 
 ```blocks3
 when this sprite clicked
@@ -91,7 +91,7 @@ change [total v] by [12]
 +show
 ```
 
-If you don't want the container there all the time, you can add scripts to make it show and hide at the right time:
+Si tu ne veux pas que le conteneur soit présent en permanence, tu peux ajouter des scripts pour qu'il s'affiche et se cache au bon moment :
 
 ```blocks3
 when I receive [next customer v]
@@ -100,29 +100,29 @@ wait [1] seconds
 show
 ```
 
-**Test:** Try your project and make sure items glide to the container and hide.
+**Test :** Essaie ton projet et assure-toi que les articles glissent vers le conteneur et se cachent.
 
-**Debug:** Check your scripts carefully and make sure you have updated all of your **Item** sprites. You can look at [Cool Shirts](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"} if you need to see a working example.
+**Debogage :** Vérifie soigneusement tes scripts et assure-toi d'avoir mis à jour tous tes sprites **article**. Tu peux consulter le projet [T-shirts cool](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"} si tu as besoin de voir un exemple fonctionnel.
 
 --- /collapse ---
 
-The Ice cream project shows the ice cream as the customer chooses their options.
+Le projet Glacier montre la crème glacée au fur et à mesure que le client choisit ses options.
 
 --- collapse ---
 
 ---
 
-title: Customise and show a sprite
+title: Personnaliser et afficher un sprite
 
 ---
 
-Each item needs to `broadcast`{:class="block3events"} in its `when this sprite clicked`{:class="block3events"} script:
+Chaque article doit `envoyer à tous`{:class="block3events"} dans son script `quand ce sprite est cliqué`{:class="block3events"} :
 
 ```blocks3
 +broadcast (1 scoop v)
 ```
 
-Then the sprite you want to show or change needs to respond to that message:
+Ensuite, le sprite que tu souhaites afficher ou modifier doit répondre à ce message :
 
 ```blocks3
 when I receive [1 scoop v]
@@ -130,53 +130,53 @@ play sound (Chomp v) until done
 switch costume to (1 scoop v)
 ```
 
-You may also want to change or hide the sprite for a new customer:
+Tu peux également modifier ou cacher le sprite pour un nouveau client :
 
 ```blocks3
 when I receive [next customer v]
 switch costume to (cone v)
 ```
 
-If you have multiple items, then you will need to add more messages and scripts to to receive them.
+Si tu as plusieurs articles, tu devras ajouter plus de messages et de scripts pour les recevoir.
 
 --- /collapse ---
 
 --- /task ---
 
-Have you noticed that your customer can add items after they have started to check out?
+As-tu remarqué que ton client peut ajouter des articles après avoir commencé à payer ?
 
 --- task ---
 
-If you want to stop the customer adding items when they are at the checkout, you can add a `shop`{:class="block3variables"} variable and use it to control when items can be added.
+Si tu souhaites empêcher le client d'ajouter des articles lorsqu'il est à la caisse, tu peux ajouter une variable `boutique`{:class="block3variables"} et l'utiliser pour contrôler quand des articles peuvent être ajoutés.
 
 --- collapse ---
 
 ---
-title: Only allow purchases when the customer isn't at the checkout
+title: Autoriser les achats uniquement lorsque le client n'est pas à la caisse
 
 ---
 
-Add a `variable`{:class="block3variables"} called `shop` for all sprites. You will set this to `true` when the customer is in the shop and `false` when they are at the checkout.
+Ajoute une `variable`{:class="block3variables"} appelée `boutique` pour tous les sprites. Tu la mettras sur `vrai` lorsque le client est dans la boutique et `faux` lorsqu'il est à la caisse.
 
-Select your **seller** sprite. Update the `when flag clicked`{:class="block3events"} script to allow shopping when your project starts:
+Sélectionne ton sprite **vendeur**. Mets à jour le script `quand le drapeau est cliqué`{:class="block3events"} pour autoriser les achats au démarrage de ton projet :
 
 ```blocks3
 +set [shop v] to [true]
 ```
 
-Now add a block to change the `shop`{:class="block3variables"} to `false` at the beginning of your **seller**'s `when this sprite clicked`{:class="block3events"} script:
+Ajoute maintenant un bloc pour changer la `boutique`{:class="block3variables"} sur `faux` au début du script de ton **vendeur** `quand ce sprite est cliqué`{:class="block3events"} :
 
 ```blocks3 
 +set [shop v] to [false]
 ```
 
-And a block to set the `shop`{:class="block3variables"} variable back to `true` at the end of the same script:
+Et un bloc pour remettre la variable `boutique`{:class="block3variables"} sur `vrai` à la fin du même script :
 
 ```blocks3 
 +set [shop v] to [true]
 ```
 
-Now you need to update the items you sell to check the `shop`{:class="block3variables"} variable:
+Tu dois maintenant mettre à jour les articles que tu vends pour vérifier la variable `boutique`{:class="block3variables"} :
 
 ```blocks3
 when this sprite clicked
@@ -186,11 +186,11 @@ change [total v] by [10]
 end
 ```
 
-You will need to do this for every item you sell in your shop.
+Tu devras le faire pour chaque article que tu vends dans ta boutique.
 
-**Test:** Click the green flag then try shopping. Check that you can still add items and checkout, but you can't add items once you have started checking out.
+**Test :** clique sur le drapeau vert puis essaie de faire des achats. Vérifie que tu peux toujours ajouter des articles et payer, mais tu ne peux pas ajouter d'articles une fois que tu as commencé à payer.
 
-**Debug:** Check your code really carefully. You can look at the [Space Fruit](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"} project if you need to see a working example.
+**Débogage :** Si tu obtiens une erreur, vérifie ton code très attentivement. Tu peux consulter le projet [Fruits de l'espace](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"} si tu as besoin de voir un exemple fonctionnel.
 
 --- /collapse ---
 
