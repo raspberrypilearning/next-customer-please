@@ -1,55 +1,55 @@
-## Share
+## Partager
 
-If you are in a club, why not share your project with friends?
+Si tu es dans un club, pourquoi ne pas partager ton projet avec des amis ?
 
-If you are logged in on Scratch, you can create a studio and add your **Next customer please** project. You can also add your friends' **Next customer please** projects to create a mall of different shops and businesses.
+Si tu es connecté à Scratch, tu peux créer un studio et ajouter ton projet **Client suivant, s'il vous plaît**. Tu peux également ajouter les projets **Client suivant, s'il vous plaît** de tes amis pour créer un centre commercial de différentes boutiques et de commerces.
 
 --- collapse ---
 
 ---
 
-title: Build a shopping market
+title: Créer un marché commercial
 
 ---
 
-Save your project, then click on your username and select **My Stuff**.
+Enregistre ton projet, puis clique sur ton nom d'utilisateur et sélectionne **Mes projets**.
 
-![the pop up menu under your account name in the top right.](images/my-stuff-menu.png)
+![le menu contextuel sous le nom de ton compte en haut à droite.](images/my-stuff-menu.png)
 
-From your **My Stuff** page, click on the **+ New Studio** button.
+Depuis ta page **Mes projets**, clique sur le bouton **+ Nouveau Studio**.
 
-![The grey 'New Studio' button on the 'My Stuff' page.](images/create-studio.png)
+![Le bouton gris "Nouveau studio" sur la page "Mes projets".](images/create-studio.png)
 
-Give your new studio a name and description.
+Donne un nom et une description à ton nouveau studio.
 
-![The name box at the top of the studio and the description box on the left of the studio.](images/naming-studio.png)
+![La case du nom en haut du studio et la case de la description à gauche du studio.](images/naming-studio.png)
 
-Click on the **Add projects** button. You can add yor own project by selecting it from the list at the bottom of the page.
+Clique sur le bouton **Ajouter un nouveau projet**. Tu peux ajouter ton propre projet en le sélectionnant dans la liste en bas de la page.
 
-![The 'Add Projects' pop up at the bottom of the page with a gallery of project thumbnails. ](images/add-your-projects.png)
+![La fenêtre "Ajouter des projets" s'affiche en bas de la page avec une galerie de vignettes de projets. ](images/add-your-projects.png)
 
-You can also add projects your friends have created. Ask them to share their project and give you the link. Type or paste the link into the url box, then click the **Add by url** button.
+Tu peux également ajouter des projets créés par tes amis. Demande-leur de partager leur projet et de te donner le lien. Tape ou colle le lien dans la zone URL, puis clique sur le bouton **Ajouter par URL**.
 
-![The url box underneath the 'Add projects' button and the 'Add by url' button.](images/path.png)
+![La zone URL sous le bouton "Ajouter des projets" et le bouton "Ajouter par URL".](images/path.png)
 
 --- /collapse ---
 
-Share your project and send a link to people you know. The whole Scratch community will also be able to find your project and try it out.
+Partage ton projet et envoie un lien aux personnes que tu connais. Toute la communauté Scratch pourra également trouver ton projet et l'essayer.
 
 [[[share-scratch]]]
 
-Why not invite your friends to create a project? Let them know how you had fun.
+Pourquoi ne pas inviter tes amis à créer un projet ? Fais-leur savoir que tu t'es amusé(e).
 
-If you have a Scratch account, and have shared your **Next customer please** project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Ignore any comments that are unhelpful or irrelevant.
+Si tu as un compte Scratch et que tu as partagé ton projet **Client suivant, s'il vous plaît**, gardes un œil sur les commentaires que d'autres pourraient faire sur ta création. Les réactions et commentaires te donnent un excellent moyen de réfléchir à ton travail. Ignore les commentaires inutiles ou non pertinents.
 
 [[[comments-feedback-scratch]]]
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Inspire la communauté Raspberry Pi Foundation avec ton projet !
 
-To submit your project to our ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Pour soumettre ton projet à notre studio Scratch [« Intergalactic shopping market »](https://scratch.mit.edu/studios/29662180){:target="_blank"}, il te suffit de remplir [ce formulaire](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
-![Example shop projects in the 'Intergalactic shopping market' Scratch studio.](images/studio-example.png)
+![Exemples de projets de boutique dans le studio Scratch "Intergalactic shopping market".](images/studio-example.png)
 
 --- /task ---
