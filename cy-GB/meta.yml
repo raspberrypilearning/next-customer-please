@@ -5,7 +5,7 @@ description: A shop simulation project where the customer can buy items.
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
   - 
     title: Introduction
@@ -13,20 +13,23 @@ steps:
     title: Your business idea
   - 
     title: Items for sale
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: Purchases
   - 
     title: Additional features
-    completion: internal
+    completion:
+      - internal
   - 
     title: Reflection
-    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: Upgrade your project
   - 
