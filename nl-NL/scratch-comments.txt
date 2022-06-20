@@ -1,9 +1,9 @@
-type the name of your business
+typ de naam van je bedrijf
 
-your business name
+je bedrijfsnaam
 
-use the name of your Container sprite
+gebruik de naam van je Container sprite
 
-start position
+beginpositie
 
-previous customer takes the bag
+vorige klant neemt de tas
