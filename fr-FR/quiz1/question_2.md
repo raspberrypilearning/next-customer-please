@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Question 2 sur 3
 ---
 
-In a shop, the **seller** has this code in the checkout script:
+Dans une boutique, le **vendeur** a ce code dans le script de paiement :
 
 ```blocks3
 ask [How are you today?] and wait
@@ -16,45 +16,45 @@ say [Sorry to hear that.] for [2] seconds
 end
 ```
 
-When the code runs, the user types the answer 'great'. What will the **seller** sprite say?
+Lorsque le code s'exécute, l'utilisateur tape la réponse « super ». Que dira le sprite **vendeur** ?
 
-![An 'ask' box with the word 'great' typed in.](images/quiz2.png)
+![Une case "demander" avec le mot "super" tapé.](images/quiz2.png)
 
 --- choices ---
 
-- (x) The **Seller** will say `Sorry to hear that.`
+- (x) Le **vendeur** dira `Je suis désolé.`
 
   --- feedback ---
 
-  Yes. Humans know that 'great' means the same as 'good', but the '=' checks whether the letters are the same.
+  Oui. Les humains savent que « super » signifie la même chose que « bien », mais le « = » vérifie si les lettres sont les mêmes.
 
-  The **condition** `answer`{:class="block3sensing"} = `good` is 'false' so the `say`{:class="block3looks"} block in the `else`{:class="block3control"} part will run.
+  La **condition** `réponse`{:class="block3sensing"} = `bien` est « faux » donc le bloc `dire`{:class="block3looks"} dans la partie `sinon`{:class="block3control"} s'exécutera.
 
   --- /feedback ---
 
-- ( ) The **seller** will say `That's fantastic!`
+- ( ) Le **vendeur** dira `C'est fantastique !`
 
   --- feedback ---
 
-No, only the exact answer `good` will make the **seller** say `That's fantastic!`. Look at the code again to see what message the **seller** will say for all answers that are not `good`.
+Non, seule la réponse exacte `bien` fera dire au **vendeur** `C'est fantastique !`. Regarde à nouveau le code pour voir quel message le **vendeur** dira pour toutes les réponses qui ne sont pas `bien`.
 
-**Tip:** 'Good' or 'GOOD' would match 'good'.
+**Astuce :** « Bien » ou « BIEN » correspondrait à « bien ».
 
   --- /feedback ---
 
-- ( ) The **seller** won't say anything.
+- ( ) Le **vendeur** ne dira rien.
 
   --- feedback ---
 
-No, the **seller** will always say something. Look carefully at the code to see what the message will be.
+Non, le **vendeur** dira toujours quelque chose. Regarde attentivement le code pour voir quel sera le message.
 
   --- /feedback ---
 
-- ( ) The **seller** will say `great`.
+- ( ) Le **vendeur** dira `super`.
 
   --- feedback ---
 
-No, the **customer** typed the answer 'great' but the **seller** does not say the answer. Look carefully at the code to see what the message will be.
+Non, le **client** a tapé la réponse « super » mais le **vendeur** ne dit pas la réponse. Regarde attentivement le code pour voir quel sera le message.
 
   --- /feedback ---
 
