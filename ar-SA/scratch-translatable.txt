@@ -1,49 +1,49 @@
-name
+الاسم
 
-my shop
+متجري
 
-next customer
+زبون جديد
 
-Next customer please!
+الزبون التالي!
 
-total
+المجموع
 
-That will be
+هذا سيكون
 
 Thanks for shopping at
 
-Would you like to pay or cancel?
+هل ترغب في الدفع أو الإلغاء؟
 
 pay
 
 cancel
 
-Ok. No problem
+Ok. لا مشكلة
 
-Click on the items you'd like
+انقر فوق العناصر التي تريدها
 
-Did you find everything you wanted today?
+هل وجدت كل ما تريده اليوم؟
 
-yes
+نعم
 
-That's fantastic!
+هذا رائع!
 
-Maybe I should add more items to my shop
+ربما يجب علي إضافة المزيد من العناصر إلى متجري
 
-Bag
+حقيبة
 
 1 scoop
 
 cone
 
-shop
+متجر
 
 true
 
-false
+خاطئ
 
-How are you today?
+كيف حالك اليوم؟
 
 good
 
-Sorry to hear that.
+آسف لسماع ذلك.
