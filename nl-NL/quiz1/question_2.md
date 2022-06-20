@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Vraag 2 van 3
 ---
 
-In a shop, the **seller** has this code in the checkout script:
+In een winkel heeft de **verkoper** deze code in het afrekenscript:
 
 ```blocks3
 ask [How are you today?] and wait
@@ -16,45 +16,45 @@ say [Sorry to hear that.] for [2] seconds
 end
 ```
 
-When the code runs, the user types the answer 'great'. What will the **seller** sprite say?
+Wanneer de code wordt uitgevoerd, typt de gebruiker het antwoord 'geweldig'. Wat zal de **verkoper** sprite zeggen?
 
-![An 'ask' box with the word 'great' typed in.](images/quiz2.png)
+![Een 'vraag' vak met het woord 'geweldig' ingetypt.](images/quiz2.png)
 
 --- choices ---
 
-- (x) The **Seller** will say `Sorry to hear that.`
+- (X) de **Verkoper** zal `Sorry om dat te horen zeggen.`
 
   --- feedback ---
 
-  Yes. Humans know that 'great' means the same as 'good', but the '=' checks whether the letters are the same.
+  Ja. Mensen weten dat 'geweldig' hetzelfde betekent als 'goed', maar de '=' controleert of de letters hetzelfde zijn.
 
-  The **condition** `answer`{:class="block3sensing"} = `good` is 'false' so the `say`{:class="block3looks"} block in the `else`{:class="block3control"} part will run.
+  De **voorwaarde** `antwoord`{:class="block3sensing"} = `goed` is 'niet juist', dus het `zeg`{:class="block3looks"} blok in het `anders`{:class="block3control"} gedeelte zal worden uitgevoerd.
 
   --- /feedback ---
 
-- ( ) The **seller** will say `That's fantastic!`
+- ( ) de **verkoper** zal zeggen `dat is fantastisch!`
 
   --- feedback ---
 
-No, only the exact answer `good` will make the **seller** say `That's fantastic!`. Look at the code again to see what message the **seller** will say for all answers that are not `good`.
+Nee, alleen het exacte antwoord `goed` zal ervoor zorgen dat de **verkoper** zegt `dat is fantastisch!`. Kijk opnieuw naar de code om te zien welk bericht de **verkoper** zal zeggen voor alle antwoorden die niet `goed` zijn.
 
-**Tip:** 'Good' or 'GOOD' would match 'good'.
+**Tip:** 'goed' of 'GOED' zou overeenkomen met 'goed'.
 
   --- /feedback ---
 
-- ( ) The **seller** won't say anything.
+- ( ) de **verkoper** zal niets zeggen.
 
   --- feedback ---
 
-No, the **seller** will always say something. Look carefully at the code to see what the message will be.
+Nee, de **verkoper** zal altijd iets zeggen. Kijk goed naar de code om te zien wat het bericht zal zijn.
 
   --- /feedback ---
 
-- ( ) The **seller** will say `great`.
+- ( ) de **verkoper** zal `geweldig` zeggen.
 
   --- feedback ---
 
-No, the **customer** typed the answer 'great' but the **seller** does not say the answer. Look carefully at the code to see what the message will be.
+Nee, de **klant** heeft het antwoord 'geweldig' getypt, maar de **verkoper** zegt het antwoord niet. Kijk goed naar de code om te zien wat het bericht zal zijn.
 
   --- /feedback ---
 
