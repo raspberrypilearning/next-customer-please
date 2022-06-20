@@ -1,22 +1,22 @@
-## Purchases
+## Aankopen
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The **seller** sprite needs to:
-- ask if the customer is ready to pay for the items
-- take payment
-- get ready for the next customer
+De **verkoper** sprite moet:
+- vragen of de klant klaar is om te betalen voor de producten
+- betaling aannemen
+- zich klaar maken voor de volgende klant
 </div>
 <div>
 ![](images/step4-image.png){:width="300px"}
 </div>
 </div>
 
-When they have finished choosing items, the customer will click on the **seller** sprite to pay.
+Wanneer ze klaar zijn met het kiezen van producten, zal de klant op de **verkoper** sprite klikken om te betalen.
 
 --- task ---
 
- Tell the customer how much their items will cost.
+ Vertel de klant hoeveel zijn producten gaan kosten.
 
 ```blocks3
 when this sprite clicked
@@ -27,13 +27,13 @@ say (join [That will be ] (total)) for (2) seconds
 
 --- task ---
 
-Add a payment sound to your **seller** sprite so the customer knows that payment is taking place.
+Voeg een betalingsgeluid toe aan je **verkoper** sprite, zodat de klant weet dat de betaling plaatsvindt.
 
-![The add a sound icon](images/add-sound.png)
+![Het pictogram geluid toevoegen](images/add-sound.png)
 
 [[[scratch3-add-sound]]]
 
-Add the `play sound until done`{:class="block3sound"} block to your script.
+Voeg het `start geluid en wacht`{:class="block3sound"} blok toe aan je script.
 
 ```blocks3
 when this sprite clicked
@@ -45,7 +45,7 @@ say (join [That will be ] (total)) for (2) seconds
 
 --- task ---
 
-Finish the sale. Set `total`{:class="block3variables"} back to `0` after payment, `say`{:class="block3looks"} goodbye and `broadcast`{:class="block3control"} `next customer`{:class="block3control"}.
+Maak de verkoop af. Zet `totaal`{:class="block3variables"} terug naar `0` na betaling, `zeg`{:class="block3looks"} tot ziens en `zend`{:class="block3control"} het `volgende klant`{:class="block3control"} bericht.
 
 ```blocks3
 when this sprite clicked
@@ -60,14 +60,14 @@ play sound [machine v] until done
 
 --- task ---
 
-You might want to give the customer the option to cancel their shopping.
+Misschien wil je de klant de mogelijkheid geven om zijn boodschappen te annuleren.
 
 --- collapse ---
 ---
-title: Set up pay and cancel options
+titel: Betaal- en annuleer opties instellen
 ---
 
-`Ask`{:class="block3sensing"} `Would you like to pay or cancel?`. Add an `If`{:class="block3control"} block for `answer`{:class="block3sensing"} `=`{:class="block3operators"} `pay` and inside it put your existing payment blocks.
+`Vraag`{:class="block3sensing"} `Wilt u betalen of annuleren?`. Voeg een `als`{:class="block3control"} blok toe voor `antwoord`{:class="block3sensing"} `=`{:class="block3operators"} `betaal` en zet daarin je bestaande betalingsblokken.
 
 ```blocks3
 when this sprite clicked
@@ -81,7 +81,7 @@ broadcast [next customer v]
 end
 ```
 
-Add a second `If`{:class="block3control"} block for `answer`{:class="block3sensing"} `=`{:class="block3operators"} `cancel` and inside it add code to cancel the order.
+Voeg een tweede `als`{:class="block3control"} blok toe voor `antwoord`{:class="block3sensing"} `=`{:class="block3operators"} `annuleren` en voeg daar code aan toe om de bestelling te annuleren.
 
 ```blocks3
 when this sprite clicked
@@ -106,16 +106,16 @@ end
 
 --- task ---
 
-To make sure your customer has items in their basket before paying, you can insert an `if...else`{:class="block3control"} block.
+Om er zeker van te zijn dat je klant producten in zijn/haar mandje heeft voordat ze gaan betalen, kun je een `als....dan`{:class="block3control"} blok invoegen.
 
 --- collapse ---
 ---
-title: Check total amount
+title: Controleer totaalbedrag
 ---
 
-`If`{:class="block3control"} `total`{:class="block3variables"} `>`{:class="block3operators"} `0` then insert your existing script.
+`Als`{:class="block3control"} `totaal`{:class="block3variables"} `>`{:class="block3operators"} `0` is, voeg dan je bestaande script toe.
 
-`Else`{:class="block3control"} `say`{:class="block3looks"} a helpful message.
+`Anders`{:class="block3control"} `zeg`{:class="block3looks"} een nuttig bericht.
 
 ```blocks3
 when this sprite clicked
@@ -144,36 +144,36 @@ end
 
 --- task ---
 
-**Test:** Test your project and make sure:
-- The customer can check out with the correct sound effects
-- The `total`{:class="block3variables"} gets set back to `0` after a customer pays or cancels.
+**Test:** Test je project en zorg ervoor dat:
+- De klant kan betalen met de juiste geluidseffecten
+- Het `totaal`{:class="block3variables"} weer op `0` wordt ingesteld nadat een klant betaalt of annuleert.
 
 --- /task ---
 
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix.
+**Debug:** Mogelijk vindt je enkele fouten in jouw project die je moet oplossen.
 
-Here are some common bugs:
+Hier zijn enkele veelvoorkomende fouten:
 
 --- collapse ---
 ---
-title: The seller doesn't do anything when I click on them
+title: De verkoper doet niets wanneer ik erop klik
 ---
 
-You have quite a lot of sprites in your project. Make sure the `when this sprite clicked`{:class="block3events"} script is on your **seller** sprite.
+Je hebt heel veel sprites in je project. Zorg ervoor dat het `wanneer op deze sprite wordt geklikt`{:class="block3events"} script op je **verkoper** sprite staat.
 
-**Tip:** If you have added it to the wrong sprite, you can drag the code to the **seller** sprite, then delete it from the other sprite.
+**Tip:** als je het aan de verkeerde sprite hebt toegevoegd, kun je de code naar de **verkoper** sprite slepen en vervolgens uit de andere sprite verwijderen.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The seller says 'total' not the total amount
+title: De verkoper zegt 'totaal' en niet het totale bedrag
 ---
 
-Make sure your `say`{:class="block3looks"} block has the `total`{:class="block3variables"} variable block, not the word `total`.
+Zorg ervoor dat je `zeg`{:class="block3looks"} blok het `totaal`{:class="block3variables"} variabele blok heeft, niet het woord `totaal`.
 
 ```blocks3
  when this sprite clicked
@@ -184,12 +184,12 @@ Make sure your `say`{:class="block3looks"} block has the `total`{:class="block3v
 
 --- collapse ---
 ---
-title: The words in the say blocks merge together
+title: De woorden in de zeg blokken worden aan elkaar geplakt
 ---
 
-When you `join`{:class="block3operators"} two pieces together, you need to add a space at the end of your first piece of text or at the beginning of your second piece of text.
+Wanneer je `twee stukken aan elkaar toevoegt`{:class="block3operators"}, moet je een spatie toevoegen aan het einde van je eerste stuk tekst of aan het begin van je tweede stuk tekst.
 
-These have a space at the end of the first part of the join:
+Deze hebben een spatie aan het einde van het eerste deel:
 
 ```blocks3
 say {join [That will be ](total)} for (2) seconds
@@ -201,16 +201,16 @@ say {join [Thanks for shopping at ](name)} for (2) seconds
 
 --- collapse ---
 ---
-title: The total doesn't reset after a sale
+title: Het totaal wordt niet op 0 gezet na een verkoop
 ---
 
-Check that you have used:
+Controleer of je het volgende hebt gebruikt:
 
 ```blocks3
 set [total v] to (0)
 ```
 
-**not**:
+**niet**:
 
 ```blocks3
 change [total v] by (0)
@@ -220,10 +220,10 @@ change [total v] by (0)
 
 --- collapse ---
 ---
-title: The seller isn't responding
+title: De verkoper reageert niet
 ---
 
-Make sure the `operator`{:class="block3operators"} in the `if`{:class="block3control"} condition is the greater than symbol `>`{:class="block3operators"}.
+Zorg ervoor dat de `functie`{:class="block3operators"} in de `als`{:class="block3control"} voorwaarde groter is dan het symbool `>`{:class="block3operators"}.
 
 ```blocks3
 if <(total) > [0]> then
@@ -231,7 +231,7 @@ if <(total) > [0]> then
 
 --- /collapse ---
 
-**Tip:** Compare your code with the code examples. Are there any differences that shouldn't be there?
+**Tip:** Vergelijk je code met de voorbeelden. Zijn er verschillen die er niet zouden moeten zijn?
 
 --- /task ---
 
