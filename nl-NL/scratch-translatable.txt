@@ -1,0 +1,49 @@
+naam
+
+mijn winkel
+
+volgende klant
+
+Volgende klant alsjeblieft!
+
+totaal
+
+Dat is dan
+
+Bedankt voor het winkelen bij
+
+Wil je betalen of annuleren?
+
+betalen
+
+annuleer
+
+Ok. Geen probleem
+
+Klik op de producten die je wilt
+
+Heb je alles gevonden wat je vandaag nodig hebt?
+
+ja
+
+Dat is fantastisch!
+
+Misschien moet ik meer producten aan mijn winkel toevoegen
+
+Tas
+
+1 lepel
+
+ijshoorntje
+
+winkel
+
+true
+
+vals
+
+Hoe gaat het vandaag?
+
+goed
+
+Het spijt me om dat te horen.
