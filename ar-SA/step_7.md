@@ -1,22 +1,22 @@
-## Upgrade your project
+## قم بتطوير مشروعك
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time you can upgrade your project.
+إذا كان لديك الوقت ، يمكنك تطوير مشروعك.
 </div>
 <div>
 ![](images/upgrade-image.png){:width="300px"}
 </div>
 </div>
 
-Here are some ideas you could try:
-- Add more items to sell
-- Add more graphic and sound effects
-- Paint your own scenery and other costumes
-- Make another business and allow players to visit them both
+إليك بعض الأفكار التي يمكنك تجربتها:
+- أضف المزيد من العناصر للبيع
+- أضف المزيد من المؤثرات الصوتية والرسومات
+- ارسم المشهد الخاص بك والأزياء الأخرى
+- قم بعمل نشاط تجاري آخر واسمح للاعبين بزيارتهم على حد سواء
 
-Each example project in the [Introduction](.) has a ‘See Inside’ link for you to open the project in Scratch, and look at the code to get ideas and see how they work.
+يحتوي كل مشروع مثال في [مقدمة](.) على رابط انظر داخل لكي تفتح المشروع وتنظر إلى الرمز للحصول على أفكار ومعرفة كيفية عملها.
 
-Take a look at our ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio to see projects created by community members.
+ألق نظرة على ['Silly eyes - Community' Scratch studio](https://scratch.mit.edu/studios/29662180){: target = "_ blank"} لمشاهدة المشروعات التي أنشأها أعضاء المجتمع.
 
 --- save ---
