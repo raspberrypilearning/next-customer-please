@@ -1,50 +1,50 @@
-## Items for sale
+## Producten te koop
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your shop needs items for sale. Each item will have a price that will be added to a `total`{:class="block3variables"} variable.
+Je winkel heeft producten nodig om te verkopen. Elk item heeft een prijs die wordt toegevoegd aan een 'totaal'{:class="block3variables"} variabele.
 </div>
 <div>
 ![](images/step3-image.png){:width="300px"}
 </div>
 </div>
 
-You will need to keep track of how much your customer is spending.
+Je moet bijhouden hoeveel je klant uitgeeft.
 
 --- task ---
 
-Add a new variable called `total`{:class="block3variables"} for all sprites.
+Task ---Voeg een nieuwe variabele toe met de naam `totaal`{:class="block3variables"} voor alle sprites.
 
-Click on your **seller** sprite and add a script to `set`{:class="block3variables"} the `total`{:class="block3variables"} to `0` when the project starts.
+Klik op je **verkoper** sprite en voeg een script toe aan `maak`{:class="block3variables"} het `totaal`{:class="block3variables"} `0` wanneer het project begint.
 
 [[[scratch3-create-set-variable]]]
 
 --- /task ---
 
-What **items** will your customer(s) be buying?
-+ Some kind of food or drink
-+ Sports equipment, toys, or gadgets
-+ Magic wands, potions, or spell books
-+ Clothing or other fashion items
-+ Your idea
+Welke **producten** gaat je klant(en) kopen?
++ Eten of drinken
++ Sportuitrusting, speelgoed of gadgets
++ Toverstokken, drankjes of boeken met toverspreuken
++ Kleding of andere mode-items
++ Jouw eigen idee
 
 --- task ---
 
-Add a sprite for the first **item** you're going to sell in your shop.
+Voeg een sprite toe voor het eerste **product** dat je in je winkel gaat verkopen.
 
-If you like, you can add a price to the costume using the text tool in the Paint editor. Or add a price to the backdrop and position the item next to it.
+Als je wilt, kun je een prijs aan het uiterlijk toevoegen met behulp van het tekstgereedschap in de Paint editor. Of voeg een prijs toe aan de achtergrond en plaats het item ernaast.
 
-![Examples of items with amounts written next to them.](images/item-amounts.png)
+![Voorbeelden van producten met bedragen ernaast geschreven.](images/item-amounts.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to `change`{:class="block3variables"} the `total`{:class="block3variables"} by the price of your item when the customer clicks on the sprite.
+Voeg een script toe aan `verander`{:class="block3variables"} het `totaal`{:class="block3variables"} met de prijs van je product wanneer de klant op de sprite klikt.
 
 --- collapse ---
 ---
-title: Click to add an item
+title: Klik om een product toe te voegen
 ---
 
 ```blocks3
@@ -55,9 +55,9 @@ change [total v] by [10]
 
 --- /collapse ---
 
-It's also a good idea to `play a sound`{:class="block3sound"} to give the customer feedback that they have added an item.
+Het is ook een goed idee om `een geluid`{:class="block3sound"} af te spelen om de klant te laten weten dat hij een product heeft toegevoegd.
 
-![The add a sound icon](images/add-sound.png)
+![Het pictogram geluid toevoegen](images/add-sound.png)
 
 [[[scratch3-add-sound]]]
 
@@ -65,27 +65,27 @@ It's also a good idea to `play a sound`{:class="block3sound"} to give the custom
 
 --- task ---
 
-**Test:** Click on your item and check that the value of the `total`{:class="block3variables"} variable increases by the price of the item, and you hear the sound effect. Click more times to see the total go up.
+**Test:** Klik op je product en controleer of de waarde van de `totaal`{:class="block3variables"} variabele toeneemt met de prijs van het product, en controleer ook of je het geluidseffect hoort. Klik meerdere keren om het totaal te zien toenemen.
 
-Click the green flag to start your project and make sure that the `total`{:class="block3variables"} starts at `0`.
-
---- /task ---
-
---- task ---
-
-Add more items to your shop.
-
-You can either:
-+ Duplicate the first item and then add a new costume in the Paint editor
-+ Add a sprite and then drag the `when flag clicked`{:class="block3events"} script from the first item to your new item
-
-Add a price label to the costume or backdrop if you are using them.
+Klik op de groene vlag om je project te starten en zorg ervoor dat het `totaal`{:class="block3variables"} begint op `0`.
 
 --- /task ---
 
 --- task ---
 
-Click on your new **Item** sprite in the Sprite list then click on the **Code** tab.
+Voeg meer producten toe aan je winkel.
+
+Je kunt:
++ Het eerste product kopiëren en vervolgens een nieuw uiterlijk toevoegen in de Paint editor
++ Voeg een sprite toe en sleep vervolgens het `wanneer op de groene vlag wordt geklikt`{:class="block3events"} script van het eerste product naar je nieuwe product
+
+Voeg een prijslabel toe aan het uiterlijk of de achtergrond als je die gebruikt.
+
+--- /task ---
+
+--- task ---
+
+Task ---Klik op je nieuwe **product** sprite in de Sprite-lijst en klik vervolgens op het tabblad **Code**.
 
 Change the amount the `total`{:class="block3variables"} changes by to the price of your new item.
 
@@ -93,33 +93,33 @@ Change the amount the `total`{:class="block3variables"} changes by to the price 
 
 --- task ---
 
-**Test:** Click the green flag to start your project and click on items to add them. Check that the total increases by the correct amount each time you click on an item.
+**Test:** Klik op de groene vlag om je project te starten en klik op producten om ze toe te voegen. Controleer of het totaal met de juiste hoeveelheid toeneemt telkens wanneer je op een producten klikt.
 
-If you have added price labels, make sure they match the amount that gets added to the `total`{:class="block3variables"}, or your customers will be confused!
+Als je prijslabels hebt toegevoegd, zorg er dan voor dat ze overeenkomen met het bedrag dat wordt toegevoegd aan het `totaal`{:class="block3variables"}, anders snappen je klanten het niet!
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Debug:** Mogelijk vindt je enkele fouten in jouw project die je moet oplossen. Hier zijn enkele veelvoorkomende fouten.
 
 --- collapse ---
 ---
-title: The total doesn't go to 0 when I click the green flag
+title: Het totaal gaat niet naar 0 wanneer ik op de groene vlag klik
 ---
 
-Check that you have set the start value of the `total`{:class="block3variables"} variable in the `when flag clicked`{:class="block3events"} script on your **seller** sprite.
+Controleer of je de beginwaarde van de `totaal`{:class="block3variables"} variabele hebt ingesteld in het `wanneer op de groen vlag wordt geklikt`{:class="block3events"} script op je **verkoper** sprite.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The total doesn't increase by the correct amount when I click on an item
+title: Het totaal stijgt niet met het juiste bedrag wanneer ik op een product klik
 ---
 
-Check that each item has a `when this sprite clicked`{:class="block3events"} script that changes the `total`{:class="block3variables"} by the correct amount for that item — you might have changed the price for the wrong sprite.
+Controleer of elk product een `wanneer op deze sprite wordt geklikt`{:class="block3events"} script heeft dat het `totaal`{:class="block3variables"} wijzigt met het juiste bedrag voor dat product; je hebt mogelijk de prijs voor de verkeerde sprite gewijzigd.
 
-Check that you have used the `change`{:class="block3variables"} block and not the `set`{:class="block3variables"} block to change the `total`{:class="block3variables"}. You need to use `change`{:class="block3variables"} to add the price to the total, you don't want to set the total to the price of the item that was just added.
+Controleer of je het `verander`{:class="block3variables"} blok en niet het `maak`{:class="block3variables"} blok hebt gebruikt om het `totaal`{:class="block3variables"} te veranderen. Je moet het `verander`{:class="block3variables"} blok gebruiken om de prijs toe te voegen aan het totaal, je wilt het totaal niet instellen op de prijs van het product dat zojuist is toegevoegd.
 
 --- /collapse ---
 
