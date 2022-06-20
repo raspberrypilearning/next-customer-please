@@ -1,35 +1,38 @@
 ---
-title: Next customer please
+title: Επόμενος πελάτης παρακαλώ
 hero_image: images/banner.png
-description: A shop simulation project where the customer can buy items.
+description: Ένα έργο προσομοίωσης καταστήματος όπου ο πελάτης μπορεί να αγοράσει αντικείμενα.
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: Your business idea
+    title: Η επιχειρηματική σου ιδέα
   - 
-    title: Items for sale
-    completion: engaged
+    title: Αντικείμενα προς πώληση
+    completion:
+      - engaged
   - 
-    title: Purchases
+    title: Αγορές
   - 
-    title: Additional features
-    completion: internal
+    title: Επιπρόσθετα χαρακτηριστικά
+    completion:
+      - internal
   - 
-    title: Reflection
-    completion: external
+    title: Αναστοχασμός
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Upgrade your project
+    title: Αναβάθμισε το έργο σου
   - 
-    title: Share
+    title: Κοινοποίηση
   - 
-    title: What next?
+    title: Και μετά;
