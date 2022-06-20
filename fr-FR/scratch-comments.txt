@@ -1,9 +1,9 @@
-type the name of your business
+tape le nom de ton commerce
 
-your business name
+le nom de ton commerce
 
-use the name of your Container sprite
+utiliser le nom du sprite du conteneur
 
-start position
+position de départ
 
-previous customer takes the bag
+le client précédent prend le sac
