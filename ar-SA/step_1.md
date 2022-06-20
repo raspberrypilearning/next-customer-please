@@ -1,12 +1,12 @@
-## Introduction
+## المقدمة
 
-Make a shop app where the customer can buy items from your shop. The project will be in first-person view where the player is a customer.
+أنشئ تطبيق متجر حيث يمكن للعميل شراء سلع من متجرك. سيكون المشروع من منظور الشخص الأول حيث يكون اللاعب عميلاً.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**First-person view**</span> means that you don't see your character on the screen, instead you see what they see.
 </p>
 
-You will:
+سوف تفعلها:
 + Create a shop app with items to buy and a checkout
 + Plan your time to get a simple version working quickly
 + Try shops made by others and share your shop so others can try it
@@ -37,7 +37,7 @@ Click on Space Fruit to buy them and watch the total go up. When you're ready, c
 
 --- /task ---
 
-### Get inspiration
+### احصل على الإلهام
 
 You are going to make some design decisions to choose what items your business will offer and how the customer will check out.
 
@@ -68,9 +68,9 @@ Click on the **seller** sprites to buy items:
 
 --- print-only ---
 
-### Get inspiration
+### احصل على الإلهام
 
-You are going to make some design decisions to create your character. See inside example projects in [Scratch 2: Next customer please! - Examples](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
+سوف تتخذ بعض قرارات التصميم لإنشاء شخصيتك. See inside example projects in [Scratch 2: Next customer please! - Examples](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
 
 ![Example project](images/fruit.png) ![Example project](images/tshirt.png) ![Example project](images/icecream.png) ![Example project](images/vending.png)
 
