@@ -25,7 +25,7 @@ Jay's project werkt niet. Wat moet ze doen?
 
   --- /feedback ---
 
-- (X) Lees de code zorgvuldig en probeer deze te debuggen.
+- (x) Lees de code zorgvuldig en probeer deze te debuggen.
 
   --- feedback ---
 
