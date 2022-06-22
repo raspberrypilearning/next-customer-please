@@ -74,7 +74,7 @@ when this sprite clicked
 say (join [Cela fera ] (total)) for (2) seconds
 + ask [Voulez-vous payer ou annuler ?] and wait
 + if {(answer) = [payer]} then
-play sound [machine v] until done 
+play sound [machine v] until done
 set [total v] to (0)
 say (join [Merci d'avoir acheté chez ] (nom)) for (2) seconds
 broadcast [client suivant v]
