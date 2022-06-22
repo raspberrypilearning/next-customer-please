@@ -2,7 +2,7 @@
 
 Goed gedaan, je hebt je vaardigheden gebruikt om een winkel-app te ontwerpen en te bouwen!
 
-Je hebt gebruik gemaakt van `Gebeurtenissen`{:class="block3events"}, `Besturen`{:class="block3control"}, `Waarnemen`{:class="block3sensing"}, `Functies`{:class="block3operators"}, `Variabelen`{:class="block3controls"}, `Uiterlijken`{:class="block3looks"} en `Geluid`{:class="block3sound"}!
+Je hebt gebruik gemaakt van `Gebeurtenissen`{:class="block3events"}, `Besturen`{:class="block3control"}, `Waarnemen`{:class="block3sensing"}, `Functies`{:class="block3operators"}, `Variabelen`{:class="block3variables"}, `Uiterlijken`{:class="block3looks"} en `Geluid`{:class="block3sound"}!
 
 Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
 
@@ -28,7 +28,7 @@ Welk blok zou je aan het betalingsscript moeten toevoegen om het totaal terug te
 ```blocks3
 when this sprite clicked
 ask [Wil je betalen of annuleren?] and wait
-if {(answer) = [pay]} then
+if {(answer) = [betalen]} then
 say (join [Dat is dan ] (totaal)) for (2) seconds
 play sound [coin v] until done 
 say (join [Bedankt voor het winkelen bij ] (name)) for (2) seconds

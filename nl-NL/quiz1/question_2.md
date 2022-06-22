@@ -22,7 +22,7 @@ Wanneer de code wordt uitgevoerd, typt de gebruiker het antwoord 'geweldig'. Wat
 
 --- choices ---
 
-- (X) de **Verkoper** zal `Sorry om dat te horen zeggen.`
+- (x) de **Verkoper** zal `Sorry om dat te horen zeggen.`
 
   --- feedback ---
 
