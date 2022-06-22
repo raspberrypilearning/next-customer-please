@@ -64,7 +64,7 @@ Tu veux peut-être donner au client la possibilité d'annuler ses achats.
 
 --- collapse ---
 ---
-title: Configurer les options de paiement et dannulation
+title: Configurer les options de paiement et d'annulation
 ---
 
 `Demander`{:class="block3sensing"} `Voulez-vous payer ou annuler ?`. Ajoute un bloc `si`{:class="block3control"} pour `réponse`{:class="block3sensing"} `=`{:class="block3operators"} `payer` et mets-y tes blocs de paiement existants.
