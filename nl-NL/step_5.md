@@ -46,7 +46,7 @@ say [Misschien moet ik meer producten aan mijn winkel toevoegen] for [2] seconds
 end
 ```
 
-**Debug:**: Controleer dat je de opties in je code en antwoord goed gespeld hebt. Het is OK als je hoofdletters gebruikt, dus "Ja" en "JA" komen overeen met "ja".
+**Debug:** Controleer dat je de opties in je code en antwoord goed gespeld hebt. Het is OK als je hoofdletters gebruikt, dus "Ja" en "JA" komen overeen met "ja".
 
 Voeg meerdere vragen toe om een chatbot of een "niet-speler karakter" te maken waarmee je kunt praten.
 
@@ -167,7 +167,7 @@ Selecteer je **verkoper** sprite. Werk het `wanneer op de groene vlag wordt gekl
 Voeg nu een blok toe om de `winkelen`{:class="block3variables"} variabele te veranderen in `niet waar` aan het begin van het **verkoper**'s `wanneer op deze sprite wordt geklikt`{:class="block3events"} script:
 
 ```blocks3 
-+set [winkel v] to [vals]
++set [winkel v] to [niet waar]
 ```
 
 En een blok om de `winkelen`{:class="block3variables"} variabele terug te zetten naar `waar` aan het einde van hetzelfde script:

@@ -64,7 +64,7 @@ Misschien wil je de klant de mogelijkheid geven om zijn boodschappen te annulere
 
 --- collapse ---
 ---
-titel: Betaal- en annuleer opties instellen
+title: Betaal- en annuleer opties instellen
 ---
 
 `Vraag`{:class="block3sensing"} `Wilt u betalen of annuleren?`. Voeg een `als`{:class="block3control"} blok toe voor `antwoord`{:class="block3sensing"} `=`{:class="block3operators"} `betaal` en zet daarin je bestaande betalingsblokken.

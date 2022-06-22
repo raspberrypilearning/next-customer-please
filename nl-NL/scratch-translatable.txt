@@ -38,9 +38,9 @@ ijshoorntje
 
 winkel
 
-true
+waar
 
-vals
+niet waar
 
 Hoe gaat het vandaag?
 

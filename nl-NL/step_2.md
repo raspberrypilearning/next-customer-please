@@ -62,7 +62,7 @@ Maak een `variabele`{:class="block3variables"} met de naam `naam`:
 
 ---
 
-Title: Maak een variabele
+title: Maak een variabele
 
 ---
 
@@ -89,7 +89,7 @@ Maak een bord op het speelveld met je variabele:
 
 ---
 
-Title: Verander de vormgeving en positie van variabelen
+title: Verander de vormgeving en positie van variabelen
 
 ---
 
@@ -142,7 +142,7 @@ say [Volgende klant alsjeblieft!] for (2) seconds
 
 ---
 
-Title: Variabele toont `0`
+title: Variabele toont `0`
 
 ---
 
