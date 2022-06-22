@@ -1,0 +1,49 @@
+nom
+
+ma boutique
+
+client suivant
+
+Client suivant, s'il vous plaît !
+
+total
+
+Cela fera
+
+Merci d'avoir acheté chez
+
+Voulez-vous payer ou annuler ?
+
+payer
+
+annuler
+
+D'accord. Pas de problème
+
+Cliquez sur les articles que vous souhaitez
+
+Avez-vous trouvé tout ce que vous vouliez aujourd'hui ?
+
+oui
+
+C'est fantastique !
+
+Peut-être que je devrais ajouter plus d'articles à ma boutique
+
+Sac
+
+1 boule
+
+cône
+
+boutique
+
+true
+
+faux
+
+Comment allez-vous aujourd'hui ?
+
+bien
+
+Je suis désolé.

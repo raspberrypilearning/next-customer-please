@@ -1,0 +1,29 @@
+---
+title: Επόμενος πελάτης παρακαλώ
+hero_image: images/banner.png
+description: Ένα έργο προσομοίωσης καταστήματος όπου ο πελάτης μπορεί να αγοράσει αντικείμενα.
+version: 4
+listed: true
+copyedit: false
+last_tested: '2021-03-26'
+steps:
+  - title: Εισαγωγή
+  - title: Η επιχειρηματική σου ιδέα
+  - title: Αντικείμενα προς πώληση
+    completion:
+      - engaged
+  - title: Αγορές
+  - title: Επιπρόσθετα χαρακτηριστικά
+    completion:
+      - internal
+  - title: Αναστοχασμός
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Αναβάθμισε το έργο σου
+  - title: Κοινοποίηση
+  - title: Και τώρα;
