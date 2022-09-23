@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Make a shop app where the customer can buy items from your shop. The project will be in first-person view where the player is a customer. 
 
@@ -20,7 +20,7 @@ You will:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Try it 
+### Play ▶️ 
 
 Click on Space Fruit to buy them and watch the total go up. When you're ready, click on Kiran to check out. 
 
@@ -37,7 +37,7 @@ Click on Space Fruit to buy them and watch the total go up. When you're ready, c
 
 --- /task ---
 
-### Get inspiration 
+### Get ideas 💭
 
 You are going to make some design decisions to choose what items your business will offer and how the customer will check out. 
 
@@ -68,7 +68,7 @@ Click on the **seller** sprites to buy items:
 
 --- print-only ---
 
-### Get inspiration 
+### Get ideas 💭
 
 You are going to make some design decisions to create your character. See inside example projects in [Scratch 2: Next customer please! - Examples](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
 
