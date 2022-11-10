@@ -1,27 +1,21 @@
-## Reflection
+## Quick quiz
 
-Well done, you used your skills to design and build a shop app!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-You used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Looks`{:class="block3looks"} and `Sound`{:class="block3sound"} blocks!
-
-Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
-
-Answer the three questions below to reflect on what you've learned.
-
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+When you have answered each question, click on **Check my answer**.
 
 Have fun!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Pregunta 1 de 3
 ---
 
 A shop project uses a `total`{:class="block3variables"} variable to store the total for each customer.
 
-+ A customer adds items that total `50` and pays
-+ A new customer adds items that total `40` but the `total`{:class="block3variables"} is now showing as `90` for the second customer
++ Un cliente agrega artículos que suman `50` y paga
++ Un nuevo cliente agrega elementos que suman `40`, pero el `total`{:class="block3variables"} ahora se muestra como `90` para el segundo cliente
 
 Which block would you need to add to the payment script to make the total go back to `0` when each customer pays?
 
