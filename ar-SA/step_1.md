@@ -1,4 +1,4 @@
-## المقدمة
+## You will make
 
 أنشئ تطبيق متجر حيث يمكن للعميل شراء سلع من متجرك. سيكون المشروع من منظور الشخص الأول حيث يكون اللاعب عميلاً.
 
@@ -20,7 +20,7 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Try it 
+### Play ▶️ 
 
 Click on Space Fruit to buy them and watch the total go up. When you're ready, click on Kiran to check out. 
 
@@ -37,7 +37,7 @@ Click on Space Fruit to buy them and watch the total go up. When you're ready, c
 
 --- /task ---
 
-### احصل على الإلهام
+### Get ideas 💭
 
 You are going to make some design decisions to choose what items your business will offer and how the customer will check out.
 
@@ -68,7 +68,7 @@ Click on the **seller** sprites to buy items:
 
 --- print-only ---
 
-### احصل على الإلهام
+### Get ideas 💭
 
 سوف تتخذ بعض قرارات التصميم لإنشاء شخصيتك. See inside example projects in [Scratch 2: Next customer please! - Examples](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
 
