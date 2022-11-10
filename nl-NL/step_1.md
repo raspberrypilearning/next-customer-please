@@ -1,4 +1,4 @@
-## Inleiding
+## You will make
 
 Maak een winkel-app waar de klant producten in je winkel kan kopen. Het project zal in de ik-persoon weergave zijn waar de speler een klant is.
 
@@ -20,9 +20,9 @@ Je gaat:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Probeer het
+### Play ▶️ 
 
-Klik op Ruimte fruit om ze te kopen en kijk hoe het totaal omhoog gaat. Als je klaar bent, klik je op Kiran om uit te checken. 
+Click on Space Fruit to buy them and watch the total go up. Als je klaar bent, klik je op Kiran om uit te checken. 
 
 + wat gebeurt er als je probeert uit te checken voordat je fruit hebt gekozen? 
 + Hoe denk je dat het project weet dat je nog geen fruit hebt toegevoegd?
@@ -37,7 +37,7 @@ Klik op Ruimte fruit om ze te kopen en kijk hoe het totaal omhoog gaat. Als je k
 
 --- /task ---
 
-### Doe inspiratie op
+### Get ideas 💭
 
 Je gaat een aantal ontwerpbeslissingen nemen om te kiezen welke producten je bedrijf te bieden heeft en hoe de klant gaat uitchecken.
 
@@ -68,7 +68,7 @@ Klik op de **verkoper** sprites om producten te kopen:
 
 --- print-only ---
 
-### Doe inspiratie op
+### Get ideas 💭
 
 Je gaat een aantal ontwerpbeslissingen nemen om je personage te creëren. Bekijk voorbeeldprojecten in [Scratch 2: Volgende klant alsjeblieft! - voorbeelden](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
 
