@@ -5,10 +5,10 @@ description: Ένα έργο προσομοίωσης καταστήματος �
 version: 4
 listed: true
 copyedit: false
-last_tested: '2021-03-26'
+last_tested: "2021-03-26"
 steps:
   - 
-    title: Εισαγωγή
+    title: You will make
   - 
     title: Η επιχειρηματική σου ιδέα
   - 
@@ -22,7 +22,7 @@ steps:
     completion:
       - internal
   - 
-    title: Αναστοχασμός
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
