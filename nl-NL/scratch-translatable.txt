@@ -16,7 +16,7 @@ Wil je betalen of annuleren?
 
 betalen
 
-annuleer
+annuleren
 
 Ok. Geen probleem
 
@@ -38,9 +38,9 @@ ijshoorntje
 
 winkel
 
-true
+waar
 
-vals
+niet waar
 
 Hoe gaat het vandaag?
 
