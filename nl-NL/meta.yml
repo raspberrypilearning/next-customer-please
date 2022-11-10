@@ -5,10 +5,10 @@ description: Een winkel simulatie project waar de klant voorwerpen kan kopen.
 version: 4
 listed: true
 copyedit: false
-last_tested: '2021-03-26'
+last_tested: "2021-03-26"
 steps:
   - 
-    title: Inleiding
+    title: You will make
   - 
     title: Jouw business idee
   - 
@@ -22,7 +22,7 @@ steps:
     completion:
       - internal
   - 
-    title: Reflectie
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
