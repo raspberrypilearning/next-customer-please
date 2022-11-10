@@ -39,7 +39,7 @@ Jay's project werkt niet. Wat moet ze doen?
 
 Een computer doet alleen wat we hem vertellen te doen, dus het is niet logisch om er boos op te worden.
 
-Geïrriteerd raken helpt niet om het probleem op te lossen, omdat het het moeilijker zal maken om duidelijk te denken.
+Geïrriteerd raken helpt niet om het probleem op te lossen, omdat het het moeilijker zal maken om helder te denken.
 
   --- /feedback ---
 
