@@ -5,10 +5,10 @@ description: مشروع محاكاة متجر حيث يستطيع العميل �
 version: 4
 listed: true
 copyedit: false
-last_tested: '2021-03-26'
+last_tested: "2021-03-26"
 steps:
   - 
-    title: المقدمة
+    title: You will make
   - 
     title: فكرة عملك
   - 
@@ -22,7 +22,7 @@ steps:
     completion:
       - internal
   - 
-    title: تفكير
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
