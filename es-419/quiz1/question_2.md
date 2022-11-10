@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Pregunta 2 de 3
 ---
 
-In a shop, the **seller** has this code in the checkout script:
+En una tienda, el **vendedor** tiene este código en el script de pago:
 
 ```blocks3
 ask [How are you today?] and wait
@@ -16,45 +16,45 @@ say [Sorry to hear that.] for [2] seconds
 end
 ```
 
-When the code runs, the user types the answer 'great'. What will the **seller** sprite say?
+Cuando se ejecuta el código, el usuario escribe la respuesta "excelente". ¿Qué dirá el objeto **vendedor**?
 
-![An 'ask' box with the word 'great' typed in.](images/quiz2.png)
+![Un cuadro de 'preguntar' con la palabra 'genial' escrita.](images/quiz2.png)
 
 --- choices ---
 
-- (x) The **Seller** will say `Sorry to hear that.`
+- (x) El **Vendedor** dirá `Lamento escuchar eso.`
 
   --- feedback ---
 
-  Yes. Humans know that 'great' means the same as 'good', but the '=' checks whether the letters are the same.
+  Sí. Los humanos saben que 'genial' es lo mismo que 'bueno', pero el '=' comprueba si las letras son iguales.
 
-  The **condition** `answer`{:class="block3sensing"} = `good` is 'false' so the `say`{:class="block3looks"} block in the `else`{:class="block3control"} part will run.
+  La **condición** `respuesta`{:class="block3sensing"} = `bueno` es 'falso' entonces se ejecutará el bloque `decir`{:class="block3looks"} en la parte `entonces`{:class="block3control"}.
 
   --- /feedback ---
 
-- ( ) The **seller** will say `That's fantastic!`
+- ( ) El **vendedor** dirá `¡Eso es fantástico!`
 
   --- feedback ---
 
-No, only the exact answer `good` will make the **seller** say `That's fantastic!`. Look at the code again to see what message the **seller** will say for all answers that are not `good`.
+No, solo la respuesta exacta `buena` hará que el **vendedor** diga `¡Eso es fantástico!`. Vuelve a ver el código para ver qué mensaje dirá el **vendedor** para todas las respuestas que no sean `buenas`.
 
-**Tip:** 'Good' or 'GOOD' would match 'good'.
+**Sugerencia:** 'Bueno' o 'BUENO' coincidiría con 'bueno'.
 
   --- /feedback ---
 
-- ( ) The **seller** won't say anything.
+- ( ) El **vendedor** no dirá nada.
 
   --- feedback ---
 
-No, the **seller** will always say something. Look carefully at the code to see what the message will be.
+No, el **vendedor** siempre dirá algo. Mira cuidadosamente el código para ver cuál será el mensaje.
 
   --- /feedback ---
 
-- ( ) The **seller** will say `great`.
+- ( ) El **vendedor** dirá `genial`.
 
   --- feedback ---
 
-No, the **customer** typed the answer 'great' but the **seller** does not say the answer. Look carefully at the code to see what the message will be.
+No, el **cliente** escribió la respuesta 'genial' pero el **vendedor** no dice la respuesta. Mira cuidadosamente el código para ver cuál será el mensaje.
 
   --- /feedback ---
 
