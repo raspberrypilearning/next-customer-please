@@ -1,16 +1,10 @@
-## Και τώρα;
+## Quick quiz
 
-Μπράβο, χρησιμοποίησες τις δεξιότητές σου για να σχεδιάσεις και να δημιουργήσεις μια εφαρμογή καταστήματος!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Έχεις χρησιμοποιήσει τα μπλοκ `Συμβάντα`{:class="block3events"}, `Έλεγχος`{:class="block3control"}, `Αισθητήρες`{:class="block3sensing"}, `Τελεστές`{:class="block3operators"}, `Μεταβλητές`{:class="block3motion"}, `Όψεις`{:class="block3looks"} και `Ήχος`{:class="block3sound"}!
+When you have answered each question, click on **Check my answer**.
 
-Τώρα, ήρθε η ώρα να εξετάσεις τις νέες γνώσεις- ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
-
-Απάντησε στις τρεις ερωτήσεις παρακάτω για να διαπιστώσεις τι έμαθες.
-
-Μετά από κάθε ερώτηση, πάτησε Υποβολή. Θα οδηγηθείς στη σωστή απάντηση. Μπορείς να επαναλάβεις αυτήν τη δραστηριότητα όσες φορές θέλεις.
-
-Καλή διασκέδαση!
+Have fun!
 
 --- question ---
 
@@ -18,12 +12,12 @@
 legend: Ερώτηση 1 από 3
 ---
 
-Ένα έργο καταστήματος χρησιμοποιεί μια μεταβλητή `σύνολο`{:class="block3variables"} για την αποθήκευση του συνόλου για κάθε πελάτη.
+A shop project uses a `total`{:class="block3variables"} variable to store the total for each customer.
 
 + Ένας πελάτης προσθέτει αντικείμενα που συνολικά κοστίζουν `50` και πληρώνει
 + Ένας νέος πελάτης προσθέτει αντικείμενα που συνολικά κοστίζουν `40`, αλλά το `σύνολο`{:class="block3variables"} εμφανίζεται τώρα ως `90` για τον δεύτερο πελάτη
 
-Ποιο μπλοκ θα πρέπει να προσθέσεις στο script πληρωμής για να επιστρέψει το σύνολο στο `0` όταν πληρώνει κάθε πελάτης;
+Which block would you need to add to the payment script to make the total go back to `0` when each customer pays?
 
 ```blocks3
 when this sprite clicked
@@ -45,7 +39,7 @@ change [total v] by [0]
 
  --- feedback ---
 
-Όχι ακριβώς, το `σύνολο`{:class="block3variables"} θα πρέπει να είναι `0` μετά την πληρωμή ενός πελάτη, αλλά δεν είναι το μπλοκ `άλλαξε`{:class="block3variables"} που χρειάζεσαι.
+Not quite, `total`{:class="block3variables"} should be `0` after a customer pays, but it is not the `change`{:class="block3variables"} block you need.
 
  --- /feedback ---
 
@@ -56,7 +50,7 @@ set [total v] to [40]
 
  --- feedback ---
 
- Όχι ακριβώς, αυτό θα λειτουργούσε για τον δεύτερο πελάτη, αλλά το `σύνολο`{:class="block3variables"} θα ήταν λάθος για άλλους πελάτες.
+ Not quite, this would work for the second customer but the `total`{:class="block3variables"} would be wrong for other customers.
 
  --- /feedback ---
 
@@ -68,7 +62,7 @@ set [total v] to [0]
 
  --- feedback ---
 
-Ναι, αυτό είναι σωστό. Πρέπει να ορίσεις ``{:class="block3variables"} το `σύνολο`{:class="block3variables"} σε `0` μετά την πληρωμή κάθε πελάτη.
+Yes, that's correct. You need to `set`{:class="block3variables"} the `total`{:class="block3variables"} to `0` after each customer pays.
 
  --- /feedback ---
 
@@ -80,7 +74,7 @@ change [total v] by [-50]
 
  --- feedback ---
 
-Αυτό θα λειτουργούσε σε αυτό το παράδειγμα, αλλά τι θα γινόταν αν ο πρώτος πελάτης ξόδευε διαφορετικό ποσό; Η λύση σου πρέπει να λειτουργεί όταν ο προηγούμενος πελάτης ξοδεύει διαφορετικά ποσά.
+That would work for this example, but what if the first customer spent a different amount? Your solution needs to work when the previous customer spends different amounts.
 
  --- /feedback ---
 
