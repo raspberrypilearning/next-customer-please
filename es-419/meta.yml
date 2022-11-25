@@ -8,28 +8,28 @@ copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Lo que harás
   - 
     title: Tu idea de negocio
   - 
     title: Productos en venta
     completion:
-      - comprometido
+      - engaged
   - 
     title: Compras
   - 
     title: Características adicionales
     completion:
-      - interno
+      - internal
   - 
-    title: Quick quiz
+    title: Test rápido
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
     completion:
-      - externo
+      - external
   - 
     title: Mejora tu proyecto
   - 
