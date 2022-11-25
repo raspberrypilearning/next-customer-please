@@ -1,4 +1,4 @@
-## You will make
+## Lo que harás
 
 Crea una aplicación para tiendas donde el cliente pueda comprar artículos de tu tienda. El proyecto estará en primera persona donde el jugador es un cliente.
 
@@ -20,9 +20,9 @@ Vas a:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Play ▶️ 
+### Reproducir ▶️
 
-Click on Space Fruit to buy them and watch the total go up. Cuando estés listo, haz clic en Kiran para pagar. 
+Haz clic en Space Fruit para comprarlos y ver cómo sube el total. Cuando estés listo, haz clic en Kiran para pagar. 
 
 + ¿Qué pasa si intentas pagar antes de haber elegido alguna fruta? 
 + ¿Cómo crees que el proyecto sabe que aún no has agregado ninguna fruta?
@@ -37,7 +37,7 @@ Click on Space Fruit to buy them and watch the total go up. Cuando estés listo,
 
 --- /task ---
 
-### Get ideas 💭
+### Obtén ideas 💭
 
 Vas a tomar algunas decisiones de diseño para elegir qué artículos ofrecerá tu tienda y cómo pagará el cliente.
 
@@ -68,7 +68,7 @@ Haz clic en los sprites de **vendedor** para comprar artículos:
 
 --- print-only ---
 
-### Get ideas 💭
+### Obtén ideas 💭
 
 Vas a tomar algunas decisiones de diseño para crear tu personaje. Ve los proyectos de ejemplo en [Scratch 2: ¡Siguiente cliente, por favor! - Ejemplos](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Estudio Scratch.
 
