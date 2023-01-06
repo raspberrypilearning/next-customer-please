@@ -1,8 +1,8 @@
-## Your business idea
+## Dy syniad busnes
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What is your business idea? It could be something realistic, something from a book or movie you like, or something completely silly.
+Beth yw dy syniad busnes? Gallai fod yn rhywbeth realistig, fel rhywbeth o lyfr neu ffilm rwyt ti'n ei hoffi, neu'n rhywbeth hollol wirion.
 </div>
 <div>
 ![](images/step2-image.png){:width="300px"}
@@ -11,93 +11,93 @@ What is your business idea? It could be something realistic, something from a bo
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and look at the range of sprites and backdrops that you can use. Spend some time thinking about your business idea.
+Agora [brosiect Scratch newydd](http://rpf.io/scratch-new){:target="_blank"} a tharo golwg ar yr amrywiaeth o gorluniau a chefnlenni y galli di eu defnyddio. Treulia ychydig o amser yn meddwl am dy syniad busnes.
 
 [[[working-offline]]]
 
 --- /task ---
 
-What backdrop and extra scenery sprites will you need?
-+ A backdrop from the Scratch library, or a plain coloured backdrop?
-+ A desk, counter, or window to sell from?
-+ A shelf or bookcase to put items on — you could Paint this on the backdrop
+Pa gefnlen a chorluniau golygfeydd ychwanegol bydd eu hangen arnat ti?
++ Cefnlen o lyfrgell Scratch, neu gefnlen lliw plaen?
++ Desg, cownter, neu ffenestr i werthu ohoni?
++ Silff neu gwpwrdd llyfrau i roi eitemau arno - fe allech chi Beintio hwn ar y gefnlen
 
 --- task ---
 
-Click **Choose a Backdrop** or paint your own backdrop.
+Cliciwch **Dewiswch Gefnlen** neu beintio dy gefndir dy hun.
 
 ![](images/choose-backdrop-icon.png)
 
-Click **Choose a Sprite** and add or paint extra scenery sprites.
+Clicia **Dewiswch Gorlun** ac ychwanegu neu beintio corluniau golygfeydd ychwanegol.
 
 ![](images/choose-sprite-icon.png)
 
-You can always add more scenery later if you find that you need it.
+Galli di bob amser ychwanegu mwy o olygfeydd yn ddiweddarach os byddi di'n gweld bod angen gwneud hynny.
 
 --- /task ---
 
-What will the **seller** sprite look like?
-+ A person or non-player character such as a shopkeeper, farmer, or librarian?
-+ A machine such as a vending machine, jukebox, or cash register?
+Sut fydd corlun y **gwerthwr** yn edrych?
++ Person neu gymeriad sydd ddim yn chwaraewr (NPC) fel siopwr, ffermwr, neu lyfrgellydd?
++ Peiriant fel peiriant gwerthu, jiwcbocs, neu gofrestr arian?
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**NPC**</span> is a non-player character that you can interact with in a game or interactive story. Can you think of games you have played that have NPCs? Next time you play, think about how it was someone's job to make that character.
+Mae <span style="color: #0faeb0">**NPC**</span> yn gymeriad sydd ddim yn chwaraewr y galli di ryngweithio ag ef mewn gêm neu stori ryngweithiol. Alli di feddwl am gemau rwyt ti wedi'u chwarae sydd â NPCs? Tro nesaf byddi di'n chwarae, ystyria mai gwaith rhywun oedd creu'r cymeriad hwnnw.
 </p>
 
 --- task ---
 
-Add a sprite to represent the seller.
+Ychwanega gorlun i gynrychioli'r gwerthwr.
 
 ![](images/choose-sprite-icon.png)
 
 --- /task ---
 
-What is the name of your business?
+Beth ydy enw dy fusnes?
 
 --- task ---
 
-Create a `variable`{:class="block3variables"} called `name`:
+Crea `newidyn`{:class="block3variables"} o'r enw `enw`:
 
---- collapse ---
-
----
-
-title: Create a variable
+---collapse---
 
 ---
 
-From the `Variables`{:class="block3variables"} blocks menu click the **Make a Variable** button.
+title: Creu newidyn
 
-Call your new variable `name`:
+---
 
-![The New Variable pop up window with text input 'name'.](images/new-variable.png)
+O'r ddewislen blociau `Newidynnau`{:class="block3variables"} clicia'r botwm **Creu Newidyn**.
 
-**Notice:** The new `name` variable appears on the Stage and can now be used in the `Variable`{:class="block3variables"} blocks.
+Rho'r enw `enw` i dy newidyn newydd:
+
+![Y ffenestr naid New Variable gyda'r testun 'name'.](images/new-variable.png)
+
+**Nodyn:** Bydd y newidyn `enw` newydd yn ymddangos ar y Llwyfan a bydd modd ei ddefnyddio nawr yn y blociau `Newidyn`{:class="block3variables"}.
 
 --- /collapse ---
 
-Click on your **seller** sprite and add code to set the variable to the name of your business:
+Clicia ar dy gorlun **gwerthwr** ac ychwanega god i osod y newidyn i enw dy fusnes:
 
 ```blocks3
 when flag clicked
 set [name v] to () //type the name of your business
 ```
 
-Create a sign on the Stage with your variable:
+Crea arwydd ar y Llwyfan gyda dy newidyn:
 
---- collapse ---
-
----
-
-title: Change the appearance and position of variables
+---collapse---
 
 ---
 
-Right-click on the `variable`{:class="block3variables"} on the Stage and choose large readout:
+title: Newid ymddangosiad a lleoliad newidynnau
 
-![Pop up menu showing format options with 'large readout' selected.](images/large-readout.png)
+---
 
-Drag your `variable`{:class="block3variables"} to position it on the Stage as part of the shop scenery.
+De-glicia ar y `newidyn`{:class="block3variables"} ar y Llwyfan a dewis sgrîn fawr:
+
+![Dewislen naid yn dangos opsiynau fformatio gyda 'large readout' wedi'i ddewis.](images/large-readout.png)
+
+Llusga dy `newidyn`{:class="block3variables"} i'w osod ar y Llwyfan fel rhan o olygfa'r siop.
 
 --- /collapse ---
 
@@ -105,15 +105,15 @@ Drag your `variable`{:class="block3variables"} to position it on the Stage as pa
 
 --- task ---
 
-**Test:** Make sure you can see your business name as the value of the variable on the Stage.
+**Prawf:** Gwna'n siŵr dy fod yn gallu gweld enw dy fusnes fel gwerth y newidyn ar y Llwyfan.
 
 --- /task ---
 
-Get ready to welcome your first customer.
+Bydd yn barod i groesawu dy gwsmer cyntaf.
 
 --- task ---
 
-Click on your **seller** sprite and add a `broadcast`{:class="block3control"} block. Creat a new message called `next customer`.
+Clicia ar dy gorlun **gwerthwr** ac ychwanega floc `darlledu`{:class="block3control"}. Crea neges newydd o'r enw `cwsmer nesaf`.
 
 ```blocks3
 when flag clicked
@@ -125,7 +125,7 @@ set [name v] to [my shop] // your business name
 
 --- task ---
 
-Create a new script for your **seller** sprite to `say`{:class="block3looks"} `Next customer please` when they receive the `broadcast`{:class="block3control"} `next customer`{:class="block3control"}.
+Crea sgript newydd ar gyfer dy gorlun **gwerthwr** i `ddweud`{:class="block3looks"} `Cwsmer nesaf plîs` pan fyddan nhw'n derbyn y `darllediad`{:class="block3control"} `cwsmer nesaf`{:class= "block3control"}.
 
 ```blocks3
 when I receive [next customer v] 
@@ -136,17 +136,17 @@ say [Next customer please!] for (2) seconds
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here is a common bug.
+**Difa chwilod:** Efallai bydd angen i ti ddifa chwilod yn dy brosiect. Dyma chwilen gyffredin.
 
---- collapse ---
-
----
-
-title: Variable shows `0`
+---collapse---
 
 ---
 
-You should use the `set [name v] to ()`{:class="block3variables"} block to set the variable to your name. If you have already added a script, check that you have typed your business name into the value and clicked the green flag.
+title: Newidyn yn dangos `0`
+
+---
+
+Dylet ti ddefnyddio'r bloc `gosod [enw v] i ()`{:class="block3variables"} er mwyn gosod y newidyn i dy enw di. Os wyt ti eisoes wedi ychwanegu sgript, gwna'n siŵr dy fod wedi teipio enw dy fusnes i mewn i'r gwerth ac wedi clicio ar y faner werdd.
 
 ```blocks3
 when flag clicked
@@ -157,4 +157,4 @@ set [name v] to [my shop] // your business name
 
 --- /task ---
 
---- save ---
+--- cadw ---
