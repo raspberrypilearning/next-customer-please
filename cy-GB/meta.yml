@@ -1,38 +1,38 @@
 ---
-title: Next customer please
+title: Cwsmer nesaf plîs
 hero_image: images/banner.png
-description: A shop simulation project where the customer can buy items.
+description: Prosiect sy'n creu efelychiad o siop lle mae cwsmeriaid yn gallu prynu eitemau.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Byddi di'n creu
   - 
-    title: Your business idea
+    title: Dy syniad busnes
   - 
-    title: Items for sale
+    title: Eitemau ar werth
     completion:
-      - engaged
+      - external
   - 
-    title: Purchases
+    title: Prynwyd
   - 
-    title: Additional features
+    title: Nodweddion ychwanegol
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Cwis cyflym
     knowledge_quiz:
-      path: quiz1
+      path: cwis1
       version: 1
       questions: 3
       passing_score: 3
     completion:
-      - external
+      - internal
   - 
-    title: Upgrade your project
+    title: Uwchraddio dy brosiect
   - 
-    title: Share
+    title: Rhannu
   - 
-    title: What next?
+    title: Beth nesaf?
