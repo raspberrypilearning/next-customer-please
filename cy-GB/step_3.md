@@ -1,50 +1,50 @@
-## Items for sale
+## Eitemau ar werth
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your shop needs items for sale. Each item will have a price that will be added to a `total`{:class="block3variables"} variable.
+Mae angen eitemau ar werth ar dy siop. Bydd gan bob eitem bris a fydd yn cael ei ychwanegu at newidyn `cyfanswm`{:class="block3variables"}.
 </div>
 <div>
 ![](images/step3-image.png){:width="300px"}
 </div>
 </div>
 
-You will need to keep track of how much your customer is spending.
+Bydd angen i ti gadw golwg ar faint mae dy gwsmer yn ei wario.
 
 --- task ---
 
-Add a new variable called `total`{:class="block3variables"} for all sprites.
+Ychwanegu newidyn newydd o'r enw `cyfanswm`{:class="block3variables"} ar gyfer pob corlun.
 
-Click on your **seller** sprite and add a script to `set`{:class="block3variables"} the `total`{:class="block3variables"} to `0` when the project starts.
+Cliciwch ar dy gorlun **gwerthwr** ac ychwanegwch sgript i `osod`{:class="block3variables"} y `cyfanswm`{:class="block3variables"} i `0` pan fydd y prosiect yn dechrau.
 
 [[[scratch3-create-set-variable]]]
 
 --- /task ---
 
-What **items** will your customer(s) be buying?
-+ Some kind of food or drink
-+ Sports equipment, toys, or gadgets
-+ Magic wands, potions, or spell books
-+ Clothing or other fashion items
-+ Your idea
+Pa **eitem** fydd dy gwsmer(iaid) yn ei brynu?
++ Rhyw fath o fwyd neu ddiod
++ Offer chwaraeon, teganau neu declynnau
++ Ffyn hud, diodydd hud, neu lyfrau swyn
++ Dillad neu eitemau ffasiwn eraill
++ Dy syniad di
 
 --- task ---
 
-Add a sprite for the first **item** you're going to sell in your shop.
+Ychwanega gorlun ar gyfer yr **eitem** gyntaf rwyt ti'n mynd i'w gwerthu yn dy siop.
 
-If you like, you can add a price to the costume using the text tool in the Paint editor. Or add a price to the backdrop and position the item next to it.
+Os wyt ti'n dymuno, galli di ychwanegu pris at y wisg drwy ddefnyddio'r offeryn testun yn y Golygydd Paent. Neu ychwanega bris i'r gefnlen a gosod yr eitem wrth ei ymyl.
 
-![Examples of items with amounts written next to them.](images/item-amounts.png)
+![Enghreifftiau o eitemau gyda symiau wedi'u hysgrifennu wrth eu hymyl.](images/item-amounts.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to `change`{:class="block3variables"} the `total`{:class="block3variables"} by the price of your item when the customer clicks on the sprite.
+Ychwanega sgript i `newid`{:class="block3variables"} y ` cyfanswm`{:class="block3variables"} yn ôl pris dy eitem pan fydd y cwsmer yn clicio ar y corlun.
 
 --- collapse ---
 ---
-title: Click to add an item
+title: Clicio i ychwanegu eitem
 ---
 
 ```blocks3
@@ -55,9 +55,9 @@ change [total v] by [10]
 
 --- /collapse ---
 
-It's also a good idea to `play a sound`{:class="block3sound"} to give the customer feedback that they have added an item.
+Mae hefyd yn syniad da `chwarae sain`{:class="block3sound"} i roi adborth i'r cwsmer eu bod wedi ychwanegu eitem.
 
-![The add a sound icon](images/add-sound.png)
+![Yr eicon ychwanegu sain](images/add-sound.png)
 
 [[[scratch3-add-sound]]]
 
@@ -65,61 +65,61 @@ It's also a good idea to `play a sound`{:class="block3sound"} to give the custom
 
 --- task ---
 
-**Test:** Click on your item and check that the value of the `total`{:class="block3variables"} variable increases by the price of the item, and you hear the sound effect. Click more times to see the total go up.
+**Prawf:** Clicia ar dy eitem a gwneud yn siŵr fod gwerth y newidyn `cyfanswm`{:class="block3variables"} yn cynyddu yn ôl pris yr eitem, a dy fod yn clywed yr effaith sain. Clicia mwy o weithiau i weld y cyfanswm yn codi.
 
-Click the green flag to start your project and make sure that the `total`{:class="block3variables"} starts at `0`.
-
---- /task ---
-
---- task ---
-
-Add more items to your shop.
-
-You can either:
-+ Duplicate the first item and then add a new costume in the Paint editor
-+ Add a sprite and then drag the `when flag clicked`{:class="block3events"} script from the first item to your new item
-
-Add a price label to the costume or backdrop if you are using them.
+Clicia'r faner werdd i gychwyn dy brosiect a gwna'n siŵr bod y `cyfanswm`{:class="block3variables"} yn dechrau ar `0`.
 
 --- /task ---
 
 --- task ---
 
-Click on your new **Item** sprite in the Sprite list then click on the **Code** tab.
+Ychwanega mwy o eitemau i dy siop.
 
-Change the amount the `total`{:class="block3variables"} changes by to the price of your new item.
+Galli di naill ai:
++ Ddyblygu'r eitem gyntaf ac yna ychwanegu gwisg newydd yn y Golygydd Paent
++ Ychwanegu corlun ac yna llusgo'r sgript `pan fydd y faner wedi'i chlicio`{:class="block3events"} o'r eitem gyntaf i dy eitem newydd
 
---- /task ---
-
---- task ---
-
-**Test:** Click the green flag to start your project and click on items to add them. Check that the total increases by the correct amount each time you click on an item.
-
-If you have added price labels, make sure they match the amount that gets added to the `total`{:class="block3variables"}, or your customers will be confused!
+Ychwanega label pris at y wisg neu'r gefnlen os wyt ti'n eu defnyddio.
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+Cliciwch ar dy gorlun **Item** newydd yn y rhestr Corluniau ac yna clicia ar y tab **Cod**.
 
---- collapse ---
+Newidia faint mae'r `cyfanswm`{:class="block3variables"} yn ei newid i bris dy eitem newydd.
+
+--- /task ---
+
+--- task ---
+
+**Profi:** Clicia'r faner werdd i gychwyn dy brosiect a chlicio ar eitemau i'w hychwanegu. Gwna'n siŵr fod y cyfanswm yn cynyddu yn ôl y swm cywir bob tro y byddi di'n clicio ar eitem.
+
+Os wyt ti'n ychwanegu labeli prisiau, gwna'n siŵr eu bod yn cyfateb i'r swm sy'n cael ei ychwanegu at y `cyfanswm`{:class="block3variables"}, neu bydd dy gwsmeriaid yn drysu!
+
+--- /task ---
+
+--- task ---
+
+**Difa chwilod:** Efallai bydd angen i ti drwsio chwilod yn dy brosiect. Dyma rai chwilod cyffredin.
+
+---collapse---
 ---
-title: The total doesn't go to 0 when I click the green flag
+title: Dydy'r cyfanswm ddim yn mynd i 0 pan fydda i'n clicio ar y faner werdd
 ---
 
-Check that you have set the start value of the `total`{:class="block3variables"} variable in the `when flag clicked`{:class="block3events"} script on your **seller** sprite.
+Gwna'n siŵr dy fod wedi gosod gwerth cychwynnol y newidyn `cyfanswm`{:class="block3variables"} yn y sgript `pan fydd y faner wedi'i chlicio`{:class="block3events"} ar dy gorlun **gwerthwr**.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The total doesn't increase by the correct amount when I click on an item
+title: Dydy'r cyfanswm ddim yn cynyddu yn ôl y swm cywir pan fydda i'n clicio ar eitem
 ---
 
-Check that each item has a `when this sprite clicked`{:class="block3events"} script that changes the `total`{:class="block3variables"} by the correct amount for that item — you might have changed the price for the wrong sprite.
+Gwna'n siŵr fod gan bob eitem sgript `pan gaiff y corlun hwn ei glicio`{:class="block3events"} sy'n newid y `cyfanswm`{:class="block3variables"} yn ôl y swm cywir ar gyfer yr eitem honno - efallai dy fod ti wedi newid y pris ar gyfer y corlun anghywir.
 
-Check that you have used the `change`{:class="block3variables"} block and not the `set`{:class="block3variables"} block to change the `total`{:class="block3variables"}. You need to use `change`{:class="block3variables"} to add the price to the total, you don't want to set the total to the price of the item that was just added.
+Gwna'n siŵr dy fod ti wedi defnyddio'r bloc `newid`{:class="block3variables"} ac nid y bloc `gosod`{:class="block3variables"} i newid y `cyfanswm`{:class="block3variables"}. Mae angen i ti ddefnyddio `newid`{:class="block3variables"} i ychwanegu'r pris at y cyfanswm, ond mae angen gosod y cyfanswm i bris yr eitem sydd newydd ei ychwanegu.
 
 --- /collapse ---
 
