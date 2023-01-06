@@ -1,15 +1,15 @@
-## You will make
+## Byddi di'n creu
 
-Make a shop app where the customer can buy items from your shop. The project will be in first-person view where the player is a customer.
+Byddi di'n creu ap siop lle gall y cwsmer brynu eitemau o dy siop. Bydd y prosiect o berspectif person cyntaf lle mae'r chwaraewr yn gwsmer.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**First-person view**</span> means that you don't see your character on the screen, instead you see what they see.
+Mae <span style="color: #0faeb0">**Perspectif person cyntaf**</span> yn golygu nad wyt ti'n gweld dy gymeriad ar y sgrin, yn lle hynny rwyt ti'n gweld yr hyn mae'n ei weld.
 </p>
 
-You will:
-+ Create a shop app with items to buy and a checkout
-+ Plan your time to get a simple version working quickly
-+ Try shops made by others and share your shop so others can try it
+Byddi di'n:
++ Creu ap siop gydag eitemau i'w prynu a desg dalu
++ Trefnu dy amser i gael fersiwn syml yn gweithio'n gyflym
++ Rhoi cynnig ar siopau a wnaed gan bobl eraill a rhannu dy siop di fel y gall pobl eraill roi cynnig arni
 
 ![](images/example-strip.png)
 
@@ -20,16 +20,16 @@ You will:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Play ▶️ 
+### Chwarae ▶️ 
 
-Click on Space Fruit to buy them and watch the total go up. When you're ready, click on Kiran to check out. 
+Clicia ar y Ffrwyth Gofod i'w prynu a gweld y cyfanswm yn codi. Pan fyddi di'n barod, clicia ar Kiran i dalu. 
 
-+ What happens if you try to checkout before you have chosen any fruit? 
-+ How do you think the project knows that you haven't added any fruit yet?
++ Beth sy'n digwydd os wyt ti'n ceisio talu cyn i ti ddewis unrhyw ffrwyth? 
++ Sut wyt ti'n meddwl mae'r prosiect yn gwybod nad wyt ti wedi ychwanegu unrhyw ffrwyth eto?
 
 </div>
 <div>
-**Fresh Space Fruit**: [See inside](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
+**Ffrwyth Gofod Ffres**: [Gweler y tu mewn](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528696418/?autostart=false" frameborder="0"></iframe>
 </div>
@@ -37,13 +37,17 @@ Click on Space Fruit to buy them and watch the total go up. When you're ready, c
 
 --- /task ---
 
-### Get ideas 💭
+### Cael ysbrydoliaeth 💭
 
-You are going to make some design decisions to choose what items your business will offer and how the customer will check out.
+Rwyt ti'n mynd i wneud rhai penderfyniadau dylunio i ddewis pa eitemau bydd dy fusnes yn eu cynnig a sut bydd y cwsmer yn talu.
 
 --- task ---
 
-Explore these example shops to get more ideas. Which projects allow you to buy multiple items at once? Which allow you to buy items one at a time?
+Explore these example shops to get more ideas.
+
+⭐ Share your finished Next customer please project for a chance of it being featured here.
+
+Which projects allow you to buy multiple items at once? Which allow you to buy items one at a time?
 
 Click on the **seller** sprites to buy items:
 
@@ -57,9 +61,12 @@ Click on the **seller** sprites to buy items:
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525972748/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Vending machine**: [See inside](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
+**⭐ Pride pins** (featured community project)
+
+Click on the pride pin badges to add them to your shopping bag:
+
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/526051796/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/750787529/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /task ---
@@ -68,7 +75,7 @@ Click on the **seller** sprites to buy items:
 
 --- print-only ---
 
-### Get ideas 💭
+### Cael ysbrydoliaeth
 
 You are going to make some design decisions to create your character. See inside example projects in [Scratch 2: Next customer please! - Examples](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
 
