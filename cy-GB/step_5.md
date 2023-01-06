@@ -1,8 +1,8 @@
-## Additional features
+## Nodweddion ychwanegol
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-There are lots of features you could add to improve your customers' shopping experience. You don't need to add everything. Just add improvements that you think are important.
+Mae llawer o nodweddion y gallet ti eu hychwanegu i wella profiad siopa dy gwsmeriaid. Does dim angen i ti ychwanegu popeth. Dim ond y gwelliannau ti'n meddwl sy'n bwysig mae'n rhaid eu hychwanegu.
 
 </div>
 <div>
@@ -10,30 +10,30 @@ There are lots of features you could add to improve your customers' shopping exp
 </div>
 </div>
 
-You can 'See inside' the example projects to look at how they work.
+Galli di 'Weld tu mewn' i brosiectau enghreifftiol i daro golwg ar sut maen nhw'n gweithio.
 
-Example projects: **Fresh Space Fruit**: [See inside](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
-**Cool Shirts**: [See inside](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
-**Ice cream shop**: [See inside](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
-**Vending machine**: [See inside](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
+Prosiectau enghreifftiol: **Ffrwyth Gofod Ffres**: [Gweld tu mewn](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
+**Crysau Cŵl**: [Gweld tu mewn](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
+**Siop hufen iâ**: [Gweld tu mewn](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
+**Peiriant gwerthu**: [Gweld tu mewn](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
 
-**Tip:** If you are logged in to a Scratch account, then you can use the **Backpack** to copy scripts or sprites to your project.
+**Awgrym:** Os wyt ti wedi mewngofnodi i gyfrif Scratch, galli di ddefnyddio'r **Backpack** i gopïo sgriptiau neu gorluniau i dy brosiect.
 
 [[[scratch-backpack]]]
 
 --- task ---
 
-Do you think your checkout person (or machine) should ask more questions?
+Wyt ti'n meddwl y dylai'r person wrth y cownter (neu beiriant) ofyn mwy o gwestiynau?
 
-You can add `ask`{:class="block3sensing"} blocks to your **seller**'s `when this sprite clicked`{:class="block3events"} script and `say`{:class="block3looks"} different things depending on the customer's response.
+Galli di ychwanegu flociau `gofyn`{:class="block3sensing"} i sgript `pan gaiff y corlun hwn ei glicio`{:class="block3events"} dy **werthwr** a `dweud`{:class="block3looks"} gwahanol bethau gan ddibynnu ar ymateb y cwsmer.
 
-You could ask whether the service was good, or if they're having a nice day. Or something specific to your shop, like "What are you going to cook?"
+Fe allet ti ofyn os oedd y gwasanaeth yn dda neu beidio, neu ydyn nhw'n cael diwrnod braf. Neu rywbeth penodol i dy siop, fel "Beth wyt ti'n mynd i'w goginio?"
 
---- collapse ---
+---collapse---
 
 ---
 
-title: Ask and respond to questions
+title: Gofyn ac ymateb i gwestiynau
 
 ---
 
@@ -46,31 +46,31 @@ say [Maybe I should add more items to my shop] for [2] seconds
 end
 ```
 
-**Debug:** Check that you have spelled the options correctly in your code and in your answer. It's OK if you use capital letters, so "Yes" and "YES" will match "yes".
+**Difa chwilod:** Gwna'n siŵr dy fod wedi sillafu'r opsiynau yn gywir yn dy god ac yn dy ateb. Mae'n iawn os wyt ti'n defnyddio priflythrennau, felly bydd "Do" a "DO" yn cyfateb i "do".
 
-Add multiple questions to create a chatbot or non-player character that you can talk to.
+Ychwanega fwy nag un cwestiwn i greu bot sgwrsio neu gymeriad nad yw'n chwaraewr (NPC) y galli di siarad ag ef.
 
 --- /collapse ---
 
 --- /task ---
 
-Do you want something else to happen when you add an item?
+Wyt ti eisiau i rywbeth arall ddigwydd pan fyddi di'n ychwanegu eitem?
 
 --- task ---
 
-The Cool Shirts project has shirts that glide into a bag.
+Mae gan y prosiect Crysau Cŵl grysau sy'n llithro i mewn i fag.
 
---- collapse ---
-
----
-
-title: Make items glide into a container
+---collapse---
 
 ---
 
-Add a **Container** sprite. You could use an existing sprite like the **Gift** or **Take out** sprite, or paint your own with simple shapes.
+title: Gwneud i eitemau lithro i mewn i gynhwysydd
 
-Add a script to make the **Container** always appear at the front:
+---
+
+Ychwanega gorlun **Cynhwysydd**. Fe allet ti ddefnyddio corlun sy'n bodoli eisoes fel y corlun **Gift** neu **Take out**, neu beintio dy rai dy hun gyda siapiau syml.
+
+Ychwanega sgript i wneud i'r **Cynhwysydd** ymddangos ar y blaen bob amser:
 
 ```blocks3
 when flag clicked
@@ -79,7 +79,7 @@ go to [front v] layer
 end
 ```
 
-Then you'll need to add code to each **Item** you have for sale to make them glide to the container when they are clicked:
+Wedyn bydd angen i ti ychwanegu cod at bob **Eitem** sydd gen ti ar werth i wneud iddyn nhw lithro i'r cynhwysydd ar ôl iddyn nhw gael eu clicio:
 
 ```blocks3
 when this sprite clicked
@@ -91,7 +91,7 @@ change [total v] by [12]
 +show
 ```
 
-If you don't want the container there all the time, you can add scripts to make it show and hide at the right time:
+Os nad wyt ti am i'r cynhwysydd fod yno drwy'r amser, galli di ychwanegu sgriptiau i wneud iddyn nhw ymddangos a chuddio ar yr amser cywir:
 
 ```blocks3
 when I receive [next customer v]
@@ -100,29 +100,29 @@ wait [1] seconds
 show
 ```
 
-**Test:** Try your project and make sure items glide to the container and hide.
+**Profi:** Rho gynnig ar dy brosiect a gwa'n siŵr bod eitemau'n llithro i'r cynhwysydd ac yn cuddio.
 
-**Debug:** Check your scripts carefully and make sure you have updated all of your **Item** sprites. You can look at [Cool Shirts](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"} if you need to see a working example.
+**Difa chwilod:** Gwiria dy sgriptiau'n ofalus a gwna'n siŵr dy fod wedi diweddaru pob un o dy gorluniau **Eitem**. Galli di daro golwg ar [Crysau Cŵl](https://scratch.mit.edu/projects/528697069/editor){:target = "_blank"} os oes angen i ti weld enghraifft weithredol.
 
 --- /collapse ---
 
-The Ice cream project shows the ice cream as the customer chooses their options.
+Mae'r prosiect Hufen iâ yn dangos yr hufen iâ wrth i'r cwsmer ddewis.
 
---- collapse ---
-
----
-
-title: Customise and show a sprite
+---collapse---
 
 ---
 
-Each item needs to `broadcast`{:class="block3events"} in its `when this sprite clicked`{:class="block3events"} script:
+title: Addasu a dangos corlun
+
+---
+
+Mae angen i bob eitem `ddarlledu`{:class="3events"} yn ei sgript `pan gaiff y corlun hwn ei glicio`{:class="block3events"}:
 
 ```blocks3
 +broadcast (1 scoop v)
 ```
 
-Then the sprite you want to show or change needs to respond to that message:
+Wedyn mae angen i'r corlun rwyt ti am ei ddangos neu ei newid ymateb i'r neges honno:
 
 ```blocks3
 when I receive [1 scoop v]
@@ -130,53 +130,53 @@ play sound (Chomp v) until done
 switch costume to (1 scoop v)
 ```
 
-You may also want to change or hide the sprite for a new customer:
+Efallai y byddi di hefyd am newid neu guddio'r corlun ar gyfer cwsmer newydd:
 
 ```blocks3
 when I receive [next customer v]
 switch costume to (cone v)
 ```
 
-If you have multiple items, then you will need to add more messages and scripts to to receive them.
+Os oes gen ti sawl eitem, bydd angen i ti ychwanegu mwy o negeseuon a sgriptiau i'w derbyn.
 
 --- /collapse ---
 
 --- /task ---
 
-Have you noticed that your customer can add items after they have started to check out?
+Wyt ti wedi sylwi y gall dy gwsmer ychwanegu eitemau ar ôl iddyn nhw ddechrau talu?
 
 --- task ---
 
-If you want to stop the customer adding items when they are at the checkout, you can add a `shop`{:class="block3variables"} variable and use it to control when items can be added.
+Os wyt ti am rwystro'r cwsmer rhag ychwanegu eitemau pan fyddan nhw wrth y ddesg dalu, galli di ychwanegu newidyn `siop`{:class="block3variables"} a'i ddefnyddio i reoli pryd mae modd ychwanegu eitemau.
 
---- collapse ---
-
----
-title: Only allow purchases when the customer isn't at the checkout
+---collapse---
 
 ---
+title: Caniatáu prynu dim ond pan dydy'r cwsmer ddim wrth y ddesg dalu
 
-Add a `variable`{:class="block3variables"} called `shop` for all sprites. You will set this to `true` when the customer is in the shop and `false` when they are at the checkout.
+---
 
-Select your **seller** sprite. Update the `when flag clicked`{:class="block3events"} script to allow shopping when your project starts:
+Ychwanega `newidyn`{:class="block3variables"} o'r enw `siop` ar gyfer pob corlun. Byddi di'n gosod hwn i `gwir` pan fydd y cwsmer yn y siop ac `anwir` pan fydd wrth y ddesg dalu.
+
+Dewisa dy gorlun **gwerthwr**. Diweddara dy sgript `when flag clicked`{:class="block3events"} i ganiatáu siopa pan fydd dy brosiect yn dechrau:
 
 ```blocks3
 +set [shop v] to [true]
 ```
 
-Now add a block to change the `shop`{:class="block3variables"} to `false` at the beginning of your **seller**'s `when this sprite clicked`{:class="block3events"} script:
+Nawr ychwanega floc i newid y ` siop`{:class="block3variables"} i `anwir` ar ddechrau sgript `when this sprite clicked` dy **werthwr**:
 
 ```blocks3 
 +set [shop v] to [false]
 ```
 
-And a block to set the `shop`{:class="block3variables"} variable back to `true` at the end of the same script:
+A bloc i osod y newidyn `siop`{:class="block3variables"} yn ôl i `gwir` ar ddiwedd yr un sgript:
 
 ```blocks3 
 +set [shop v] to [true]
 ```
 
-Now you need to update the items you sell to check the `shop`{:class="block3variables"} variable:
+Nawr mae angen i ti ddiweddaru'r eitemau rwyt ti'n eu gwerthu i wirio'r newidyn `siop`{:class="block3variables"}:
 
 ```blocks3
 when this sprite clicked
@@ -186,11 +186,11 @@ change [total v] by [10]
 end
 ```
 
-You will need to do this for every item you sell in your shop.
+Bydd angen gwneud hyn ar gyfer pob eitem rwyt ti'n ei werthu yn dy siop.
 
-**Test:** Click the green flag then try shopping. Check that you can still add items and checkout, but you can't add items once you have started checking out.
+**Profi:** Clicia'r faner werdd ac wedyn rho gynnig ar siopa. Gwna'n siŵr y galli di ychwanegu eitemau a thalu o hyd, ond nad yw hi'n bosib ychwanegu eitemau ar ôl i ti ddechrau talu.
 
-**Debug:** Check your code really carefully. You can look at the [Space Fruit](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"} project if you need to see a working example.
+**Difa chwilod:** Cymer olwg ofalus dros dy god. Galli di edrych ar y prosiect [Ffrwyth o'r Gofod](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"} os oes angen i ti weld enghraifft weithredol.
 
 --- /collapse ---
 
