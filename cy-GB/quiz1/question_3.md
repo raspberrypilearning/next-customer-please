@@ -1,48 +1,48 @@
 
---- question ---
+--- cwestiwn ---
 
 ---
-legend: Question 3 of 3
+legend: Cwestiwn 3 o 3
 ---
 
-Jay's project is not working. What should they do?
+Dydy prosiect Jay ddim yn gweithio. Beth ddylai wneud?
 
---- choices ---
+--- dewisiadau ---
 
-- ( ) Panic!
-
-  --- feedback ---
-
-  That's not going to help. You need to think clearly to fix coding problems.
-
-  --- /feedback ---
-
-- ( ) Give up
+- ( ) Cynhyrfu!
 
   --- feedback ---
 
-  There are lots of things Jay could try. Great coders often get things wrong the first time and learn a lot from their mistakes.
+  Dydy hynny ddim yn mynd i helpu. Mae angen meddwl yn glir i drwsio problemau codio.
 
   --- /feedback ---
 
-- (x) Read the code carefully and try to debug it.
+- ( ) Rhoi'r ffidil yn y to
 
   --- feedback ---
 
-  Yes. Fixing bugs is part of coding. The more you practise the more experience you get, and the easier it becomes to find and fix bugs.
+  Mae llawer o bethau gallai Jay roi cynnig arnyn nhw. Mae codwyr gwych yn aml yn gwneud pethau'n anghywir y tro cyntaf ac yn dysgu llawer o'u camgymeriadau.
 
   --- /feedback ---
 
-- ( ) Get annoyed with the computer
+- (x) Darllen y cod yn ofalus a cheisio difa'r chwilod.
 
   --- feedback ---
 
-A computer only does what we tell it to do, so getting annoyed with it isn't logical.
-
-Being annoyed won't help to solve the problem, as it will make it harder to think clearly.
+  Cywir. Mae difa chwilod yn rhan o godio. Po fwyaf y byddi di'n ymarfer y mwyaf o brofiad a gei, a'r hawsaf y bydd hi i ddod o hyd i chwilod a'u difa.
 
   --- /feedback ---
 
---- /choices ---
+- ( ) Gwylltio gyda'r cyfrifiadur
 
---- /question ---
+  --- feedback ---
+
+Mae cyfrifiadur yn gwneud dim ond beth rydan ni'n dweud iddo wneud, felly dydy gwylltio ddim yn rhesymegol.
+
+Fydd bod yn flin ddim yn helpu i ddatrys y broblem, gan y bydd yn ei gwneud yn anoddach meddwl yn glir.
+
+  --- /feedback ---
+
+--- /dewisiadau ---
+
+--- /cwestiwn ---
