@@ -1,55 +1,55 @@
-## Share
+## Rhannu
 
-If you are in a club, why not share your project with friends?
+Os wyt ti mewn clwb, beth am rannu dy brosiect â dy ffrindiau?
 
-If you are logged in on Scratch, you can create a studio and add your **Next customer please** project. You can also add your friends' **Next customer please** projects to create a mall of different shops and businesses.
+Os wyt ti wedi mewngofnodi ar Scratch, galli di greu stiwdio ac ychwanegu dy brosiect **Cwsmer nesaf plîs**. Galli di hefyd ychwanegu prosiectau **prosiect cwsmer plîs** dy ffrindiau greu canolfan o wahanol siopau a busnesau.
 
---- collapse ---
-
----
-
-title: Build a shopping market
+---collapse---
 
 ---
 
-Save your project, then click on your username and select **My Stuff**.
+title: Adeiladu marchnad siopa
 
-![the pop up menu under your account name in the top right.](images/my-stuff-menu.png)
+---
 
-From your **My Stuff** page, click on the **+ New Studio** button.
+Cadwa dy brosiect, ac wedyn clicio ar dy enw defnyddiwr a dewis **Fy Stwff**.
 
-![The grey 'New Studio' button on the 'My Stuff' page.](images/create-studio.png)
+![y ddewislen naid o dan dy enw cyfrif ar y dde uchaf.](images/my-stuff-menu.png)
 
-Give your new studio a name and description.
+O dy dudalen **Fy Stwff**, clicia ar y botwm **+ Stiwdio Newydd**.
 
-![The name box at the top of the studio and the description box on the left of the studio.](images/naming-studio.png)
+![Y botwm llwyd 'Stiwdio Newydd' ar y dudalen 'Fy Stwff'.](images/create-studio.png)
 
-Click on the **Add projects** button. You can add yor own project by selecting it from the list at the bottom of the page.
+Rho enw a disgrifiad i dy stiwdio newydd.
 
-![The 'Add Projects' pop up at the bottom of the page with a gallery of project thumbnails. ](images/add-your-projects.png)
+![Y blwch enw ar frig y stiwdio a'r blwch disgrifiad ar ochr chwith y stiwdio.](images/naming-studio.png)
 
-You can also add projects your friends have created. Ask them to share their project and give you the link. Type or paste the link into the url box, then click the **Add by url** button.
+Clicia ar y botwm **Ychwanegu prosiectau**. Galli di ychwanegu dy brosiect dy hun drwy ei ddewis o'r rhestr ar waelod y dudalen.
 
-![The url box underneath the 'Add projects' button and the 'Add by url' button.](images/path.png)
+![Y neidlen 'Ychwanegu Prosiectau' ar waelod y dudalen gydag oriel o fân-luniau prosiectau. ](images/add-your-projects.png)
+
+Galli di hefyd ychwanegu prosiectau mae dy ffrindiau wedi'u creu. Gofynna iddyn nhw rannu eu prosiect a rhoi'r ddolen i ti. Teipia neu ludo'r ddolen i'r blwch url, ac wedyn clicio ar y botwm **Add by url**.
+
+![Y blwch url o dan y botwm 'Ychwanegu prosiectau' a'r botwm 'Ychwanegu drwy url'.](images/path.png)
 
 --- /collapse ---
 
-Share your project and send a link to people you know. The whole Scratch community will also be able to find your project and try it out.
+Rhanna dy brosiect ac anfona ddolen at bobl rwyt ti'n eu hadnabod. Bydd cymuned Scratch gyfan hefyd yn gallu dod o hyd i dy prosiect a rhoi cynnig arno.
 
 [[[share-scratch]]]
 
-Why not invite your friends to create a project? Let them know how you had fun.
+Beth am wahodd dy ffrindiau i greu prosiect? Gad iddyn nhw wybod dy fod wedi cael hwyl.
 
-If you have a Scratch account, and have shared your **Next customer please** project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Ignore any comments that are unhelpful or irrelevant.
+Os oes gen ti gyfrif Scratch, ac rwyt ti wedi rhannu dy brosiect **Cwsmer nesaf, plîs** yn barod, cadwa lygad am sylwadau efallai bydd pobl eraill yn eu gwneud am dy greadigaeth. Mae adborth yn ffordd wych o fyfyrio ar dy waith. Anwybydda unrhyw sylwadau sy'n ddi-fudd neu'n amherthnasol.
 
 [[[comments-feedback-scratch]]]
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Dyro ysbrydoliaeth i gymuned y Raspberry Pi Foundation gyda dy brosiect!
 
-To submit your project to our ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+I gyflwyno dy brosiect i'n ['marchnad siopa rhyngalaethol'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Stiwdio Scratch, cwblha'r [ffurflen hon](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
-![Example shop projects in the 'Intergalactic shopping market' Scratch studio.](images/studio-example.png)
+![Prosiectau siop enghreifftiol yn y stiwdio Scratch 'Marchnad siopa rhyngalaethol'.](images/studio-example.png)
 
 --- /task ---
