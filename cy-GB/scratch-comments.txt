@@ -1,9 +1,9 @@
-type the name of your business
+teipia enw dy fusnes
 
-your business name
+enw dy fusnes
 
-use the name of your Container sprite
+defnyddia enw dy gorlun Container
 
-start position
+safle cychwyn
 
-previous customer takes the bag
+cwsmer blaenorol yn cymryd y bag
