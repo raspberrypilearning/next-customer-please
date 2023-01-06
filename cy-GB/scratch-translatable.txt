@@ -1,49 +1,49 @@
-name
+enw
 
-my shop
+fy siop
 
-next customer
+cwsmer nesaf
 
-Next customer please!
+Cwsmer nesaf plîs!
 
-total
+cyfanswm
 
-That will be
+Bydd hynny'n
 
-Thanks for shopping at
+Diolch am siopa yn
 
-Would you like to pay or cancel?
+Hoffech chi dalu neu ganslo?
 
-pay
+talu
 
-cancel
+canslo
 
-Ok. No problem
+Iawn. Dim problem
 
-Click on the items you'd like
+Clicia ar yr eitemau yr hoffet ti
 
-Did you find everything you wanted today?
+Ddes di o hyd i bob dim roeddet ti eisiau heddiw?
 
-yes
+do
 
-That's fantastic!
+Mae hynny'n wych!
 
-Maybe I should add more items to my shop
+Falle ddylwn i ychwanegu mwy o eitemau i fy siop
 
 Bag
 
-1 scoop
+1 sgŵp
 
-cone
+côn
 
-shop
+siop
 
-true
+gwir
 
-false
+anwir
 
-How are you today?
+Sut wyt ti heddiw?
 
-good
+da
 
-Sorry to hear that.
+Mae'n ddrwg gen i glywed hynny.
