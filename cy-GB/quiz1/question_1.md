@@ -1,23 +1,23 @@
-## Quick quiz
+## Cwis cyflym
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Ateba'r tri chwestiwn. Mae yna awgrymiadau i dy helpu i gael yr ateb cywir.
 
-When you have answered each question, click on **Check my answer**.
+Pan fyddi di wedi ateb bob cwestiwn, clicia ar **Gwirio fy ateb**.
 
-Have fun!
+Mwynha!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Cwestiwn 1 o 3
 ---
 
-A shop project uses a `total`{:class="block3variables"} variable to store the total for each customer.
+Mae prosiect siop yn defnyddio newidyn `cyfanswm`{:class="block3variables"} i storio'r cyfanswm ar gyfer pob cwsmer.
 
-+ A customer adds items that total `50` and pays
-+ A new customer adds items that total `40` but the `total`{:class="block3variables"} is now showing as `90` for the second customer
++ Mae cwsmer yn ychwanegu eitemau sy'n dod i gyfanswm o `50` ac yn talu
++ Mae cwsmer newydd yn ychwanegu eitemau sy'n dod i gyfanswm o `40` ond mae'r `cyfanswm`{:class="block3variables"} bellach yn ymddangos fel `90` ar gyfer yr ail gwsmer
 
-Which block would you need to add to the payment script to make the total go back to `0` when each customer pays?
+Pa floc fyddai angen i ti ei ychwanegu at y sgript talu i wneud i'r cyfanswm fynd yn ôl i `0` pan fydd pob cwsmer yn talu?
 
 ```blocks3
 when this sprite clicked
@@ -39,7 +39,7 @@ change [total v] by [0]
 
  --- feedback ---
 
-Not quite, `total`{:class="block3variables"} should be `0` after a customer pays, but it is not the `change`{:class="block3variables"} block you need.
+Anghywir, dylai'r `cyfanswm`{:class="block3variables"} fod yn `0` ar ôl i gwsmer dalu, ond nid y bloc `newid`{:class="block3variables"} sydd ei angen arnat ti.
 
  --- /feedback ---
 
@@ -50,7 +50,7 @@ set [total v] to [40]
 
  --- feedback ---
 
- Not quite, this would work for the second customer but the `total`{:class="block3variables"} would be wrong for other customers.
+ Anghywir, byddai hyn yn gweithio i'r ail gwsmer ond byddai'r `cyfanswm`{:class="block3variables"} yn anghywir i gwsmeriaid eraill.
 
  --- /feedback ---
 
@@ -62,7 +62,7 @@ set [total v] to [0]
 
  --- feedback ---
 
-Yes, that's correct. You need to `set`{:class="block3variables"} the `total`{:class="block3variables"} to `0` after each customer pays.
+Cywir. Mae angen `gosod`{:class="block3variables"} y `cyfanswm`{:class="block3variables"} i `0` ar ôl i bob cwsmer dalu.
 
  --- /feedback ---
 
@@ -74,7 +74,7 @@ change [total v] by [-50]
 
  --- feedback ---
 
-That would work for this example, but what if the first customer spent a different amount? Your solution needs to work when the previous customer spends different amounts.
+Byddai hynny'n gweithio ar gyfer yr enghraifft hon, ond beth petai'r cwsmer cyntaf yn gwario swm gwahanol? Mae angen i dy ddatrysiad weithio pan fydd y cwsmer blaenorol yn gwario symiau gwahanol.
 
  --- /feedback ---
 
