@@ -43,23 +43,30 @@ Je gaat een aantal ontwerpbeslissingen nemen om te kiezen welke producten je bed
 
 --- task ---
 
-Bekijk deze voorbeeldwinkels om meer ideeën te krijgen. Met welke projecten kun je meerdere producten tegelijk kopen? Bij welke projecten kun je producten een voor een kopen?
+Explore these example shops to get more ideas.
 
-Klik op de **verkoper** sprites om producten te kopen:
+⭐ Share your finished Next customer please project for a chance of it being featured here.
 
-**Cool Shirts**: [Bekijk van binnen](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
+Which projects allow you to buy multiple items at once? Which allow you to buy items one at a time?
+
+Click on the **seller** sprites to buy items:
+
+**Cool Shirts**: [See inside](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528697069/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**IJssalon**: [Bekijk van binnen](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
+**Ice cream shop**: [See inside](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525972748/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Verkoopmachine**: [Bekijk van binnen](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
+**⭐ Pride pins** (featured community project)
+
+Click on the pride pin badges to add them to your shopping bag:
+
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/526051796/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/750787529/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /task ---
@@ -70,9 +77,9 @@ Klik op de **verkoper** sprites om producten te kopen:
 
 ### Get ideas 💭
 
-Je gaat een aantal ontwerpbeslissingen nemen om je personage te creëren. Bekijk voorbeeldprojecten in [Scratch 2: Volgende klant alsjeblieft! - voorbeelden](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
+You are going to make some design decisions to create your character. See inside example projects in [Scratch 2: Next customer please! - Examples](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
 
-![Voorbeeldproject](images/fruit.png) ![Voorbeeldproject](images/tshirt.png) ![Voorbeeldproject](images/icecream.png) ![Voorbeeldproject](images/vending.png)
+![Example project](images/fruit.png) ![Example project](images/tshirt.png) ![Example project](images/icecream.png) ![Example project](images/vending.png)
 
 --- /print-only ---
 
