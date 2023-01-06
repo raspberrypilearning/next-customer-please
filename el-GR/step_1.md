@@ -43,23 +43,30 @@ Click on Space Fruit to buy them and watch the total go up. Όταν είσαι 
 
 --- task ---
 
-Μελέτησε τα παρακάτω παραδείγματα καταστημάτων για να πάρεις ιδέες. Ποια έργα σου επιτρέπουν να αγοράζεις πολλά προϊόντα ταυτόχρονα; Ποια σου επιτρέπουν να αγοράζεις προϊόντα ένα-ένα;
+Explore these example shops to get more ideas.
 
-Κάνε κλικ στο αντικείμενο **πωλητής** για να αγοράσεις προϊόντα:
+⭐ Share your finished Next customer please project for a chance of it being featured here.
 
-**Καταπληκτικά Μπλουζάκια**: [Δες μέσα](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
+Which projects allow you to buy multiple items at once? Which allow you to buy items one at a time?
+
+Click on the **seller** sprites to buy items:
+
+**Cool Shirts**: [See inside](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528697069/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Κατάστημα Παγωτού**: [Δες μέσα](https://scratch.mit.edu/projects/525972748/editor){: target = "_ blank"}
+**Ice cream shop**: [See inside](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525972748/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Αυτόματος πωλητής**: [Δες μέσα](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
+**⭐ Pride pins** (featured community project)
+
+Click on the pride pin badges to add them to your shopping bag:
+
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/526051796/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/750787529/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /task ---
@@ -70,9 +77,9 @@ Click on Space Fruit to buy them and watch the total go up. Όταν είσαι 
 
 ### Get ideas 💭
 
-Θα πάρεις μερικές σχεδιαστικές αποφάσεις για να δημιουργήσεις τον χαρακτήρα σου. Δες τις λεπτομέρειες για τα παραδείγματα έργων στο [Scratch 2: Επόμενος πελάτης παρακαλώ! - Παραδείγματα](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
+You are going to make some design decisions to create your character. See inside example projects in [Scratch 2: Next customer please! - Examples](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
 
-![Παράδειγμα έργου](images/fruit.png) ![Παράδειγμα έργου](images/tshirt.png) ![Παράδειγμα έργου](images/icecream.png) ![Παράδειγμα έργου](images/vending.png)
+![Example project](images/fruit.png) ![Example project](images/tshirt.png) ![Example project](images/icecream.png) ![Example project](images/vending.png)
 
 --- /print-only ---
 
