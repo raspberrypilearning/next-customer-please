@@ -43,23 +43,30 @@ Tu vas prendre des décisions de conception pour choisir les articles que ton co
 
 --- task ---
 
-Explore ces exemples de boutiques pour trouver d'autres idées. Quels projets te permettent d'acheter plusieurs articles à la fois ? Lesquels te permettent d'acheter des articles un par un ?
+Explore these example shops to get more ideas.
 
-Clique sur le sprite **vendeur** pour acheter des articles :
+⭐ Share your finished Next customer please project for a chance of it being featured here.
 
-**T-shirts cool** : [Voir à l'intérieur](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
+Which projects allow you to buy multiple items at once? Which allow you to buy items one at a time?
+
+Click on the **seller** sprites to buy items:
+
+**Cool Shirts**: [See inside](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528697069/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Glacier** : [Voir à l'intérieur](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
+**Ice cream shop**: [See inside](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525972748/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Distributeur automatique** : [Voir à l'intérieur](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
+**⭐ Pride pins** (featured community project)
+
+Click on the pride pin badges to add them to your shopping bag:
+
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/526051796/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/750787529/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /task ---
@@ -70,9 +77,9 @@ Clique sur le sprite **vendeur** pour acheter des articles :
 
 ### Get ideas 💭
 
-Tu vas prendre des décisions de conception pour créer ton personnage. Voir à l'intérieur des exemples de projets dans [Scratch 2 : Client suivant, s'il vous plaît ! - Exemples](https://scratch.mit.edu/studios/29611454/){:target="_blank"} de studio Scratch.
+You are going to make some design decisions to create your character. See inside example projects in [Scratch 2: Next customer please! - Examples](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
 
-![Exemple de projet](images/fruit.png) ![Exemple de projet](images/tshirt.png) ![Exemple de projet](images/icecream.png) ![Exemple de projet](images/vending.png)
+![Example project](images/fruit.png) ![Example project](images/tshirt.png) ![Example project](images/icecream.png) ![Example project](images/vending.png)
 
 --- /print-only ---
 
