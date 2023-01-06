@@ -1,22 +1,22 @@
-## Purchases
+## Prynu
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The **seller** sprite needs to:
-- ask if the customer is ready to pay for the items
-- take payment
-- get ready for the next customer
+Mae angen i'r corlun **gwerthwr**:
+- ofyn a ydy'r cwsmer yn barod i dalu am yr eitemau
+- cymryd taliad
+- paratoi ar gyfer y cwsmer nesaf
 </div>
 <div>
 ![](images/step4-image.png){:width="300px"}
 </div>
 </div>
 
-When they have finished choosing items, the customer will click on the **seller** sprite to pay.
+Pan fydd wedi gorffen dewis eitemau, bydd y cwsmer yn clicio ar y corlun **gwerthwr** i dalu.
 
 --- task ---
 
- Tell the customer how much their items will cost.
+ Dyweda wrth y cwsmer faint fydd ei eitemau yn costio.
 
 ```blocks3
 when this sprite clicked
@@ -27,13 +27,13 @@ say (join [That will be ] (total)) for (2) seconds
 
 --- task ---
 
-Add a payment sound to your **seller** sprite so the customer knows that payment is taking place.
+Ychwanega sain talu at dy gorlun **gwerthwr** fel bod y cwsmer yn gwybod bod taliad yn digwydd.
 
-![The add a sound icon](images/add-sound.png)
+![Yr eicon ychwanegu sain](images/add-sound.png)
 
 [[[scratch3-add-sound]]]
 
-Add the `play sound until done`{:class="block3sound"} block to your script.
+Ychwanega floc `chwarae sain tan y diwedd`{:class="block3sound"} i dy sgript.
 
 ```blocks3
 when this sprite clicked
@@ -45,7 +45,7 @@ say (join [That will be ] (total)) for (2) seconds
 
 --- task ---
 
-Finish the sale. Set `total`{:class="block3variables"} back to `0` after payment, `say`{:class="block3looks"} goodbye and `broadcast`{:class="block3control"} `next customer`{:class="block3control"}.
+Gorffena'r broses talu. Gosoda'r `cyfanswm`{:class="block3variables"} yn ôl i `0` ar ôl talu, `dweud`{:class="block3looks"} hwyl fawr a `darlledu`{:class="block3control"} `cwsmer nesaf`{: class="block3control"}.
 
 ```blocks3
 when this sprite clicked
@@ -60,14 +60,14 @@ play sound [machine v] until done
 
 --- task ---
 
-You might want to give the customer the option to cancel their shopping.
+Efallai hoffet ti roi'r dewis i'r cwsmer ganslo'r broses siopa.
 
---- collapse ---
+---collapse---
 ---
-title: Set up pay and cancel options
+title: Gosod dewisiadau talu a chanslo
 ---
 
-`Ask`{:class="block3sensing"} `Would you like to pay or cancel?`. Add an `If`{:class="block3control"} block for `answer`{:class="block3sensing"} `=`{:class="block3operators"} `pay` and inside it put your existing payment blocks.
+`Gofyn`{:class="block3sensing"} `Hoffech chi dalu neu ganslo?`. Ychwanega floc `Os`{:class="block3control"} ar gyfer `ateb`{:class="block3sensing"} `=`{:class="block3operators"} `talu` a rho dy flociau talu sy'n bodoli y tu mewn iddo.
 
 ```blocks3
 when this sprite clicked
@@ -81,7 +81,7 @@ broadcast [next customer v]
 end
 ```
 
-Add a second `If`{:class="block3control"} block for `answer`{:class="block3sensing"} `=`{:class="block3operators"} `cancel` and inside it add code to cancel the order.
+Ychwanega ail floc `Os`{:class="block3control"} ar gyfer `ateb`{:class="block3sensing"} `=`{:class="block3operators"} `canslo` a rho god y tu mewn iddo i ganslo'r archeb.
 
 ```blocks3
 when this sprite clicked
@@ -106,16 +106,16 @@ end
 
 --- task ---
 
-To make sure your customer has items in their basket before paying, you can insert an `if...else`{:class="block3control"} block.
+Er mwyn sicrhau bod gan dy gwsmer eitemau yn ei fasged cyn talu, galli di fewnosod bloc `os...yna`{:class="block3control"}.
 
 --- collapse ---
 ---
-title: Check total amount
+title: Gwirio'r cyfanswm
 ---
 
-`If`{:class="block3control"} `total`{:class="block3variables"} `>`{:class="block3operators"} `0` then insert your existing script.
+`If`{:class="block3control"} `cyfanswm`{:class="block3variables"} `>`{:class="block3operators"} `0` yna mewnosoda dy sgript sy'n bodoli.
 
-`Else`{:class="block3control"} `say`{:class="block3looks"} a helpful message.
+`Fel arall`{:class="block3control"} `dweud`{:class="block3looks"} neges ddefnyddiol.
 
 ```blocks3
 when this sprite clicked
@@ -144,36 +144,36 @@ end
 
 --- task ---
 
-**Test:** Test your project and make sure:
-- The customer can check out with the correct sound effects
-- The `total`{:class="block3variables"} gets set back to `0` after a customer pays or cancels.
+**Profi:** Profa dy brosiect a gwneud yn siŵr:
+- Bod y cwsmer yn gallu talu gyda'r effeithiau sain cywir
+- Bod y `cyfanswm`{:class="block3variables"} yn cael ei osod yn ôl i `0` ar ôl i gwsmer dalu neu ganslo.
 
 --- /task ---
 
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix.
+**Difa chwilod:** Efallai bydd angen i ti drwsio chwilod yn dy brosiect.
 
-Here are some common bugs:
+Dyma rai chwilod cyffredin:
 
---- collapse ---
+---collapse---
 ---
-title: The seller doesn't do anything when I click on them
+title: Dydy'r gwerthwr ddim yn gwneud unrhyw beth pan dw i'n clicio arno
 ---
 
-You have quite a lot of sprites in your project. Make sure the `when this sprite clicked`{:class="block3events"} script is on your **seller** sprite.
+Mae gen ti gryn dipyn o gorluniau yn dy brosiect. Gwna'n siŵr fod y sgript `pan gaiff y corlun ei glicio`{:class="block3events"} ar dy gorlun **gwerthwr**.
 
-**Tip:** If you have added it to the wrong sprite, you can drag the code to the **seller** sprite, then delete it from the other sprite.
+**Awgrym:** Os wyt ti wedi ei ychwanegu at y corlun anghywir, galli di lusgo'r cod i'r corlun **gwerthwr**, yna ei ddileu o'r corlun arall.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The seller says 'total' not the total amount
+teitl: Mae'r gwerthwr yn dweud y gair 'cyfanswm' yn lle'r cyfanswm go iawn
 ---
 
-Make sure your `say`{:class="block3looks"} block has the `total`{:class="block3variables"} variable block, not the word `total`.
+Gwna'n siŵr fod gan dy floc `dweud`{:class="block3looks"} y bloc newidyn `cyfanswm`{:class="block3variables"}, a dim y gair `cyfanswm`.
 
 ```blocks3
  when this sprite clicked
@@ -184,12 +184,12 @@ Make sure your `say`{:class="block3looks"} block has the `total`{:class="block3v
 
 --- collapse ---
 ---
-title: The words in the say blocks merge together
+title: Mae'r geiriau yn y blociau dweud yn uno
 ---
 
-When you `join`{:class="block3operators"} two pieces together, you need to add a space at the end of your first piece of text or at the beginning of your second piece of text.
+Pan fyddi di'n `uno`{:class="block3operators"} dau ddarn at ei gilydd, mae angen ychwanegu bwlch ar ddiwedd dy ddarn cyntaf o destun neu ar ddechrau dy ail ddarn o destun.
 
-These have a space at the end of the first part of the join:
+Mae gan y rhain fwlch ar ddiwedd rhan gyntaf yr uniad:
 
 ```blocks3
 say {join [That will be ](total)} for (2) seconds
@@ -201,16 +201,16 @@ say {join [Thanks for shopping at ](name)} for (2) seconds
 
 --- collapse ---
 ---
-title: The total doesn't reset after a sale
+title: Dydy'r cyfanswm ddim yn ailosod ar ôl gwerthu
 ---
 
-Check that you have used:
+Gwna'n siŵr dy fod ti wedi defnyddio:
 
 ```blocks3
 set [total v] to (0)
 ```
 
-**not**:
+**nid**:
 
 ```blocks3
 change [total v] by (0)
@@ -220,10 +220,10 @@ change [total v] by (0)
 
 --- collapse ---
 ---
-title: The seller isn't responding
+teitl: Dydy'r gwerthwr ddim yn ymateb
 ---
 
-Make sure the `operator`{:class="block3operators"} in the `if`{:class="block3control"} condition is the greater than symbol `>`{:class="block3operators"}.
+Gwna'n siŵr mai'r `gweithredwr`{:class="block3operators"} yn yr amod `os`{:class="block3control"} yw'r symbol "mwy na" `>`{:class="block3operators"}.
 
 ```blocks3
 if <(total) > [0]> then
@@ -231,7 +231,7 @@ if <(total) > [0]> then
 
 --- /collapse ---
 
-**Tip:** Compare your code with the code examples. Are there any differences that shouldn't be there?
+**Awgrym:** Cymhara dy god gyda'r enghreifftiau cod. Oes unrhyw wahaniaethau na ddylai fod yno?
 
 --- /task ---
 
