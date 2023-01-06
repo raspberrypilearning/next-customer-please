@@ -43,7 +43,11 @@ You are going to make some design decisions to choose what items your business w
 
 --- task ---
 
-Explore these example shops to get more ideas. Which projects allow you to buy multiple items at once? Which allow you to buy items one at a time?
+Explore these example shops to get more ideas.
+
+⭐ Share your finished Next customer please project for a chance of it being featured here.
+
+Which projects allow you to buy multiple items at once? Which allow you to buy items one at a time?
 
 Click on the **seller** sprites to buy items:
 
@@ -57,9 +61,12 @@ Click on the **seller** sprites to buy items:
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525972748/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Vending machine**: [See inside](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
+**⭐ Pride pins** (featured community project)
+
+Click on the pride pin badges to add them to your shopping bag:
+
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/526051796/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/750787529/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /task ---
@@ -70,7 +77,7 @@ Click on the **seller** sprites to buy items:
 
 ### Get ideas 💭
 
-سوف تتخذ بعض قرارات التصميم لإنشاء شخصيتك. See inside example projects in [Scratch 2: Next customer please! - Examples](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
+You are going to make some design decisions to create your character. See inside example projects in [Scratch 2: Next customer please! - Examples](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
 
 ![Example project](images/fruit.png) ![Example project](images/tshirt.png) ![Example project](images/icecream.png) ![Example project](images/vending.png)
 
