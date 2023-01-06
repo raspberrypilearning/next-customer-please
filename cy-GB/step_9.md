@@ -1,10 +1,10 @@
-## What next?
+## Beth nesaf?
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [Don't fall in](https://projects.raspberrypi.org/en/projects/dont-fall-in) project. In this project, you will make a top-down game where you have to jump from platform to platform and not fall in.
+Os wyt ti'n dilyn y llwybr [Mwy o Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), galli di symud ymlaen i'r prosiect [Paid disgyn i mewn](https://projects.raspberrypi.org/en/projects/dont-fall-in). Yn y prosiect yma, byddi di'n creu gêm o'r brig i lawr lle mae'n rhaid i ti neidio o blatfform i blatfform a pheidio disgyn i mewn.
 
 --- print-only ---
 
-![Don't fall in project](images/dont-fall-in-project.png)
+![Prosiect Paid disgyn i mewn](images/dont-fall-in-project.png)
 
 --- /print-only ---
 
@@ -14,8 +14,8 @@ If you are following the [More Scratch](https://projects.raspberrypi.org/en/rasp
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Instructions:** Press <kbd>space</kbd> or tap the Stage to jump.
+**Cyfarwyddiadau:** Pwysa <kbd>space</kbd> neu daro'r Llwyfan i neidio.
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Os wyt ti am gael mwy o hwyl wrth ddysgu Scratch, gallet ti roi cynnig ar unrhyw un o'r [prosiectau hyn](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
