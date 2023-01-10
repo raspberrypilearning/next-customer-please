@@ -43,13 +43,13 @@ Rwyt ti'n mynd i wneud rhai penderfyniadau dylunio i ddewis pa eitemau bydd dy f
 
 --- task ---
 
-Explore these example shops to get more ideas.
+Cymer olwg ar y siopau enghreifftiol hyn i gael mwy o syniadau.
 
 ⭐ Share your finished Next customer please project for a chance of it being featured here.
 
-Which projects allow you to buy multiple items at once? Which allow you to buy items one at a time?
+Pa brosiectau sy'n caniatáu i ti brynu sawl eitem ar unwaith? Pa rai sy'n caniatáu i ti brynu un eitem ar y tro?
 
-Click on the **seller** sprites to buy items:
+Clicia ar y corlun **Gwerthwr** i brynu eitemau:
 
 **Cool Shirts**: [See inside](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -77,9 +77,9 @@ Click on the pride pin badges to add them to your shopping bag:
 
 ### Cael ysbrydoliaeth
 
-You are going to make some design decisions to create your character. See inside example projects in [Scratch 2: Next customer please! - Examples](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
+Rwyt ti'n mynd i wneud rhai penderfyniadau dylunio i greu dy gymeriad. Cymer olwg tu mewn i brosiectau enghreifftiol yn [Scratch 2: Cwsmer nesaf plîs! - Enghreifftiau](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
 
-![Example project](images/fruit.png) ![Example project](images/tshirt.png) ![Example project](images/icecream.png) ![Example project](images/vending.png)
+![Prosiect enghreifftiol](images/fruit.png) ![Prosiect enghreifftiol](images/tshirt.png) ![Prosiect enghreifftiol](images/icecream.png) ![Prosiect enghreifftiol](images/vending.png)
 
 --- /print-only ---
 
