@@ -170,7 +170,7 @@ Mae gen ti gryn dipyn o gorluniau yn dy brosiect. Gwna'n siŵr fod y sgript `pan
 
 --- collapse ---
 ---
-teitl: Mae'r gwerthwr yn dweud y gair 'cyfanswm' yn lle'r cyfanswm go iawn
+title: Mae'r gwerthwr yn dweud y gair 'cyfanswm' yn lle'r cyfanswm go iawn
 ---
 
 Gwna'n siŵr fod gan dy floc `dweud`{:class="block3looks"} y bloc newidyn `cyfanswm`{:class="block3variables"}, a dim y gair `cyfanswm`.
