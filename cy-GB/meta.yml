@@ -11,19 +11,19 @@ steps:
   - title: Dy syniad busnes
   - title: Eitemau ar werth
     completion:
-      - external
+      - engaged
   - title: Prynwyd
   - title: Nodweddion ychwanegol
     completion:
       - internal
   - title: Cwis cyflym
     knowledge_quiz:
-      path: cwis1
+      path: quiz1
       version: 1
       questions: 3
       passing_score: 3
     completion:
-      - internal
+      - external
   - title: Uwchraddio dy brosiect
   - title: Rhannu
   - title: Beth nesaf?
