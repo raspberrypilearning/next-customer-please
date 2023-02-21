@@ -1,4 +1,4 @@
-## Prynu
+## Prynwyd
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -45,7 +45,7 @@ say (join [That will be ] (total)) for (2) seconds
 
 --- task ---
 
-Gorffena'r broses talu. Gosoda'r `cyfanswm`{:class="block3variables"} yn ôl i `0` ar ôl talu, `dweud`{:class="block3looks"} hwyl fawr a `darlledu`{:class="block3control"} `cwsmer nesaf`{:class="block3control"}.
+Gorffena'r broses talu. Gosoda'r `cyfanswm`{:class="block3variables"} yn ôl i `0` ar ôl talu, `dweud`{:class="block3looks"} hwyl fawr a `darlledu`{:class="block3control"} `cwsmer nesaf`{: class="block3control"}.
 
 ```blocks3
 when this sprite clicked
@@ -62,7 +62,7 @@ play sound [machine v] until done
 
 Efallai hoffet ti roi'r dewis i'r cwsmer ganslo'r broses siopa.
 
---- collapse ---
+---collapse---
 ---
 title: Gosod dewisiadau talu a chanslo
 ---
@@ -157,7 +157,7 @@ end
 
 Dyma rai chwilod cyffredin:
 
---- collapse ---
+---collapse---
 ---
 title: Dydy'r gwerthwr ddim yn gwneud unrhyw beth pan dw i'n clicio arno
 ---
