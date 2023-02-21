@@ -10,25 +10,25 @@ Os wyt ti wedi mewngofnodi ar Scratch, galli di greu stiwdio ac ychwanegu dy bro
 title: Adeiladu marchnad siopa
 ---
 
-Cadwa dy brosiect, ac wedyn clicio ar dy enw defnyddiwr a dewis **Fy Stwff**.
+Cadwa dy brosiect, ac wedyn clicio ar dy enw defnyddiwr a dewis **Fy Mhethau**.
 
 ![y ddewislen naid o dan dy enw cyfrif ar y dde uchaf.](images/my-stuff-menu.png)
 
-O dy dudalen **Fy Stwff**, clicia ar y botwm **+ Stiwdio Newydd**.
+O dy dudalen **Fy Mhethau**, clicia ar y botwm **+ Stiwdio Newydd**.
 
-![Y botwm llwyd 'Stiwdio Newydd' ar y dudalen 'Fy Stwff'.](images/create-studio.png)
+![Y botwm llwyd 'Stiwdio Newydd' ar y dudalen 'Fy Mhethau'.](images/create-studio.png)
 
 Rho enw a disgrifiad i dy stiwdio newydd.
 
 ![Y blwch enw ar frig y stiwdio a'r blwch disgrifiad ar ochr chwith y stiwdio.](images/naming-studio.png)
 
-Clicia ar y botwm **Ychwanegu prosiectau**. Galli di ychwanegu dy brosiect dy hun drwy ei ddewis o'r rhestr ar waelod y dudalen.
+Clicia ar y botwm **Pori Projectau**. Galli di ychwanegu dy brosiect dy hun drwy ei ddewis o'r rhestr ar waelod y dudalen.
 
-![Y neidlen 'Ychwanegu Prosiectau' ar waelod y dudalen gydag oriel o fân-luniau prosiectau. ](images/add-your-projects.png)
+![Y neidlen 'Pori Projectau' ar waelod y dudalen gydag oriel o fân-luniau prosiectau. ](images/add-your-projects.png)
 
-Galli di hefyd ychwanegu prosiectau mae dy ffrindiau wedi'u creu. Gofynna iddyn nhw rannu eu prosiect a rhoi'r ddolen i ti. Teipia neu ludo'r ddolen i'r blwch url, ac wedyn clicio ar y botwm **Add by url**.
+Galli di hefyd ychwanegu prosiectau mae dy ffrindiau wedi'u creu. Gofynna iddyn nhw rannu eu prosiect a rhoi'r ddolen i ti. Teipia neu ludo'r ddolen i'r blwch url, ac wedyn clicio ar y botwm **Ychwanegu trwy URL**.
 
-![Y blwch url o dan y botwm 'Ychwanegu prosiectau' a'r botwm 'Ychwanegu drwy url'.](images/path.png)
+![Y blwch url o dan y botwm 'Pori Projectau' a'r botwm 'Ychwanegu trwy URL'.](images/path.png)
 
 --- /collapse ---
 
