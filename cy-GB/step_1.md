@@ -45,7 +45,7 @@ Rwyt ti'n mynd i wneud rhai penderfyniadau dylunio i ddewis pa eitemau bydd dy f
 
 Cymer olwg ar y siopau enghreifftiol hyn i gael mwy o syniadau.
 
-⭐ Share your finished Next customer please project for a chance of it being featured here.
+⭐ Rhannwch eich prosiect “Cwsmer Nesaf Os Gwelwch Yn Dda” am gyfle i’w gynnwys yma.
 
 Pa brosiectau sy'n caniatáu i ti brynu sawl eitem ar unwaith? Pa rai sy'n caniatáu i ti brynu un eitem ar y tro?
 
@@ -61,9 +61,9 @@ Clicia ar y corlun **Gwerthwr** i brynu eitemau:
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525972748/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**⭐ Pride pins** (featured community project)
+**⭐ Piniau balchder** (prosiect cymunedol dan sylw)
 
-Click on the pride pin badges to add them to your shopping bag:
+Cliciwch ar y piniau balchder i’w hychwanegu i’ch bag siopa:
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/750787529/?autostart=false" frameborder="0"></iframe>
