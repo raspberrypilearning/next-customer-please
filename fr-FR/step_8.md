@@ -40,7 +40,7 @@ Partage ton projet et envoie un lien aux personnes que tu connais. Toute la comm
 
 Pourquoi ne pas inviter tes amis à créer un projet ? Fais-leur savoir que tu t'es amusé(e).
 
-Si tu as un compte Scratch et que tu as partagé ton projet **Client suivant, s'il vous plaît**, gardes un œil sur les commentaires que d'autres pourraient faire sur ta création. Les réactions et commentaires te donnent un excellent moyen de réfléchir à ton travail. Ignore les commentaires inutiles ou non pertinents.
+Si tu as un compte Scratch et que tu as partagé ton projet **Client suivant, s'il vous plaît**, garde un œil sur les commentaires que d'autres pourraient faire sur ta création. Les réactions et commentaires te donnent un excellent moyen de réfléchir à ton travail. Ignore les commentaires inutiles ou non pertinents.
 
 [[[comments-feedback-scratch]]]
 
