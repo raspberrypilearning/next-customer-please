@@ -4,7 +4,7 @@ Os wyt ti mewn clwb, beth am rannu dy brosiect â dy ffrindiau?
 
 Os wyt ti wedi mewngofnodi ar Scratch, galli di greu stiwdio ac ychwanegu dy brosiect **Cwsmer nesaf plîs**. Galli di hefyd ychwanegu prosiectau **prosiect cwsmer plîs** dy ffrindiau greu canolfan o wahanol siopau a busnesau.
 
----collapse---
+--- collapse ---
 
 ---
 

@@ -7,22 +7,16 @@ listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
-  - 
-    title: Byddi di'n creu
-  - 
-    title: Dy syniad busnes
-  - 
-    title: Eitemau ar werth
+  - title: Byddi di'n creu
+  - title: Dy syniad busnes
+  - title: Eitemau ar werth
     completion:
       - external
-  - 
-    title: Prynwyd
-  - 
-    title: Nodweddion ychwanegol
+  - title: Prynwyd
+  - title: Nodweddion ychwanegol
     completion:
       - internal
-  - 
-    title: Cwis cyflym
+  - title: Cwis cyflym
     knowledge_quiz:
       path: cwis1
       version: 1
@@ -30,9 +24,6 @@ steps:
       passing_score: 3
     completion:
       - internal
-  - 
-    title: Uwchraddio dy brosiect
-  - 
-    title: Rhannu
-  - 
-    title: Beth nesaf?
+  - title: Uwchraddio dy brosiect
+  - title: Rhannu
+  - title: Beth nesaf?

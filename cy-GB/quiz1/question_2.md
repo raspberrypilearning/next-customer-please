@@ -1,5 +1,5 @@
 
---- cwestiwn ---
+--- question ---
 
 ---
 legend: Cwestiwn 2 o 3
@@ -20,7 +20,7 @@ Pan fydd y cod yn rhedeg, mae'r defnyddiwr yn teipio'r ateb 'grêt'. Beth fydd c
 
 ![Blwch 'ask' gyda'r gair 'great' wedi'i deipio i mewn.](images/quiz2.png)
 
---- dewisiadau ---
+--- choices ---
 
 - (x) Bydd y **Gwerthwr** yn dweud `Ddrwg gen i glywed hynny.`
 
@@ -58,6 +58,6 @@ Na, teipiodd y **cwsmer** yr ateb 'grêt' ond dydy'r **gwerthwr** ddim yn dweud 
 
   --- /feedback ---
 
---- /dewisiadau ---
+--- /choices ---
 
---- /cwestiwn ---
+--- /question ---

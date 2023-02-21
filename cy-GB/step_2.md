@@ -58,7 +58,7 @@ Beth ydy enw dy fusnes?
 
 Crea `newidyn`{:class="block3variables"} o'r enw `enw`:
 
----collapse---
+--- collapse ---
 
 ---
 
@@ -85,7 +85,7 @@ set [name v] to () //type the name of your business
 
 Crea arwydd ar y Llwyfan gyda dy newidyn:
 
----collapse---
+--- collapse ---
 
 ---
 
@@ -125,7 +125,7 @@ set [name v] to [my shop] // your business name
 
 --- task ---
 
-Crea sgript newydd ar gyfer dy gorlun **gwerthwr** i `ddweud`{:class="block3looks"} `Cwsmer nesaf plîs` pan fyddan nhw'n derbyn y `darllediad`{:class="block3control"} `cwsmer nesaf`{:class= "block3control"}.
+Crea sgript newydd ar gyfer dy gorlun **gwerthwr** i `ddweud`{:class="block3looks"} `Cwsmer nesaf plîs` pan fyddan nhw'n derbyn y `darllediad`{:class="block3control"} `cwsmer nesaf`{:class="block3control"}.
 
 ```blocks3
 when I receive [next customer v] 
@@ -138,7 +138,7 @@ say [Next customer please!] for (2) seconds
 
 **Difa chwilod:** Efallai bydd angen i ti ddifa chwilod yn dy brosiect. Dyma chwilen gyffredin.
 
----collapse---
+--- collapse ---
 
 ---
 
@@ -157,4 +157,4 @@ set [name v] to [my shop] // your business name
 
 --- /task ---
 
---- cadw ---
+--- save ---

@@ -29,7 +29,7 @@ Galli di ychwanegu flociau `gofyn`{:class="block3sensing"} i sgript `pan gaiff y
 
 Fe allet ti ofyn os oedd y gwasanaeth yn dda neu beidio, neu ydyn nhw'n cael diwrnod braf. Neu rywbeth penodol i dy siop, fel "Beth wyt ti'n mynd i'w goginio?"
 
----collapse---
+--- collapse ---
 
 ---
 
@@ -60,7 +60,7 @@ Wyt ti eisiau i rywbeth arall ddigwydd pan fyddi di'n ychwanegu eitem?
 
 Mae gan y prosiect Crysau Cŵl grysau sy'n llithro i mewn i fag.
 
----collapse---
+--- collapse ---
 
 ---
 
@@ -102,13 +102,13 @@ show
 
 **Profi:** Rho gynnig ar dy brosiect a gwa'n siŵr bod eitemau'n llithro i'r cynhwysydd ac yn cuddio.
 
-**Difa chwilod:** Gwiria dy sgriptiau'n ofalus a gwna'n siŵr dy fod wedi diweddaru pob un o dy gorluniau **Eitem**. Galli di daro golwg ar [Crysau Cŵl](https://scratch.mit.edu/projects/528697069/editor){:target = "_blank"} os oes angen i ti weld enghraifft weithredol.
+**Difa chwilod:** Gwiria dy sgriptiau'n ofalus a gwna'n siŵr dy fod wedi diweddaru pob un o dy gorluniau **Eitem**. Galli di daro golwg ar [Crysau Cŵl](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"} os oes angen i ti weld enghraifft weithredol.
 
 --- /collapse ---
 
 Mae'r prosiect Hufen iâ yn dangos yr hufen iâ wrth i'r cwsmer ddewis.
 
----collapse---
+--- collapse ---
 
 ---
 
@@ -149,7 +149,7 @@ Wyt ti wedi sylwi y gall dy gwsmer ychwanegu eitemau ar ôl iddyn nhw ddechrau t
 
 Os wyt ti am rwystro'r cwsmer rhag ychwanegu eitemau pan fyddan nhw wrth y ddesg dalu, galli di ychwanegu newidyn `siop`{:class="block3variables"} a'i ddefnyddio i reoli pryd mae modd ychwanegu eitemau.
 
----collapse---
+--- collapse ---
 
 ---
 title: Caniatáu prynu dim ond pan dydy'r cwsmer ddim wrth y ddesg dalu
@@ -164,7 +164,7 @@ Dewisa dy gorlun **gwerthwr**. Diweddara dy sgript `when flag clicked`{:class="b
 +set [shop v] to [true]
 ```
 
-Nawr ychwanega floc i newid y ` siop`{:class="block3variables"} i `anwir` ar ddechrau sgript `when this sprite clicked` dy **werthwr**:
+Nawr ychwanega floc i newid y `siop`{:class="block3variables"} i `anwir` ar ddechrau sgript `when this sprite clicked` dy **werthwr**:
 
 ```blocks3 
 +set [shop v] to [false]

@@ -40,7 +40,7 @@ Os wyt ti'n dymuno, galli di ychwanegu pris at y wisg drwy ddefnyddio'r offeryn 
 
 --- task ---
 
-Ychwanega sgript i `newid`{:class="block3variables"} y ` cyfanswm`{:class="block3variables"} yn ôl pris dy eitem pan fydd y cwsmer yn clicio ar y corlun.
+Ychwanega sgript i `newid`{:class="block3variables"} y `cyfanswm`{:class="block3variables"} yn ôl pris dy eitem pan fydd y cwsmer yn clicio ar y corlun.
 
 --- collapse ---
 ---
@@ -103,7 +103,7 @@ Os wyt ti'n ychwanegu labeli prisiau, gwna'n siŵr eu bod yn cyfateb i'r swm sy'
 
 **Difa chwilod:** Efallai bydd angen i ti drwsio chwilod yn dy brosiect. Dyma rai chwilod cyffredin.
 
----collapse---
+--- collapse ---
 ---
 title: Dydy'r cyfanswm ddim yn mynd i 0 pan fydda i'n clicio ar y faner werdd
 ---

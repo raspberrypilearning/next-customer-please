@@ -1,5 +1,5 @@
 
---- cwestiwn ---
+--- question ---
 
 ---
 legend: Cwestiwn 3 o 3
@@ -7,7 +7,7 @@ legend: Cwestiwn 3 o 3
 
 Dydy prosiect Jay ddim yn gweithio. Beth ddylai wneud?
 
---- dewisiadau ---
+--- choices ---
 
 - ( ) Cynhyrfu!
 
@@ -43,6 +43,6 @@ Fydd bod yn flin ddim yn helpu i ddatrys y broblem, gan y bydd yn ei gwneud yn a
 
   --- /feedback ---
 
---- /dewisiadau ---
+--- /choices ---
 
---- /cwestiwn ---
+--- /question ---
