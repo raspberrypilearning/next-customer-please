@@ -8,7 +8,7 @@ copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Ce que tu vas faire
   - 
     title: Ton idée commerciale
   - 
@@ -22,7 +22,7 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1
