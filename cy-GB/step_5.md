@@ -17,7 +17,7 @@ Prosiectau enghreifftiol: **Ffrwyth Gofod Ffres**: [Gweld tu mewn](https://scrat
 **Siop hufen iâ**: [Gweld tu mewn](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
 **Peiriant gwerthu**: [Gweld tu mewn](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
 
-**Awgrym:** Os wyt ti wedi mewngofnodi i gyfrif Scratch, galli di ddefnyddio'r **Backpack** i gopïo sgriptiau neu gorluniau i dy brosiect.
+**Awgrym:** Os wyt ti wedi mewngofnodi i gyfrif Scratch, galli di ddefnyddio'r **Pecyn Cefn** i gopïo sgriptiau neu gorluniau i dy brosiect.
 
 [[[scratch-backpack]]]
 
@@ -38,7 +38,7 @@ title: Gofyn ac ymateb i gwestiynau
 ---
 
 ```blocks3
-ask [Did you find everything you wanted today?] and wait
+ask [Ddes di o hyd i bob dim roeddet ti eisiau heddiw?] and wait
 if <(answer) = [do]> then
 say [Mae hynny'n wych!] for [2] seconds
 else
@@ -158,13 +158,13 @@ title: Caniatáu prynu dim ond pan dydy'r cwsmer ddim wrth y ddesg dalu
 
 Ychwanega `newidyn`{:class="block3variables"} o'r enw `siop` ar gyfer pob corlun. Byddi di'n gosod hwn i `gwir` pan fydd y cwsmer yn y siop ac `anwir` pan fydd wrth y ddesg dalu.
 
-Dewisa dy gorlun **gwerthwr**. Diweddara dy sgript `when flag clicked`{:class="block3events"} i ganiatáu siopa pan fydd dy brosiect yn dechrau:
+Dewisa dy gorlun **gwerthwr**. Diweddara dy sgript `pan fo'r flag werdd yn cael ei glicio`{:class="block3events"} i ganiatáu siopa pan fydd dy brosiect yn dechrau:
 
 ```blocks3
 +set [siop v] to [gwir]
 ```
 
-Nawr ychwanega floc i newid y `siop`{:class="block3variables"} i `anwir` ar ddechrau sgript `when this sprite clicked` dy **werthwr**:
+Nawr ychwanega floc i newid y `siop`{:class="block3variables"} i `anwir` ar ddechrau sgript `pan gaiff y ciplun yma ei glicio`{:class="block3events"} dy **werthwr**:
 
 ```blocks3 
 +set [siop v] to [anwir]
