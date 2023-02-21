@@ -8,11 +8,11 @@ legend: Cwestiwn 2 o 3
 Mewn siop, mae gan y **gwerthwr** y cod yma yn y sgript talu:
 
 ```blocks3
-ask [How are you today?] and wait
-if <(answer) = [good]> then
-say [That's fantastic!] for [2] seconds
+ask [Sut wyt ti heddiw?] and wait
+if <(answer) = [da]> then
+say [Mae hynny'n wych!] for [2] seconds
 else
-say [Sorry to hear that.] for [2] seconds
+say [Mae'n ddrwg gen i glywed hynny.] for [2] seconds
 end
 ```
 
