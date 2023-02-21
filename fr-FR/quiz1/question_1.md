@@ -1,10 +1,10 @@
-## Quick quiz
+## Questionnaire rapide
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Réponds aux trois questions. Il y a des indices pour te guider vers la bonne réponse.
 
-When you have answered each question, click on **Check my answer**.
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
-Have fun!
+Amuse-toi bien !
 
 --- question ---
 
@@ -12,12 +12,12 @@ Have fun!
 legend: Question 1 sur 3
 ---
 
-A shop project uses a `total`{:class="block3variables"} variable to store the total for each customer.
+Un projet de boutique utilise une variable `total`{:class="block3variables"} pour stocker le total pour chaque client.
 
 + Un client ajoute des articles pour un total de `50` et paie
 + Un nouveau client ajoute des articles pour un total de `40`, mais le `total`{:class="block3variables"} est maintenant de `90` pour le deuxième client
 
-Which block would you need to add to the payment script to make the total go back to `0` when each customer pays?
+Quel bloc dois-tu ajouter au script de paiement pour que le total revienne à `0` lorsque chaque client paie ?
 
 ```blocks3
 when this sprite clicked
@@ -39,7 +39,7 @@ change [total v] by [0]
 
  --- feedback ---
 
-Not quite, `total`{:class="block3variables"} should be `0` after a customer pays, but it is not the `change`{:class="block3variables"} block you need.
+Pas tout à fait, cela fonctionnerait pour le deuxième client mais le `total`{:class="block3variables"} serait faux pour les autres clients.
 
  --- /feedback ---
 
@@ -50,7 +50,7 @@ set [total v] to [40]
 
  --- feedback ---
 
- Not quite, this would work for the second customer but the `total`{:class="block3variables"} would be wrong for other customers.
+ Pas tout à fait, `total`{:class="block3variables"} devrait être `0` après le paiement d'un client, mais ce n'est pas le bloc `ajouter`{:class="block3variables"} dont tu as besoin.
 
  --- /feedback ---
 
@@ -62,7 +62,7 @@ set [total v] to [0]
 
  --- feedback ---
 
-Yes, that's correct. You need to `set`{:class="block3variables"} the `total`{:class="block3variables"} to `0` after each customer pays.
+Oui c'est correct. Tu dois `mettre`{:class="block3variables"} le `total`{:class="block3variables"} sur `0` après le paiement de chaque client.
 
  --- /feedback ---
 
@@ -74,7 +74,7 @@ change [total v] by [-50]
 
  --- feedback ---
 
-That would work for this example, but what if the first customer spent a different amount? Your solution needs to work when the previous customer spends different amounts.
+Cela fonctionnerait pour cet exemple, mais que se passerait-il si le premier client dépensait un montant différent ? Ta solution doit fonctionner lorsque le client précédent dépense des montants différents.
 
  --- /feedback ---
 
