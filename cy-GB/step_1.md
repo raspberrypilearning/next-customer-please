@@ -29,9 +29,9 @@ Clicia ar y Ffrwyth Gofod i'w prynu a gweld y cyfanswm yn codi. Pan fyddi di'n b
 
 </div>
 <div>
-**Ffrwyth Gofod Ffres**: [Gweler y tu mewn](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
+**Ffrwyth Gofod Ffres**: [Gweler y tu mewn](https://scratch.mit.edu/projects/812347333/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528696418/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/812347333/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 
@@ -51,9 +51,9 @@ Pa brosiectau sy'n caniatáu i ti brynu sawl eitem ar unwaith? Pa rai sy'n cania
 
 Clicia ar y corlun **Gwerthwr** i brynu eitemau:
 
-**Crysau Cŵl**: [Gweld tu mewn](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
+**Crysau Cŵl**: [Gweld tu mewn](https://scratch.mit.edu/projects/812469262/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528697069/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/812469262/?autostart=false" frameborder="0"></iframe>
 </div>
 
 **Siop hufen iâ**: [Gweld tu mewn](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
