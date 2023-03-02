@@ -12,10 +12,10 @@ Mae llawer o nodweddion y gallet ti eu hychwanegu i wella profiad siopa dy gwsme
 
 Galli di 'Weld tu mewn' i brosiectau enghreifftiol i daro golwg ar sut maen nhw'n gweithio.
 
-Prosiectau enghreifftiol: **Ffrwyth Gofod Ffres**: [Gweld tu mewn](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
-**Crysau Cŵl**: [Gweld tu mewn](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
-**Siop hufen iâ**: [Gweld tu mewn](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
-**Peiriant gwerthu**: [Gweld tu mewn](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
+Prosiectau enghreifftiol: **Ffrwyth Gofod Ffres**: [Gweld tu mewn](https://scratch.mit.edu/projects/812347333/editor){:target="_blank"}
+**Crysau Cŵl**: [Gweld tu mewn](https://scratch.mit.edu/projects/812469262/editor){:target="_blank"}
+**Siop hufen iâ**: [Gweld tu mewn](https://scratch.mit.edu/projects/812475975/editor){:target="_blank"}
+**Peiriant gwerthu**: [Gweld tu mewn](https://scratch.mit.edu/projects/812482537/editor){:target="_blank"}
 
 **Awgrym:** Os wyt ti wedi mewngofnodi i gyfrif Scratch, galli di ddefnyddio'r **Pecyn Cefn** i gopïo sgriptiau neu gorluniau i dy brosiect.
 
@@ -102,7 +102,7 @@ show
 
 **Profi:** Rho gynnig ar dy brosiect a gwa'n siŵr bod eitemau'n llithro i'r cynhwysydd ac yn cuddio.
 
-**Difa chwilod:** Gwiria dy sgriptiau'n ofalus a gwna'n siŵr dy fod wedi diweddaru pob un o dy gorluniau **Eitem**. Galli di daro golwg ar [Crysau Cŵl](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"} os oes angen i ti weld enghraifft weithredol.
+**Difa chwilod:** Gwiria dy sgriptiau'n ofalus a gwna'n siŵr dy fod wedi diweddaru pob un o dy gorluniau **Eitem**. Galli di daro golwg ar [Crysau Cŵl](https://scratch.mit.edu/projects/812469262/editor){:target="_blank"} os oes angen i ti weld enghraifft weithredol.
 
 --- /collapse ---
 
@@ -190,7 +190,7 @@ Bydd angen gwneud hyn ar gyfer pob eitem rwyt ti'n ei werthu yn dy siop.
 
 **Profi:** Clicia'r faner werdd ac wedyn rho gynnig ar siopa. Gwna'n siŵr y galli di ychwanegu eitemau a thalu o hyd, ond nad yw hi'n bosib ychwanegu eitemau ar ôl i ti ddechrau talu.
 
-**Difa chwilod:** Cymer olwg ofalus dros dy god. Galli di edrych ar y prosiect [Ffrwyth o'r Gofod](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"} os oes angen i ti weld enghraifft weithredol.
+**Difa chwilod:** Cymer olwg ofalus dros dy god. Galli di edrych ar y prosiect [Ffrwyth o'r Gofod](https://scratch.mit.edu/projects/812347333/editor){:target="_blank"} os oes angen i ti weld enghraifft weithredol.
 
 --- /collapse ---
 
