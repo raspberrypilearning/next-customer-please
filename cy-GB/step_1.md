@@ -56,9 +56,9 @@ Clicia ar y corlun **Gwerthwr** i brynu eitemau:
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/812469262/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Siop hufen iâ**: [Gweld tu mewn](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
+**Siop hufen iâ**: [Gweld tu mewn](https://scratch.mit.edu/projects/812475975/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525972748/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/812475975/?autostart=false" frameborder="0"></iframe>
 </div>
 
 **⭐ Piniau balchder** (prosiect cymunedol dan sylw)
