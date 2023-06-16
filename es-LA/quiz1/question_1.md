@@ -21,11 +21,11 @@ Un proyecto de tienda utiliza una variable `total`{:class="block3variables"} par
 
 ```blocks3
 when this sprite clicked
-ask [Would you like to pay or cancel?] and wait
-if {(answer) = [pay]} then
-say (join [That will be ] (total)) for (2) seconds
+ask [¿Quieres pagar o cancelar?] and wait
+if {(answer) = [pagar]} then
+say (join [Son ] (total)) for (2) seconds
 play sound [coin v] until done 
-say (join [Thanks for shopping at ] (name)) for (2) seconds
+say (join [Gracias por comprar en ] (name)) for (2) seconds
 broadcast [next customer v]
 end
 ```
