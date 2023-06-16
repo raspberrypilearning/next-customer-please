@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-El objeto**vendedor** necesita:
+El objeto **vendedor** necesita:
 - preguntar si el cliente está listo para pagar los artículos
 - aceptar el pago
 - prepararse para el próximo cliente
