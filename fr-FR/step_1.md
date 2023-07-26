@@ -29,9 +29,8 @@ Clique sur Fruits de l'espace pour les acheter et regarde le total augmenter. Lo
 
 </div>
 <div>
-**Fruits frais de l'espace** : [Voir à l'intérieur](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528696418/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 </div>
 
@@ -50,15 +49,11 @@ Explore ces exemples de boutiques pour trouver d'autres idées.
 Quels projets te permettent d'acheter plusieurs articles à la fois ? Lesquels te permettent d'acheter des articles un par un ?
 
 Clique sur le sprite **vendeur** pour acheter des articles :
-
-**T-shirts cool** : [Voir à l'intérieur](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528697069/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
-
-**Glacier** : [Voir à l'intérieur](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525972748/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 **⭐ Badges de fierté** (projet communauté en vedette)
