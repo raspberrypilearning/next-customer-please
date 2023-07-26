@@ -29,9 +29,8 @@ Haz clic en Space Fruit para comprarlos y ver cómo sube el total. Cuando estés
 
 </div>
 <div>
-**Fruta espacial fresca**: [Ver interior](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528696418/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 </div>
 
@@ -50,15 +49,11 @@ Explora estas tiendas de ejemplo para obtener más ideas.
 ¿Qué proyectos te permiten comprar varios artículos a la vez? ¿Cuáles te permiten comprar artículos de uno en uno?
 
 Haz clic en el objeto de **vendedor** para comprar artículos:
-
-**Playeras geniales**: [Ver el interior](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528697069/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
-
-**Heladería**: [Ver interior](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525972748/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 **⭐ Pride pins** (Proyecto destacado de la comunidad)
