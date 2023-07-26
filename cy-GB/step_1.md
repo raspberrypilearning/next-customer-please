@@ -29,9 +29,8 @@ Clicia ar y Ffrwyth Gofod i'w prynu a gweld y cyfanswm yn codi. Pan fyddi di'n b
 
 </div>
 <div>
-**Ffrwyth Gofod Ffres**: [Gweler y tu mewn](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528696418/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 </div>
 
@@ -50,15 +49,11 @@ Cymer olwg ar y siopau enghreifftiol hyn i gael mwy o syniadau.
 Pa brosiectau sy'n caniatáu i ti brynu sawl eitem ar unwaith? Pa rai sy'n caniatáu i ti brynu un eitem ar y tro?
 
 Clicia ar y corlun **Gwerthwr** i brynu eitemau:
-
-**Crysau Cŵl**: [Gweld tu mewn](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528697069/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
-
-**Siop hufen iâ**: [Gweld tu mewn](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525972748/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 **⭐ Piniau balchder** (prosiect cymunedol dan sylw)
