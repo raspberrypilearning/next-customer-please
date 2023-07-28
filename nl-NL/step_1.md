@@ -1,4 +1,4 @@
-## Inleiding
+## Wat ga je maken
 
 Maak een winkel-app waar de klant producten in je winkel kan kopen. Het project zal in de ik-persoon weergave zijn waar de speler een klant is.
 
@@ -20,7 +20,7 @@ Je gaat:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Probeer het
+### Speel ▶️ 
 
 Klik op Ruimte fruit om ze te kopen en kijk hoe het totaal omhoog gaat. Als je klaar bent, klik je op Kiran om uit te checken. 
 
@@ -37,13 +37,17 @@ Klik op Ruimte fruit om ze te kopen en kijk hoe het totaal omhoog gaat. Als je k
 
 --- /task ---
 
-### Doe inspiratie op
+### Doe inspiratie op 💭
 
 Je gaat een aantal ontwerpbeslissingen nemen om te kiezen welke producten je bedrijf te bieden heeft en hoe de klant gaat uitchecken.
 
 --- task ---
 
-Bekijk deze voorbeeldwinkels om meer ideeën te krijgen. Met welke projecten kun je meerdere producten tegelijk kopen? Bij welke projecten kun je producten een voor een kopen?
+Bekijk deze voorbeeldwinkels om meer ideeën te krijgen.
+
+⭐ Deel je voltooide Volgende klant alsjeblieft-project om kans te maken dat het hier wordt weergegeven.
+
+Met welke projecten kun je meerdere producten tegelijk kopen? Bij welke projecten kun je producten een voor een kopen?
 
 Klik op de **verkoper** sprites om producten te kopen:
 
@@ -57,9 +61,12 @@ Klik op de **verkoper** sprites om producten te kopen:
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707255735/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Verkoopmachine**: [Bekijk van binnen](https://scratch.mit.edu/projects/707255880/editor){:target="_blank"}
+**⭐ Pride pins** (uitgelicht gemeenschapsproject)
+
+Klik op de Pride Pin-badges om ze aan je winkelmandje toe te voegen:
+
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707255880/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/750787529/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /task ---
@@ -68,9 +75,9 @@ Klik op de **verkoper** sprites om producten te kopen:
 
 --- print-only ---
 
-### Doe inspiratie op
+### Doe inspiratie op 💭
 
-Je gaat een aantal ontwerpbeslissingen nemen om je personage te creëren. Bekijk voorbeeldprojecten in [Scratch 2: Volgende klant alsjeblieft! - voorbeelden](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
+Je gaat een aantal ontwerpbeslissingen nemen om je personage te creëren. Bekijk voorbeeldprojecten in [Scratch 2: Volgende klant alsjeblieft! - Voorbeelden](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
 
 ![Voorbeeldproject](images/fruit.png) 
 ![Voorbeeldproject](images/tshirt.png) 

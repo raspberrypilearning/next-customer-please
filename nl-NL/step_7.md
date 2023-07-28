@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Als je tijd hebt, kunt je jouw project verbeteren.
+Als je tijd hebt, kun je jouw project verbeteren.
 </div>
 <div>
 ![](images/upgrade-image.png){:width="300px"}
