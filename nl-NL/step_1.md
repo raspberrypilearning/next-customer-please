@@ -1,4 +1,4 @@
-## You will make
+## Wat ga je maken
 
 Maak een winkel-app waar de klant producten in je winkel kan kopen. Het project zal in de ik-persoon weergave zijn waar de speler een klant is.
 
@@ -20,9 +20,9 @@ Je gaat:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Play ▶️ 
+### Speel ▶️ 
 
-Click on Space Fruit to buy them and watch the total go up. Als je klaar bent, klik je op Kiran om uit te checken. 
+Klik op Ruimte fruit om ze te kopen en kijk hoe het totaal omhoog gaat. Als je klaar bent, klik je op Kiran om uit te checken. 
 
 + wat gebeurt er als je probeert uit te checken voordat je fruit hebt gekozen? 
 + Hoe denk je dat het project weet dat je nog geen fruit hebt toegevoegd?
@@ -36,19 +36,19 @@ Click on Space Fruit to buy them and watch the total go up. Als je klaar bent, k
 
 --- /task ---
 
-### Get ideas 💭
+### Doe inspiratie op 💭
 
 Je gaat een aantal ontwerpbeslissingen nemen om te kiezen welke producten je bedrijf te bieden heeft en hoe de klant gaat uitchecken.
 
 --- task ---
 
-Explore these example shops to get more ideas.
+Bekijk deze voorbeeldwinkels om meer ideeën te krijgen.
 
-⭐ Share your finished Next customer please project for a chance of it being featured here.
+⭐ Deel je voltooide Volgende klant alsjeblieft-project om kans te maken dat het hier wordt weergegeven.
 
-Which projects allow you to buy multiple items at once? Which allow you to buy items one at a time?
+Met welke projecten kun je meerdere producten tegelijk kopen? Bij welke projecten kun je producten een voor een kopen?
 
-Click on the **seller** sprites to buy items:
+Klik op de **verkoper** sprites om producten te kopen:
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
@@ -56,9 +56,9 @@ Click on the **seller** sprites to buy items:
   <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
-**⭐ Pride pins** (featured community project)
+**⭐ Pride pins** (uitgelicht gemeenschapsproject)
 
-Click on the pride pin badges to add them to your shopping bag:
+Klik op de Pride Pin-badges om ze aan je winkelmandje toe te voegen:
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/750787529/?autostart=false" frameborder="0"></iframe>
@@ -70,11 +70,11 @@ Click on the pride pin badges to add them to your shopping bag:
 
 --- print-only ---
 
-### Get ideas 💭
+### Doe inspiratie op 💭
 
-You are going to make some design decisions to create your character. See inside example projects in [Scratch 2: Next customer please! - Examples](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
+Je gaat een aantal ontwerpbeslissingen nemen om je personage te creëren. Bekijk voorbeeldprojecten in [Scratch 2: Volgende klant alsjeblieft! - Voorbeelden](https://scratch.mit.edu/studios/29611454/){:target="_blank"} Scratch studio.
 
-![Example project](images/fruit.png) ![Example project](images/tshirt.png) ![Example project](images/icecream.png) ![Example project](images/vending.png)
+![Voorbeeldproject](images/fruit.png) ![Voorbeeldproject](images/tshirt.png) ![Voorbeeldproject](images/icecream.png) ![Voorbeeldproject](images/vending.png)
 
 --- /print-only ---
 
