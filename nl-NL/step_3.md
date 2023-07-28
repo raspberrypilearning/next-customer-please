@@ -13,7 +13,7 @@ Je moet bijhouden hoeveel je klant uitgeeft.
 
 --- task ---
 
-Task ---Voeg een nieuwe variabele toe met de naam `totaal`{:class="block3variables"} voor alle sprites.
+Voeg een nieuwe variabele toe met de naam `totaal`{:class="block3variables"} voor alle sprites.
 
 Klik op je **verkoper** sprite en voeg een script toe aan `maak`{:class="block3variables"} het `totaal`{:class="block3variables"} `0` wanneer het project begint.
 
@@ -85,9 +85,9 @@ Voeg een prijslabel toe aan het uiterlijk of de achtergrond als je die gebruikt.
 
 --- task ---
 
-Task ---Klik op je nieuwe **product** sprite in de Sprite-lijst en klik vervolgens op het tabblad **Code**.
+Klik op je nieuwe **product** sprite in de Sprite-lijst en klik vervolgens op het tabblad **Code**.
 
-Change the amount the `total`{:class="block3variables"} changes by to the price of your new item.
+Wijzig het bedrag zodat het `totaal`{:class="block3variables"} verandert met de prijs van je nieuwe product.
 
 --- /task ---
 
@@ -108,7 +108,7 @@ Als je prijslabels hebt toegevoegd, zorg er dan voor dat ze overeenkomen met het
 title: Het totaal gaat niet naar 0 wanneer ik op de groene vlag klik
 ---
 
-Controleer of je de beginwaarde van de `totaal`{:class="block3variables"} variabele hebt ingesteld in het `wanneer op de groen vlag wordt geklikt`{:class="block3events"} script op je **verkoper** sprite.
+Controleer of je de beginwaarde van de `totaal`{:class="block3variables"} variabele hebt ingesteld in het `wanneer op de groene vlag wordt geklikt`{:class="block3events"} script op je **verkoper** sprite.
 
 --- /collapse ---
 

@@ -1,14 +1,8 @@
-## Reflectie
+## Snelle quiz
 
-Goed gedaan, je hebt je vaardigheden gebruikt om een winkel-app te ontwerpen en te bouwen!
+Beantwoord de drie vragen. Je wordt naar het juiste antwoord geleid.
 
-Je hebt gebruik gemaakt van `Gebeurtenissen`{:class="block3events"}, `Besturen`{:class="block3control"}, `Waarnemen`{:class="block3sensing"}, `Functies`{:class="block3operators"}, `Variabelen`{:class="block3variables"}, `Uiterlijken`{:class="block3looks"} en `Geluid`{:class="block3sound"}!
-
-Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
-
-Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
-
-Druk na elke vraag op Controleer mijn antwoord. Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
+Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
 Veel plezier!
 
@@ -45,7 +39,7 @@ change [totaal v] by [0]
 
  --- feedback ---
 
-Niet helemaal, `totaal`{:class="block3variables"} moet `0` zijn nadat een klant betaalt, maar het is niet het `verander`{:class="block3variables"} blok dat je nodig hebt.
+Niet helemaal, dit zou voor de tweede klant werken, maar het `totaal`{:class="block3variables"} zou verkeerd zijn voor andere klanten.
 
  --- /feedback ---
 
@@ -56,7 +50,7 @@ set [totaal v] to [40]
 
  --- feedback ---
 
- Niet helemaal, dit zou voor de tweede klant werken, maar het `totaal`{:class="block3variables"} zou verkeerd zijn voor andere klanten.
+Niet helemaal, `totaal`{:class="block3variables"} moet `0` zijn nadat een klant betaalt, maar het is niet het `verander`{:class="block3variables"} blok dat je nodig hebt.
 
  --- /feedback ---
 

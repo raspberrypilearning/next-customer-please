@@ -12,7 +12,8 @@ Er zijn veel functies die je kunt toevoegen om de winkelervaring van je klanten 
 
 Je kunt 'binnen zien' in de voorbeeldprojecten om te kijken hoe ze werken.
 
-Voorbeeldprojecten: **Vers Ruimte Fruit**: [Zie binnenkant](https://scratch.mit.edu/projects/707255579/editor){:target="_blank"}
+Voorbeeldprojecten:
+**Vers Ruimte Fruit**: [Zie binnenkant](https://scratch.mit.edu/projects/707255579/editor){:target="_blank"}
 **Coole Shirts**: [Zie binnenkant](https://scratch.mit.edu/projects/707254479/editor){:target="_blank"}
 **IJssalon**: [Zie binnenkant](https://scratch.mit.edu/projects/707255735/editor){:target="_blank"}
 **Verkoopautomaat**: [Binnenkijken](https://scratch.mit.edu/projects/707255880/editor){:target="_blank"}
