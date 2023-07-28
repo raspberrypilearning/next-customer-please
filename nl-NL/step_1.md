@@ -3,7 +3,7 @@
 Maak een winkel-app waar de klant producten in je winkel kan kopen. Het project zal in de ik-persoon weergave zijn waar de speler een klant is.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**ik-persoon weergave**</span> betekent dat je je personage niet op het scherm ziet, maar dat je ziet wat ze zien.
+<span style="color: #0faeb0">**Ik-persoon weergave**</span> betekent dat je je personage niet op het scherm ziet, maar dat je ziet wat ze zien.
 </p>
 
 Je gaat:

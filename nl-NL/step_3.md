@@ -13,7 +13,7 @@ Je moet bijhouden hoeveel je klant uitgeeft.
 
 --- task ---
 
-Task ---Voeg een nieuwe variabele toe met de naam `totaal`{:class="block3variables"} voor alle sprites.
+Voeg een nieuwe variabele toe met de naam `totaal`{:class="block3variables"} voor alle sprites.
 
 Klik op je **verkoper** sprite en voeg een script toe aan `maak`{:class="block3variables"} het `totaal`{:class="block3variables"} `0` wanneer het project begint.
 
@@ -85,7 +85,7 @@ Voeg een prijslabel toe aan het uiterlijk of de achtergrond als je die gebruikt.
 
 --- task ---
 
-Task ---Klik op je nieuwe **product** sprite in de Sprite-lijst en klik vervolgens op het tabblad **Code**.
+Klik op je nieuwe **product** sprite in de Sprite-lijst en klik vervolgens op het tabblad **Code**.
 
 Wijzig het bedrag zodat het `totaal`{:class="block3variables"} verandert met de prijs van je nieuwe product.
 
