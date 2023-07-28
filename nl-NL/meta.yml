@@ -2,15 +2,15 @@
 title: Volgende klant alsjeblieft
 hero_image: images/banner.png
 description: Een winkel simulatie project waar de klant voorwerpen kan kopen.
-meta_title: Scratch coding projects for kids and teens | Next customer please
-meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch app where the customer can buy items from your shop.
+meta_title: Scratch-programmeerprojecten voor kinderen en tieners | Volgende klant alsjeblieft
+meta_description: Leer Scratch met de programmeerprojecten van de Raspberry Pi Foundation voor kinderen en tieners. Maak een Scratch-app waar de klant voorwerpen kan kopen.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Wat ga je maken
   - 
     title: Jouw business idee
   - 
@@ -24,7 +24,7 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Snelle quiz
     knowledge_quiz:
       path: quiz1
       version: 1
