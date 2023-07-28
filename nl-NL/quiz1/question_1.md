@@ -1,10 +1,10 @@
-## Quick quiz
+## Snelle quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Beantwoord de drie vragen. Je wordt naar het juiste antwoord geleid.
 
-When you have answered each question, click on **Check my answer**.
+Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 
@@ -12,69 +12,69 @@ Have fun!
 legend: Vraag 1 van 3
 ---
 
-A shop project uses a `total`{:class="block3variables"} variable to store the total for each customer.
+Een winkelproject gebruikt een `totaal`{:class="block3variables"} variabele om het totaal voor elke klant op te slaan.
 
 + Een klant voegt items toe die in totaal `50` bedragen en betaalt
 + Een nieuwe klant voegt items toe die in totaal `40` bedragen, maar het `totaal`{:class="block3variables"} wordt nu weergegeven als `90` voor de tweede klant
 
-Which block would you need to add to the payment script to make the total go back to `0` when each customer pays?
+Welk blok zou je aan het betalingsscript moeten toevoegen om het totaal terug te laten gaan naar `0` nadat elke klant heeft betaald?
 
 ```blocks3
-when this sprite clicked
-ask [Would you like to pay or cancel?] and wait
-if {(answer) = [pay]} then
-say (join [That will be ] (total)) for (2) seconds
-play sound [coin v] until done 
-say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast [next customer v]
-end
+Wanneer deze sprite klikte
+vraag [wil je betalen of annuleren?] En wacht
+als {(answer) = [pay]} dan
+zeg (join [that will be ] (total)) gedurende (2) seconden
+speel geluid [coin v] totdat done
+zeg (join [Thanks for shopping at ] (name))) gedurende (2) seconden
+uitzending [next customer v]
+einde
 ```
 
 --- choices ---
 
 - ( )
 ```blocks3
-change [total v] by [0]
+wijzig [total v] met [0]
 ```
 
  --- feedback ---
 
-Not quite, `total`{:class="block3variables"} should be `0` after a customer pays, but it is not the `change`{:class="block3variables"} block you need.
+Niet helemaal, dit zou voor de tweede klant werken, maar het `totaal`{:class="block3variables"} zou verkeerd zijn voor andere klanten.
 
  --- /feedback ---
 
 - ( )
 ```blocks3
-set [total v] to [40]
+stel [total v] in op [40]
 ```
 
  --- feedback ---
 
- Not quite, this would work for the second customer but the `total`{:class="block3variables"} would be wrong for other customers.
+ Niet helemaal, `totaal`{:class="block3variables"} moet `0` zijn nadat een klant betaalt, maar het is niet het `verander`{:class="block3variables"} blok dat je nodig hebt.
 
  --- /feedback ---
 
 - (x)
 
 ```blocks3
-set [total v] to [0]
+stel [total v] in op [0]
 ```
 
  --- feedback ---
 
-Yes, that's correct. You need to `set`{:class="block3variables"} the `total`{:class="block3variables"} to `0` after each customer pays.
+Ja dat is goed. Je moet `maak`{:class="block3variables"} het `totaal`{:class="block3variables"} `0` maken nadat elke klant betaalt.
 
  --- /feedback ---
 
 - ( )
 
 ```blocks3
-change [total v] by [-50]
+wijzig [total v] met [-50]
 ```
 
  --- feedback ---
 
-That would work for this example, but what if the first customer spent a different amount? Your solution needs to work when the previous customer spends different amounts.
+Dat zou voor dit voorbeeld werken, maar wat als de eerste klant een ander bedrag besteedde? Je oplossing moet werken wanneer de vorige klant verschillende bedragen uitgeeft.
 
  --- /feedback ---
 
