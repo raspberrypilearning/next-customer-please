@@ -1,4 +1,4 @@
-name
+nome
 
 my shop
 
@@ -24,7 +24,7 @@ Click on the items you'd like
 
 Did you find everything you wanted today?
 
-yes
+sim
 
 That's fantastic!
 
@@ -38,7 +38,7 @@ cone
 
 shop
 
-true
+sim
 
 false
 
