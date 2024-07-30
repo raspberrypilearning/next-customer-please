@@ -6,7 +6,7 @@ Make a shop app where the customer can buy items from your shop. The project wil
 <span style="color: #0faeb0">**First-person view**</span> means that you don't see your character on the screen, instead you see what they see.
 </p>
 
-You will:
+Você deve:
 + Create a shop app with items to buy and a checkout
 + Plan your time to get a simple version working quickly
 + Try shops made by others and share your shop so others can try it
