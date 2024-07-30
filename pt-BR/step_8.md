@@ -1,4 +1,4 @@
-## Share
+## Compartilhar
 
 If you are in a club, why not share your project with friends?
 
@@ -40,7 +40,7 @@ Share your project and send a link to people you know. The whole Scratch communi
 
 Why not invite your friends to create a project? Let them know how you had fun.
 
-If you have a Scratch account, and have shared your **Next customer please** project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Ignore any comments that are unhelpful or irrelevant.
+If you have a Scratch account, and have shared your **Next customer please** project, keep an eye out for comments that others may make about your creation. O feedback é uma ótima maneira de refletir sobre o seu trabalho. Ignore any comments that are unhelpful or irrelevant.
 
 [[[comments-feedback-scratch]]]
 
