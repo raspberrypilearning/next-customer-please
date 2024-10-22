@@ -14,7 +14,7 @@ title: Build a shopping market
 
 Save your project, then click on your username and select **My Stuff**.
 
-![the pop up menu under your account name in the top right.](images/my-stuff-menu.png)
+![The pop up menu under your account name in the top right.](images/my-stuff-menu.png)
 
 From your **My Stuff** page, click on the **+ New Studio** button.
 

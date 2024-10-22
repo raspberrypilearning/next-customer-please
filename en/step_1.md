@@ -1,15 +1,6 @@
-## You will make
+## What will you make?
 
 Make a shop app where the customer can buy items from your shop. The project will be in first-person view where the player is a customer. 
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**First-person view**</span> means that you don't see your character on the screen, instead you see what they see.
-</p>
-
-You will:
-+ Create a shop app with items to buy and a checkout
-+ Plan your time to get a simple version working quickly
-+ Try shops made by others and share your shop so others can try it
 
 ![](images/example-strip.png)
 
@@ -19,8 +10,6 @@ You will:
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-
-### Play ▶️ 
 
 Click on Space Fruit to buy them and watch the total go up. When you're ready, click on Kiran to check out. 
 

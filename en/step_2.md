@@ -1,8 +1,8 @@
-## Your business idea
+## Your shop
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What is your business idea? It could be something realistic, something from a book or movie you like, or something completely silly.
+What is your shop idea? It could be something realistic, something from a book or movie you like, or something completely silly.
 </div>
 <div>
 ![](images/step2-image.png){:width="300px"}
@@ -12,8 +12,6 @@ What is your business idea? It could be something realistic, something from a bo
 --- task ---
 
 Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and look at the range of sprites and backdrops that you can use. Spend some time thinking about your business idea.
-
-[[[working-offline]]]
 
 --- /task ---
 
@@ -40,10 +38,6 @@ What will the **seller** sprite look like?
 + A person or non-player character such as a shopkeeper, farmer, or librarian?
 + A machine such as a vending machine, jukebox, or cash register?
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**NPC**</span> is a non-player character that you can interact with in a game or interactive story. Can you think of games you have played that have NPCs? Next time you play, think about how it was someone's job to make that character.
-</p>
-
 --- task ---
 
 Add a sprite to represent the seller. 
@@ -52,7 +46,7 @@ Add a sprite to represent the seller.
 
 --- /task ---
 
-What is the name of your business? 
+What is the name of your shop? 
 
 --- task ---
 
@@ -105,7 +99,7 @@ Drag your `variable`{:class="block3variables"} to position it on the Stage as pa
 
 --- task ---
 
-**Test:** Make sure you can see your business name as the value of the variable on the Stage.
+**Test:** Make sure you can see your shop name as the value of the variable on the Stage.
 
 --- /task ---
 
@@ -113,11 +107,11 @@ Get ready to welcome your first customer.
 
 --- task ---
 
-Click on your **seller** sprite and add a `broadcast`{:class="block3control"} block. Creat a new message called `next customer`.
+Click on your **seller** sprite and add a `broadcast`{:class="block3control"} block. Create a new message called `next customer`.
 
 ```blocks3
 when flag clicked
-set [name v] to [my shop] // your business name
+set [name v] to [my shop] // your shop name
 + broadcast (next customer v)
 ```
 
@@ -150,7 +144,7 @@ You should use the `set [name v] to ()`{:class="block3variables"} block to set t
 
 ```blocks3
 when flag clicked
-set [name v] to [my shop] // your business name
+set [name v] to [my shop] // your shop name
 ```
 
 --- /collapse ---

@@ -2,6 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+
 The **seller** sprite needs to:
 - ask if the customer is ready to pay for the items
 - take payment
@@ -27,7 +28,7 @@ say (join [That will be ] (total)) for (2) seconds
 
 --- task ---
 
-Add a payment sound to your **seller** sprite so the customer knows that payment is taking place. 
+Add a payment sound to your **seller** sprite so the customer knows that payment is taking place.
 
 ![The add a sound icon](images/add-sound.png)
 
