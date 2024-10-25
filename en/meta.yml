@@ -9,7 +9,7 @@ listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
-  - title: What will you make?
+  - title: What you will make
   - title: Your shop
   - title: Items for sale
     completion:

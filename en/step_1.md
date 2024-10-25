@@ -1,4 +1,4 @@
-## What will you make?
+## What you will make
 
 Make a shop app where the customer can buy items from your shop. The project will be in first-person view where the player is a customer. 
 
