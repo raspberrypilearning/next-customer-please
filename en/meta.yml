@@ -15,7 +15,6 @@ steps:
     completion:
       - engaged
   - title: Purchases
-  - title: Additional features
     completion:
       - internal
   - title: Quick quiz

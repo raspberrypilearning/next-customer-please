@@ -1,55 +1,21 @@
-## Share
+## What next?
 
-If you are in a club, why not share your project with friends?
+If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [Don't fall in](https://projects.raspberrypi.org/en/projects/dont-fall-in) project. In this project, you will make a top-down game where you have to jump from platform to platform and not fall in.
 
-If you are logged in on Scratch, you can create a studio and add your **Next customer please** project. You can also add your friends' **Next customer please** projects to create a mall of different shops and businesses.
+--- print-only ---
 
---- collapse ---
+![Don't fall in project](images/dont-fall-in-project.png)
 
----
+--- /print-only ---
 
-title: Build a shopping market
+--- no-print ---
 
----
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
+</div>
 
-Save your project, then click on your username and select **My Stuff**.
+**Instructions:** Press <kbd>space</kbd> or tap the Stage to jump.
 
-![The pop up menu under your account name in the top right.](images/my-stuff-menu.png)
+--- /no-print ---
 
-From your **My Stuff** page, click on the **+ New Studio** button.
-
-![The grey 'New Studio' button on the 'My Stuff' page.](images/create-studio.png)
-
-Give your new studio a name and description. 
-
-![The name box at the top of the studio and the description box on the left of the studio.](images/naming-studio.png)
-
-Click on the **Add projects** button. You can add yor own project by selecting it from the list at the bottom of the page.
-
-![The 'Add Projects' pop up at the bottom of the page with a gallery of project thumbnails. ](images/add-your-projects.png)
-
-You can also add projects your friends have created. Ask them to share their project and give you the link. Type or paste the link into the url box, then click the **Add by url** button. 
-
-![The url box underneath the 'Add projects' button and the 'Add by url' button.](images/path.png)
-
---- /collapse ---
-
-Share your project and send a link to people you know. The whole Scratch community will also be able to find your project and try it out.
-
-[[[share-scratch]]]
-
-Why not invite your friends to create a project? Let them know how you had fun.
-
-If you have a Scratch account, and have shared your **Next customer please** project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Ignore any comments that are unhelpful or irrelevant.
-
-[[[comments-feedback-scratch]]]
-
---- task ---
-
-Inspire the Raspberry Pi Foundation community with your project!
-
-To submit your project to our ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
-
-![Example shop projects in the 'Intergalactic shopping market' Scratch studio.](images/studio-example.png)
-
---- /task ---
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
