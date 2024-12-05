@@ -7,8 +7,33 @@ There are lots of features you could add to improve your customers' shopping exp
 <div>
 ![](images/customer-count.png){:width="300px"}
 </div>
-</div>
+</div> 
 
+--- task ---
+
+Add more items to sell.
+
+--- /task ---
+
+--- task ---
+
+Add more graphic and sound effects.
+
+--- /task ---
+
+--- task ---
+
+Paint your own scenery and other costumes.
+
+--- /task ---
+
+--- task ---
+
+Make another business and allow players to visit them both.
+
+--- /task ---
+
+Each example project in the [Introduction](.) has a ‘See Inside’ link for you to open the project in Scratch, and look at the code to get ideas and see how they work.
 You can 'See inside' the example projects to look at how they work. 
 
 Example projects:
@@ -21,13 +46,13 @@ Example projects:
 
 [[[scratch-backpack]]]
 
+### Chatty checkout!
+
+Your checkout person (or machine) could ask whether the service was good, or if the customer is having a nice day.
+
 --- task ---
 
-Do you think your checkout person (or machine) should ask more questions? 
-
-You can add `ask`{:class="block3sensing"} blocks to your **seller**'s `when this sprite clicked`{:class="block3events"} script and `say`{:class="block3looks"} different things depending on the customer's response.
-
-You could ask whether the service was good, or if they're having a nice day. Or something specific to your shop, like "What are you going to cook?"
+Add `ask`{:class="block3sensing"} blocks to your **seller**'s `when this sprite clicked`{:class="block3events"} script and `say`{:class="block3looks"} different things depending on the customer's response.
 
 --- collapse ---
 
@@ -54,7 +79,7 @@ Add multiple questions to create a chatbot or non-player character that you can 
 
 --- /task ---
 
-Do you want something else to happen when you add an item? 
+### Bag the items
 
 --- task ---
 
@@ -106,53 +131,16 @@ show
 
 --- /collapse ---
 
-The Ice cream project shows the ice cream as the customer chooses their options.
-
---- collapse ---
-
----
-
-title: Customise and show a sprite
-
----
-
-Each item needs to `broadcast`{:class="block3events"} in its `when this sprite clicked`{:class="block3events"} script:
-
-```blocks3
-+broadcast (1 scoop v)
-```
-
-Then the sprite you want to show or change needs to respond to that message:
-
-```blocks3
-when I receive [1 scoop v]
-play sound (Chomp v) until done
-switch costume to (1 scoop v)
-```
-
-You may also want to change or hide the sprite for a new customer:
-
-```blocks3
-when I receive [next customer v]
-switch costume to (cone v)
-```
-
-If you have multiple items, then you will need to add more messages and scripts to to receive them.
-
---- /collapse ---
-
---- /task ---
-
-Have you noticed that your customer can add items after they have started to check out?
+### Stop adding items when the customer is at the checkout
 
 --- task ---
 
-If you want to stop the customer adding items when they are at the checkout, you can add a `shop`{:class="block3variables"} variable and use it to control when items can be added.
+Add a `shop`{:class="block3variables"} variable and use it to control when items can be added.
 
 --- collapse ---
 
 ---
-title: Only allow purchases when the customer isn't at the checkout 
+title: Stop purchases when the customer is at the checkout
 
 ---
 
@@ -185,7 +173,6 @@ start sound (Coin v)
 change [total v] by [10]
 end
 ```
-
 You will need to do this for every item you sell in your shop.
 
 **Test:** Click the green flag then try shopping. Check that you can still add items and checkout, but you can't add items once you have started checking out. 
@@ -196,39 +183,51 @@ You will need to do this for every item you sell in your shop.
 
 --- /task ---
 
-### More upgrades ideas!
-
-<div style="display: flex; flex-wrap: wrap">
-<div>
-![](images/upgrade-image.png){:width="300px"}
-</div>
-</div> 
-
 --- task ---
 
-Add more items to sell.
+### Give the customer the option to cancel their shopping.
+
+--- collapse ---
+---
+title: Set up pay and cancel options 
+---
+
+`Ask`{:class="block3sensing"} `Would you like to pay or cancel?`. Add an `If`{:class="block3control"} block for `answer`{:class="block3sensing"} `=`{:class="block3operators"} `pay` and inside it put your existing payment blocks.
+
+```blocks3
+when this sprite clicked
+say (join [That will be ] (total)) for (2) seconds
++ ask [Would you like to pay or cancel?] and wait
++ if {(answer) = [pay]} then
+play sound [machine v] until done 
+set [total v] to (0)
+say (join [Thanks for shopping at ] (name)) for (2) seconds
+broadcast [next customer v]
+end
+```
+
+Add a second `If`{:class="block3control"} block for `answer`{:class="block3sensing"} `=`{:class="block3operators"} `cancel` and inside it add code to cancel the order.
+
+```blocks3
+when this sprite clicked
+say (join [That will be ] (total)) for (2) seconds
+ask [Would you like to pay or cancel?] and wait
+if {(answer) = [pay]} then
+play sound [machine v] until done 
+set [total v] to (0)
+say (join [Thanks for shopping at ] (name)) for (2) seconds
+broadcast [next customer v]
+end
++ if {(answer) = [cancel]} then
+set [total v] to (0)
+say [Ok. No problem] for (2) seconds
+broadcast [next customer v]
+end
+```
+
+--- /collapse ---
 
 --- /task ---
-
---- task ---
-
-Add more graphic and sound effects.
-
---- /task ---
-
---- task ---
-
-Paint your own scenery and other costumes.
-
---- /task ---
-
---- task ---
-
-Make another business and allow players to visit them both.
-
---- /task ---
-
-Each example project in the [Introduction](.) has a ‘See Inside’ link for you to open the project in Scratch, and look at the code to get ideas and see how they work.
 
 Take a look at our ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio to see projects created by community members.
 
