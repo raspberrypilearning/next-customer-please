@@ -131,6 +131,8 @@ show
 
 --- /collapse ---
 
+--- /task ---
+
 ### Stop adding items when the customer is at the checkout
 
 --- task ---
