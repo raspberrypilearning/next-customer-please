@@ -5,7 +5,7 @@
 legend: Question 3 of 3
 ---
 
-Jay's project is not working. What should they do?
+Your project is not working. What should you do?
 
 --- choices ---
 
@@ -21,7 +21,7 @@ Jay's project is not working. What should they do?
 
   --- feedback ---
 
-  There are lots of things Jay could try. Great coders often get things wrong the first time and learn a lot from their mistakes.
+  There are lots of things you could try. Great coders often get things wrong the first time and learn a lot from their mistakes.
 
   --- /feedback ---
 

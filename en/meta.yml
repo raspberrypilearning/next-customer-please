@@ -9,13 +9,12 @@ listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
-  - title: You will make
-  - title: Your business idea
+  - title: What you will make
+  - title: Your shop
   - title: Items for sale
     completion:
       - engaged
   - title: Purchases
-  - title: Additional features
     completion:
       - internal
   - title: Quick quiz
@@ -26,6 +25,7 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: Upgrade your project
+  - title: Challenge
+    challenge: true
   - title: Share
   - title: What next?
