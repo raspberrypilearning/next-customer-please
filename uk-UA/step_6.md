@@ -1,8 +1,8 @@
-## Challenge
+## Додаткове завдання
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-There are lots of features you could add to improve your customers' shopping experience. You don't need to add everything. Just add improvements that you think are important.
+Ти можеш додати безліч функцій, щоб покращити процес для покупців. Тобі не потрібно додавати все. Додай лише ті функції, які вважаєш важливими.
 </div>
 <div>
 ![](images/customer-count.png){:width="300px"}
@@ -11,52 +11,52 @@ There are lots of features you could add to improve your customers' shopping exp
 
 --- task ---
 
-Add more items to sell.
+Додай більше товарів до продажу.
 
 --- /task ---
 
 --- task ---
 
-Add more graphic and sound effects.
+Додай більше графічних і звукових ефектів.
 
 --- /task ---
 
 --- task ---
 
-Paint your own scenery and other costumes.
+Намалюй власні декорації та інші образи.
 
 --- /task ---
 
 --- task ---
 
-Make another business and allow players to visit them both.
+Зроби ще один магазин і дозволь гравцям відвідувати обидва.
 
 --- /task ---
 
-Each example project in the [Introduction](.) has a ‘See Inside’ link for you to open the project in Scratch, and look at the code to get ideas and see how they work. You can 'See inside' the example projects to look at how they work.
+Кожен приклад проєкту у [вступі](.) має посилання «Переглянути код», за яким ти можеш відкрити проєкт у Скретчі й переглянути код, щоб отримати ідеї та побачити, як вони працюють. Ти можеш «Переглянути код» проєктів-зразків, щоб побачити, як вони працюють.
 
-Example projects: **Fresh Space Fruit**: [See inside](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
-**Cool Shirts**: [See inside](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
-**Ice cream shop**: [See inside](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
-**Vending machine**: [See inside](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
+Приклади проєктів: **Свіжі космічні фрукти**: [Переглянути код](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
+**Круті футболки**: [Переглянути код](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
+**Магазин морозива**: [Переглянути код](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
+**Торговий автомат**: [Переглянути код](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
 
-**Tip:** If you are logged in to a Scratch account, then you can use the **Backpack** to copy scripts or sprites to your project.
+**Порада:** якщо ти знаходишся в своєму обліковому записі Скретчу, ти можеш використовувати **Сховок**, щоб скопіювати скрипти або спрайти у свій проєкт.
 
 [[[scratch-backpack]]]
 
-### Chatty checkout!
+### Побалакай з продавцем!
 
-Your checkout person (or machine) could ask whether the service was good, or if the customer is having a nice day.
+Продавець (або автомат) може спитати, чи сподобалось покупцю обслуговування чи як у нього справи.
 
 --- task ---
 
-Add `ask`{:class="block3sensing"} blocks to your **seller**'s `when this sprite clicked`{:class="block3events"} script and `say`{:class="block3looks"} different things depending on the customer's response.
+Додай блоки `запитати`{:class="block3sensing"} до скрипта `коли спрайт натиснуто`{:class="block3events"} свого **продавця** і `говорити`{:class="block3looks"} різні речі залежно від відповіді покупців.
 
 --- collapse ---
 
 ---
 
-title: Ask and respond to questions
+title: Став запитання та відповідай на них
 
 ---
 
@@ -69,31 +69,31 @@ say [Maybe I should add more items to my shop] for [2] seconds
 end
 ```
 
-**Debug:** Check that you have spelled the options correctly in your code and in your answer. It's OK if you use capital letters, so "Yes" and "YES" will match "yes".
+**Налагодження:** перевір, чи правильно у тебе написані параметри у коді та у відповіді. Можна використовувати великі літери, тоді «Так» і «ТАК» будуть збігатися з «так».
 
-Add multiple questions to create a chatbot or non-player character that you can talk to.
+Додай кілька запитань, щоб створити чат-бота або неігрового персонажа, з яким можна спілкуватися.
 
 --- /collapse ---
 
 --- /task ---
 
-### Bag the items
+### Поклади товари в сумку
 
 --- task ---
 
-The Cool Shirts project has shirts that glide into a bag.
+У проєкті «Класні сорочки» товари перелітають у сумку.
 
 --- collapse ---
 
 ---
 
-title: Make items glide into a container
+title: Зроби так, щоб товари перелітали в контейнер
 
 ---
 
-Add a **Container** sprite. You could use an existing sprite like the **Gift** or **Take out** sprite, or paint your own with simple shapes.
+Додай спрайт-**контейнер**. Ти можете використати готовий спрайт, як-от **Gift** або спрайт **Take out**, або намалювати свій власний спрайт за допомогою простих фігур.
 
-Add a script to make the **Container** always appear at the front:
+Додай скрипт, щоб **контейнер** завжди зображався зверху:
 
 ```blocks3
 when flag clicked
@@ -102,7 +102,7 @@ go to [front v] layer
 end
 ```
 
-Then you'll need to add code to each **Item** you have for sale to make them glide to the container when they are clicked:
+Тоді тобі потрібно буде додати код до кожного **товару**, щоб вони перелітали в контейнер, коли на них натискають:
 
 ```blocks3
 when this sprite clicked
@@ -114,7 +114,7 @@ change [total v] by [12]
 +show
 ```
 
-If you don't want the container there all the time, you can add scripts to make it show and hide at the right time:
+Якщо ти не хочеш, щоб контейнер був там постійно, ти можеш додати скрипти, щоб він показувався й ховався у потрібний час:
 
 ```blocks3
 when I receive [next customer v]
@@ -123,48 +123,48 @@ wait [1] seconds
 show
 ```
 
-**Test:** Try your project and make sure items glide to the container and hide.
+**Протестуй:** запусти свій проєкт і переконайся, що товари перелітають до контейнера та ховаються.
 
-**Debug:** Check your scripts carefully and make sure you have updated all of your **Item** sprites. You can look at [Cool Shirts](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"} if you need to see a working example.
+**Налагодження:** ретельно перевір свої скрипти та переконайся, що всі спрайти **товарів** оновлено. Ти можеш переглянути проєкт [Класні сорочки](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}, якщо тобі потрібно побачити робочий приклад.
 
 --- /collapse ---
 
 --- /task ---
 
-###  Stop adding items when the customer is at the checkout
+###  Не дозволяй додавати товари, коли покупець на касі
 
 --- task ---
 
-Add a `shop`{:class="block3variables"} variable and use it to control when items can be added.
+Додай змінну `купівля`{:class="block3variables"}, щоб контролювати, коли можна додавати товари до кошика.
 
 --- collapse ---
 
 ---
-title: Stop purchases when the customer is at the checkout
+title: Не дозволяй додавати товари, коли покупець розраховується
 
 ---
 
-Add a `variable`{:class="block3variables"} called `shop` for all sprites. You will set this to `true` when the customer is in the shop and `false` when they are at the checkout.
+Додай `змінну`{:class="block3variables"} під назвою `купівля` для всіх спрайтів. Ти встановиш значення `істина`, коли покупець у магазині, і `хиба`, коли покупець біля каси.
 
-Select your **seller** sprite. Update the `when flag clicked`{:class="block3events"} script to allow shopping when your project starts:
+Вибери спрайт **продавця**. Онови скрипт `коли прапорець натиснуто`{:class="block3events"}, щоб дозволити купувати з початком проєкту:
 
 ```blocks3
 +set [shop v] to [true]
 ```
 
-Now add a block to change the `shop`{:class="block3variables"} to `false` at the beginning of your **seller**'s `when this sprite clicked`{:class="block3events"} script:
+Тепер додай блок, щоб змінити `купівля`{:class="block3variables"} на `хиба` на початку скрипту ` коли спрайт натиснуто`{:class="block3events"} **продавця**:
 
 ```blocks3 
 +set [shop v] to [false]
 ```
 
-And a block to set the `shop`{:class="block3variables"} variable back to `true` at the end of the same script:
+Також додай блок, який поверне змінній `купівля`{:class="block3variables"} значення `істина` у кінці того самого скрипту:
 
 ```blocks3 
 +set [shop v] to [true]
 ```
 
-Now you need to update the items you sell to check the `shop`{:class="block3variables"} variable:
+Тепер тобі потрібно оновити товари на продаж, щоб перевірити змінну `купівля`{:class="block3variables"}:
 
 ```blocks3
 when this sprite clicked
@@ -173,11 +173,11 @@ start sound (Coin v)
 change [total v] by [10]
 end
 ```
-You will need to do this for every item you sell in your shop.
+Тобі потрібно буде зробити це для кожного товару у магазині.
 
-**Test:** Click the green flag then try shopping. Check that you can still add items and checkout, but you can't add items once you have started checking out.
+**Протестуй:** клацни зелений прапорець і спробуй купити щось. Переконайся, що ти все ще можеш додавати товари та розраховуватися, але не можеш додавати товари, коли ти вже на касі.
 
-**Debug:** Check your code really carefully. You can look at the [Space Fruit](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"} project if you need to see a working example.
+**Налагодження:** уважно перевір свій код. Ти можеш переглянути проєкт [Космічні фрукти](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}, якщо тобі потрібно побачити робочий приклад.
 
 --- /collapse ---
 
@@ -185,14 +185,14 @@ You will need to do this for every item you sell in your shop.
 
 --- task ---
 
-### Give the customer the option to cancel their shopping.
+### Дай покупцеві можливість скасувати купівлю.
 
 --- collapse ---
 ---
-title: Set up pay and cancel options
+title: Можливість скасування оплати
 ---
 
-`Ask`{:class="block3sensing"} `Would you like to pay or cancel?`. Add an `If`{:class="block3control"} block for `answer`{:class="block3sensing"} `=`{:class="block3operators"} `pay` and inside it put your existing payment blocks.
+`Запитай`{:class="block3sensing"} `Бажаєте заплатити чи скасувати?`. Додай блок `якщо`{:class="block3control"} з умовою `відповідь`{:class="block3sensing"} `=`{:class="block3operators "} `оплатити` і всередині нього помісти свої наявні блоки оплати.
 
 ```blocks3
 when this sprite clicked
@@ -206,7 +206,7 @@ broadcast [next customer v]
 end
 ```
 
-Add a second `If`{:class="block3control"} block for `answer`{:class="block3sensing"} `=`{:class="block3operators"} `cancel` and inside it add code to cancel the order.
+Додай другий блок `якщо`{:class="block3control"} з умовою `відповідь`{:class="block3sensing"} `=`{:class="block3operators "} `скасувати` і всередині нього додай код для скасування купівлі.
 
 ```blocks3
 when this sprite clicked
@@ -229,6 +229,6 @@ end
 
 --- /task ---
 
-Take a look at our ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio to see projects created by community members.
+Відвідай нашу Скретч-студію [«Міжгалактичний торговий центр»](https://scratch.mit.edu/studios/29662180){:target="_blank"}, щоб побачити проєкти, створені членами спільноти.
 
 --- save ---
