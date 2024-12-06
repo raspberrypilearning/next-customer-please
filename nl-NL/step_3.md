@@ -26,7 +26,7 @@ Welke **producten** gaat je klant(en) kopen?
 + Sportuitrusting, speelgoed of gadgets
 + Toverstokken, drankjes of boeken met toverspreuken
 + Kleding of andere mode-items
-+ Jouw eigen idee
++ Your own idea
 
 --- task ---
 
