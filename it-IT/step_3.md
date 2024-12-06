@@ -1,50 +1,50 @@
-## Items for sale
+## Articoli in vendita
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your shop needs items for sale. Each item will have a price that will be added to a `total`{:class="block3variables"} variable.
+Il tuo negozio ha bisogno di articoli da vendere. Ogni articolo avrà un prezzo che verrà aggiunto alla variabile `total`{:class="block3variables"}.
 </div>
 <div>
 ![](images/step3-image.png){:width="300px"}
 </div>
 </div>
 
-You will need to keep track of how much your customer is spending.
+Dovrai tenere traccia di quanto spende il tuo cliente.
 
 --- task ---
 
-Add a new variable called `total`{:class="block3variables"} for all sprites.
+Aggiungi una nuova variabile chiamata **total**{:class="block3variables"} per tutti gli sprite.
 
-Click on your **seller** sprite and add a script to `set`{:class="block3variables"} the `total`{:class="block3variables"} to `0` when the project starts.
+Fai clic sul tuo sprite **venditore** e aggiungi uno script a `imposta`{:class="block3variables"} il totale ``{:class="block3variables"} a `0` quando il progetto inizia.
 
 [[[scratch3-create-set-variable]]]
 
 --- /task ---
 
-What **items** will your customer(s) be buying?
-+ Some kind of food or drink
-+ Sports equipment, toys, or gadgets
-+ Magic wands, potions, or spell books
-+ Clothing or other fashion items
-+ Your idea
+Quali **articoli** acquisteranno i tuoi clienti?
++ Un qualche tipo di cibo o bevanda
++ Attrezzature sportive, giocattoli o gadget
++ Bacchette magiche, pozioni o libri di incantesimi
++ Abbigliamento o altri articoli di moda
++ Your own idea
 
 --- task ---
 
-Add a sprite for the first **item** you're going to sell in your shop.
+Aggiungi uno sprite per il primo **oggetto** che venderai nel tuo negozio.
 
-If you like, you can add a price to the costume using the text tool in the Paint editor. Or add a price to the backdrop and position the item next to it.
+Se vuoi, puoi aggiungere un prezzo al costume utilizzando lo strumento di testo nell'editor Paint. Oppure aggiungi un prezzo allo sfondo e posiziona l'articolo accanto.
 
-![Examples of items with amounts written next to them.](images/item-amounts.png)
+![Esempi di elementi con importi scritti accanto.](images/item-amounts.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to `change`{:class="block3variables"} the `total`{:class="block3variables"} by the price of your item when the customer clicks on the sprite.
+Aggiungi uno script per modificare `il valore di`{:class="block3variables"} nel totale ``{:class="block3variables"} in base al prezzo del tuo articolo quando il cliente clicca sullo sprite.
 
 --- collapse ---
 ---
-title: Click to add an item
+title: Clicca per aggiungere un elemento
 ---
 
 ```blocks3
@@ -55,9 +55,9 @@ change [total v] by [10]
 
 --- /collapse ---
 
-It's also a good idea to `play a sound`{:class="block3sound"} to give the customer feedback that they have added an item.
+È anche una buona idea `riprodurre un suono`{:class="block3sound"} per far sapere al cliente che ha aggiunto un articolo.
 
-![The add a sound icon](images/add-sound.png)
+![L'icona Aggiungi un Suono](images/add-sound.png)
 
 [[[scratch3-add-sound]]]
 
@@ -65,61 +65,61 @@ It's also a good idea to `play a sound`{:class="block3sound"} to give the custom
 
 --- task ---
 
-**Test:** Click on your item and check that the value of the `total`{:class="block3variables"} variable increases by the price of the item, and you hear the sound effect. Click more times to see the total go up.
+**Test:** Fai clic sul tuo oggetto e controlla che il valore della variabile totale ``{:class="block3variables"} aumenti in base al prezzo dell'oggetto e che tu senta l'effetto sonoro. Clicca più volte per vedere aumentare il totale.
 
-Click the green flag to start your project and make sure that the `total`{:class="block3variables"} starts at `0`.
-
---- /task ---
-
---- task ---
-
-Add more items to your shop.
-
-You can either:
-+ Duplicate the first item and then add a new costume in the Paint editor
-+ Add a sprite and then drag the `when flag clicked`{:class="block3events"} script from the first item to your new item
-
-Add a price label to the costume or backdrop if you are using them.
+Fai clic sulla bandiera verde per avviare il progetto e assicurati che il totale ``{:class="block3variables"} inizi da `0`.
 
 --- /task ---
 
 --- task ---
 
-Click on your new **Item** sprite in the Sprite list then click on the **Code** tab.
+Aggiungi altri articoli al tuo negozio.
 
-Change the amount the `total`{:class="block3variables"} changes by to the price of your new item.
+Puoi:
++ Duplica il primo oggetto e poi aggiungi un nuovo costume nell'editor Paint
++ Aggiungi uno sprite e quindi trascina lo script `quando si fa clic sulla bandiera`{:class="block3events"} dal primo elemento al nuovo elemento
 
---- /task ---
-
---- task ---
-
-**Test:** Click the green flag to start your project and click on items to add them. Check that the total increases by the correct amount each time you click on an item.
-
-If you have added price labels, make sure they match the amount that gets added to the `total`{:class="block3variables"}, or your customers will be confused!
+Se intendi utilizzarli, aggiungi un'etichetta con il prezzo al costume o allo sfondo.
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+Fai clic sul tuo nuovo sprite **Oggetto** nell'elenco Sprite, quindi fai clic sulla scheda **Codice** .
+
+Sostituisci l'importo di cui cambia il totale di ****{:class="block3variables"} con il prezzo del tuo nuovo articolo.
+
+--- /task ---
+
+--- task ---
+
+**Test:** Fai clic sulla bandiera verde per avviare il progetto e fai clic sugli elementi per aggiungerli. Controlla che il totale aumenti dell'importo corretto ogni volta che clicchi su un elemento.
+
+Se hai aggiunto etichette dei prezzi, assicurati che corrispondano all'importo che viene aggiunto al totale ``{:class="block3variables"}, altrimenti i tuoi clienti saranno confusi!
+
+--- /task ---
+
+--- task ---
+
+**Debug:** Potresti trovare alcuni bug nel tuo progetto, che dovrai correggere. Ecco alcuni bug comuni.
 
 --- collapse ---
 ---
-title: The total doesn't go to 0 when I click the green flag
+title: Il totale non va a 0 quando clicco sulla bandiera verde
 ---
 
-Check that you have set the start value of the `total`{:class="block3variables"} variable in the `when flag clicked`{:class="block3events"} script on your **seller** sprite.
+Verifica di aver impostato il valore iniziale della variabile `totale`{:class="block3variables"} nello script `quando si fa clic sulla bandiera`{:class="block3events"} sullo sprite **venditore**.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The total doesn't increase by the correct amount when I click on an item
+tittle: Il totale non aumenta dell'importo corretto quando clicco su un elemento
 ---
 
-Check that each item has a `when this sprite clicked`{:class="block3events"} script that changes the `total`{:class="block3variables"} by the correct amount for that item — you might have changed the price for the wrong sprite.
+Controlla che ogni oggetto abbia un valore `quando questo sprite è cliccato`{:class="block3events"} lo script modifica il totale ``{:class="block3variables"} della quantità corretta per quell'oggetto: potresti aver cambiato il prezzo per lo sprite sbagliato.
 
-Check that you have used the `change`{:class="block3variables"} block and not the `set`{:class="block3variables"} block to change the `total`{:class="block3variables"}. You need to use `change`{:class="block3variables"} to add the price to the total, you don't want to set the total to the price of the item that was just added.
+Verifica di aver utilizzato il blocco `modifica`{:class="block3variables"} e non il blocco `imposta`{:class="block3variables"} per modificare il totale ``{:class="block3variables"}. Devi usare `cambia`{:class="block3variables"} per aggiungere il prezzo al totale; non vuoi impostare il totale sul prezzo dell'articolo appena aggiunto.
 
 --- /collapse ---
 
