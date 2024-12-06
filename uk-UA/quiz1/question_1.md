@@ -1,34 +1,23 @@
-## Quick quiz
+## Швидкий тест
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Дай відповідь на три запитання. Підказки допоможуть знайти правильну відповідь.
 
-When you have answered each question, click on **Check my answer**.
+Відповівши на кожне питання, натисни на **Перевірити мою відповідь**.
 
-Have fun!
+Успіхів!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Питання 1 з 3
 ---
 
-A shop project uses a `total`{:class="block3variables"} variable to store the total for each customer.
+У проєкті магазину використовується змінна `всього`{:class="block3variables"} для зберігання загальної суми для кожного покупця.
 
-+ A customer adds items that total `50` and pays
-+ A new customer adds items that total `40` but the `total`{:class="block3variables"} is now showing as `90` for the second customer
++ Покупець додає товари загальною вартістю `50` і сплачує.
++ Наступний покупець додає товари загальною вартістю `40`, але `всього`{:class="block3variables"} тепер показує `90` для другого покупця.
 
-Which block would you need to add to the payment script to make the total go back to `0` when each customer pays?
-
-```blocks3
-when this sprite clicked
-ask [Would you like to pay or cancel?] and wait
-if {(answer) = [pay]} then
-say (join [That will be ] (total)) for (2) seconds
-play sound [coin v] until done 
-say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast [next customer v]
-end
-```
+Який блок потрібно додати до скрипту оплати, щоб загальна сума знову стала `0` після того, як покупець заплатив?
 
 --- choices ---
 
@@ -39,7 +28,7 @@ change [total v] by [0]
 
  --- feedback ---
 
-Not quite, `total`{:class="block3variables"} should be `0` after a customer pays, but it is not the `change`{:class="block3variables"} block you need.
+Не зовсім, `всього`{:class="block3variables"} має дорівнювати `0` після оплати, але тобі потрібен не блок `змінити`{:class="block3variables"}.
 
  --- /feedback ---
 
@@ -50,7 +39,7 @@ set [total v] to [40]
 
  --- feedback ---
 
- Not quite, this would work for the second customer but the `total`{:class="block3variables"} would be wrong for other customers.
+ Не зовсім так, це спрацює для другого покупця, але значення `всього`{:class="block3variables"} буде неправильним для наступних покупців.
 
  --- /feedback ---
 
@@ -62,7 +51,7 @@ set [total v] to [0]
 
  --- feedback ---
 
-Yes, that's correct. You need to `set`{:class="block3variables"} the `total`{:class="block3variables"} to `0` after each customer pays.
+Так, правильно. Тобі потрібно `надати`{:class="block3variables"} змінній `всього`{:class="block3variables"} значення `0` після того, як кожен покупець сплатить за свої покупки.
 
  --- /feedback ---
 
@@ -74,7 +63,7 @@ change [total v] by [-50]
 
  --- feedback ---
 
-That would work for this example, but what if the first customer spent a different amount? Your solution needs to work when the previous customer spends different amounts.
+Для цього прикладу це спрацює, але якщо перший покупець витратив іншу суму? Твоє рішення має працювати незалежно від того, скільки витратив попередній покупець.
 
  --- /feedback ---
 
