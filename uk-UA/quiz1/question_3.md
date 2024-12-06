@@ -2,44 +2,44 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Питання 3 з 3
 ---
 
-Jay's project is not working. What should they do?
+Твій проєкт не працює. Що тобі треба робити?
 
 --- choices ---
 
-- ( ) Panic!
+- () Панікувати!
 
   --- feedback ---
 
-  That's not going to help. You need to think clearly to fix coding problems.
+  Це не допоможе. Щоб виправити помилки в коді, потрібно мати ясний розум.
 
   --- /feedback ---
 
-- ( ) Give up
+- () Здатися
 
   --- feedback ---
 
-  There are lots of things Jay could try. Great coders often get things wrong the first time and learn a lot from their mistakes.
+  Ти можеш спробувати багато різних варіантів. Хороші програмісти часто помиляються з першого разу та багато чому вчаться на своїх помилках.
 
   --- /feedback ---
 
-- (x) Read the code carefully and try to debug it.
+- (x) Уважно прочитати код і спробувати знайти й виправити помилку.
 
   --- feedback ---
 
-  Yes. Fixing bugs is part of coding. The more you practise the more experience you get, and the easier it becomes to find and fix bugs.
+  Так. Виправлення помилок є частиною кодування. Чим більше ти кодуєш, тим більше досвіду отримуєш і тим легше тобі буде знаходити та виправляти помилки.
 
   --- /feedback ---
 
-- ( ) Get annoyed with the computer
+- () Розізлитися на комп’ютер
 
   --- feedback ---
 
-A computer only does what we tell it to do, so getting annoyed with it isn't logical.
+Комп’ютер робить лише те, що ми йому наказуємо, тому злитися на нього нелогічно.
 
-Being annoyed won't help to solve the problem, as it will make it harder to think clearly.
+Злість не допоможе розв'язати проблему, оскільки буде важче мислити чітко.
 
   --- /feedback ---
 
