@@ -2,6 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+
 Mae angen i'r corlun **gwerthwr**:
 - ofyn a ydy'r cwsmer yn barod i dalu am yr eitemau
 - cymryd taliad
@@ -60,90 +61,6 @@ play sound [machine v] until done
 
 --- task ---
 
-Efallai hoffet ti roi'r dewis i'r cwsmer ganslo'r broses siopa.
-
----collapse---
----
-title: Gosod dewisiadau talu a chanslo
----
-
-`Gofyn`{:class="block3sensing"} `Hoffech chi dalu neu ganslo?`. Ychwanega floc `Os`{:class="block3control"} ar gyfer `ateb`{:class="block3sensing"} `=`{:class="block3operators"} `talu` a rho dy flociau talu sy'n bodoli y tu mewn iddo.
-
-```blocks3
-when this sprite clicked
-say (join [That will be ] (total)) for (2) seconds
-+ ask [Would you like to pay or cancel?] and wait
-+ if {(answer) = [pay]} then
-play sound [machine v] until done 
-set [total v] to (0)
-say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast [next customer v]
-end
-```
-
-Ychwanega ail floc `Os`{:class="block3control"} ar gyfer `ateb`{:class="block3sensing"} `=`{:class="block3operators"} `canslo` a rho god y tu mewn iddo i ganslo'r archeb.
-
-```blocks3
-when this sprite clicked
-say (join [That will be ] (total)) for (2) seconds
-ask [Would you like to pay or cancel?] and wait
-if {(answer) = [pay]} then
-play sound [machine v] until done 
-set [total v] to (0)
-say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast [next customer v]
-end
-+ if {(answer) = [cancel]} then
-set [total v] to (0)
-say [Ok. No problem] for (2) seconds
-broadcast [next customer v]
-end
-```
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
-Er mwyn sicrhau bod gan dy gwsmer eitemau yn ei fasged cyn talu, galli di fewnosod bloc `os...yna`{:class="block3control"}.
-
---- collapse ---
----
-title: Gwirio'r cyfanswm
----
-
-`If`{:class="block3control"} `cyfanswm`{:class="block3variables"} `>`{:class="block3operators"} `0` yna mewnosoda dy sgript sy'n bodoli.
-
-`Fel arall`{:class="block3control"} `dweud`{:class="block3looks"} neges ddefnyddiol.
-
-```blocks3
-when this sprite clicked
-+ if <(total) > [0]>then
-say (join [That will be ] (total)) for (2) seconds
-ask [Would you like to pay or cancel?] and wait
-if {(answer) = [pay]} then
-play sound [machine v] until done 
-set [total v] to (0)
-say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast [next customer v]
-end
-if {(answer) = [cancel]} then
-set [total v] to (0)
-say [Ok. No problem] for (2) seconds
-broadcast [next customer v]
-end
-else
-say [Click on the items you'd like] for (2) seconds
-end
-```
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
 **Profi:** Profa dy brosiect a gwneud yn siŵr:
 - Bod y cwsmer yn gallu talu gyda'r effeithiau sain cywir
 - Bod y `cyfanswm`{:class="block3variables"} yn cael ei osod yn ôl i `0` ar ôl i gwsmer dalu neu ganslo.
@@ -170,20 +87,6 @@ Mae gen ti gryn dipyn o gorluniau yn dy brosiect. Gwna'n siŵr fod y sgript `pan
 
 --- collapse ---
 ---
-teitl: Mae'r gwerthwr yn dweud y gair 'cyfanswm' yn lle'r cyfanswm go iawn
----
-
-Gwna'n siŵr fod gan dy floc `dweud`{:class="block3looks"} y bloc newidyn `cyfanswm`{:class="block3variables"}, a dim y gair `cyfanswm`.
-
-```blocks3
- when this sprite clicked
- say {join [That will be ](total)} for (2) seconds 
- ```
-
---- /collapse ---
-
---- collapse ---
----
 title: Mae'r geiriau yn y blociau dweud yn uno
 ---
 
@@ -199,7 +102,7 @@ say {join [Thanks for shopping at ](name)} for (2) seconds
 
 --- /collapse ---
 
---- collapse ---
+---collapse---
 ---
 title: Dydy'r cyfanswm ddim yn ailosod ar ôl gwerthu
 ---
