@@ -5,7 +5,7 @@
 legend: Cwestiwn 3 o 3
 ---
 
-Dydy prosiect Jay ddim yn gweithio. Beth ddylai wneud?
+Your project is not working. What should you do?
 
 --- dewisiadau ---
 
@@ -21,7 +21,7 @@ Dydy prosiect Jay ddim yn gweithio. Beth ddylai wneud?
 
   --- feedback ---
 
-  Mae llawer o bethau gallai Jay roi cynnig arnyn nhw. Mae codwyr gwych yn aml yn gwneud pethau'n anghywir y tro cyntaf ac yn dysgu llawer o'u camgymeriadau.
+  There are lots of things you could try. Mae codwyr gwych yn aml yn gwneud pethau'n anghywir y tro cyntaf ac yn dysgu llawer o'u camgymeriadau.
 
   --- /feedback ---
 
