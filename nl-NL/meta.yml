@@ -10,21 +10,19 @@ copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: Wat ga je maken
+    title: What you will make
   - 
-    title: Jouw business idee
+    title: Your shop
   - 
     title: Producten te koop
     completion:
       - engaged
   - 
     title: Aankopen
-  - 
-    title: Extra functies
     completion:
       - internal
   - 
-    title: Snelle quiz
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -33,8 +31,9 @@ steps:
     completion:
       - external
   - 
-    title: Verbeter je project
+    title: Challenge
+    challenge: true
   - 
-    title: Deel
+    title: Share
   - 
-    title: Wat kun je verder nog doen?
+    title: What next?
