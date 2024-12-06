@@ -1,9 +1,9 @@
-type the name of your business
+введи назву свого магазину
 
-your business name
+назва твого магазину
 
-use the name of your Container sprite
+використовуй назву свого спрайта-контейнера
 
-start position
+початкова позиція
 
-previous customer takes the bag
+попередній покупець бере сумку
