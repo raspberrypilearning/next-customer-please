@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Domanda 2 di 3
 ---
 
-In a shop, the **seller** has this code in the checkout script:
+In un negozio, il venditore <0></0> ha questo codice nello script di pagamento:
 
 ```blocks3
 ask [How are you today?] and wait
@@ -16,45 +16,45 @@ say [Sorry to hear that.] for [2] seconds
 end
 ```
 
-When the code runs, the user types the answer 'great'. What will the **seller** sprite say?
+Quando il codice viene eseguito, l'utente digita la risposta "ottimo". Cosa dirà lo sprite **venditore** ?
 
-![An 'ask' box with the word 'great' typed in.](images/quiz2.png)
+![Una casella "chiedi" con la parola "fantastico" digitata.](images/quiz2.png)
 
 --- choices ---
 
-- (x) The **Seller** will say `Sorry to hear that.`
+- (x) Il <0>Venditore</0> dirà <1>Mi dispiace sentirlo.</1>
 
   --- feedback ---
 
-  Yes. Humans know that 'great' means the same as 'good', but the '=' checks whether the letters are the same.
+  Sì. Gli esseri umani sanno che "grande" ha lo stesso significato di "bene", ma il simbolo "=" controlla se le lettere sono uguali.
 
-  The **condition** `answer`{:class="block3sensing"} = `good` is 'false' so the `say`{:class="block3looks"} block in the `else`{:class="block3control"} part will run.
+  La condizione **** `risposta`{:class="block3sensing"} = `buona` è 'falsa' quindi il blocco `dire`{:class="block3looks"} nella parte `altrimenti`{:class="block3control"} verrà eseguito.
 
   --- /feedback ---
 
-- ( ) The **seller** will say `That's fantastic!`
+- ( ) Il venditore **** dirà `È fantastico!`
 
   --- feedback ---
 
-No, only the exact answer `good` will make the **seller** say `That's fantastic!`. Look at the code again to see what message the **seller** will say for all answers that are not `good`.
+No, solo la risposta esatta `bene` farà sì che il venditore **** dica `Fantastico!`. Osserva nuovamente il codice per vedere quale messaggio dirà il venditore **** per tutte le risposte che non sono `buone`.
 
-**Tip:** 'Good' or 'GOOD' would match 'good'.
+**Suggerimento:** 'Bene' o 'BENE' corrisponderebbero a 'bene'.
 
   --- /feedback ---
 
-- ( ) The **seller** won't say anything.
+- ( ) Il venditore **** non dirà nulla.
 
   --- feedback ---
 
-No, the **seller** will always say something. Look carefully at the code to see what the message will be.
+No, il venditore **** dirà sempre qualcosa. Osserva attentamente il codice per vedere quale sarà il messaggio.
 
   --- /feedback ---
 
-- ( ) The **seller** will say `great`.
+- ( ) Il venditore **** dirà `ottimo`.
 
   --- feedback ---
 
-No, the **customer** typed the answer 'great' but the **seller** does not say the answer. Look carefully at the code to see what the message will be.
+No, il **cliente** ha digitato la risposta "ottimo", ma il **venditore** non dice la risposta. Osserva attentamente il codice per vedere quale sarà il messaggio.
 
   --- /feedback ---
 
