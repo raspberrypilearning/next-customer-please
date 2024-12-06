@@ -5,7 +5,7 @@
 legend: Pregunta 3 de 3
 ---
 
-El proyecto de Jay no está funcionando. ¿Que deberían hacer?
+Your project is not working. What should you do?
 
 --- choices ---
 
@@ -21,7 +21,7 @@ El proyecto de Jay no está funcionando. ¿Que deberían hacer?
 
   --- feedback ---
 
-  Hay muchas cosas que Jay podría intentar. Los grandes codificadores a menudo se equivocan la primera vez y aprenden mucho de sus errores.
+  There are lots of things you could try. Los grandes codificadores a menudo se equivocan la primera vez y aprenden mucho de sus errores.
 
   --- /feedback ---
 
