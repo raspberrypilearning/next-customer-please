@@ -1,22 +1,11 @@
-## Αναβάθμισε το έργο σου
+## Share
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Εάν έχεις χρόνο, μπορείς να αναβαθμίσεις το έργο σου.
-</div>
-<div>
-![](images/upgrade-image.png){:width="300px"}
-</div>
-</div>
+If you are in a club, why not share your project with friends?
 
-Εδώ είναι μερικές ιδέες που μπορείς να δοκιμάσεις:
-- Πρόσθεσε επιπλέον προϊόντα για να πουλήσεις
-- Πρόσθεσε περισσότερα γραφικά και ηχητικά εφέ
-- Ζωγράφισε τα δικά σου σκηνικά και άλλες ενδυμασίες
-- Δημιούργησε άλλη μία επιχείρηση και προσκάλεσε παίκτες να επισκεφτούν και τις δύο
+Inspire the Raspberry Pi Foundation community with your project!
 
-Κάθε παράδειγμα έργου στην [Εισαγωγή](.) έχει έναν σύνδεσμο 'Δες μέσα' για να ανοίξεις το έργο στο Scratch και να δεις τον κώδικα για να πάρεις ιδέες και να δεις πώς λειτουργούν.
+To submit your project to our ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
-Ρίξε μια ματιά στο Scratch studio ['Διαγαλαξιακή αγορά'](https://scratch.mit.edu/studios/29662180){:target="_blank"} για να δεις έργα που δημιουργούνται από μέλη της κοινότητας.
+![Example shop projects in the 'Intergalactic shopping market' Scratch studio.](images/studio-example.png)
 
---- save ---
+--- /task ---
