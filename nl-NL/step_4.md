@@ -2,6 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+
 De **verkoper** sprite moet:
 - vragen of de klant klaar is om te betalen voor de producten
 - betaling aannemen
@@ -60,90 +61,6 @@ play sound [machine v] until done
 
 --- task ---
 
-Misschien wil je de klant de mogelijkheid geven om zijn boodschappen te annuleren.
-
---- collapse ---
----
-titel: Betaal- en annuleer opties instellen
----
-
-`Vraag`{:class="block3sensing"} `Wilt u betalen of annuleren?`. Voeg een `als`{:class="block3control"} blok toe voor `antwoord`{:class="block3sensing"} `=`{:class="block3operators"} `betaal` en zet daarin je bestaande betalingsblokken.
-
-```blocks3
-when this sprite clicked
-say (join [That will be ] (total)) for (2) seconds
-+ ask [Would you like to pay or cancel?] and wait
-+ if {(answer) = [pay]} then
-play sound [machine v] until done 
-set [total v] to (0)
-say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast [next customer v]
-end
-```
-
-Voeg een tweede `als`{:class="block3control"} blok toe voor `antwoord`{:class="block3sensing"} `=`{:class="block3operators"} `annuleren` en voeg daar code aan toe om de bestelling te annuleren.
-
-```blocks3
-when this sprite clicked
-say (join [That will be ] (total)) for (2) seconds
-ask [Would you like to pay or cancel?] and wait
-if {(answer) = [pay]} then
-play sound [machine v] until done 
-set [total v] to (0)
-say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast [next customer v]
-end
-+ if {(answer) = [cancel]} then
-set [total v] to (0)
-say [Ok. No problem] for (2) seconds
-broadcast [next customer v]
-end
-```
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
-Om er zeker van te zijn dat je klant producten in zijn/haar mandje heeft voordat ze gaan betalen, kun je een `als....dan`{:class="block3control"} blok invoegen.
-
---- collapse ---
----
-title: Controleer totaalbedrag
----
-
-`Als`{:class="block3control"} `totaal`{:class="block3variables"} `>`{:class="block3operators"} `0` is, voeg dan je bestaande script toe.
-
-`Anders`{:class="block3control"} `zeg`{:class="block3looks"} een nuttig bericht.
-
-```blocks3
-when this sprite clicked
-+ if <(total) > [0]>then
-say (join [That will be ] (total)) for (2) seconds
-ask [Would you like to pay or cancel?] and wait
-if {(answer) = [pay]} then
-play sound [machine v] until done 
-set [total v] to (0)
-say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast [next customer v]
-end
-if {(answer) = [cancel]} then
-set [total v] to (0)
-say [Ok. No problem] for (2) seconds
-broadcast [next customer v]
-end
-else
-say [Click on the items you'd like] for (2) seconds
-end
-```
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
 **Test:** Test je project en zorg ervoor dat:
 - De klant kan betalen met de juiste geluidseffecten
 - Het `totaal`{:class="block3variables"} weer op `0` wordt ingesteld nadat een klant betaalt of annuleert.
@@ -165,20 +82,6 @@ title: De verkoper doet niets wanneer ik erop klik
 Je hebt heel veel sprites in je project. Zorg ervoor dat het `wanneer op deze sprite wordt geklikt`{:class="block3events"} script op je **verkoper** sprite staat.
 
 **Tip:** als je het aan de verkeerde sprite hebt toegevoegd, kun je de code naar de **verkoper** sprite slepen en vervolgens uit de andere sprite verwijderen.
-
---- /collapse ---
-
---- collapse ---
----
-title: De verkoper zegt 'totaal' en niet het totale bedrag
----
-
-Zorg ervoor dat je `zeg`{:class="block3looks"} blok het `totaal`{:class="block3variables"} variabele blok heeft, niet het woord `totaal`.
-
-```blocks3
- when this sprite clicked
- say {join [That will be ](total)} for (2) seconds 
- ```
 
 --- /collapse ---
 
