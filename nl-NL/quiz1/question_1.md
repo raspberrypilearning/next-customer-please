@@ -19,17 +19,6 @@ Een winkelproject gebruikt een `totaal`{:class="block3variables"} variabele om h
 
 Welk blok zou je aan het betalingsscript moeten toevoegen om het totaal terug te laten gaan naar `0` nadat elke klant heeft betaald?
 
-```blocks3
-Wanneer deze sprite klikte
-vraag [wil je betalen of annuleren?] En wacht
-als {(answer) = [pay]} dan
-zeg (join [that will be ] (total)) gedurende (2) seconden
-speel geluid [coin v] totdat done
-zeg (join [Thanks for shopping at ] (name))) gedurende (2) seconden
-uitzending [next customer v]
-einde
-```
-
 --- choices ---
 
 - ( )
