@@ -19,17 +19,6 @@ Mae prosiect siop yn defnyddio newidyn `cyfanswm`{:class="block3variables"} i st
 
 Pa floc fyddai angen i ti ei ychwanegu at y sgript talu i wneud i'r cyfanswm fynd yn ôl i `0` pan fydd pob cwsmer yn talu?
 
-```blocks3
-when this sprite clicked
-ask [Would you like to pay or cancel?] and wait
-if {(answer) = [pay]} then
-say (join [That will be ] (total)) for (2) seconds
-play sound [coin v] until done 
-say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast [next customer v]
-end
-```
-
 --- choices ---
 
 - ( )
