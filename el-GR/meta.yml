@@ -10,17 +10,15 @@ copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: What you will make
   - 
-    title: Η επιχειρηματική σου ιδέα
+    title: Your shop
   - 
     title: Αντικείμενα προς πώληση
     completion:
       - engaged
   - 
     title: Αγορές
-  - 
-    title: Επιπρόσθετα χαρακτηριστικά
     completion:
       - internal
   - 
@@ -33,8 +31,9 @@ steps:
     completion:
       - external
   - 
-    title: Αναβάθμισε το έργο σου
+    title: Challenge
+    challenge: true
   - 
-    title: Κοινοποίηση
+    title: Share
   - 
-    title: Και μετά;
+    title: What next?
