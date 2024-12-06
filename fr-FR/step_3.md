@@ -26,7 +26,7 @@ Quels **articles** tes clients vont-ils acheter ?
 + Équipement de sport, jouets ou gadgets
 + Baguettes magiques, potions ou livres de sorts
 + Vêtements ou autres articles de mode
-+ Ton idée
++ Your own idea
 
 --- task ---
 
