@@ -10,17 +10,15 @@ copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: What you will make
   - 
-    title: Your business idea
+    title: Your shop
   - 
     title: Items for sale
     completion:
       - engaged
   - 
     title: Purchases
-  - 
-    title: Additional features
     completion:
       - internal
   - 
@@ -33,7 +31,8 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Challenge
+    challenge: true
   - 
     title: Share
   - 
