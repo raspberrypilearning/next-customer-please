@@ -26,7 +26,7 @@ Pa **eitem** fydd dy gwsmer(iaid) yn ei brynu?
 + Offer chwaraeon, teganau neu declynnau
 + Ffyn hud, diodydd hud, neu lyfrau swyn
 + Dillad neu eitemau ffasiwn eraill
-+ Dy syniad di
++ Your own idea
 
 --- task ---
 
