@@ -1,22 +1,11 @@
-## قم بتطوير مشروعك
+## Share
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-إذا كان لديك الوقت ، يمكنك تطوير مشروعك.
-</div>
-<div>
-![](images/upgrade-image.png){:width="300px"}
-</div>
-</div>
+If you are in a club, why not share your project with friends?
 
-إليك بعض الأفكار التي يمكنك تجربتها:
-- أضف المزيد من العناصر للبيع
-- أضف المزيد من المؤثرات الصوتية والرسومات
-- ارسم المشهد الخاص بك والأزياء الأخرى
-- قم بعمل نشاط تجاري آخر واسمح للاعبين بزيارتهم على حد سواء
+Inspire the Raspberry Pi Foundation community with your project!
 
-يحتوي كل مشروع مثال في [مقدمة](.) على رابط انظر داخل لكي تفتح المشروع وتنظر إلى الرمز للحصول على أفكار ومعرفة كيفية عملها.
+To submit your project to our ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
-ألق نظرة على ['Silly eyes - Community' Scratch studio](https://scratch.mit.edu/studios/29662180){: target = "_ blank"} لمشاهدة المشروعات التي أنشأها أعضاء المجتمع.
+![Example shop projects in the 'Intergalactic shopping market' Scratch studio.](images/studio-example.png)
 
---- save ---
+--- /task ---
