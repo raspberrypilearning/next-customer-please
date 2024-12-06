@@ -26,7 +26,7 @@ What **items** will your customer(s) be buying?
 + Sports equipment, toys, or gadgets
 + Magic wands, potions, or spell books
 + Clothing or other fashion items
-+ Your idea
++ Your own idea
 
 --- task ---
 
