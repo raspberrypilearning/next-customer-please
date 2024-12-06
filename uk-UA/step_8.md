@@ -1,10 +1,10 @@
-## What next?
+## Що далі?
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [Don't fall in](https://projects.raspberrypi.org/en/projects/dont-fall-in) project. In this project, you will make a top-down game where you have to jump from platform to platform and not fall in.
+Якщо ти йдеш напрямом [Більше Скретчу](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), можеш переходити до наступного проєкту — [«Не впади»](https://projects.raspberrypi.org/en/projects/dont-fall-in). У цьому проєкті ти створиш гру із видом зверху вниз, де потрібно стрибати з платформи на платформу і не впасти.
 
 --- print-only ---
 
-![Don't fall in project](images/dont-fall-in-project.png)
+![Проєкт «Не впади»](images/dont-fall-in-project.png)
 
 --- /print-only ---
 
@@ -14,8 +14,8 @@ If you are following the [More Scratch](https://projects.raspberrypi.org/en/rasp
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Instructions:** Press <kbd>space</kbd> or tap the Stage to jump.
+**Як грати:** для стрибка натисни <kbd>пробіл</kbd> або торкнися сцени.
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Якщо тобі подобається досліджувати Скретч, спробуй [ці проєкти](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
