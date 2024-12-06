@@ -1,55 +1,21 @@
-## شارك
+## What next?
 
-إذا كنت في نادٍ ، فلماذا لا تشارك مشروعك مع الأصدقاء؟
+If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [Don't fall in](https://projects.raspberrypi.org/en/projects/dont-fall-in) project. In this project, you will make a top-down game where you have to jump from platform to platform and not fall in.
 
-إذا قمت بتسجيل الدخول إلى Scratch ، يمكنك إنشاء استوديو وإضافة **عميلك التالي برجاء مشروع**. يمكنك أيضًا إضافة **عميل تالي لأصدقائك ، برجاء إنشاء مشروع** لإنشاء مركز تجاري يضم متاجر وشركات مختلفة.
+--- print-only ---
 
---- collapse ---
+![Don't fall in project](images/dont-fall-in-project.png)
 
----
+--- /print-only ---
 
-العنوان: بناء سوق تسوق
+--- no-print ---
 
----
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
+</div>
 
-أحفظ مشروعك ثم أنقر على اسم المستخدم وحدد
+**Instructions:** Press <kbd>space</kbd> or tap the Stage to jump.
 
-![القائمة المنبثقة أسفل اسم حسابك في أعلى اليمين.](images/my-stuff-menu.png)
+--- /no-print ---
 
-من صفحة **My Stuff** الخاصة بك ، انقر فوق الزر **+ New Studio**.
-
-![الزر الرمادي "استوديو جديد" في صفحة "أشيائي".](images/create-studio.png)
-
-امنح الاستوديو الجديد اسمًا ووصفًا.
-
-![مربع الاسم أعلى الاستوديو ومربع الوصف على يسار الاستوديو.](images/naming-studio.png)
-
-انقر فوق الزر **إضافة مشاريع **. يمكنك إضافة مشروعك الخاص عن طريق تحديده من القائمة الموجودة أسفل الصفحة.
-
-![تنبثق "إضافة مشاريع" في أسفل الصفحة مع معرض للصور المصغرة للمشروع. ](images/add-your-projects.png)
-
-يمكنك أيضًا إضافة مشاريع أنشأها أصدقاؤك. اطلب منهم مشاركة مشروعهم وإعطائك الرابط. اكتب الرابط أو الصقه في مربع عنوان url ، ثم انقر فوق الزر **Add by url**.
-
-![مربع عنوان url الموجود أسفل الزر "إضافة مشاريع" والزر "إضافة بواسطة عنوان url".](images/path.png)
-
---- /collapse ---
-
-شارك مشروعك وأرسل رابط إلى الأشخاص الذين تعرفهم. سيتمكن مجتمع Scratch بأكمله أيضًا من العثور على مشروعك وتجربته.
-
-[[[share-scratch]]]
-
-لماذا لا تدعو أصدقائك لإنشاء مشروع؟ دعهم يعرفون كيف استمتعت
-
-إذا كان لديك حساب Scratch ، وشاركت مشروعك ** **، ترقب التعليقات التي قد يدلي بها الآخرون حول إبداعك. التعليقات هي طريقة رائعة للتفكير في عملك. تجاهل أي تعليقات غير مفيدة سلبية أو غير ذات صلة.
-
-[[[comments-feedback-scratch]]]
-
---- task ---
-
-ألهم مجتمع Raspberry Pi Foundation بمشروعك!
-
-لإرسال مشروعك إلى ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){: target = "_ blank"} استوديو Scratch ، يُرجى إكمال [هذا النموذج](https://form.raspberrypi.org/f/community-project-submissions){: target = "_ blank"}.
-
-![مثال لمشاريع متجر في استوديو سكراتش "سوق التسوق بين المجرات".](images/studio-example.png)
-
---- /task ---
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
