@@ -1,0 +1,31 @@
+---
+title: Наступний покупець
+hero_image: images/banner.png
+description: Симулятор магазину, де покупець може купувати товари.
+meta_title: Проєкти з кодування у Скретчі для дітей та підлітків | Наступний покупець
+meta_description: Вивчай Скретч за допомогою проєктів Raspberry Pi Foundation для дітей і підлітків. Створи застосунок у Скретчі, де покупці можуть купувати товари у твоєму магазині.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - title: Що ти зробиш
+  - title: Твій магазин
+  - title: Товари
+    completion:
+      - engaged
+  - title: Купівля
+    completion:
+      - internal
+  - title: Швидкий тест
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Додаткове завдання
+    challenge: true
+  - title: Пошир свій проєкт
+  - title: Що далі?
