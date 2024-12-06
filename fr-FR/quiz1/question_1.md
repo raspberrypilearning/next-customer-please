@@ -19,17 +19,6 @@ Un projet de boutique utilise une variable `total`{:class="block3variables"} pou
 
 Quel bloc dois-tu ajouter au script de paiement pour que le total revienne à `0` lorsque chaque client paie ?
 
-```blocks3
-when this sprite clicked
-ask [Would you like to pay or cancel?] and wait
-if {(answer) = [pay]} then
-say (join [That will be ] (total)) for (2) seconds
-play sound [coin v] until done 
-say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast [next customer v]
-end
-```
-
 --- choices ---
 
 - ( )
