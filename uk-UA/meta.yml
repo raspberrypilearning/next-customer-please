@@ -1,30 +1,28 @@
 ---
-title: Next customer please
+title: Наступний покупець
 hero_image: images/banner.png
-description: A shop simulation project where the customer can buy items.
-meta_title: Scratch coding projects for kids and teens | Next customer please
-meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch app where the customer can buy items from your shop.
+description: Симулятор магазину, де покупець може купувати товари.
+meta_title: Проєкти з кодування у Скретчі для дітей та підлітків | Наступний покупець
+meta_description: Вивчай Scratch за допомогою проєктів Raspberry Pi Foundation для дітей і підлітків. Створи застосунок у Скретчі, де покупці можуть купувати товари у твоєму магазині.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Що ти зробиш
   - 
-    title: Your business idea
+    title: Твій магазин
   - 
-    title: Items for sale
+    title: Товари
     completion:
       - engaged
   - 
-    title: Purchases
-  - 
-    title: Additional features
+    title: Купівля
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Швидкий тест
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -33,8 +31,9 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Додаткове завдання
+    challenge: true
   - 
-    title: Share
+    title: Пошир свій проєкт
   - 
-    title: What next?
+    title: Що далі?
