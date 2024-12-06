@@ -26,7 +26,7 @@ Haz clic en tu objeto **vendedor** y agrega un script para `establecer`{:class="
 + Equipo deportivo, juguetes o aparatos
 + Varitas mágicas, pociones o libros de hechizos
 + Ropa u otros artículos de moda
-+ Tu idea
++ Your own idea
 
 --- task ---
 
