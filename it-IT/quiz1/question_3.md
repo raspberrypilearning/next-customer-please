@@ -2,44 +2,44 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Domanda 3 di 3
 ---
 
-Jay's project is not working. What should they do?
+Your project is not working. What should you do?
 
 --- choices ---
 
-- ( ) Panic!
+- ( ) Panico!
 
   --- feedback ---
 
-  That's not going to help. You need to think clearly to fix coding problems.
+  Non servirà a niente. Per risolvere i problemi di codifica è necessario pensare lucidamente.
 
   --- /feedback ---
 
-- ( ) Give up
+- ( ) Abbandonare
 
   --- feedback ---
 
-  There are lots of things Jay could try. Great coders often get things wrong the first time and learn a lot from their mistakes.
+  There are lots of things you could try. I grandi programmatori spesso sbagliano la prima volta e imparano molto dai loro errori.
 
   --- /feedback ---
 
-- (x) Read the code carefully and try to debug it.
+- (x) Leggi attentamente il codice e prova a eseguirne il debug.
 
   --- feedback ---
 
-  Yes. Fixing bugs is part of coding. The more you practise the more experience you get, and the easier it becomes to find and fix bugs.
+  Sì. Correggere i bug fa parte della codifica. Più ti eserciti, più esperienza acquisisci e più diventa facile trovare e correggere i bug.
 
   --- /feedback ---
 
-- ( ) Get annoyed with the computer
+- ( ) Arrabbiarsi con il computer
 
   --- feedback ---
 
-A computer only does what we tell it to do, so getting annoyed with it isn't logical.
+Un computer fa solo quello che gli diciamo di fare, quindi non è logico irritarsi.
 
-Being annoyed won't help to solve the problem, as it will make it harder to think clearly.
+Essere infastiditi non aiuterà a risolvere il problema, poiché renderà più difficile pensare lucidamente.
 
   --- /feedback ---
 
