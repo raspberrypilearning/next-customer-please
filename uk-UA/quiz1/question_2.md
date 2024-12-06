@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Питання 2 з 3
 ---
 
-In a shop, the **seller** has this code in the checkout script:
+У магазині **продавець** має цей код у скрипті оформлення замовлення:
 
 ```blocks3
 ask [How are you today?] and wait
@@ -16,45 +16,45 @@ say [Sorry to hear that.] for [2] seconds
 end
 ```
 
-When the code runs, the user types the answer 'great'. What will the **seller** sprite say?
+Під час виконання коду користувач вводить відповідь «чудово». Що скаже спрайт **продавця**?
 
-![An 'ask' box with the word 'great' typed in.](images/quiz2.png)
+![Блок «запитати» зі словом «чудово».](images/quiz2.png)
 
 --- choices ---
 
-- (x) The **Seller** will say `Sorry to hear that.`
+- (x) **Продавець** скаже `Прикро це чути.`
 
   --- feedback ---
 
-  Yes. Humans know that 'great' means the same as 'good', but the '=' checks whether the letters are the same.
+  Так. Люди знають, що «чудово» означає те саме, що й «добре», але «=» перевіряє, чи збігаються літери.
 
-  The **condition** `answer`{:class="block3sensing"} = `good` is 'false' so the `say`{:class="block3looks"} block in the `else`{:class="block3control"} part will run.
+  **Умова** `відповідь`{:class="block3sensing"} = `добре` є хибною, тому буде запущено блок `говорити`{:class="block3looks"} у блоці `інакше`{:class="block3control"}.
 
   --- /feedback ---
 
-- ( ) The **seller** will say `That's fantastic!`
+- () **Продавець** скаже `Прекрасно!`
 
   --- feedback ---
 
-No, only the exact answer `good` will make the **seller** say `That's fantastic!`. Look at the code again to see what message the **seller** will say for all answers that are not `good`.
+Ні, лише точна відповідь `добре` змусить **продавця** сказати `Прекрасно!`. Переглянь код ще раз і подивись, що скаже **продавець**, якщо відповідь не дорівнює `добре`.
 
-**Tip:** 'Good' or 'GOOD' would match 'good'.
+**Порада:** «Добре» або «ДОБРЕ» вважатиметься тим самим, що й «добре».
 
   --- /feedback ---
 
-- ( ) The **seller** won't say anything.
+- () **Продавець** нічого не скаже.
 
   --- feedback ---
 
-No, the **seller** will always say something. Look carefully at the code to see what the message will be.
+Ні, **продавець** завжди щось каже. Перевір код і подивись, що це буде за повідомлення.
 
   --- /feedback ---
 
-- ( ) The **seller** will say `great`.
+- () **Продавець** скаже `чудово`.
 
   --- feedback ---
 
-No, the **customer** typed the answer 'great' but the **seller** does not say the answer. Look carefully at the code to see what the message will be.
+Ні, **покупець** набрав відповідь «чудово», але **продавець** не повторюватиме відповідь. Перевір код і подивись, що це буде за повідомлення.
 
   --- /feedback ---
 
