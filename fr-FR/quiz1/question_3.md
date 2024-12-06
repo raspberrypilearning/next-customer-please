@@ -5,7 +5,7 @@
 legend: Question 3 sur 3
 ---
 
-Le projet de Jay ne fonctionne pas. Que doivent-ils faire ?
+Your project is not working. What should you do?
 
 --- choices ---
 
@@ -21,7 +21,7 @@ Le projet de Jay ne fonctionne pas. Que doivent-ils faire ?
 
   --- feedback ---
 
-  Il y a beaucoup de choses que Jay pourrait essayer. Les bons codeurs se trompent souvent la première fois et apprennent beaucoup de leurs erreurs.
+  There are lots of things you could try. Les bons codeurs se trompent souvent la première fois et apprennent beaucoup de leurs erreurs.
 
   --- /feedback ---
 
