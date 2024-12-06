@@ -7,5 +7,3 @@
 Щоб додати свій проєкт до Скретч-студії[«Міжгалактичний торговий центр»](https://scratch.mit.edu/studios/29662180){:target="_blank"}, заповни [цю форму](https://form.raspberrypi.org/f/community-project-submissions){:target= "_blank"} (англійською мовою).
 
 ![Приклади проєктів магазинів у студії Скретч «Міжгалактичний торговий центр».](images/studio-example.png)
-
---- /task ---
