@@ -2,6 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+
 El objeto**vendedor** necesita:
 - preguntar si el cliente está listo para pagar los artículos
 - aceptar el pago
@@ -60,90 +61,6 @@ play sound [machine v] until done
 
 --- task ---
 
-Es posible que desee dar al cliente la opción de cancelar sus compras.
-
---- collapse ---
----
-title: Configurar opciones de pago y cancelación
----
-
-`Pregunta`{:class="block3sensing"} `¿Le gustaría pagar o cancelar?`. Agrega un bloque `Si`{:class="block3control"} para `respuesta`{:class="block3sensing"} `=`{:class="block3operators"} `pagar` y dentro coloque sus bloques de pago existentes.
-
-```blocks3
-when this sprite clicked
-say (join [That will be ] (total)) for (2) seconds
-+ ask [Would you like to pay or cancel?] and wait
-+ if {(answer) = [pay]} then
-play sound [machine v] until done 
-set [total v] to (0)
-say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast [next customer v]
-end
-```
-
-Agrega un segundo `Si`{:class="block3control"} bloque para `respuesta`{:class="block3sensing"} `=`{:class="block3operators"} `cancel` y dentro agrega código para cancelar el pedido.
-
-```blocks3
-when this sprite clicked
-say (join [That will be ] (total)) for (2) seconds
-ask [Would you like to pay or cancel?] and wait
-if {(answer) = [pay]} then
-play sound [machine v] until done 
-set [total v] to (0)
-say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast [next customer v]
-end
-+ if {(answer) = [cancel]} then
-set [total v] to (0)
-say [Ok. No problem] for (2) seconds
-broadcast [next customer v]
-end
-```
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
-Para asegurarte de que tu cliente tenga artículos en su cesta antes de pagar, puedes insertar un bloque `si... más`{:class="block3control"}.
-
---- collapse ---
----
-title: Consultar el importe total
----
-
-`Si`{:class="block3control"} `total`{:class="block3variables"} `>`{:class="block3operators"} `0` entonces insera tu script existente.
-
-`Else`{:class="block3control"} `diga`{:class="block3looks"} un mensaje útil.
-
-```blocks3
-when this sprite clicked
-+ if <(total) > [0]>then
-say (join [That will be ] (total)) for (2) seconds
-ask [Would you like to pay or cancel?] and wait
-if {(answer) = [pay]} then
-play sound [machine v] until done 
-set [total v] to (0)
-say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast [next customer v]
-end
-if {(answer) = [cancel]} then
-set [total v] to (0)
-say [Ok. No problem] for (2) seconds
-broadcast [next customer v]
-end
-else
-say [Click on the items you'd like] for (2) seconds
-end
-```
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
 **Prueba:** Prueba tu proyecto y asegúrate de: lo siguiente:
 - El cliente puede pagar con los efectos de sonido correctos
 - El `total`{:class="block3variables"} se regresa a `0` después de que un cliente paga o cancela.
@@ -165,20 +82,6 @@ title: El vendedor no hace nada cuando hago clic en él
 Tienes bastantes objetos en tu proyecto. Asegúrate de que el script `al hacer clic en este objeto `{:class="block3events"} esté en tu objeto **vendedor**.
 
 **Sugerencia:** Si lo agregaste al objeto incorrecto, puedes arrastrar el código al objeto **vendedor** y luego eliminarlo del otro objeto.
-
---- /collapse ---
-
---- collapse ---
----
-title: El vendedor dice 'total', no el monto total
----
-
-Asegúrate de que tu bloque `decir`{:class="block3looks"} tenga el bloque variable `total`{:class="block3variables"}, no la palabra `total`.
-
-```blocks3
- when this sprite clicked
- say {join [That will be ](total)} for (2) seconds 
- ```
 
 --- /collapse ---
 
