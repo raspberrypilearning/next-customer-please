@@ -1,11 +1,11 @@
-## Share
+## Пошир свій проєкт
 
-If you are in a club, why not share your project with friends?
+Якщо ти відвідуєш клуб кодування, чому б не поділитися своїм проєктом з друзями?
 
-Inspire the Raspberry Pi Foundation community with your project!
+Надихай спільноту Raspberry Pi Foundation своїм проєктом!
 
-To submit your project to our ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Щоб додати свій проєкт до Скретч-студії[«Міжгалактичний торговий центр»](https://scratch.mit.edu/studios/29662180){:target="_blank"}, заповни [цю форму](https://form.raspberrypi.org/f/community-project-submissions){:target= "_blank"} (англійською мовою).
 
-![Example shop projects in the 'Intergalactic shopping market' Scratch studio.](images/studio-example.png)
+![Приклади проєктів магазинів у студії Скретч «Міжгалактичний торговий центр».](images/studio-example.png)
 
 --- /task ---
