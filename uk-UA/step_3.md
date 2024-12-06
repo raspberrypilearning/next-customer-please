@@ -1,50 +1,50 @@
-## Items for sale
+## Товари
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your shop needs items for sale. Each item will have a price that will be added to a `total`{:class="block3variables"} variable.
+Твоєму магазину потрібні товари. Кожен товар матиме ціну, яка буде додана до змінної `всього`{:class="block3variables"}.
 </div>
 <div>
 ![](images/step3-image.png){:width="300px"}
 </div>
 </div>
 
-You will need to keep track of how much your customer is spending.
+Тобі потрібно буде стежити за тим, скільки витрачає покупець.
 
 --- task ---
 
-Add a new variable called `total`{:class="block3variables"} for all sprites.
+Додай нову змінну під назвою `всього`{:class="block3variables"} для всіх спрайтів.
 
-Click on your **seller** sprite and add a script to `set`{:class="block3variables"} the `total`{:class="block3variables"} to `0` when the project starts.
+Натисни спрайт **продавця** та додай скрипт, який `надасть`{:class="block3variables"} змінній `всього`{:class="block3variables"} значення `0` під час запуску проєкту.
 
 [[[scratch3-create-set-variable]]]
 
 --- /task ---
 
-What **items** will your customer(s) be buying?
-+ Some kind of food or drink
-+ Sports equipment, toys, or gadgets
-+ Magic wands, potions, or spell books
-+ Clothing or other fashion items
-+ Your idea
+Які **товари** продаватиме твій магазин?
++ Продукти
++ Спортивне обладнання, іграшки чи гаджети
++ Чарівні палички, зілля або книги заклинань
++ Одяг або інші модні речі
++ Your own idea
 
 --- task ---
 
-Add a sprite for the first **item** you're going to sell in your shop.
+Додай спрайт для першого **товару**, який ти продаватимеш у своєму магазині.
 
-If you like, you can add a price to the costume using the text tool in the Paint editor. Or add a price to the backdrop and position the item next to it.
+За бажанням ти можеш додати ціну до образу спрайта за допомогою текстового інструменту в редакторі малювання. Або додай ціну на тло і розташуй товар поруч із нею.
 
-![Examples of items with amounts written next to them.](images/item-amounts.png)
+![Приклади товарів, поруч із якими вказано ціни.](images/item-amounts.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to `change`{:class="block3variables"} the `total`{:class="block3variables"} by the price of your item when the customer clicks on the sprite.
+Додай скрипт, який `змінюватиме`{:class="block3variables"} значення змінної `всього`{:class="block3variables"} на ціну твого товару, коли покупець натискатиме на спрайт.
 
 --- collapse ---
 ---
-title: Click to add an item
+title: Додавання товару
 ---
 
 ```blocks3
@@ -55,9 +55,9 @@ change [total v] by [10]
 
 --- /collapse ---
 
-It's also a good idea to `play a sound`{:class="block3sound"} to give the customer feedback that they have added an item.
+Також можна `відтворити звук`{:class="block3sound"}, який повідомить покупцеві, що він додав товар у свій кошик.
 
-![The add a sound icon](images/add-sound.png)
+![Іконка «додати звук»](images/add-sound.png)
 
 [[[scratch3-add-sound]]]
 
@@ -65,61 +65,61 @@ It's also a good idea to `play a sound`{:class="block3sound"} to give the custom
 
 --- task ---
 
-**Test:** Click on your item and check that the value of the `total`{:class="block3variables"} variable increases by the price of the item, and you hear the sound effect. Click more times to see the total go up.
+**Протестуй:** натисни на товар і перевір, чи значення змінної `всього`{:class="block3variables"} збільшиться на ціну товару і чи ти почуєш звуковий ефект. Натисни ще декілька разів і перевір, чи стає загальна сума ще більшою.
 
-Click the green flag to start your project and make sure that the `total`{:class="block3variables"} starts at `0`.
-
---- /task ---
-
---- task ---
-
-Add more items to your shop.
-
-You can either:
-+ Duplicate the first item and then add a new costume in the Paint editor
-+ Add a sprite and then drag the `when flag clicked`{:class="block3events"} script from the first item to your new item
-
-Add a price label to the costume or backdrop if you are using them.
+Натисни зелений прапорець, щоб запустити проєкт, і переконайся, що початкове значення змінної `всього`{:class="block3variables"} дорівнює `0`.
 
 --- /task ---
 
 --- task ---
 
-Click on your new **Item** sprite in the Sprite list then click on the **Code** tab.
+Додай більше товарів до свого магазину.
 
-Change the amount the `total`{:class="block3variables"} changes by to the price of your new item.
+Ти можеш:
++ або здублювати перший товар, а потім додати новий образ у редакторі малювання,
++ або додати спрайт, а потім перетягнути скрипт `коли зелений прапорець натиснуто`{:class="block3events"} з першого товару до нового товару.
 
---- /task ---
-
---- task ---
-
-**Test:** Click the green flag to start your project and click on items to add them. Check that the total increases by the correct amount each time you click on an item.
-
-If you have added price labels, make sure they match the amount that gets added to the `total`{:class="block3variables"}, or your customers will be confused!
+Додай цінник до образу або на тло, якщо ти використовуєш цінники.
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+Натисни на новий спрайт **товару** у списку спрайтів, а потім натисни вкладку **Код**.
+
+Зміни величину, на яку збільшується значення змінної `всього`{:class="block3variables"}, на ціну нового товару.
+
+--- /task ---
+
+--- task ---
+
+**Протестуй:** натисни на зелений прапорець, щоб запустити проєкт, і натисни на товари, щоб додати їх до кошика. Переконайся, що загальна сума збільшується на правильну величину кожного разу, коли ти натискаєш на товар.
+
+Якщо ти використовуєш цінники, переконайся, що вони відповідають величині, яка додається до значення змінної `всього`{:class="block3variables"}, інакше покупці розгубляться!
+
+--- /task ---
+
+--- task ---
+
+**Налагодження:** Можливо, у твоєму проєкті знайдуться помилки, які потрібно буде виправити. Ось деякі поширені помилки.
 
 --- collapse ---
 ---
-title: The total doesn't go to 0 when I click the green flag
+title: Сума не перетворюється на 0, коли я натискаю зелений прапорець
 ---
 
-Check that you have set the start value of the `total`{:class="block3variables"} variable in the `when flag clicked`{:class="block3events"} script on your **seller** sprite.
+Переконайся, що ти встановив/-ла початкове значення змінної `всього`{:class="block3variables"} у скрипті `коли зелений прапорець натиснуто`{:class=" block3events"} у спрайті **продавця**.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The total doesn't increase by the correct amount when I click on an item
+title: Сума збільшується на неправильну величину, коли я натискаю на товар
 ---
 
-Check that each item has a `when this sprite clicked`{:class="block3events"} script that changes the `total`{:class="block3variables"} by the correct amount for that item — you might have changed the price for the wrong sprite.
+Переконайся, що кожен товар має скрипт `коли спрайт натиснуто`{:class="block3events"}, який змінює значення змінної `всього`{:class="block3variables"} на правильну суму для цього товару — можливо, ти змінив/-ла ціну в іншому спрайті.
 
-Check that you have used the `change`{:class="block3variables"} block and not the `set`{:class="block3variables"} block to change the `total`{:class="block3variables"}. You need to use `change`{:class="block3variables"} to add the price to the total, you don't want to set the total to the price of the item that was just added.
+Переконайся, що ти використовуєш блок `змінити`{:class="block3variables"}, а не блок `надати значення`{:class="block3variables"} для зміни значення `всього`{:class="block3variables"}. Використовуй блок `змінити`{:class="block3variables"}, щоб додати ціну до загальної суми. Інакше сумі буде надаватися значення ціни щойно доданого товару.
 
 --- /collapse ---
 
