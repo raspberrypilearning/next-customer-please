@@ -10,7 +10,7 @@ legend: Питання 2 з 3
 ```blocks3
 ask [Як справи?] and wait
 if <(answer) = [добре]> then
-say [Це чудово!] for [2] seconds
+say [Прекрасно!] for [2] seconds
 else
 say [Прикро це чути.] for [2] seconds
 end

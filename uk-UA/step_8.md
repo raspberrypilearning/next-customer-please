@@ -20,6 +20,8 @@
 
 Якщо тобі подобається досліджувати Скретч, спробуй [ці проєкти](https://projects.raspberrypi.org/uk-UA/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
 
+***
+
 Цей проєкт переклали волонтери:
 
 Yevgenia Lazuk
