@@ -2,6 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+
 Το αντικείμενο **πωλητής** πρέπει:
 - να ρωτήσει αν ο πελάτης είναι έτοιμος να πληρώσει για τα προϊόντα
 - να λάβει την πληρωμή
@@ -60,90 +61,6 @@ play sound [machine v] until done
 
 --- task ---
 
-Ίσως θέλεις να δώσεις στον πελάτη την επιλογή να ακυρώσει τις αγορές του.
-
---- collapse ---
----
-title: Ρύθμιση επιλογών πληρωμής και ακύρωσης
----
-
-`Ρώτησε`{:class="block3sensing"} `Θέλετε να πληρώσετε ή να ακυρώσετε;`. Πρόσθεσε ένα μπλοκ `Εάν`{:class="block3control"} για την `απάντηση`{:class="block3sensing"} `=`{:class="block3operators"} `πληρωμή` και βάλε μέσα σε αυτό τα υπάρχοντα μπλοκ πληρωμών.
-
-```blocks3
-when this sprite clicked
-say (join [That will be ] (total)) for (2) seconds
-+ ask [Would you like to pay or cancel?] and wait
-+ if {(answer) = [pay]} then
-play sound [machine v] until done 
-set [total v] to (0)
-say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast [next customer v]
-end
-```
-
-Πρόσθεσε ένα δεύτερο μπλοκ `Εάν`{:class="block3control"} για την `απάντηση`{:class="block3sensing"} `=`{:class="block3operators"} `ακύρωση` και πρόσθεσε μέσα σε αυτό τον κώδικα για να ακυρώσεις την παραγγελία.
-
-```blocks3
-when this sprite clicked
-say (join [That will be ] (total)) for (2) seconds
-ask [Would you like to pay or cancel?] and wait
-if {(answer) = [pay]} then
-play sound [machine v] until done 
-set [total v] to (0)
-say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast [next customer v]
-end
-+ if {(answer) = [cancel]} then
-set [total v] to (0)
-say [Ok. No problem] for (2) seconds
-broadcast [next customer v]
-end
-```
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
-Για να βεβαιωθείς ότι ο πελάτης σου έχει προϊόντα στο καλάθι του προτού πληρώσει, μπορείς να εισαγάγεις ένα μπλοκ `εάν...αλλιώς`{:class="block3control"}.
-
---- collapse ---
----
-title: Έλεγξε το συνολικό ποσό
----
-
-`Εάν`{:class="block3control"} `σύνολο`{:class="block3variables"} `>`{:class="block3operators"} `0` τότε τοποθέτησε το υπάρχον script σου.
-
-`Αλλιώς`{:class="block3control"} `πες`{:class="block3looks"} ένα χρήσιμο μήνυμα.
-
-```blocks3
-when this sprite clicked
-+ if <(total) > [0]>then
-say (join [That will be ] (total)) for (2) seconds
-ask [Would you like to pay or cancel?] and wait
-if {(answer) = [pay]} then
-play sound [machine v] until done 
-set [total v] to (0)
-say (join [Thanks for shopping at ] (name)) for (2) seconds
-broadcast [next customer v]
-end
-if {(answer) = [cancel]} then
-set [total v] to (0)
-say [Ok. No problem] for (2) seconds
-broadcast [next customer v]
-end
-else
-say [Click on the items you'd like] for (2) seconds
-end
-```
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
 **Δοκιμή:** Δοκίμασε το έργο σου και βεβαιώσου:
 - Ο πελάτης μπορεί να πληρώσει με τα σωστά ηχητικά εφέ
 - Το `σύνολο`{:class="block3variables"} επανέρχεται σε `0` αφού ένας πελάτης πληρώσει ή ακυρώσει.
@@ -165,20 +82,6 @@ title: Ο πωλητής δεν κάνει τίποτα όταν κάνω κλι
 Έχεις πολλά αντικείμενα στο έργο σου. Βεβαιώσου ότι το script `όταν γίνει κλικ σε αυτό το αντικείμενο`{: class = "block3events"} βρίσκεται στο αντικείμενό σου **πωλητής**.
 
 **Συμβουλή:** Εάν το έχεις προσθέσει σε λάθος αντικείμενο, μπορείς να σύρεις τον κώδικα στο αντικείμενο **πωλητής** και μετά να το διαγράψεις από το άλλο αντικείμενο.
-
---- /collapse ---
-
---- collapse ---
----
-title: Ο πωλητής λέει "σύνολο" όχι το συνολικό ποσό
----
-
-Βεβαιώσου ότι το μπλοκ `πες`{:class="block3looks"} έχει το μπλοκ μεταβλητής `σύνολο`{:class="block3variables"} και όχι τη λέξη `σύνολο`.
-
-```blocks3
- when this sprite clicked
- say {join [That will be ](total)} for (2) seconds 
- ```
 
 --- /collapse ---
 
