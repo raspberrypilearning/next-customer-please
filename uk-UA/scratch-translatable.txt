@@ -1,49 +1,49 @@
-name
+назва
 
-my shop
+мій магазин
 
-next customer
+наступний покупець
 
-Next customer please!
+Наступний покупець!
 
-total
+всього
 
-That will be
+З вас
 
-Thanks for shopping at
+Дякуємо, що завітали в
 
-Would you like to pay or cancel?
+Бажаєте оплатити або скасувати купівлю?
 
-pay
+оплатити
 
-cancel
+скасувати
 
-Ok. No problem
+Гаразд. Жодних проблем
 
-Click on the items you'd like
+Натисни на товари, які хочеш купити
 
-Did you find everything you wanted today?
+Ви знайшли все, що хотіли?
 
-yes
+так
 
-That's fantastic!
+Це чудово!
 
-Maybe I should add more items to my shop
+Можливо, мені варто додати більше товарів до свого магазину
 
-Bag
+Сумка
 
-1 scoop
+1 ложка
 
-cone
+ріжок
 
-shop
+магазин
 
-true
+правда
 
-false
+помилка
 
-How are you today?
+Як справи?
 
-good
+добре
 
-Sorry to hear that.
+Прикро це чути.
