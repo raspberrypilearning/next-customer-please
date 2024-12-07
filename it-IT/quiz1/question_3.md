@@ -5,7 +5,7 @@
 legend: Domanda 3 di 3
 ---
 
-Your project is not working. What should you do?
+Il tuo progetto non funziona. Cosa dovresti fare?
 
 --- choices ---
 
@@ -21,7 +21,7 @@ Your project is not working. What should you do?
 
   --- feedback ---
 
-  There are lots of things you could try. I grandi programmatori spesso sbagliano la prima volta e imparano molto dai loro errori.
+  Ci sono molte cose che potresti provare. I grandi programmatori spesso sbagliano la prima volta e imparano molto dai loro errori.
 
   --- /feedback ---
 
