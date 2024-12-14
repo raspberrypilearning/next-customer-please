@@ -10,9 +10,9 @@ copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: What you will make
+    title: Cosa creerai
   - 
-    title: Your shop
+    title: Il tuo negozio
   - 
     title: Articoli in vendita
     completion:
@@ -22,7 +22,7 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Quiz veloce
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -31,9 +31,9 @@ steps:
     completion:
       - external
   - 
-    title: Challenge
+    title: Sfida
     challenge: true
   - 
-    title: Share
+    title: Condividi
   - 
-    title: What next?
+    title: E adesso?
