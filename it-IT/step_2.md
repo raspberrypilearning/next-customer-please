@@ -1,8 +1,8 @@
-## Your shop
+## Il tuo negozio
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What is your shop idea? Potrebbe essere qualcosa di realistico, qualcosa tratto da un libro o da un film che ti piace, o qualcosa di completamente sciocco.
+Qual è l'idea del tuo negozio? Potrebbe essere qualcosa di realistico, qualcosa tratto da un libro o da un film che ti piace, o qualcosa di completamente sciocco.
 </div>
 <div>
 ![](images/step2-image.png){:width="300px"}
@@ -11,23 +11,23 @@ What is your shop idea? Potrebbe essere qualcosa di realistico, qualcosa tratto 
 
 --- task ---
 
-Apri un [nuovo progetto Scratch](http://rpf.io/scratch-new){:target="_blank"} e guarda la gamma di sprite e sfondi che puoi utilizzare. Spend some time thinking about your shop idea.
+Apri un [nuovo progetto Scratch](http://rpf.io/scratch-new){:target="_blank"} e guarda la gamma di sprite e sfondi che puoi utilizzare. Prenditi del tempo per riflettere sulla tua idea di negozio.
 
 --- /task ---
 
 --- task ---
 
-**Choose a Backdrop** or paint your own backdrop.
+Fai clic su **Scegli uno sfondo** o dipingi il tuo sfondo.
 
 ![](images/choose-backdrop-icon.png)
 
-+ A backdrop from the Scratch library, or a plain coloured backdrop
++ Uno sfondo dalla libreria Scratch o uno sfondo colorato semplice
 
 --- /task ---
 
 --- task ---
 
-**Choose a Sprite** and add or paint extra scenery sprites.
+Fai clic su **scegli uno sprite** e aggiungi o colora altri sprite dello scenario.
 
 ![](images/choose-sprite-icon.png)
 
@@ -35,8 +35,8 @@ Apri un [nuovo progetto Scratch](http://rpf.io/scratch-new){:target="_blank"} e 
 
 --- task ---
 
-Add more scenery.
-+ A desk, counter, or window to sell from
+Aggiungi altri scenari.
++ Una scrivania, un bancone o una finestra da cui vendere
 + Uno scaffale o una libreria su cui appoggiare gli oggetti - potresti dipingerlo sullo sfondo
 
 --- /task ---
@@ -45,19 +45,19 @@ Add more scenery.
 
 Aggiungi uno sprite per rappresentare il venditore.
 
-You could choose:
-+ A person or non-player character such as a shopkeeper, farmer, or librarian
-+ A machine such as a vending machine, jukebox, or cash register
+Potresti scegliere:
++ Una persona o un personaggio non giocante, come un negoziante, un contadino o un bibliotecario
++ Un macchinario come un distributore automatico, un jukebox o un registratore di cassa
 
 ![](images/choose-sprite-icon.png)
 
 --- /task ---
 
-### Welcome your first customer.
+### Dai il benvenuto al tuo primo cliente.
 
 --- task ---
 
-Fai clic sul tuo sprite venditore **** e aggiungi un blocco di trasmissione ``{:class="block3control"}. Create a new message called `next customer`.
+Fai clic sul tuo sprite venditore **** e aggiungi un blocco di trasmissione ``{:class="block3control"}. Crea un nuovo messaggio chiamato `prossimo cliente`.
 
 ```blocks3
 when flag clicked
