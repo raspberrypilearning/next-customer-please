@@ -1,6 +1,6 @@
 ## E adesso?
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [Don't fall in](https://projects.raspberrypi.org/en/projects/dont-fall-in) project. In questo progetto, creerai un gioco dall'alto verso il basso in cui dovrai saltare da una piattaforma all'altra senza caderci dentro.
+Se stai seguendo il percorso [Più Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), puoi passare al progetto [Non caderci](https://projects.raspberrypi.org/en/projects/dont-fall-in). In questo progetto, creerai un gioco dall'alto verso il basso in cui dovrai saltare da una piattaforma all'altra senza caderci dentro.
 
 --- print-only ---
 
