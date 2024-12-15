@@ -26,7 +26,7 @@ Quali **articoli** acquisteranno i tuoi clienti?
 + Attrezzature sportive, giocattoli o gadget
 + Bacchette magiche, pozioni o libri di incantesimi
 + Abbigliamento o altri articoli di moda
-+ Your own idea
++ La tua idea
 
 --- task ---
 
