@@ -85,7 +85,7 @@ Se intendi utilizzarli, aggiungi un'etichetta con il prezzo al costume o allo sf
 
 --- task ---
 
-Fai clic sul tuo nuovo sprite **Oggetto** nell'elenco Sprite, quindi fai clic sulla scheda **Codice** .
+Fai clic sul tuo nuovo sprite **Oggetto** nell'elenco Sprite, quindi fai clic sulla scheda **Codice**.
 
 Sostituisci l'importo di cui cambia il `totale`{:class="block3variables"} di con il prezzo del tuo nuovo articolo.
 

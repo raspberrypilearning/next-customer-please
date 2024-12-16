@@ -28,15 +28,15 @@ Quando il codice viene eseguito, l'utente digita la risposta "ottimo". Cosa dir�
 
   Sì. Gli esseri umani sanno che "grande" ha lo stesso significato di "bene", ma il simbolo "=" controlla se le lettere sono uguali.
 
-  La condizione **** `risposta`{:class="block3sensing"} = `buona` è 'falsa' quindi il blocco `dire`{:class="block3looks"} nella parte `altrimenti`{:class="block3control"} verrà eseguito.
+  La condizione `risposta`{:class="block3sensing"} = `buona` è 'falsa' quindi il blocco `dire`{:class="block3looks"} nella parte `altrimenti`{:class="block3control"} verrà eseguito.
 
   --- /feedback ---
 
-- ( ) Il venditore **** dirà `È fantastico!`
+- ( ) Il **venditore** dirà `È fantastico!`
 
   --- feedback ---
 
-No, solo la risposta esatta `bene` farà sì che il **venditore** dica `Fantastico!`. Osserva nuovamente il codice per vedere quale messaggio dirà il venditore**** per tutte le risposte che non sono `buone`.
+No, solo la risposta esatta `bene` farà sì che il **venditore** dica `Fantastico!`. Osserva nuovamente il codice per vedere quale messaggio dirà il **venditore** per tutte le risposte che non sono `buone`.
 
 **Suggerimento:** 'Bene' o 'BENE' corrisponderebbero a 'bene'.
 

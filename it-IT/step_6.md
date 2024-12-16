@@ -94,7 +94,7 @@ title: Fai scivolare gli oggetti in un contenitore
 
 Aggiungere uno sprite **Contenitore**. Potresti usare uno sprite esistente come **Gift** o **Take out**, oppure colorarne uno tuo con forme semplici.
 
-Aggiungi uno script per far sì che il contenitore **** appaia sempre in primo piano:
+Aggiungi uno script per far sì che il contenitore appaia sempre in primo piano:
 
 ```blocks3
 when flag clicked
@@ -153,7 +153,7 @@ Seleziona il tuo sprite **venditore**. Aggiorna lo script `quando si fa clic sul
 +set [negozio v] to [vero]
 ```
 
-Ora aggiungi un blocco per modificare il negozio ``{:class="block3variables"} in`falso`all'inizio dello script del tuo **venditore**`quando si clicca sprite`{:class="block3events"}:
+Ora aggiungi un blocco per modificare il `negozio`{:class="block3variables"} in `falso` all'inizio dello script del tuo **venditore** `quando si clicca sprite`{:class="block3events"}:
 
 ```blocks3 
 +set [negozio v] to [falso]

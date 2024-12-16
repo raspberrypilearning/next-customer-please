@@ -126,7 +126,7 @@ change [totale v] by (0)
 title: Il venditore non risponde
 ---
 
-Assicurati che `l'operatore`{:class="block3operators"} nella condizione `se`{:class="block3control"} sia il simbolo maggiore di`>`{:class="block3operators"}.
+Assicurati che `l'operatore`{:class="block3operators"} nella condizione `se`{:class="block3control"} sia il simbolo maggiore di `>`{:class="block3operators"}.
 
 ```blocks3
 if <(totale) > [0]> then
