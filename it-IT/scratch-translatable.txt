@@ -1,0 +1,49 @@
+nome
+
+il mio negozio
+
+prossimo cliente
+
+Il prossimo cliente, per favore!
+
+totale
+
+Il totale è
+
+Grazie per aver fatto acquisti
+
+Vuoi pagare o annullare?
+
+paga
+
+annulla
+
+Ok. Nessun problema
+
+Clicca sugli articoli che desideri
+
+Hai trovato tutto quello che volevi oggi?
+
+sì
+
+È fantastico!
+
+Forse dovrei aggiungere più articoli al mio negozio
+
+Borsa
+
+un misurino
+
+cono
+
+negozio
+
+vero
+
+falso
+
+Come stai oggi?
+
+bene
+
+Mi dispiace.

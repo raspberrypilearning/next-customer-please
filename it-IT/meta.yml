@@ -1,0 +1,31 @@
+---
+title: Il prossimo cliente per favore
+hero_image: images/banner.png
+description: Un progetto di simulazione di un negozio in cui il cliente può acquistare articoli.
+meta_title: Progetti di programmazione con Scratch per bambini e ragazzi | Introduzione a Scratch
+meta_description: Impara Scratch con i progetti di coding della Raspberry Pi Foundation per bambini e adolescenti. Crea un'app Scratch in cui il cliente può acquistare articoli dal tuo negozio.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - title: Cosa creerai
+  - title: Il tuo negozio
+  - title: Articoli in vendita
+    completion:
+      - engaged
+  - title: Acquisti
+    completion:
+      - internal
+  - title: Quiz veloce
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Sfida
+    challenge: true
+  - title: Condividi
+  - title: E adesso?

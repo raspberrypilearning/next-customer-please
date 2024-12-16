@@ -1,0 +1,9 @@
+digita il nome della tua attività
+
+il nome della tua attività
+
+usa il nome del tuo contenitore sprite 
+
+posizione iniziale
+
+il cliente precedente prende la borsa
