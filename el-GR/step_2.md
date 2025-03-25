@@ -57,7 +57,7 @@ You could choose:
 
 --- task ---
 
-Κάνε κλικ στο αντικείμενο του **πωλητή** και πρόσθεσε ένα μπλοκ `μετάδωσε`{:class="block3control"}. Create a new message called `next customer`.
+Click on your **seller** sprite and add a `broadcast`{:class="block3events"} block. Create a new message called `next customer`.
 
 ```blocks3
 when flag clicked
@@ -68,7 +68,7 @@ when flag clicked
 
 --- task ---
 
-Δημιούργησε ένα νέο script για τον **πωλητή** σου για να `πει`{:class="block3looks"} `Επόμενος πελάτης παρακαλώ` όταν λάβει την `μετάδοση`{:class="block3control"} `επόμενος πελάτης`{:class= "block3control"}.
+Create a new script for your **seller** sprite to `say`{:class="block3looks"} `Next customer please` when they receive the `broadcast`{:class="block3events"} `next customer`{:class="block3events"}.
 
 ```blocks3
 when I receive [next customer v] 
