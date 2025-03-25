@@ -57,7 +57,7 @@ You could choose:
 
 --- task ---
 
-Klik op je **verkoper** sprite en voeg een `uitzending`{:class="block3control"} blok toe. Create a new message called `next customer`.
+Click on your **seller** sprite and add a `broadcast`{:class="block3events"} block. Create a new message called `next customer`.
 
 ```blocks3
 when flag clicked
@@ -68,7 +68,7 @@ when flag clicked
 
 --- task ---
 
-Maak een nieuw script voor je **verkoper** sprite om `te zeggen`{:class="block3looks"} `volgende klant asljeblieft` wanneer deze het `bericht`{:class="block3control"} `volgende klant`{:class="block3control"} ontvangt.
+Create a new script for your **seller** sprite to `say`{:class="block3looks"} `Next customer please` when they receive the `broadcast`{:class="block3events"} `next customer`{:class="block3events"}.
 
 ```blocks3
 when I receive [next customer v] 
