@@ -1,4 +1,4 @@
-## Що далі?
+## What can you do now?
 
 Якщо ти йдеш напрямом [Більше Скретчу](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), можеш переходити до наступного проєкту — [«Не впади»](https://projects.raspberrypi.org/en/projects/dont-fall-in). У цьому проєкті ти створиш гру із видом зверху вниз, де потрібно стрибати з платформи на платформу і не впасти.
 
