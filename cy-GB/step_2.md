@@ -57,7 +57,7 @@ You could choose:
 
 --- task ---
 
-Clicia ar dy gorlun **gwerthwr** ac ychwanega floc `darlledu`{:class="block3control"}. Create a new message called `next customer`.
+Click on your **seller** sprite and add a `broadcast`{:class="block3events"} block. Create a new message called `next customer`.
 
 ```blocks3
 when flag clicked
@@ -68,7 +68,7 @@ when flag clicked
 
 --- task ---
 
-Crea sgript newydd ar gyfer dy gorlun **gwerthwr** i `ddweud`{:class="block3looks"} `Cwsmer nesaf plîs` pan fyddan nhw'n derbyn y `darllediad`{:class="block3control"} `cwsmer nesaf`{:class= "block3control"}.
+Create a new script for your **seller** sprite to `say`{:class="block3looks"} `Next customer please` when they receive the `broadcast`{:class="block3events"} `next customer`{:class="block3events"}.
 
 ```blocks3
 when I receive [next customer v] 
