@@ -57,7 +57,7 @@ You could choose:
 
 --- task ---
 
-Haz clic en tu objeto **vendedor** y agrega un bloque `broadcast`{:class="block3control"}. Create a new message called `next customer`.
+Click on your **seller** sprite and add a `broadcast`{:class="block3events"} block. Create a new message called `next customer`.
 
 ```blocks3
 when flag clicked
@@ -68,7 +68,7 @@ when flag clicked
 
 --- task ---
 
-Crea un nuevo script para tu objeto **vendedor** para `decir`{:class="block3looks"} `Siguiente cliente, por favor` cuando reciba la `transmisión`{:class="block3control"} `siguiente cliente`{:class= "bloque3control"}.
+Create a new script for your **seller** sprite to `say`{:class="block3looks"} `Next customer please` when they receive the `broadcast`{:class="block3events"} `next customer`{:class="block3events"}.
 
 ```blocks3
 when I receive [next customer v] 
