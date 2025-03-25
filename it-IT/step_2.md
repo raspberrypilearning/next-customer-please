@@ -57,7 +57,7 @@ Potresti scegliere:
 
 --- task ---
 
-Fai clic sul tuo sprite venditore **** e aggiungi un blocco di trasmissione ``{:class="block3control"}. Crea un nuovo messaggio chiamato `prossimo cliente`.
+Click on your **seller** sprite and add a `broadcast`{:class="block3events"} block. Crea un nuovo messaggio chiamato `prossimo cliente`.
 
 ```blocks3
 when flag clicked
@@ -68,7 +68,7 @@ when flag clicked
 
 --- task ---
 
-Crea un nuovo script per il tuo sprite **venditore** per `dire`{:class="block3looks"} `Prossimo cliente per favore` quando riceve la `trasmissione`{:class="block3control"} `prossimo cliente`{:class="block3control"}.
+Create a new script for your **seller** sprite to `say`{:class="block3looks"} `Next customer please` when they receive the `broadcast`{:class="block3events"} `next customer`{:class="block3events"}.
 
 ```blocks3
 when I receive [next customer v] 
