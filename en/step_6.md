@@ -57,9 +57,7 @@ Add `ask`{:class="block3sensing"} blocks to your **seller**'s `when this sprite 
 --- collapse ---
 
 ---
-
 title: Ask and respond to questions
-
 ---
 
 ```blocks3
@@ -88,9 +86,7 @@ The Cool Shirts project has shirts that glide into a bag.
 --- collapse ---
 
 ---
-
 title: Make items glide into a container
-
 ---
 
 Add a **Container** sprite. You could use an existing sprite like the **Gift** or **Take out** sprite, or paint your own with simple shapes.
@@ -143,7 +139,6 @@ Add a `shop`{:class="block3variables"} variable and use it to control when items
 
 ---
 title: Stop purchases when the customer is at the checkout
-
 ---
 
 Add a `variable`{:class="block3variables"} called `shop` for all sprites. You will set this to `true` when the customer is in the shop and `false` when they are at the checkout.
@@ -190,6 +185,7 @@ You will need to do this for every item you sell in your shop.
 ### Give the customer the option to cancel their shopping.
 
 --- collapse ---
+
 ---
 title: Set up pay and cancel options 
 ---
