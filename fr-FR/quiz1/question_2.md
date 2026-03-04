@@ -8,11 +8,11 @@ legend: Question 2 sur 3
 Dans une boutique, le/la **vendeur·euse** a ce code dans le script de paiement :
 
 ```blocks3
-ask [How are you today?] and wait
-if <(answer) = [good]> then
-say [That's fantastic!] for [2] seconds
+ask [Comment allez-vous aujourd'hui ?] and wait
+if <(answer) = [bien]> then
+say [C'est fantastique !] for [2] seconds
 else
-say [Sorry to hear that.] for [2] seconds
+say [Je suis désolé.] for [2] seconds
 end
 ```
 

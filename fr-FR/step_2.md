@@ -61,7 +61,7 @@ Clique sur ton sprite **vendeur·euse** et ajoute un bloc `envoyer à tous`{:cla
 
 ```blocks3
 when flag clicked
-+ broadcast (next customer v)
++ broadcast (client suivant v)
 ```
 
 --- /task ---
@@ -71,8 +71,8 @@ when flag clicked
 Crée un nouveau script pour ton sprite **vendeur·euse** pour `dire`{:class="block3looks"} `Client suivant, s'il vous plaît` quand il reçoit `envoyer à tous`{:class="block3control"} `client suivant`{:class="block3control"}.
 
 ```blocks3
-when I receive [next customer v] 
-say [Next customer please!] for (2) seconds
+when I receive [client suivant v] 
+say [Client suivant, s'il vous plaît !] for (2) seconds
 ```
 
 --- /task ---

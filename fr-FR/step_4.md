@@ -21,7 +21,7 @@ Lorsqu'il/elle aura fini de choisir les articles, le/la client·e cliquera sur l
 
 ```blocks3
 when this sprite clicked
-say (join [That will be ] (total)) for (2) seconds 
+say (join [Cela fera ] (total)) for (2) seconds 
 ```
 
 --- /task ---
@@ -38,7 +38,7 @@ Ajoute le bloc `jouer le son jusqu'au bout`{:class="block3sound"} à ton script.
 
 ```blocks3
 when this sprite clicked
-say (join [That will be ] (total)) for (2) seconds
+say (join [Cela fera ] (total)) for (2) seconds
 + play sound [machine v] until done 
 ```
 
@@ -50,11 +50,11 @@ Termine la vente. Mets `total`{:class="block3variables"} à `0` après le paieme
 
 ```blocks3
 when this sprite clicked
-say (join [That will be ] (total)) for (2) seconds
+say (join [Cela fera ] (total)) for (2) seconds
 play sound [machine v] until done 
 + set [total v] to (0)
-+ say (join [Thanks for shopping at ] (name)) for (2) seconds
-+ broadcast (next customer v)
++ say (join [Merci d'avoir acheté chez ] (nom)) for (2) seconds
++ broadcast (client suivant v)
 ```
 
 --- /task ---
@@ -90,14 +90,14 @@ Tu as pas mal de sprites dans ton projet. Assure-toi que le script `quand ce spr
 title: Les mots contenus dans les blocs « dire » fusionnent
 ---
 
-Lorsque tu `joins`{:class="block3operators"} deux morceaux ensemble, tu dois ajouter un espace à la fin de ton premier morceau de texte ou au début du deuxième.
+Lorsque tu `regroupes`{:class="block3operators"} deux morceaux ensemble, tu dois ajouter un espace à la fin de ton premier morceau de texte ou au début du deuxième.
 
 Ceux-ci ont un espace à la fin de la première partie de la jointure :
 
 ```blocks3
-say {join [That will be ](total)} for (2) seconds
+say {join [Cela fera ](total)} for (2) seconds
 
-say {join [Thanks for shopping at ](name)} for (2) seconds
+say {join [Merci d'avoir acheté chez ](nom)} for (2) seconds
 ```
 
 --- /collapse ---

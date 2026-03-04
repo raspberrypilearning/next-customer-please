@@ -12,7 +12,7 @@ Clique sur Fruits de l'espace pour les acheter et regarde le total augmenter. Lo
 <div>
 **Fruits frais de l'espace** : [voir à l'intérieur](https://scratch.mit.edu/projects/707260567/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528696418/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707260567/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 
@@ -20,14 +20,14 @@ Clique sur Fruits de l'espace pour les acheter et regarde le total augmenter. Lo
 
 Clique sur le sprite **vendeur·euse** pour acheter des articles :
 
-**T-shirts cool** : [voir à l'intérieur](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
+**T-shirts cool** : [voir à l'intérieur](https://scratch.mit.edu/projects/707260366/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528697069/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707260366/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Glacier** : [voir à l'intérieur](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
+**Glacier** : [voir à l'intérieur](https://scratch.mit.edu/projects/707260702/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525972748/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707260702/?autostart=false" frameborder="0"></iframe>
 </div>
 
 **⭐ Badges de fierté** (projet communauté en vedette)
@@ -46,7 +46,10 @@ Clique sur les badges de la fierté pour les ajouter à ton panier :
 
 Tu vas prendre des décisions de conception pour créer ton personnage. Voir à l'intérieur des exemples de projets dans Scratch 2 : Client suivant, s'il vous plaît ! Studio Scratch sur https://scratch.mit.edu/studios/29611454
 
-![Exemple de projet](images/fruit.png) ![Exemple de projet](images/tshirt.png) ![Exemple de projet](images/icecream.png) ![Exemple de projet](images/vending.png)
+![Exemple de projet](images/fruit.png) 
+![Exemple de projet](images/tshirt.png) 
+![Exemple de projet](images/icecream.png) 
+![Exemple de projet](images/vending.png)
 
 --- /print-only ---
 
