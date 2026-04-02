@@ -16,7 +16,7 @@ Wil je betalen of annuleren?
 
 betalen
 
-annuleer
+annuleren
 
 Ok. Geen probleem
 

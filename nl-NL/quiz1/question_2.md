@@ -8,11 +8,11 @@ legend: Vraag 2 van 3
 In een winkel heeft de **verkoper** deze code in het afrekenscript:
 
 ```blocks3
-ask [Hoe gaat het vandaag?] and wait
-if <(answer) = [goed]> then
-say [Dat is fantastisch!] for [2] seconds
+ask [How are you today?] and wait
+if <(answer) = [good]> then
+say [That's fantastic!] for [2] seconds
 else
-say [Het spijt me om dat te horen.] for [2] seconds
+say [Sorry to hear that.] for [2] seconds
 end
 ```
 
@@ -22,7 +22,7 @@ Wanneer de code wordt uitgevoerd, typt de gebruiker het antwoord 'geweldig'. Wat
 
 --- choices ---
 
-- (x) de **Verkoper** zal `Sorry om dat te horen zeggen.`
+- (X) de **Verkoper** zal `Sorry om dat te horen zeggen.`
 
   --- feedback ---
 

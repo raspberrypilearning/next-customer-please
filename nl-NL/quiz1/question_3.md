@@ -5,7 +5,7 @@
 legend: Vraag 3 van 3
 ---
 
-Jay's project werkt niet. Wat moet ze doen?
+Je project werkt niet. Wat moet je doen?
 
 --- choices ---
 
@@ -21,11 +21,11 @@ Jay's project werkt niet. Wat moet ze doen?
 
   --- feedback ---
 
-  Er zijn veel dingen die Jay zou kunnen proberen. Zelfs ervaren coders doen het ook niet altijd de eerste keer goed en leren veel van hun fouten.
+  Er zijn veel dingen die je zou kunnen proberen. Zelfs ervaren programmeurs doen het ook niet altijd de eerste keer goed en leren veel van hun fouten.
 
   --- /feedback ---
 
-- (x) Lees de code zorgvuldig en probeer deze te debuggen.
+- (X) Lees de code zorgvuldig en probeer deze te debuggen.
 
   --- feedback ---
 
