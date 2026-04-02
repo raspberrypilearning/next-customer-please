@@ -1,6 +1,6 @@
 ## Wat kun je nu doen?
 
-Als je het pad [Meer Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) volgt, kun je verdergaan met het project [Val er niet in](https://projects.raspberrypi.org/en/projects/dont-fall-in). In dit project maak je een top-down spel waar je van platform naar platform moet springen zonder te vallen.
+Als je het pad [Meer Scratch](https://projects.raspberrypi.org/nl-NL/raspberrypi/more-scratch) volgt, kun je verdergaan met het project [Val er niet in](https://projects.raspberrypi.org/nl-NL/projects/dont-fall-in). In dit project maak je een top-down spel waar je van platform naar platform moet springen zonder te vallen.
 
 --- print-only ---
 
@@ -18,4 +18,4 @@ Als je het pad [Meer Scratch](https://projects.raspberrypi.org/en/raspberrypi/mo
 
 --- /no-print ---
 
-Als je meer plezier wilt hebben bij het verkennen van Scratch, dan kun je een van [deze projecten](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201) uitproberen.
+Als je meer plezier wilt hebben bij het verkennen van Scratch, dan kun je een van [deze projecten](https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=scratch&curriculum%5B%5D=%201) uitproberen.
