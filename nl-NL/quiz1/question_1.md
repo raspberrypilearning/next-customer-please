@@ -19,22 +19,11 @@ Een winkelproject gebruikt een `totaal`{:class="block3variables"} variabele om h
 
 Welk blok zou je aan het betalingsscript moeten toevoegen om het totaal terug te laten gaan naar `0` nadat elke klant heeft betaald?
 
-```blocks3
-when this sprite clicked
-ask [Wil je betalen of annuleren?] and wait
-if {(answer) = [betalen]} then
-say (join [Dat is dan ] (totaal)) for (2) seconds
-play sound [coin v] until done 
-say (join [Bedankt voor het winkelen bij ] (name)) for (2) seconds
-broadcast [volgende klant v]
-end
-```
-
 --- choices ---
 
 - ( )
 ```blocks3
-change [totaal v] by [0]
+change [total v] by [0]
 ```
 
  --- feedback ---
@@ -45,19 +34,19 @@ Niet helemaal, dit zou voor de tweede klant werken, maar het `totaal`{:class="bl
 
 - ( )
 ```blocks3
-set [totaal v] to [40]
+set [total v] to [40]
 ```
 
  --- feedback ---
 
-Niet helemaal, `totaal`{:class="block3variables"} moet `0` zijn nadat een klant betaalt, maar het is niet het `verander`{:class="block3variables"} blok dat je nodig hebt.
+ Niet helemaal, `totaal`{:class="block3variables"} moet `0` zijn nadat een klant betaalt, maar het is niet het `verander`{:class="block3variables"} blok dat je nodig hebt.
 
  --- /feedback ---
 
 - (x)
 
 ```blocks3
-set [totaal v] to [0]
+set [total v] to [0]
 ```
 
  --- feedback ---
@@ -69,7 +58,7 @@ Ja dat is goed. Je moet `maak`{:class="block3variables"} het `totaal`{:class="bl
 - ( )
 
 ```blocks3
-change [totaal v] by [-50]
+change [total v] by [-50]
 ```
 
  --- feedback ---
