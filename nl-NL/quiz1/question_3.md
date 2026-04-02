@@ -9,7 +9,7 @@ Je project werkt niet. Wat moet je doen?
 
 --- choices ---
 
-- ( ) paniek!
+- ( ) Paniek!
 
   --- feedback ---
 

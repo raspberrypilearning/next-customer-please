@@ -217,7 +217,8 @@ broadcast [volgende klant v]
 end
 + if {(answer) = [annuleren]} then
 set [totaal v] to (0)
-say [Ok. Geen probleem] [forvolgende klant v]
+say [Ok. Geen probleem] for (2) seconds
+broadcast [forvolgende klant v]
 end
 ```
 
