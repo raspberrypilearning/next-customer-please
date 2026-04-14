@@ -61,7 +61,7 @@
 
 ```blocks3
 when flag clicked
-+ broadcast (next customer v)
++ broadcast (次のお客 v)
 ```
 
 --- /task ---
@@ -71,8 +71,8 @@ when flag clicked
 **店員**のスプライトに新しいスクリプトを作成して、`次のお客`{:class="block3control"}を`受け取ったとき`{:class="block3events"}に、`次のお客様どうぞ`と`言う`{:class="block3looks"}ようにします。
 
 ```blocks3
-when I receive [next customer v] 
-say [Next customer please!] for (2) seconds
+when I receive [次のお客 v] 
+say [次のお客様どうぞ！] for (2) seconds
 ```
 
 --- /task ---

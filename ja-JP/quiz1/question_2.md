@@ -8,11 +8,11 @@ legend: 質問２
 お店にいる**店員**には、レジのスクリプトに次のコードがあります。
 
 ```blocks3
-ask [How are you today?] and wait
-if <(answer) = [good]> then
-say [That's fantastic!] for [2] seconds
+ask [調子はどうだい？] and wait
+if <(answer) = [よい]> then
+say [よかったです！] for [2] seconds
 else
-say [Sorry to hear that.] for [2] seconds
+say [それは残念ですね。] for [2] seconds
 end
 ```
 

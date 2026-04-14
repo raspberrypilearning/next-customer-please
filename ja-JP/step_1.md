@@ -10,9 +10,9 @@
 + まだフルーツを追加していないことを、プロジェクトはどうして分かると思いますか？
 
 <div>
-**フレッシュ宇宙フルーツ**: [中を見る](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
+**フレッシュ宇宙フルーツ**: [中を見る](https://scratch.mit.edu/projects/1306856395/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528696418/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1306856395/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 
@@ -20,14 +20,14 @@
 
 以下の**店員**のスプライトをクリックして商品を買ってみてください。
 
-**クールなシャツ**: [中を見る](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
+**クールなシャツ**: [中を見る](https://scratch.mit.edu/projects/1306862558/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528697069/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1306862558/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**アイスクリームショップ**: [中を見る](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
+**アイスクリームショップ**: [中を見る](https://scratch.mit.edu/projects/1306864050/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525972748/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1306864050/?autostart=false" frameborder="0"></iframe>
 </div>
 
 **⭐プライドピン**（注目のコミュニティプロジェクト）
@@ -46,7 +46,10 @@
 
 キャラクターを作成するためにデザインを決めましょう。 Scratch 2の「次のお客様どうぞ！」のサンプルプロジェクトを見てください。 Scratchスタジオは https://scratch.mit.edu/studios/29611454
 
-![サンプルプロジェクト](images/fruit.png) ![サンプルプロジェクト](images/tshirt.png) ![サンプルプロジェクト](images/icecream.png) ![サンプルプロジェクト](images/vending.png)
+![サンプルプロジェクト](images/fruit.png)
+![サンプルプロジェクト](images/tshirt.png)
+![サンプルプロジェクト](images/icecream.png)
+![サンプルプロジェクト](images/vending.png)
 
 --- /print-only ---
 
