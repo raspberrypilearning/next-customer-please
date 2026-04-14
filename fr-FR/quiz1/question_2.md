@@ -5,7 +5,7 @@
 legend: Question 2 sur 3
 ---
 
-Dans une boutique, le **vendeur** a ce code dans le script de paiement :
+Dans une boutique, le/la **vendeur·euse** a ce code dans le script de paiement :
 
 ```blocks3
 ask [Comment allez-vous aujourd'hui ?] and wait
@@ -16,13 +16,13 @@ say [Je suis désolé.] for [2] seconds
 end
 ```
 
-Lorsque le code s'exécute, l'utilisateur tape la réponse « super ». Que dira le sprite **vendeur** ?
+Lorsque le code s'exécute, l'utilisateur tape la réponse « super ». Que dira le sprite **vendeur·euse** ?
 
 ![Une case "demander" avec le mot "super" tapé.](images/quiz2.png)
 
 --- choices ---
 
-- (x) Le **vendeur** dira `Je suis désolé.`
+- (x) Le/la **vendeur·euse** dira `Je suis désolé·e.`
 
   --- feedback ---
 
@@ -32,29 +32,29 @@ Lorsque le code s'exécute, l'utilisateur tape la réponse « super ». Que dira
 
   --- /feedback ---
 
-- ( ) Le **vendeur** dira `C'est fantastique !`
+- ( ) Le/la **vendeur·euse** dira `C'est fantastique !`
 
   --- feedback ---
 
-Non, seule la réponse exacte `bien` fera dire au **vendeur** `C'est fantastique !`. Regarde à nouveau le code pour voir quel message le **vendeur** dira pour toutes les réponses qui ne sont pas `bien`.
+Non, seule la réponse exacte `bien` fera dire au **vendeur·euse** `C'est fantastique !`. Regarde à nouveau le code pour voir quel message le/la **vendeur·euse** dira pour toutes les réponses qui ne sont pas `bien`.
 
 **Astuce :** « Bien » ou « BIEN » correspondrait à « bien ».
 
   --- /feedback ---
 
-- ( ) Le **vendeur** ne dira rien.
+- ( ) Le/la **vendeur·euse** ne dira rien.
 
   --- feedback ---
 
-Non, le **vendeur** dira toujours quelque chose. Regarde attentivement le code pour voir quel sera le message.
+Non, le/la **vendeur·euse** dira toujours quelque chose. Regarde attentivement le code pour voir quel sera le message.
 
   --- /feedback ---
 
-- ( ) Le **vendeur** dira `super`.
+- ( ) Le/la **vendeur·euse** dira `super`.
 
   --- feedback ---
 
-Non, le **client** a tapé la réponse « super » mais le **vendeur** ne dit pas la réponse. Regarde attentivement le code pour voir quel sera le message.
+Non, le/la **client·e** a tapé la réponse « super » mais le/la **vendeur·euse** ne dit pas la réponse. Regarde attentivement le code pour voir quel sera le message.
 
   --- /feedback ---
 

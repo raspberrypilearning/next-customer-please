@@ -1,22 +1,23 @@
 ---
 title: Client suivant, s'il vous plaît
 hero_image: images/banner.png
-description: Un projet de simulation de boutique où le client peut acheter des articles.
+description: Un projet de simulation de boutique où le/la client·e peut acheter des articles.
+meta_title: Projets de codage scratch pour enfants et adolescent·e·s | Client suivant, s'il vous plaît
+meta_description: Apprends Scratch grâce aux projets de codage de la Raspberry Pi Foundation pour enfants et adolescent·e·s. Crée une application Scratch permettant aux client·e·s d'acheter des articles dans ta boutique.
 version: 4
 listed: true
 copyedit: false
-last_tested: '2021-03-26'
+last_tested: "2021-03-26"
 steps:
-  - title: Introduction
-  - title: Ton idée commerciale
+  - title: Ce que tu vas faire
+  - title: Ta boutique
   - title: Articles en vente
     completion:
       - engaged
   - title: Achats
-  - title: Fonctionnalités supplémentaires
     completion:
       - internal
-  - title: Réflexion
+  - title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -24,5 +25,6 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: Améliorer ton projet
+  - title: Défi
+    challenge: true
   - title: Partager
