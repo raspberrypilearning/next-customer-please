@@ -1,6 +1,6 @@
 ## 次は何をしますか？
 
-[Scratch続編](https://projects.raspberrypi.org/en/raspberrypi/more-scratch)のパスをたどっている場合は、[落ちないで！](https://projects.raspberrypi.org/en/projects/dont-fall-in)プロジェクトに進みます。 このプロジェクトでは、プラットフォームからプラットフォームへ落ちないようにジャンプするトップダウンゲームを作成します。
+[Scratch続編](https://projects.raspberrypi.org/ja-JP/raspberrypi/more-scratch)のパスをたどっている場合は、[落ちないで！](https://projects.raspberrypi.org/ja-JP/projects/dont-fall-in)プロジェクトに進みます。 このプロジェクトでは、プラットフォームからプラットフォームへ落ちないようにジャンプするトップダウンゲームを作成します。
 
 --- print-only ---
 
@@ -18,4 +18,15 @@
 
 --- /no-print ---
 
-Scratchをもっと楽しく使いたい場合は、[これらのプロジェクト](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201)のいずれかを試してみてください。
+Scratchをもっと楽しく使いたい場合は、[これらのプロジェクト](https://projects.raspberrypi.org/ja-JP/projects?software%5B%5D=scratch&curriculum%5B%5D=%201)のいずれかを試してみてください。
+
+***
+このプロジェクトは以下のボランティアによって翻訳されました。
+
+[name]
+
+[name]
+
+[name]
+
+ボランティアのおかげで、世界中の人々に母国語で学ぶ機会を与えることができます。翻訳を引き受けていただくことで、より多くの人々に手を差し伸べることができます。詳しくは [rpf.io/translate](https://rpf.io/translate) をご覧ください。

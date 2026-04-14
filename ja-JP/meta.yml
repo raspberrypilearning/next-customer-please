@@ -9,20 +9,15 @@ listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
-  - 
-    title: はじめに
-  - 
-    title: あなたのお店
-  - 
-    title: 販売する商品
+  - title: はじめに
+  - title: あなたのお店
+  - title: 販売する商品
     completion:
       - engaged
-  - 
-    title: 買う
+  - title: 買う
     completion:
       - internal
-  - 
-    title: ふりかえり
+  - title: ふりかえり
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -30,8 +25,6 @@ steps:
       passing_score: 3
     completion:
       - external
-  - 
-    title: チャレンジ
+  - title: チャレンジ
     challenge: true
-  - 
-    title: 共有
+  - title: 共有
