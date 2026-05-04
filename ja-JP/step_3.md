@@ -50,7 +50,7 @@ title: クリックして商品を追加する
 ```blocks3
 when this sprite clicked
 start sound (Coin v)
-change [合計 v] by [10]
+change [total v] by [10]
 ```
 
 --- /collapse ---

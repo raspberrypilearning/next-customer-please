@@ -61,7 +61,7 @@ Klik op je **verkoper** sprite en voeg een `wanneer ik signaal ontvang`{:class="
 
 ```blocks3
 when flag clicked
-+ broadcast (volgende klant v)
++ broadcast (next customer v)
 ```
 
 --- /task ---
@@ -71,8 +71,8 @@ when flag clicked
 Maak een nieuw script voor je **verkoper** sprite om `te zeggen`{:class="block3looks"} `volgende klant alsjeblieft` wanneer deze het `signaal`{:class="block3control"} `volgende klant`{:class="block3control"} ontvangt.
 
 ```blocks3
-when I receive [volgende klant v] 
-say [Volgende klant alsjeblieft!] for (2) seconds
+when I receive [next customer v] 
+say [Next customer please!] for (2) seconds
 ```
 
 --- /task ---

@@ -35,11 +35,10 @@ Maak een ander bedrijf en laat spelers ze allebei bezoeken.
 
 Elk voorbeeldproject in de [Inleiding](.) heeft een link 'bekijk van binnen' om het project in Scratch te openen, en de code te bekijken om ideeën te krijgen en te zien hoe ze werken. Je kunt de voorbeeldprojecten 'van binnen bekijken' om te zien hoe ze werken.
 
-Voorbeelden van projecten:
-**Vers ruimtefruit**: [Bekijk van binnen](https://scratch.mit.edu/projects/707255579/editor){:target="_blank"}
-**Coole shirts**: [Bekijk van binnen](https://scratch.mit.edu/projects/707254479/editor){:target="_blank"}
-**IJssalon**: [Bekijk van binnen](https://scratch.mit.edu/projects/707255735/editor){:target="_blank"}
-**Verkoopautomaten**: [Bekijk van binnen](https://scratch.mit.edu/projects/707255880/editor){:target="_blank"}
+Voorbeelden van projecten: **Vers ruimtefruit**: [Bekijk van binnen](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
+**Coole shirts**: [Bekijk van binnen](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
+**IJssalon**: [Bekijk van binnen](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
+**Verkoopautomaten**: [Bekijk van binnen](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
 
 **Tip:** Als je bent ingelogd op een Scratch-account, kun je de **Rugzak** gebruiken om scripts of sprites naar je project te kopiëren.
 
@@ -60,11 +59,11 @@ title: Vragen stellen en beantwoorden
 ---
 
 ```blocks3
-ask [Heb je alles gevonden wat je vandaag nodig hebt?] and wait
-if <(answer) = [ja]> then
-say [Dat is fantastisch!] for [2] seconds
+ask [Did you find everything you wanted today?] and wait
+if <(answer) = [yes]> then
+say [That's fantastic!] for [2] seconds
 else
-say [Misschien moet ik meer producten aan mijn winkel toevoegen] for [2] seconds
+say [Maybe I should add more items to my shop] for [2] seconds
 end
 ```
 
@@ -95,7 +94,7 @@ Voeg een script toe om de **Verpakking** altijd vooraan te laten verschijnen:
 ```blocks3
 when flag clicked
 forever
-go to [voorgrond v] layer
+go to [front v] layer
 end
 ```
 
@@ -103,26 +102,26 @@ Vervolgens moet je code toevoegen aan elk **product** dat je aanbiedt om ze naar
 
 ```blocks3
 when this sprite clicked
-+go to [voorgrond v] layer
-+glide [1] secs to (Bag v) // gebruik de naam van je Container sprite
++go to [front v] layer
++glide [1] secs to (Bag v) // use the name of your Container sprite
 +hide
-change [totaal v] by [12]
-+go to x: [-180] y: [68] // beginpositie
+change [total v] by [12]
++go to x: [-180] y: [68] // start position
 +show
 ```
 
 Als je de verpakking niet altijd wilt laten zien, kun je scripts toevoegen om hem op het juiste moment te laten verschijnen en verdwijnen:
 
 ```blocks3
-when I receive [volgende klant v]
-hide // vorige klant neemt de tas
+when I receive [next customer v]
+hide // previous customer takes the bag
 wait [1] seconds
 show
 ```
 
 **Test:** Probeer je project en zorg ervoor dat producten naar de verpakking glijden en verdwijnen.
 
-**Debug:** Controleer zorgvuldig je scripts en zorg ervoor dat je al je **Product** sprites hebt bijgewerkt. Je kunt [Coole shirts](https://scratch.mit.edu/projects/707254479/editor){:target="_blank"} bekijken als je een werkend voorbeeld wilt zien.
+**Debug:** Controleer zorgvuldig je scripts en zorg ervoor dat je al je **Product** sprites hebt bijgewerkt. Je kunt [Coole shirts](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"} bekijken als je een werkend voorbeeld wilt zien.
 
 --- /collapse ---
 
@@ -145,35 +144,35 @@ Voeg voor alle sprites een `variabele`{:class="block3variables"} met de naam `wi
 Selecteer je **verkoper** sprite. Werk het `wanneer op de groene vlag wordt geklikt`{:class="block3events"} script bij om winkelen toe te staan wanneer je project begint:
 
 ```blocks3
-+set [winkel v] to [waar]
++set [shop v] to [true]
 ```
 
 Voeg nu een blok toe om de `winkelen`{:class="block3variables"} variabele te veranderen in `niet waar` aan het begin van het **verkoper**'s `wanneer op deze sprite wordt geklikt`{:class="block3events"} script:
 
 ```blocks3 
-+set [winkel v] to [niet waar]
++set [shop v] to [false]
 ```
 
 En een blok om de `winkelen`{:class="block3variables"} variabele terug te zetten naar `waar` aan het einde van hetzelfde script:
 
 ```blocks3 
-+set [winkel v] to [waar]
++set [shop v] to [true]
 ```
 
 Nu moet je de producten die je verkoopt bijwerken om de `winkelen`{:class="block3variables"} variabele te controleren:
 
 ```blocks3
 when this sprite clicked
-+if <(winkel) = [waar]> then
++if <(shop) = [true]> then
 start sound (Coin v)
-change [totaal v] by [10]
+change [total v] by [10]
 end
 ```
 Je moet dit doen voor elk product dat je in je winkel verkoopt.
 
 **Test:** Klik op de groene vlag en probeer te winkelen. Controleer of je nog steeds producten kunt toevoegen en afrekenen, maar dat je geen producten kunt toevoegen nadat je bent begonnen met afrekenen.
 
-**Fouten opsporen:** Controleer je code heel zorgvuldig. Je kunt het [Ruimte fruit](https://scratch.mit.edu/projects/707255579/editor){:target="_blank"} project bekijken als je een werkend voorbeeld wilt zien.
+**Fouten opsporen:** Controleer je code heel zorgvuldig. Je kunt het [Ruimte fruit](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"} project bekijken als je een werkend voorbeeld wilt zien.
 
 --- /collapse ---
 
@@ -193,13 +192,13 @@ title: Stel betaal- en annuleringsopties in
 
 ```blocks3
 when this sprite clicked
-say (join [Dat is dan ] (totaal)) for (2) seconds
-+ ask [Wil je betalen of annuleren?] and wait
-+ if {(answer) = [betalen]} then
+say (join [That will be ] (total)) for (2) seconds
++ ask [Would you like to pay or cancel?] and wait
++ if {(answer) = [pay]} then
 play sound [machine v] until done 
-set [totaal v] to (0)
-say (join [Bedankt voor het winkelen bij ] (naam)) for (2) seconds
-broadcast [volgende klant v]
+set [total v] to (0)
+say (join [Thanks for shopping at ] (name)) for (2) seconds
+broadcast [next customer v]
 end
 ```
 
@@ -207,18 +206,18 @@ Voeg een tweede `als`{:class="block3control"} blok toe voor `antwoord`{:class="b
 
 ```blocks3
 when this sprite clicked
-say (join [Dat is dan ] (totaal)) for (2) seconds
-ask [Wil je betalen of annuleren?] and wait
-if {(answer) = [betalen]} then
+say (join [That will be ] (total)) for (2) seconds
+ask [Would you like to pay or cancel?] and wait
+if {(answer) = [pay]} then
 play sound [machine v] until done 
-set [totaal v] to (0)
-say (join [Bedankt voor het winkelen bij ] (naam)) for (2) seconds
-broadcast [volgende klant v]
+set [total v] to (0)
+say (join [Thanks for shopping at ] (name)) for (2) seconds
+broadcast [next customer v]
 end
-+ if {(answer) = [annuleren]} then
-set [totaal v] to (0)
-say [Ok. Geen probleem] for (2) seconds
-broadcast [forvolgende klant v]
++ if {(answer) = [cancel]} then
+set [total v] to (0)
+say [Ok. No problem] for (2) seconds
+broadcast [next customer v]
 end
 ```
 
