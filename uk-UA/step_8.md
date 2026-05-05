@@ -1,6 +1,6 @@
 ## Що далі?
 
-Якщо ти йдеш напрямом [Більше Скретчу](https://projects.raspberrypi.org/uk-UA/raspberrypi/more-scratch), можеш переходити до наступного проєкту — [«Не впади»](https://projects.raspberrypi.org/uk-UA/projects/dont-fall-in). У цьому проєкті ти створиш гру із видом зверху вниз, де потрібно стрибати з платформи на платформу і не впасти.
+Якщо ти йдеш напрямом [Більше Скретчу](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), можеш переходити до наступного проєкту — [«Не впади»](https://projects.raspberrypi.org/en/projects/dont-fall-in). У цьому проєкті ти створиш гру із видом зверху вниз, де потрібно стрибати з платформи на платформу і не впасти.
 
 --- print-only ---
 
@@ -18,12 +18,4 @@
 
 --- /no-print ---
 
-Якщо тобі подобається досліджувати Скретч, спробуй [ці проєкти](https://projects.raspberrypi.org/uk-UA/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
-
-***
-
-Цей проєкт переклали волонтери:
-
-Yevgenia Lazuk
-
-Завдяки волонтерам ми надаємо можливість людям у всьому світі навчатися рідною мовою. Ви також можете допомогти нам у цьому — більше інформації про волонтерську програму на [rpf.io/translate](https://rpf.io/translate).
+Якщо тобі подобається досліджувати Скретч, спробуй [ці проєкти](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).

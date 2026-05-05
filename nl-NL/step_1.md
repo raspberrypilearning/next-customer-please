@@ -10,9 +10,9 @@ Klik op Ruimtefruit om ze te kopen en zie het totaalbedrag oplopen. Als je klaar
 + Hoe weet het project volgens jou dat je nog geen fruit hebt toegevoegd?
 
 <div>
-**Vers Ruimte Fruit**: [Bekijk van binnen](https://scratch.mit.edu/projects/707255579/editor){:target="_blank"}
+**Vers Ruimte Fruit**: [Bekijk van binnen](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707255579/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528696418/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 
@@ -20,14 +20,14 @@ Klik op Ruimtefruit om ze te kopen en zie het totaalbedrag oplopen. Als je klaar
 
 Klik op de **verkoper** sprites om producten te kopen:
 
-**Coole shirts**: [Bekijk van binnen](https://scratch.mit.edu/projects/707254479/editor){:target="_blank"}
+**Coole shirts**: [Bekijk van binnen](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707254479/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528697069/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**IJssalon**: [Bekijk van binnen](https://scratch.mit.edu/projects/707255735/editor){:target="_blank"}
+**IJssalon**: [Bekijk van binnen](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707255735/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525972748/?autostart=false" frameborder="0"></iframe>
 </div>
 
 **⭐ Pride pins** (uitgelicht gemeenschapsproject)
@@ -46,10 +46,7 @@ Klik op de Pride Pin-badges om ze aan je winkelmandje toe te voegen:
 
 Je gaat een aantal ontwerpbeslissingen nemen om je personage te creëren. Bekijk voorbeeldprojecten in Scratch 2: Volgende klant alsjeblieft! Scratch Studio is te vinden op https://scratch.mit.edu/studios/29611454
 
-![Voorbeeldproject](images/fruit.png) 
-![Voorbeeldproject](images/tshirt.png) 
-![Voorbeeldproject](images/icecream.png) 
-![Voorbeeldproject](images/vending.png)
+![Voorbeeldproject](images/fruit.png) ![Voorbeeldproject](images/tshirt.png) ![Voorbeeldproject](images/icecream.png) ![Voorbeeldproject](images/vending.png)
 
 --- /print-only ---
 

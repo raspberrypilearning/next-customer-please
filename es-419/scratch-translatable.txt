@@ -1,0 +1,49 @@
+nombre
+
+mi tienda
+
+siguiente cliente
+
+¡Siguiente cliente por favor!
+
+total
+
+Son
+
+Gracias por comprar en
+
+¿Quieres pagar o cancelar?
+
+pagar
+
+cancelar
+
+Está bien. No hay problema
+
+Haz clic en los elementos que quieras
+
+¿Encontraste todo lo que querías?
+
+sí
+
+¡Eso es fantástico!
+
+Tal vez debería agregar más artículos a mi tienda
+
+Bolsa
+
+1 cucharada
+
+cono
+
+tienda
+
+verdadero
+
+falso
+
+¿Cómo estás hoy?
+
+bien
+
+Lamento escuchar eso.
