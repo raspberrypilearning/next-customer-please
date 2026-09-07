@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Domanda 3 di 3
+legend: Question 3 of 3
 ---
 
 Il tuo progetto non funziona. Cosa dovresti fare?

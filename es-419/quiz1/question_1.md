@@ -1,0 +1,72 @@
+## Test rápido
+
+Contesta las tres preguntas. Hay sugerencias para guiarlo a la respuesta correcta.
+
+Cuando haya respondido a cada pregunta, haga clic en **Verificar mi respuesta**.
+
+¡Diviértete!
+
+--- question ---
+
+---
+legend: Question 1 of 3
+---
+
+Un proyecto de tienda utiliza una variable `total`{:class="block3variables"} para almacenar el total de cada cliente.
+
++ Un cliente agrega artículos que suman `50` y paga
++ Un nuevo cliente agrega elementos que suman `40`, pero el `total`{:class="block3variables"} ahora se muestra como `90` para el segundo cliente
+
+¿Qué bloque necesitarías agregar al script de pago para que el total vuelva a `0` cuando cada cliente pague?
+
+--- choices ---
+
+- ( )
+```blocks3
+change [total v] by [0]
+```
+
+ --- feedback ---
+
+No del todo. `total`{:class="block3variables"} debería ser `0` después de que un cliente paga, pero no es el bloque `cambiar`{:class="block3variables"} que necesitas.
+
+ --- /feedback ---
+
+- ( )
+```blocks3
+set [total v] to [40]
+```
+
+ --- feedback ---
+
+ No del todo; esto funcionaría para el segundo cliente, pero el `total`{:class="block3variables"} sería incorrecto para otros clientes.
+
+ --- /feedback ---
+
+- (x)
+
+```blocks3
+set [total v] to [0]
+```
+
+ --- feedback ---
+
+Sí, correcto. Debes `fijar`{:class="block3variables"} el `total`{:class="block3variables"} a `0` después de que cada cliente pague.
+
+ --- /feedback ---
+
+- ( )
+
+```blocks3
+change [total v] by [-50]
+```
+
+ --- feedback ---
+
+Eso funcionaría para este ejemplo, pero ¿qué pasa si el primer cliente gastó una cantidad diferente? Tu solución debe funcionar cuando el cliente anterior gasta cantidades diferentes.
+
+ --- /feedback ---
+
+--- /choices ---
+
+--- /question ---
