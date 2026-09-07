@@ -1,0 +1,9 @@
+type the name of your business
+
+your business name
+
+use the name of your Container sprite
+
+start position
+
+previous customer takes the bag

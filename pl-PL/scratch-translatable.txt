@@ -1,0 +1,49 @@
+nazwa
+
+my shop
+
+next customer
+
+Next customer please!
+
+total
+
+That will be
+
+Thanks for shopping at
+
+Would you like to pay or cancel?
+
+pay
+
+anuluj
+
+Ok. No problem
+
+Click on the items you'd like
+
+Czy znalazłeś wszystko, czego dziś szukałeś?
+
+tak
+
+To świetnie!
+
+Może powinienem dodać więcej produktów do mojego sklepu
+
+Torba
+
+1 scoop
+
+cone
+
+shop
+
+true
+
+fałsz
+
+How are you today?
+
+good
+
+Sorry to hear that.

@@ -1,0 +1,37 @@
+---
+title: Próximo cliente por favor
+hero_image: images/banner.png
+description: Um projeto de simulação de loja onde o cliente pode comprar itens.
+meta_title: Projetos de programação Scratch para crianças e adolescentes | Próximo cliente por favor
+meta_description: Aprenda Scratch com os projetos de programação da Raspberry Pi Foundation para crianças e adolescentes. Faça um aplicativo Scratch onde o cliente possa comprar itens da sua loja.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - 
+    title: Você vai fazer
+  - 
+    title: Your shop
+  - 
+    title: Itens à venda
+    completion:
+      - engaged
+  - 
+    title: Compras
+    completion:
+      - internal
+  - 
+    title: Queimar combustível
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - 
+    title: Alcançando a órbita
+    challenge: true
+  - 
+    title: Melhore o seu projeto

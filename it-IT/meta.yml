@@ -9,15 +9,20 @@ listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
-  - title: Cosa creerai
-  - title: Il tuo negozio
-  - title: Articoli in vendita
+  - 
+    title: Cosa creerai
+  - 
+    title: Il tuo negozio
+  - 
+    title: Articoli in vendita
     completion:
       - engaged
-  - title: Acquisti
+  - 
+    title: Acquisti
     completion:
       - internal
-  - title: Quiz veloce
+  - 
+    title: Quiz veloce
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -25,6 +30,8 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: Sfida
+  - 
+    title: Sfida
     challenge: true
-  - title: Condividi
+  - 
+    title: Condividi

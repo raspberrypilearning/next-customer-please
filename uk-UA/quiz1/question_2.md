@@ -2,17 +2,17 @@
 --- question ---
 
 ---
-legend: Питання 2 з 3
+legend: Question 2 of 3
 ---
 
 У магазині **продавець** має цей код у скрипті оформлення замовлення:
 
 ```blocks3
-ask [Як справи?] and wait
-if <(answer) = [добре]> then
-say [Прекрасно!] for [2] seconds
+ask [How are you today?] and wait
+if <(answer) = [good]> then
+say [That's fantastic!] for [2] seconds
 else
-say [Прикро це чути.] for [2] seconds
+say [Sorry to hear that.] for [2] seconds
 end
 ```
 

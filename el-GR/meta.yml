@@ -2,21 +2,27 @@
 title: Επόμενος πελάτης παρακαλώ
 hero_image: images/banner.png
 description: Ένα έργο προσομοίωσης καταστήματος όπου ο πελάτης μπορεί να αγοράσει αντικείμενα.
+meta_title: Scratch coding projects for kids and teens | Next customer please
+meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch app where the customer can buy items from your shop.
 version: 4
 listed: true
 copyedit: false
-last_tested: '2021-03-26'
+last_tested: "2021-03-26"
 steps:
-  - title: Εισαγωγή
-  - title: Η επιχειρηματική σου ιδέα
-  - title: Αντικείμενα προς πώληση
+  - 
+    title: Εισαγωγή
+  - 
+    title: Η επιχειρηματική σου ιδέα
+  - 
+    title: Αντικείμενα προς πώληση
     completion:
       - engaged
-  - title: Αγορές
-  - title: Επιπρόσθετα χαρακτηριστικά
+  - 
+    title: Αγορές
     completion:
       - internal
-  - title: Αναστοχασμός
+  - 
+    title: Επιπρόσθετα χαρακτηριστικά
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -24,5 +30,8 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: Αναβάθμισε το έργο σου
-  - title: Κοινοποίηση
+  - 
+    title: Αναστοχασμός
+    challenge: true
+  - 
+    title: Αναβάθμισε το έργο σου
