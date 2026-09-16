@@ -33,12 +33,11 @@ Crea un'altra attività e consenti ai giocatori di visitarle entrambe.
 
 --- /task ---
 
-Ogni progetto di esempio nell'[Introduzione](.) ha un collegamento "Guarda all'interno" che ti consente di aprire il progetto in Scratch e di guardare il codice per prendere spunto e vedere come funziona. Puoi "Guardare all'interno" dei progetti di esempio per vedere come funzionano.
+Ogni progetto di esempio nell'Introduzione [](https://scratch. mit. edu/studios/29662180) ha un collegamento "Guarda all'interno" che ti consente di aprire il progetto in Scratch e di guardare il codice per prendere spunto e vedere come funziona. Puoi "Guardare all'interno" dei progetti di esempio per vedere come funzionano.
 
-Progetti di esempio:
-**Frutta fresca spaziale**: [Guarda all'interno](https://scratch.mit.edu/projects/1111488970/editor){:target="_blank"}
-**Magliette fantastiche**: [Guarda all'interno](https://scratch.mit.edu/projects/1111480198/editor){:target="_blank"}
-**Gelateria**: [Guarda all'interno](https://scratch.mit.edu/projects/1111490570/editor){:target="_blank"}
+Progetti di esempio: **Frutta fresca spaziale**: [Guarda all'interno](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
+**Magliette fantastiche**: [Guarda all'interno](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
+**Gelateria**: [Guarda all'interno](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
 **Distributore automatico**: [Guarda all'interno](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
 
 **Suggerimento:** se hai effettuato l'accesso a un account Scratch, puoi usare il **Backpack** per copiare script o sprite nel tuo progetto.
@@ -56,23 +55,21 @@ Puoi aggiungere blocchi `chiedi`{:class="block3sensing"} allo script del tuo **v
 --- collapse ---
 
 ---
-
-title: Fai e rispondi alle domande
-
+title: Ask and respond to questions
 ---
 
 ```blocks3
-ask [Hai trovato tutto quello che volevi oggi?] and wait
-if <(answer) = [sì]> then
-say [È fantastico!] for [2] seconds
+ask [Did you find everything you wanted today?] and wait
+if <(answer) = [yes]> then
+say [That's fantastic!] for [2] seconds
 else
-say [Forse dovrei aggiungere più articoli al mio negozio] for [2] seconds
+say [Maybe I should add more items to my shop] for [2] seconds
 end
 ```
 
-**Debug:** controlla di aver scritto correttamente le opzioni nel tuo codice e nella tua risposta. Va bene anche usare le lettere maiuscole, quindi "Sì" e "SÌ" corrisponderanno a "sì".
+**Debug:** Check that you have spelled the options correctly in your code and in your answer. It's OK if you use capital letters, so "Yes" and "YES" will match "yes".
 
-Aggiungi più domande per creare un chatbot o un personaggio non giocante con cui puoi parlare.
+Add multiple questions to create a chatbot or non-player character that you can talk to.
 
 --- /collapse ---
 
@@ -82,51 +79,49 @@ Aggiungi più domande per creare un chatbot o un personaggio non giocante con cu
 
 --- task ---
 
-Il progetto "Magliette fantastiche" propone magliette che scivolano in una borsa.
+The Cool Shirts project has shirts that glide into a bag.
 
 --- collapse ---
 
 ---
-
-title: Fai scivolare gli oggetti in un contenitore
-
+title: Make items glide into a container
 ---
 
-Aggiungere uno sprite **Contenitore**. Potresti usare uno sprite esistente come **Gift** o **Take out**, oppure colorarne uno tuo con forme semplici.
+Add a **Container** sprite. You could use an existing sprite like the **Gift** or **Take out** sprite, or paint your own with simple shapes.
 
-Aggiungi uno script per far sì che il contenitore appaia sempre in primo piano:
+Add a script to make the **Container** always appear at the front:
 
 ```blocks3
 when flag clicked
 forever
-go to [primo v] layer
+go to [front v] layer
 end
 ```
 
-Quindi dovrai aggiungere del codice a ciascun **oggetto** in vendita per farli scivolare verso il contenitore quando vengono cliccati:
+Then you'll need to add code to each **Item** you have for sale to make them glide to the container when they are clicked:
 
 ```blocks3
 when this sprite clicked
-+go to [primo v] layer
-+glide [1] secs to (Bag v) // usa il nome del tuo contenitore sprite 
++go to [front v] layer
++glide [1] secs to (Bag v) // use the name of your Container sprite
 +hide
-change [totale v] by [12]
-+go to x: [-180] y: [68] // posizione iniziale
+change [total v] by [12]
++go to x: [-180] y: [68] // start position
 +show
 ```
 
-Se non vuoi che il contenitore sia sempre presente, puoi aggiungere degli script per visualizzarlo e nasconderlo al momento giusto:
+If you don't want the container there all the time, you can add scripts to make it show and hide at the right time:
 
 ```blocks3
-when I receive [prossimo cliente v]
-hide // il cliente precedente prende la borsa
+when I receive [next customer v]
+hide // previous customer takes the bag
 wait [1] seconds
 show
 ```
 
-**Test:** Prova il tuo progetto e assicurati che gli oggetti scivolino verso il contenitore e si nascondano.
+**Test:** Try your project and make sure items glide to the container and hide.
 
-**Debug:** Controlla attentamente i tuoi script e assicurati di aver aggiornato tutti i tuoi **sprite degli oggetti**. Se hai bisogno di un esempio funzionante, puoi dare un'occhiata a [Magliette fantastiche](https://scratch.mit.edu/projects/1111480198/editor){:target="_blank"}.
+**Debug:** Check your scripts carefully and make sure you have updated all of your **Item** sprites. You can look at [Cool Shirts](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"} if you need to see a working example.
 
 --- /collapse ---
 
@@ -136,49 +131,48 @@ show
 
 --- task ---
 
-Aggiungi una variabile `negozio`{:class="block3variables"} e usala per controllare quando possono essere aggiunti gli articoli.
+Add a `shop`{:class="block3variables"} variable and use it to control when items can be added.
 
 --- collapse ---
 
 ---
-title: Consenti gli acquisti solo quando il cliente non è alla cassa
-
+title: Stop purchases when the customer is at the checkout
 ---
 
-Aggiungi una `variabile`{:class="block3variables"} chiamata `negozio` per tutti gli sprite. Imposterai questo valore su **vero** quando il cliente è nel negozio e su `falso` quando è alla cassa.
+Add a `variable`{:class="block3variables"} called `shop` for all sprites. You will set this to `true` when the customer is in the shop and `false` when they are at the checkout.
 
-Seleziona il tuo sprite **venditore**. Aggiorna lo script `quando si fa clic sulla bandiera`{:class="block3events"} per consentire lo shopping all'avvio del progetto:
+Select your **seller** sprite. Update the `when flag clicked`{:class="block3events"} script to allow shopping when your project starts:
 
 ```blocks3
-+set [negozio v] to [vero]
++set [shop v] to [true]
 ```
 
-Ora aggiungi un blocco per modificare il `negozio`{:class="block3variables"} in `falso` all'inizio dello script del tuo **venditore** `quando si clicca sprite`{:class="block3events"}:
+Now add a block to change the `shop`{:class="block3variables"} to `false` at the beginning of your **seller**'s `when this sprite clicked`{:class="block3events"} script:
 
 ```blocks3 
-+set [negozio v] to [falso]
++set [shop v] to [false]
 ```
 
-E un blocco per impostare la variabile `negozio`{:class="block3variables"} di nuovo su `vero` alla fine dello stesso script:
+And a block to set the `shop`{:class="block3variables"} variable back to `true` at the end of the same script:
 
 ```blocks3 
-+set [negozio v] to [vero]
++set [shop v] to [true]
 ```
 
-Ora devi aggiornare gli oggetti che vendi per controllare la variabile del `negozio`{:class="block3variables"}:
+Now you need to update the items you sell to check the `shop`{:class="block3variables"} variable:
 
 ```blocks3
 when this sprite clicked
-+if <(negozio) = [vero]> then
++if <(shop) = [true]> then
 start sound (Coin v)
-change [totale v] by [10]
+change [total v] by [10]
 end
 ```
-Dovrai fare questa operazione per ogni articolo che vendi nel tuo negozio.
+You will need to do this for every item you sell in your shop.
 
-**Test:** Fai clic sulla bandiera verde, quindi prova a fare acquisti. Verifica che sia ancora possibile aggiungere articoli e procedere al pagamento, ma che non sia possibile aggiungere articoli una volta avviato il pagamento.
+**Test:** Click the green flag then try shopping. Check that you can still add items and checkout, but you can't add items once you have started checking out.
 
-**Debug:** Controlla il tuo codice molto attentamente. Se hai bisogno di vedere un esempio funzionante, puoi dare un'occhiata al progetto [Frutta fresca spaziale](https://scratch.mit.edu/projects/1111488970/editor){:target="_blank"}.
+**Debug:** Check your code really carefully. You can look at the [Space Fruit](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"} project if you need to see a working example.
 
 --- /collapse ---
 
@@ -189,40 +183,41 @@ Dovrai fare questa operazione per ogni articolo che vendi nel tuo negozio.
 ### Potresti dare al cliente la possibilità di annullare l'acquisto.
 
 --- collapse ---
+
 ---
-title: Imposta le opzioni di pagamento e annullamento
+title: Set up pay and cancel options
 ---
 
-`Chiedi`{:class="block3sensing"} `Vuoi pagare o annullare?`. Aggiungi un blocco `Se`{:class="block3control"} per `rispondi`{:class="block3sensing"} `=`{:class="block3operators"} `paga` e al suo interno inserisci i tuoi blocchi di pagamento esistenti.
+`Ask`{:class="block3sensing"} `Would you like to pay or cancel?`. Add an `If`{:class="block3control"} block for `answer`{:class="block3sensing"} `=`{:class="block3operators"} `pay` and inside it put your existing payment blocks.
 
 ```blocks3
 when this sprite clicked
-say (join [Il totale è ] (totale)) for (2) seconds
-+ ask [Vuoi pagare o annullare?] and wait
-+ if {(answer) = [paga]} then
+say (join [That will be ] (total)) for (2) seconds
++ ask [Would you like to pay or cancel?] and wait
++ if {(answer) = [pay]} then
 play sound [machine v] until done 
-set [totale v] to (0)
-say (join [Grazie per aver fatto acquisti ] (nome)) for (2) seconds
-broadcast [prossimo cliente v]
+set [total v] to (0)
+say (join [Thanks for shopping at ] (name)) for (2) seconds
+broadcast [next customer v]
 end
 ```
 
-Aggiungi un secondo blocco `Se`{:class="block3control"} per `rispondi`{:class="block3sensing"} `=`{:class="block3operators"} `annulla` e al suo interno aggiungi il codice per annullare l'ordine.
+Add a second `If`{:class="block3control"} block for `answer`{:class="block3sensing"} `=`{:class="block3operators"} `cancel` and inside it add code to cancel the order.
 
 ```blocks3
 when this sprite clicked
-say (join [Il totale è ] (totale)) for (2) seconds
-ask [Vuoi pagare o annullare?] and wait
-if {(answer) = [paga]} then
+say (join [That will be ] (total)) for (2) seconds
+ask [Would you like to pay or cancel?] and wait
+if {(answer) = [pay]} then
 play sound [machine v] until done 
-set [totale v] to (0)
-say (join [Grazie per aver fatto acquisti ] (nome)) for (2) seconds
-broadcast [prossimo cliente v]
+set [total v] to (0)
+say (join [Thanks for shopping at ] (name)) for (2) seconds
+broadcast [next customer v]
 end
-+ if {(answer) = [annulla]} then
-set [totale v] to (0)
-say [Ok. Nessun problema] for (2) seconds
-broadcast [prossimo cliente v]
++ if {(answer) = [cancel]} then
+set [total v] to (0)
+say [Ok. No problem] for (2) seconds
+broadcast [next customer v]
 end
 ```
 
@@ -230,6 +225,6 @@ end
 
 --- /task ---
 
-Dai un'occhiata al nostro ['Mercato dello shopping intergalattico'](https://scratch.mit.edu/studios/29662180){:target="_blank"} studio Scratch per vedere i progetti creati dai membri della community.
+Take a look at our ['Intergalactic shopping market'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Scratch studio to see projects created by community members.
 
 --- save ---
