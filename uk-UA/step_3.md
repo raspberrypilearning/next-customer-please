@@ -44,13 +44,13 @@
 
 --- collapse ---
 ---
-title: Додавання товару
+title: Click to add an item
 ---
 
 ```blocks3
 when this sprite clicked
 start sound (Coin v)
-change [всього v] by [10]
+change [total v] by [10]
 ```
 
 --- /collapse ---
@@ -105,16 +105,16 @@ change [всього v] by [10]
 
 --- collapse ---
 ---
-title: Сума не перетворюється на 0, коли я натискаю зелений прапорець
+title: The total doesn't go to 0 when I click the green flag
 ---
 
-Переконайся, що ти встановив/-ла початкове значення змінної `всього`{:class="block3variables"} у скрипті `коли зелений прапорець натиснуто`{:class="block3events"} у спрайті **продавця**.
+Переконайся, що ти встановив/-ла початкове значення змінної `всього`{:class="block3variables"} у скрипті `коли зелений прапорець натиснуто`{:class=" block3events"} у спрайті **продавця**.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Сума збільшується на неправильну величину, коли я натискаю на товар
+title: The total doesn't increase by the correct amount when I click on an item
 ---
 
 Переконайся, що кожен товар має скрипт `коли спрайт натиснуто`{:class="block3events"}, який змінює значення змінної `всього`{:class="block3variables"} на правильну суму для цього товару — можливо, ти змінив/-ла ціну в іншому спрайті.

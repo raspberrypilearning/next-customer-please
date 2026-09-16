@@ -1,0 +1,9 @@
+digite o nome da sua empresa
+
+nome da sua empresa
+
+use o nome do seu sprite Container
+
+posições iniciais
+
+cliente anterior leva a sacola
