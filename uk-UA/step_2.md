@@ -57,7 +57,7 @@
 
 --- task ---
 
-Натисни на спрайт**продавця** і додай блок `оповістити`{:class="block3control"}. Створи нове повідомлення під назвою `наступний покупець`.
+Click on your **seller** sprite and add a `broadcast`{:class="block3events"} block. Створи нове повідомлення під назвою `наступний покупець`.
 
 ```blocks3
 when flag clicked
