@@ -40,17 +40,17 @@ Os wyt ti'n dymuno, galli di ychwanegu pris at y wisg drwy ddefnyddio'r offeryn 
 
 --- task ---
 
-Ychwanega sgript i `newid`{:class="block3variables"} y `cyfanswm`{:class="block3variables"} yn ôl pris dy eitem pan fydd y cwsmer yn clicio ar y corlun.
+Ychwanega sgript i `newid`{:class="block3variables"} y ` cyfanswm`{:class="block3variables"} yn ôl pris dy eitem pan fydd y cwsmer yn clicio ar y corlun.
 
 --- collapse ---
 ---
-title: Clicio i ychwanegu eitem
+title: Click to add an item
 ---
 
 ```blocks3
 when this sprite clicked
 start sound (Coin v)
-change [cyfanswm v] by [10]
+change [total v] by [10]
 ```
 
 --- /collapse ---
@@ -105,7 +105,7 @@ Os wyt ti'n ychwanegu labeli prisiau, gwna'n siŵr eu bod yn cyfateb i'r swm sy'
 
 --- collapse ---
 ---
-title: Dydy'r cyfanswm ddim yn mynd i 0 pan fydda i'n clicio ar y faner werdd
+title: The total doesn't go to 0 when I click the green flag
 ---
 
 Gwna'n siŵr dy fod wedi gosod gwerth cychwynnol y newidyn `cyfanswm`{:class="block3variables"} yn y sgript `pan fydd y faner wedi'i chlicio`{:class="block3events"} ar dy gorlun **gwerthwr**.
@@ -114,7 +114,7 @@ Gwna'n siŵr dy fod wedi gosod gwerth cychwynnol y newidyn `cyfanswm`{:class="bl
 
 --- collapse ---
 ---
-title: Dydy'r cyfanswm ddim yn cynyddu yn ôl y swm cywir pan fydda i'n clicio ar eitem
+title: The total doesn't increase by the correct amount when I click on an item
 ---
 
 Gwna'n siŵr fod gan bob eitem sgript `pan gaiff y corlun hwn ei glicio`{:class="block3events"} sy'n newid y `cyfanswm`{:class="block3variables"} yn ôl y swm cywir ar gyfer yr eitem honno - efallai dy fod ti wedi newid y pris ar gyfer y corlun anghywir.
