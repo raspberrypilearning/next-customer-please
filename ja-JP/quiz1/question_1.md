@@ -23,7 +23,7 @@ legend: 質問１
 
 - ( )
 ```blocks3
-change [合計 v] by [0]
+change [total v] by [0]
 ```
 
  --- feedback ---
@@ -34,7 +34,7 @@ change [合計 v] by [0]
 
 - ( )
 ```blocks3
-set [合計 v] to [40]
+set [total v] to [40]
 ```
 
  --- feedback ---
@@ -46,7 +46,7 @@ set [合計 v] to [40]
 - (x)
 
 ```blocks3
-set [合計 v] to [0]
+set [total v] to [0]
 ```
 
  --- feedback ---
@@ -58,7 +58,7 @@ set [合計 v] to [0]
 - ( )
 
 ```blocks3
-change [合計 v] by [-50]
+change [total v] by [-50]
 ```
 
  --- feedback ---

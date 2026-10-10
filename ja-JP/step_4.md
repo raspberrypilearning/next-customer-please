@@ -21,7 +21,7 @@
 
 ```blocks3
 when this sprite clicked
-say (join [全部で ] (合計)) for (2) seconds 
+say (join [That will be ] (total)) for (2) seconds 
 ```
 
 --- /task ---
@@ -38,7 +38,7 @@ say (join [全部で ] (合計)) for (2) seconds
 
 ```blocks3
 when this sprite clicked
-say (join [全部で ] (合計)) for (2) seconds
+say (join [That will be ] (total)) for (2) seconds
 + play sound [machine v] until done 
 ```
 
@@ -50,11 +50,11 @@ say (join [全部で ] (合計)) for (2) seconds
 
 ```blocks3
 when this sprite clicked
-say (join [全部で ] (合計)) for (2) seconds
+say (join [That will be ] (total)) for (2) seconds
 play sound [machine v] until done 
-+ set [合計 v] to (0)
-+ say (join (名前)[でお買い上げありがとうございます]) for (2) seconds
-+ broadcast (次のお客 v)
++ set [total v] to (0)
++ say (join [Thanks for shopping at ] (name)) for (2) seconds
++ broadcast (next customer v)
 ```
 
 --- /task ---
@@ -95,9 +95,9 @@ title: 言うブロックのテキストがくっついちゃう
 この例では、いずれも1つ目の末尾に空白があります。
 
 ```blocks3
-say {join [全部で ](total)} for (2) seconds
+say {join [That will be ](total)} for (2) seconds
 
-say {join (名前)[でお買い上げありがとうございます]} for (2) seconds
+say {join [Thanks for shopping at ](name)} for (2) seconds
 ```
 
 --- /collapse ---
@@ -110,13 +110,13 @@ title: 売れた後に合計がリセットされない
 次のようになっていることを確認します。
 
 ```blocks3
-set [合計 v] to (0)
+set [total v] to (0)
 ```
 
 **次ではありません**
 
 ```blocks3
-change [合計 v] by (0)
+change [total v] by (0)
 ```
 
 --- /collapse ---
@@ -129,7 +129,7 @@ title: 店員が応答しない
 `もし`{:class="block3control"}条件の`演算子`{:class="block3operators"}が、大なり記号`>`{:class="block3operators"}であることを確認します。
 
 ```blocks3
-if <(合計) > [0]> then
+if <(total) > [0]> then
 ```
 
 --- /collapse ---
