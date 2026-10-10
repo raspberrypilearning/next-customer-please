@@ -9,7 +9,7 @@
 --- question ---
 
 ---
-legend: Питання 1 з 3
+legend: Question 1 of 3
 ---
 
 У проєкті магазину використовується змінна `всього`{:class="block3variables"} для зберігання загальної суми для кожного покупця.
@@ -23,7 +23,7 @@ legend: Питання 1 з 3
 
 - ( )
 ```blocks3
-change [всього v] by [0]
+change [total v] by [0]
 ```
 
  --- feedback ---
@@ -34,7 +34,7 @@ change [всього v] by [0]
 
 - ( )
 ```blocks3
-set [всього v] to [40]
+set [total v] to [40]
 ```
 
  --- feedback ---
@@ -46,7 +46,7 @@ set [всього v] to [40]
 - (x)
 
 ```blocks3
-set [всього v] to [0]
+set [total v] to [0]
 ```
 
  --- feedback ---
@@ -58,7 +58,7 @@ set [всього v] to [0]
 - ( )
 
 ```blocks3
-change [всього v] by [-50]
+change [total v] by [-50]
 ```
 
  --- feedback ---
