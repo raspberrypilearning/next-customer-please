@@ -46,14 +46,14 @@ say (join [That will be ] (total)) for (2) seconds
 
 --- task ---
 
-Finish the sale. Set `total`{:class="block3variables"} back to `0` after payment, `say`{:class="block3looks"} goodbye and `broadcast`{:class="block3control"} `next customer`{:class="block3control"}.
+Finish the sale. Type your own shop name in place of `My shop` in the `join`{:class="block3operators"} block. Set `total`{:class="block3variables"} back to `0` after payment, `say`{:class="block3looks"} goodbye and `broadcast`{:class="block3control"} `next customer`{:class="block3control"}.
 
 ```blocks3
 when this sprite clicked
 say (join [That will be ] (total)) for (2) seconds
 play sound [machine v] until done 
 + set [total v] to (0)
-+ say (join [Thanks for shopping at ] (name)) for (2) seconds
++ say (join [Thanks for shopping at ] [My shop]) for (2) seconds
 + broadcast (next customer v)
 ```
 
@@ -97,7 +97,7 @@ These have a space at the end of the first part of the join:
 ```blocks3
 say {join [That will be ](total)} for (2) seconds
 
-say {join [Thanks for shopping at ](name)} for (2) seconds
+say {join [Thanks for shopping at ][My shop]} for (2) seconds
 ```
 
 --- /collapse ---
