@@ -199,7 +199,7 @@ say (join [That will be ] (total)) for (2) seconds
 + if {(answer) = [pay]} then
 play sound [machine v] until done 
 set [total v] to (0)
-say (join [Thanks for shopping at ] (name)) for (2) seconds
+say (join [Thanks for shopping at ] [My shop]) for (2) seconds
 broadcast [next customer v]
 end
 ```
@@ -213,7 +213,7 @@ ask [Would you like to pay or cancel?] and wait
 if {(answer) = [pay]} then
 play sound [machine v] until done 
 set [total v] to (0)
-say (join [Thanks for shopping at ] (name)) for (2) seconds
+say (join [Thanks for shopping at ] [My shop]) for (2) seconds
 broadcast [next customer v]
 end
 + if {(answer) = [cancel]} then
