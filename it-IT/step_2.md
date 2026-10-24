@@ -61,7 +61,7 @@ Fai clic sul tuo sprite **venditore** e aggiungi un blocco di `trasmissione`{:cl
 
 ```blocks3
 when flag clicked
-+ broadcast (prossimo cliente v)
++ broadcast (next customer v)
 ```
 
 --- /task ---
@@ -71,8 +71,8 @@ when flag clicked
 Crea un nuovo script per il tuo sprite **venditore** per `dire`{:class="block3looks"} `Prossimo cliente per favore` quando riceve la `trasmissione`{:class="block3control"} `prossimo cliente`{:class="block3control"}.
 
 ```blocks3
-when I receive [prossimo cliente v] 
-say [Il prossimo cliente, per favore!] for (2) seconds
+when I receive [next customer v] 
+say [Next customer please!] for (2) seconds
 ```
 
 --- /task ---
