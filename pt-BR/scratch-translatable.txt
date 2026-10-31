@@ -1,0 +1,49 @@
+nome
+
+minha loja
+
+próximo cliente
+
+Próximo cliente por favor!
+
+total
+
+Isso será
+
+Obrigado por comprar em
+
+Você gostaria de pagar ou cancelar?
+
+pagar
+
+cancelar
+
+Ok. Sem problemas
+
+Clique nos itens que você deseja
+
+Você encontrou tudo o que queria hoje?
+
+sim
+
+Isso é fantástico!
+
+Talvez eu devesse adicionar mais itens à minha loja
+
+Sacola
+
+1 colher
+
+cone
+
+loja
+
+sim
+
+falso
+
+Como você está hoje?
+
+bom
+
+Lamento ouvir isso.

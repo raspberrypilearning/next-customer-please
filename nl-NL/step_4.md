@@ -21,7 +21,7 @@ Wanneer ze klaar zijn met het kiezen van producten, zal de klant op de **verkope
 
 ```blocks3
 when this sprite clicked
-say (join [Dat is dan ] (totaal)) for (2) seconds 
+say (join [That will be ] (total)) for (2) seconds 
 ```
 
 --- /task ---
@@ -38,7 +38,7 @@ Voeg het `start geluid en wacht`{:class="block3sound"} blok toe aan je script.
 
 ```blocks3
 when this sprite clicked
-say (join [Dat is dan ] (totaal)) for (2) seconds
+say (join [That will be ] (total)) for (2) seconds
 + play sound [machine v] until done 
 ```
 
@@ -50,11 +50,11 @@ Maak de verkoop af. Zet `totaal`{:class="block3variables"} terug naar `0` na bet
 
 ```blocks3
 when this sprite clicked
-say (join [Dat is dan ] (totaal)) for (2) seconds
+say (join [That will be ] (total)) for (2) seconds
 play sound [machine v] until done 
-+ set [totaal v] to (0)
-+ say (join [Bedankt voor het winkelen bij ] (naam)) for (2) seconds
-+ broadcast (volgende klant v)
++ set [total v] to (0)
++ say (join [Thanks for shopping at ] (name)) for (2) seconds
++ broadcast (next customer v)
 ```
 
 --- /task ---
@@ -95,9 +95,9 @@ Wanneer je `twee stukken aan elkaar toevoegt`{:class="block3operators"}, moet je
 Deze hebben een spatie aan het einde van het eerste deel:
 
 ```blocks3
-say {join [Dat is dan ](totaal)} for (2) seconds
+say {join [That will be ](total)} for (2) seconds
 
-say {join [Bedankt voor het winkelen bij ](naam)} for (2) seconds
+say {join [Thanks for shopping at ](name)} for (2) seconds
 ```
 
 --- /collapse ---
@@ -116,7 +116,7 @@ set [total v] to (0)
 **niet**:
 
 ```blocks3
-change [totaal v] by (0)
+change [total v] by (0)
 ```
 
 --- /collapse ---
@@ -129,7 +129,7 @@ title: De verkoper reageert niet
 Zorg ervoor dat de `functie`{:class="block3operators"} in de `als`{:class="block3control"} voorwaarde groter is dan het symbool `>`{:class="block3operators"}.
 
 ```blocks3
-if <(totaal) > [0]> then
+if <(total) > [0]> then
 ```
 
 --- /collapse ---
