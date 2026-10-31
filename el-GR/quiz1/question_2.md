@@ -2,17 +2,17 @@
 --- question ---
 
 ---
-legend: Ερώτηση 2 από 3
+legend: Question 2 of 3
 ---
 
 Σε ένα κατάστημα, ο **πωλητής** έχει αυτόν τον κώδικα στο script ολοκλήρωσης της αγοράς:
 
 ```blocks3
-ask [Πώς είσαι σήμερα;] and wait
-if <(answer) = [καλά]> then
-say [Αυτό είναι φανταστικό!] for [2] seconds
+ask [How are you today?] and wait
+if <(answer) = [good]> then
+say [That's fantastic!] for [2] seconds
 else
-say [Λυπάμαι που το ακούω αυτό.] for [2] seconds
+say [Sorry to hear that.] for [2] seconds
 end
 ```
 
@@ -32,7 +32,7 @@ end
 
   --- /feedback ---
 
-- ( ) Ο **Πωλητής** θα πει `Αυτό είναι φανταστικό!`
+- (x) Ο **Πωλητής** θα πει `Αυτό είναι φανταστικό!`
 
   --- feedback ---
 
@@ -50,7 +50,7 @@ end
 
   --- /feedback ---
 
-- ( ) Ο **πωλητής** θα πει `υπέροχο`.
+- (x) Ο **πωλητής** θα πει `υπέροχο`.
 
   --- feedback ---
 
