@@ -1,0 +1,49 @@
+name
+
+my shop
+
+next customer
+
+Next customer please!
+
+total
+
+That will be
+
+Thanks for shopping at
+
+Would you like to pay or cancel?
+
+pay
+
+cancel
+
+Ok. No problem
+
+Click on the items you'd like
+
+Did you find everything you wanted today?
+
+yes
+
+That's fantastic!
+
+Maybe I should add more items to my shop
+
+Bag
+
+1 scoop
+
+cone
+
+shop
+
+true
+
+false
+
+How are you today?
+
+good
+
+Sorry to hear that.
