@@ -9,7 +9,7 @@ Mwynha!
 --- question ---
 
 ---
-legend: Cwestiwn 1 o 3
+legend: Question 1 of 3
 ---
 
 Mae prosiect siop yn defnyddio newidyn `cyfanswm`{:class="block3variables"} i storio'r cyfanswm ar gyfer pob cwsmer.
@@ -19,22 +19,11 @@ Mae prosiect siop yn defnyddio newidyn `cyfanswm`{:class="block3variables"} i st
 
 Pa floc fyddai angen i ti ei ychwanegu at y sgript talu i wneud i'r cyfanswm fynd yn ôl i `0` pan fydd pob cwsmer yn talu?
 
-```blocks3
-when this sprite clicked
-ask [Hoffech chi dalu neu ganslo?] and wait
-if {(answer) = [talu]} then
-say (join [Bydd hynny'n ] (cyfanswm)) for (2) seconds
-play sound [coin v] until done 
-say (join [Diolch am siopa yn ] (enw)) for (2) seconds
-broadcast [cwsmer nesaf v]
-end
-```
-
 --- choices ---
 
 - ( )
 ```blocks3
-change [cyfanswm v] by [0]
+change [total v] by [0]
 ```
 
  --- feedback ---
@@ -45,7 +34,7 @@ Anghywir, dylai'r `cyfanswm`{:class="block3variables"} fod yn `0` ar ôl i gwsme
 
 - ( )
 ```blocks3
-set [cyfanswm v] to [40]
+set [total v] to [40]
 ```
 
  --- feedback ---
@@ -57,7 +46,7 @@ set [cyfanswm v] to [40]
 - (x)
 
 ```blocks3
-set [cyfanswm v] to [0]
+set [total v] to [0]
 ```
 
  --- feedback ---
@@ -69,7 +58,7 @@ Cywir. Mae angen `gosod`{:class="block3variables"} y `cyfanswm`{:class="block3va
 - ( )
 
 ```blocks3
-change [cyfanswm v] by [-50]
+change [total v] by [-50]
 ```
 
  --- feedback ---
