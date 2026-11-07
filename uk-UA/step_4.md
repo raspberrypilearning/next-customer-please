@@ -21,7 +21,7 @@
 
 ```blocks3
 when this sprite clicked
-say (join [З вас ] (всього)) for (2) seconds 
+say (join [That will be ] (total)) for (2) seconds 
 ```
 
 --- /task ---
@@ -38,7 +38,7 @@ say (join [З вас ] (всього)) for (2) seconds
 
 ```blocks3
 when this sprite clicked
-say (join [З вас ] (всього)) for (2) seconds
+say (join [That will be ] (total)) for (2) seconds
 + play sound [machine v] until done 
 ```
 
@@ -46,15 +46,15 @@ say (join [З вас ] (всього)) for (2) seconds
 
 --- task ---
 
-Заверши продаж. Знову надай змінній `всього`{:class="block3variables"} значення `0` після оплати, `скажи`{:class="block3looks"} «до побачення» та передай `повідомлення`{:class="block3control"} `наступний покупець`{:class="block3control"}.
+Заверши продаж. Знову надай змінній `всього`{:class="block3variables"} значення `0` після оплати, `скажи`{:class ="block3looks"} «до побачення» та передай `повідомлення`{:class="block3control"} `наступний покупець`{:class="block3control"}.
 
 ```blocks3
 when this sprite clicked
-say (join [З вас ] (всього)) for (2) seconds
+say (join [That will be ] (total)) for (2) seconds
 play sound [machine v] until done 
-+ set [всього v] to (0)
-+ say (join [Дякую, що завітали до ] (назва)) for (2) seconds
-+ broadcast (наступний покупець v)
++ set [total v] to (0)
++ say (join [Thanks for shopping at ] (name)) for (2) seconds
++ broadcast (next customer v)
 ```
 
 --- /task ---
@@ -76,7 +76,7 @@ play sound [machine v] until done
 
 --- collapse ---
 ---
-title: Продавець нічого не робить, коли я натискаю на нього
+title: The seller doesn't do anything when I click on them
 ---
 
 У твоєму проєкті досить багато спрайтів. Переконайся, що у спрайті **продавця** є скрипт `коли спрайт натиснуто`{:class="block3events"}.
@@ -87,7 +87,7 @@ title: Продавець нічого не робить, коли я натис
 
 --- collapse ---
 ---
-title: Слова у блоках «говорити» зливаються
+title: The words in the say blocks merge together
 ---
 
 Коли ти `з’єднуєш`{:class="block3operators"} два фрагменти, тобі потрібно додати пробіл у кінці першого або на початку другого фрагмента тексту.
@@ -95,35 +95,35 @@ title: Слова у блоках «говорити» зливаються
 Ці речення мають пробіл у кінці першої частини:
 
 ```blocks3
-say {join [З вас ](всього)} for (2) seconds
+say {join [That will be ](total)} for (2) seconds
 
-say {join [Дякую, що завітали до ](назва)} for (2) seconds
+say {join [Thanks for shopping at ](name)} for (2) seconds
 ```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Загальна сума не скидається після купівлі
+title: The total doesn't reset after a sale
 ---
 
 Перевір, чи в тебе використано:
 
 ```blocks3
-set [всього v] to (0)
+set [total v] to (0)
 ```
 
 **а не**:
 
 ```blocks3
-change [всього v] by (0)
+change [total v] by (0)
 ```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Продавець не відповідає
+title: The seller isn't responding
 ---
 
 Переконайся, що `оператором`{:class="block3operators"} в умові `якщо`{:class="block3control"} є знак «більше ніж» `>`{:class="block3operators"}.
