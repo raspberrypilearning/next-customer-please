@@ -38,7 +38,7 @@ cône
 
 boutique
 
-true
+vrai
 
 faux
 
