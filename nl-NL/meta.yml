@@ -9,15 +9,20 @@ listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
-  - title: Wat ga je maken
-  - title: Jouw winkel
-  - title: Producten te koop
+  - 
+    title: Wat ga je maken
+  - 
+    title: Jouw winkel
+  - 
+    title: Producten te koop
     completion:
       - engaged
-  - title: Aankopen
+  - 
+    title: Aankopen
     completion:
       - internal
-  - title: Snelle quiz
+  - 
+    title: Snelle quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -25,6 +30,8 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: Uitdaging
+  - 
+    title: Uitdaging
     challenge: true
-  - title: Delen
+  - 
+    title: Delen
