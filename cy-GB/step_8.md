@@ -1,53 +1,21 @@
 ## Rhannu
 
-Os wyt ti mewn clwb, beth am rannu dy brosiect â dy ffrindiau?
+If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [Don't fall in](https://projects.raspberrypi.org/en/projects/dont-fall-in) project. Yn y prosiect yma, byddi di'n creu gêm o'r brig i lawr lle mae'n rhaid i ti neidio o blatfform i blatfform a pheidio disgyn i mewn.
 
-Os wyt ti wedi mewngofnodi ar Scratch, galli di greu stiwdio ac ychwanegu dy brosiect **Cwsmer nesaf plîs**. Galli di hefyd ychwanegu prosiectau **prosiect cwsmer plîs** dy ffrindiau greu canolfan o wahanol siopau a busnesau.
+--- print-only ---
 
---- collapse ---
+![Prosiect Paid disgyn i mewn](images/dont-fall-in-project.png)
 
----
-title: Adeiladu marchnad siopa
----
+--- /print-only ---
 
-Cadwa dy brosiect, ac wedyn clicio ar dy enw defnyddiwr a dewis **Fy Mhethau**.
+--- no-print ---
 
-![y ddewislen naid o dan dy enw cyfrif ar y dde uchaf.](images/my-stuff-menu.png)
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
+</div>
 
 O dy dudalen **Fy Mhethau**, clicia ar y botwm **+ Stiwdio Newydd**.
 
-![Y botwm llwyd 'Stiwdio Newydd' ar y dudalen 'Fy Mhethau'.](images/create-studio.png)
+--- /no-print ---
 
 Rho enw a disgrifiad i dy stiwdio newydd.
-
-![Y blwch enw ar frig y stiwdio a'r blwch disgrifiad ar ochr chwith y stiwdio.](images/naming-studio.png)
-
-Clicia ar y botwm **Pori Projectau**. Galli di ychwanegu dy brosiect dy hun drwy ei ddewis o'r rhestr ar waelod y dudalen.
-
-![Y neidlen 'Pori Projectau' ar waelod y dudalen gydag oriel o fân-luniau prosiectau. ](images/add-your-projects.png)
-
-Galli di hefyd ychwanegu prosiectau mae dy ffrindiau wedi'u creu. Gofynna iddyn nhw rannu eu prosiect a rhoi'r ddolen i ti. Teipia neu ludo'r ddolen i'r blwch url, ac wedyn clicio ar y botwm **Ychwanegu trwy URL**.
-
-![Y blwch url o dan y botwm 'Pori Projectau' a'r botwm 'Ychwanegu trwy URL'.](images/path.png)
-
---- /collapse ---
-
-Rhanna dy brosiect ac anfona ddolen at bobl rwyt ti'n eu hadnabod. Bydd cymuned Scratch gyfan hefyd yn gallu dod o hyd i dy prosiect a rhoi cynnig arno.
-
-[[[share-scratch]]]
-
-Beth am wahodd dy ffrindiau i greu prosiect? Gad iddyn nhw wybod dy fod wedi cael hwyl.
-
-Os oes gen ti gyfrif Scratch, ac rwyt ti wedi rhannu dy brosiect **Cwsmer nesaf, plîs** yn barod, cadwa lygad am sylwadau efallai bydd pobl eraill yn eu gwneud am dy greadigaeth. Mae adborth yn ffordd wych o fyfyrio ar dy waith. Anwybydda unrhyw sylwadau sy'n ddi-fudd neu'n amherthnasol.
-
-[[[comments-feedback-scratch]]]
-
---- task ---
-
-Dyro ysbrydoliaeth i gymuned y Raspberry Pi Foundation gyda dy brosiect!
-
-I gyflwyno dy brosiect i'n ['marchnad siopa rhyngalaethol'](https://scratch.mit.edu/studios/29662180){:target="_blank"} Stiwdio Scratch, cwblha'r [ffurflen hon](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
-
-![Prosiectau siop enghreifftiol yn y stiwdio Scratch 'Marchnad siopa rhyngalaethol'.](images/studio-example.png)
-
---- /task ---
