@@ -35,11 +35,10 @@ Crée un autre commerce et autorise les joueurs à les visiter tous les deux.
 
 Chaque exemple de projet dans l'[introduction](.) a un lien « voir à l'intérieur » pour que tu puisses ouvrir le projet dans Scratch et regarder le code pour avoir des idées et voir comment ils fonctionnent. Tu peux « voir à l'intérieur » des exemples de projets pour voir comment ils fonctionnent.
 
-Exemples de projets : 
-**Fruits frais de l'espace** : [voir à l'intérieur](https://scratch.mit.edu/projects/707260567/editor){:target="_blank"}
-**T-shirts cool**: [voir à l'intérieur](https://scratch.mit.edu/projects/707260366/editor){:target="_blank"}
-**Glacier** : [voir à l'intérieur](https://scratch.mit.edu/projects/707260702/editor){:target="_blank"}
-**Distributeur automatique** : [voir à l'intérieur](https://scratch.mit.edu/projects/707260825/editor){:target="_blank"}
+Exemples de projets : **Fruits frais de l'espace** : [voir à l'intérieur](https://scratch.mit.edu/projects/528696418/editor){:target="_blank"}
+**T-shirts cool**: [voir à l'intérieur](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"}
+**Glacier** : [voir à l'intérieur](https://scratch.mit.edu/projects/525972748/editor){:target="_blank"}
+**Distributeur automatique** : [voir à l'intérieur](https://scratch.mit.edu/projects/526051796/editor){:target="_blank"}
 
 **Astuce :** si tu es connecté à un compte Scratch, tu peux utiliser le **Sac à dos** pour copier des scripts ou des sprites dans ton projet.
 
@@ -60,11 +59,11 @@ title: Poser des questions et y répondre
 ---
 
 ```blocks3
-ask [Avez-vous trouvé tout ce que vous vouliez aujourd'hui ?] and wait
-if <(answer) = [oui]> then
-say [C'est fantastique !] for [2] seconds
+ask [Did you find everything you wanted today?] and wait
+if <(answer) = [yes]> then
+say [That's fantastic!] for [2] seconds
 else
-say [Peut-être que je devrais ajouter plus d'articles à ma boutique] for [2] seconds
+say [Maybe I should add more items to my shop] for [2] seconds
 end
 ```
 
@@ -95,7 +94,7 @@ Ajoute un script pour que le **Conteneur** apparaisse toujours à l'avant plan 
 ```blocks3
 when flag clicked
 forever
-go to [avant v] layer
+go to [front v] layer
 end
 ```
 
@@ -103,26 +102,26 @@ Ensuite, tu devras ajouter un code à chaque **article** en vente pour les faire
 
 ```blocks3
 when this sprite clicked
-+go to [avant v] layer
-+glide [1] secs to (Bag v) // utiliser le nom du sprite du conteneur
++go to [front v] layer
++glide [1] secs to (Bag v) // use the name of your Container sprite
 +hide
 change [total v] by [12]
-+go to x: [-180] y: [68] // position de départ
++go to x: [-180] y: [68] // start position
 +show
 ```
 
 Si tu ne veux pas que le conteneur soit présent en permanence, tu peux ajouter des scripts pour qu'il s'affiche et se cache au bon moment :
 
 ```blocks3
-when I receive [client suivant v]
-hide // le client précédent prend le sac
+when I receive [next customer v]
+hide // previous customer takes the bag
 wait [1] seconds
 show
 ```
 
 **Test :** essaie ton projet et assure-toi que les articles glissent vers le conteneur et se cachent.
 
-**Debogage :** vérfie iattentivementment tes scripts et assure-toi d'avoir mis à jour tous tes sprites **Article**. Tu peux consulter le projet [T-shirts cool](https://scratch.mit.edu/projects/707260366/editor){:target="_blank"} si tu as besoin de voir un exemple fonctionnel.
+**Debogage :** vérfie iattentivementment tes scripts et assure-toi d'avoir mis à jour tous tes sprites **Article**. Tu peux consulter le projet [T-shirts cool](https://scratch.mit.edu/projects/528697069/editor){:target="_blank"} si tu as besoin de voir un exemple fonctionnel.
 
 --- /collapse ---
 
@@ -145,26 +144,26 @@ Ajoute une `variable`{:class="block3variables"} appelée `boutique` pour tous le
 Sélectionne ton sprite **vendeur·euse**. Mets à jour le script `quand le drapeau est cliqué`{:class="block3events"} pour autoriser les achats au démarrage de ton projet :
 
 ```blocks3
-+set [boutique v] to [true]
++set [shop v] to [true]
 ```
 
 Ajoute maintenant un bloc pour changer la `boutique`{:class="block3variables"} sur `faux` au début du script de ton/ta **vendeur·euse** `quand ce sprite est cliqué`{:class="block3events"} :
 
 ```blocks3 
-+set [boutique v] to [false]
++set [shop v] to [false]
 ```
 
 Et un bloc pour remettre la variable `boutique`{:class="block3variables"} sur `vrai` à la fin du même script :
 
 ```blocks3 
-+set [boutique v] to [true]
++set [shop v] to [true]
 ```
 
 Tu dois maintenant mettre à jour les articles que tu vends pour vérifier la variable `boutique`{:class="block3variables"} :
 
 ```blocks3
 when this sprite clicked
-+if <(boutique) = [true]> then
++if <(shop) = [true]> then
 start sound (Coin v)
 change [total v] by [10]
 end
@@ -193,13 +192,13 @@ title: Configurer les options de paiement et d'annulation
 
 ```blocks3
 when this sprite clicked
-say (join [Cela fera ] (total)) for (2) seconds
-+ ask [Voulez-vous payer ou annuler ?] and wait
-+ if {(answer) = [payer]} then
+say (join [That will be ] (total)) for (2) seconds
++ ask [Would you like to pay or cancel?] and wait
++ if {(answer) = [pay]} then
 play sound [machine v] until done 
 set [total v] to (0)
-say (join [Merci d'avoir acheté chez ] (nom)) for (2) seconds
-broadcast [client suivant v]
+say (join [Thanks for shopping at ] (name)) for (2) seconds
+broadcast [next customer v]
 end
 ```
 
@@ -207,18 +206,18 @@ Ajoute un deuxième bloc `si`{:class="block3control"} pour `réponse`{:class="bl
 
 ```blocks3
 when this sprite clicked
-say (join [Cela fera ] (total)) for (2) seconds
-ask [Voulez-vous payer ou annuler ?] and wait
-if {(answer) = [payer]} then
+say (join [That will be ] (total)) for (2) seconds
+ask [Would you like to pay or cancel?] and wait
+if {(answer) = [pay]} then
 play sound [machine v] until done 
 set [total v] to (0)
-say (join [Merci d'avoir acheté chez ] (nom)) for (2) seconds
-broadcast [client suivant v]
+say (join [Thanks for shopping at ] (name)) for (2) seconds
+broadcast [next customer v]
 end
-+ if {(answer) = [annuler]} then
++ if {(answer) = [cancel]} then
 set [total v] to (0)
-say [D'accord. Pas de problème] for (2) seconds
-broadcast [client suivant v]
+say [Ok. No problem] for (2) seconds
+broadcast [next customer v]
 end
 ```
 
@@ -226,6 +225,6 @@ end
 
 --- /task ---
 
-Jette un œil à notre studio Scratch [« Intergalactic shopping market »](https://scratch.mit.edu/studios/707260567){:target="_blank"} pour voir les projets créés par les membres de la communauté.
+Jette un œil à notre studio Scratch [« Intergalactic shopping market »](https://scratch.mit.edu/studios/29662180){:target="_blank"} pour voir les projets créés par les membres de la communauté.
 
 --- save ---
