@@ -1,0 +1,37 @@
+---
+title: الزبون التالي
+hero_image: images/banner.png
+description: مشروع محاكاة متجر حيث يستطيع العميل شراء السلع.
+meta_title: مشاريع البرمجة باستخدام منصة سكراتش للأطفال والمراهقين | اللحاق بالباص
+meta_description: تعلم لغة Scratch من خلال مشاريع البرمجة التي تقدمها مؤسسة Raspberry Pi للأطفال والمراهقين. اصنع تطبيق Scratch حيث يمكن للعميل شراء العناصر من متجرك.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - 
+    title: ماذا ستصنع
+  - 
+    title: متجرك
+  - 
+    title: عينات للبيع
+    completion:
+      - engaged
+  - 
+    title: عمليات الشراء
+    completion:
+      - internal
+  - 
+    title: اختبار سريع
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - 
+    title: الوصول إلى المدار
+    challenge: true
+  - 
+    title: قم بترقية او تطوير مشروعك
